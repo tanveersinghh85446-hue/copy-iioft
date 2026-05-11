@@ -171,7 +171,7 @@ function ApplyForm() {
           className="w-full max-w-xl mx-auto bg-white/80 backdrop-blur-xl border border-white/60 rounded-xl shadow-2xl p-8"
         >
           <div className="items-center gap-4 mb-6">
-            <img src="/Logo.png" alt="Logo" className="w-120 h-22" />
+            <img src="/Logo.png" alt="Logo" />
             <div>
               <h3 className="text-xl mt-6 font-extrabold text-gray-800 justify-center items-center flex">
                 Admission

@@ -41,7 +41,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/testimonials" element={<Reviews />} />
         <Route path="/know-more" element={<KnowMore />} />
-        <Route path="/apply" element={<Enquire />} />
+        <Route path="/Enquire"  element={<Enquire />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/TermsConditions" element={<TermsConditions />} />
       </Routes>
