@@ -2041,11 +2041,6 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto px-4 py-6 sm:py-5">
           {/* Mobile: Stacked Layout | Desktop: Single Row */}
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center">
-            {/* Copyright */}
-            <p className="text-blue-300 text-xs sm:text-sm text-center sm:text-left">
-              © 2026 IIOFT. All Rights Reserved.
-            </p>
-
             {/* Contact Links */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center">
               <a
@@ -2079,6 +2074,10 @@ export default function Hero() {
               </Link>
             </div>
           </div>
+          {/* Copyright */}
+          <p className="text-blue-300 text-xs sm:text-sm text-center sm:text-left">
+            © 2026 IIOFT. All Rights Reserved.
+          </p>
         </div>
       </footer>
 
