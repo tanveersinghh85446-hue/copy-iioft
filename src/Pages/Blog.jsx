@@ -49,7 +49,7 @@ const posts = [
     excerpt:
       "A teacher helping a student understand lessons with patience and dedication, showing how the right guidance and support can make learning easier and more meaningful for students.",
     tag: "Education Teaching Mentorship",
-    img: "Study.jpeg",
+    img: "Study.AVIF",
   },
   {
     id: 2,
@@ -58,7 +58,7 @@ const posts = [
     excerpt:
       "The inauguration ceremony of the IBM SkillsBuild training program began with the traditional lamp lighting, marking the start of advanced IT skills training for students and learners.",
     tag: "IBM SkillsBuild",
-    img: "Image1.jpeg",
+    img: "Image1.AVIF",
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ const posts = [
     excerpt:
       "Students and faculty gathered for a group photo after the successful completion of the IBM SkillsBuild training program at the institute, capturing memories of learning, collaboration, and achievement.",
     tag: "Trinity Institute",
-    img: "Team.jpeg",
+    img: "Team.AVIF",
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ const posts = [
     excerpt:
       "A trainer delivering a presentation during a professional training session, where participants learn through discussions, visual presentations, and practical work on laptops.",
     tag: "Professional Training",
-    img: "AB.jpeg",
+    img: "AB.AVIF",
   },
   {
     id: 5,
@@ -85,7 +85,7 @@ const posts = [
     excerpt:
       "A digital interface showing media control buttons used in video playback, editing, or e-learning platforms, representing modern digital learning and technology-based education.",
     tag: "Digital learning, Media player",
-    img: "Group.jpeg",
+    img: "Group.AVIF",
   },
   // {
   //   id: 6,

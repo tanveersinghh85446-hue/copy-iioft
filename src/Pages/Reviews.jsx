@@ -8,42 +8,42 @@ const TESTIMONIALS = [
     course: "Data Analytics",
     review:
       "IIOFT changed my life. After learning Data Analytics from here, I got placed in a top company. The faculty is very supportive!",
-    Image: "/Urvi.jpeg",
+    Image: "/Urvi.AVIF",
   },
   {
     name: "Vishal Yadav",
     course: "Data Analytics & Business Analytics",
     review:
       "Best institute for design courses in Delhi. The practical projects gave me real-world experience. Now I am doing freelance work and earning well. After learning from here Data Analytics & Business Analytics, The faculty is very supportive!",
-    Image: "/Vishal Yadav.jpeg",
+    Image: "/Vishal Yadav.AVIF",
   },
   {
     name: "Sourav",
     course: "DCA",
     review:
       "After learning DCA from IIOFT's curriculum is industry-aligned. The learning approach is completely hands-on. All my doubts were cleared and I also got placement.",
-    Image: "/Sourav.jpeg",
+    Image: "/Sourav.AVIF",
   },
   {
     name: "Student",
     course: "Web Development",
     review:
       "I took courses from many places, but I never got practical training like IIOFT. After learning from here, I started my own agency.",
-    Image: "",
+    Image: "/Student.AVIF",
   },
   {
     name: "Bharti",
     course: "SAP FICO",
     review:
       "Hyy I'm Bharti I completed my course from IIOFT / SAP FICO. The instructors are very experienced and they give personal attention to every student. I received a lot of help in preparing my portfolio.",
-    Image: "/Bharti.jpeg",
+    Image: "/Bharti.AVIF",
   },
   {
     name: "Student",
     course: "Advanced Finance & Accounting",
     review:
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
-    Image: "",
+    Image: "/Student.AVIF",
   },
 ];
 

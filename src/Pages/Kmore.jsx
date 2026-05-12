@@ -62,11 +62,11 @@ const WHY_CHOOSE = [
 ];
 
 const TEAM = [
-  { name: "Rampal Soni", role: "Founder & CEO", img: "Rampal.jpeg", initial: "R" },
-  { name: "Manoj Soni", role: "Head of Department", img: "Manoj Soni.jpeg", initial: "M" },
-  { name: "Vinay Rojha", role: "Marketing Head & Managing Director", img: "Vinay Soni.jpeg", initial: "V" },
-  { name: "Akash Soni", role: "Technical Head", img: "Akash Soni.jpeg", initial: "A" },
-  { name: "Anjali Singh", role: "Career & Placement Coordinator", img: "Anjali.jpeg", initial: "An" },
+  { name: "Rampal Soni", role: "Founder & CEO", img: "Rampal.AVIF", initial: "R" },
+  { name: "Manoj Soni", role: "Head of Department", img: "Manoj Soni.AVIF", initial: "M" },
+  { name: "Vinay Rojha", role: "Marketing Head & Managing Director", img: "Vinay Soni.AVIF", initial: "V" },
+  { name: "Akash Soni", role: "Technical Head", img: "Akash Soni.AVIF", initial: "A" },
+  { name: "Anjali Singh", role: "Career & Placement Coordinator", img: "Anjali.AVIF", initial: "An" },
 ];
 
 // ─── Team Card ────────────────────────────────────────────────────────────────

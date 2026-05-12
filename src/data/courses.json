@@ -8,7 +8,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DOAP.png",
+    "image": "DOAP.AVIF",
     "features": [
       "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook, Access)",
       "Desktop Publishing with CorelDRAW",
@@ -115,7 +115,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "ZB3DS.png",
+    "image": "ZB3DS.AVIF",
     "features": [
       "Industry-standard ZBrush software",
       "Organic & Hard Surface Sculpting",
@@ -202,7 +202,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DTP.png",
+    "image": "DTP.AVIF",
     "features": [
       "Adobe InDesign / PageMaker for Layout",
       "CorelDRAW for Print & Graphic Design",
@@ -287,7 +287,7 @@
     "duration": "8-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "FSWD.png",
+    "image": "FSWD.AVIF",
     "features": [
       "HTML5, CSS3, JavaScript & React.js",
       "Node.js, Express & REST APIs",
@@ -374,7 +374,7 @@
     "duration": "9–12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DAMD.png",
+    "image": "DAMD.AVIF",
     "features": [
       "Photoshop & Illustrator for Graphic Design",
       "Adobe Animate for 2D Animation",
@@ -442,7 +442,7 @@
     "duration": "10-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DS.png",
+    "image": "DS.AVIF",
     "features": [
       "Python, NumPy, Pandas, Matplotlib",
       "Machine Learning (Scikit-learn)",
@@ -495,7 +495,7 @@
     "duration": "6-8 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DA.png",
+    "image": "DA.AVIF",
     "features": [
       "Excel for Data Analysis",
       "SQL Queries & Database Analysis",
@@ -548,7 +548,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "EH.png",
+    "image": "EH.AVIF",
     "features": [
       "Kali Linux & Penetration Testing",
       "Network Scanning (Nmap, Nessus)",
@@ -605,7 +605,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DM.png",
+    "image": "DM.AVIF",
     "features": [
       "SEO — On-page, Off-page & Technical",
       "Social Media Marketing (Facebook, Instagram, LinkedIn)",
@@ -658,7 +658,7 @@
     "duration": "6-8 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "IDD.png",
+    "image": "IDD.AVIF",
     "features": [
       "Design Principles & Visual Communication",
       "Space Planning for Residential & Commercial",
@@ -711,7 +711,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "AFA.png",
+    "image": "AFA.AVIF",
     "features": [
       "Corporate Financial Reporting",
       "Financial Ratio & Trend Analysis",
@@ -764,7 +764,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "HRMD.png",
+    "image": "HRMD.AVIF",
     "features": [
       "SAP SuccessFactors & Workday Basics",
       "Recruitment & ATS (LinkedIn Recruiter)",
@@ -817,7 +817,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "PP.png",
+    "image": "PP.AVIF",
     "features": [
       "Python Fundamentals & Control Flow",
       "Functions, Modules & OOP",
@@ -879,7 +879,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "UIUXD.png",
+    "image": "UIUXD.AVIF",
     "features": [
       "Design Thinking & User Research",
       "Wireframing & Information Architecture",
@@ -932,7 +932,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "CC.png",
+    "image": "CC.AVIF",
     "features": [
       "AWS (EC2, S3, RDS, Lambda)",
       "Microsoft Azure & Google Cloud Platform",
@@ -985,7 +985,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "AI.png",
+    "image": "AI.AVIF",
     "features": [
       "Python, NumPy & Data Visualization",
       "Search Algorithms & Knowledge Graphs",
@@ -1041,7 +1041,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "DAMD.png",
+    "image": "DAMD.AVIF",
     "features": [
       "React Native & Expo Framework",
       "Navigation, Forms & Responsive Layouts",
@@ -1094,7 +1094,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "AA.png",
+    "image": "AA.AVIF",
     "features": [
       "Timeline & Frame-by-Frame Animation",
       "Symbols, Masking & Easing Techniques",
@@ -1152,7 +1152,7 @@
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "MO.png",
+    "image": "MO.AVIF",
     "features": [
       "Microsoft Word — Advanced Formatting & Mail Merge",
       "Microsoft Excel — Pivot Tables, VLOOKUP, Dashboards",
@@ -1210,7 +1210,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "GD.png",
+    "image": "GD.AVIF",
     "features": [
       "Adobe Photoshop — Image Editing & Poster Design",
       "Adobe Illustrator — Logo & Vector Design",
@@ -1268,7 +1268,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "master",
-    "image": "2D3DA.png",
+    "image": "2D3DA.AVIF",
     "features": [
       "12 Principles of Animation",
       "2D Frame Animation & Motion Design (Adobe Animate)",
@@ -1331,7 +1331,7 @@
     "duration": "2–4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "AAE.png",
+    "image": "AAE.AVIF",
     "features": [
       "Motion Graphics & Kinetic Typography",
       "Green Screen & Chroma Key VFX",
@@ -1394,7 +1394,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "FVEC.png",
+    "image": "FVEC.AVIF",
     "features": [
       "Video Cutting, Trimming & Timeline Editing",
       "Transitions, Titles & Visual Effects",
@@ -1457,7 +1457,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "APP.png",
+    "image": "APP.AVIF",
     "features": [
       "Professional Cutting & Sequence Editing",
       "Audio Editing & Sound Design",
@@ -1520,7 +1520,7 @@
     "duration": "6 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "MAYA.png",
+    "image": "MAYA.AVIF",
     "features": [
       "Hard Surface & Organic 3D Modeling",
       "UV Mapping, Texturing & Lighting",
@@ -1588,7 +1588,7 @@
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "UIUXDAF.png",
+    "image": "UIUXDAF.AVIF",
     "features": [
       "Design Thinking & UX Research Methods",
       "Wireframing & Information Architecture",
@@ -1646,7 +1646,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "BA.png",
+    "image": "BA.AVIF",
     "features": [
       "Excel — VLOOKUP, Pivot Tables, Dashboards",
       "SQL for Business Data Extraction",
@@ -1709,7 +1709,7 @@
     "duration": "1 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "PD.png",
+    "image": "PD.AVIF",
     "features": [
       "Communication & Active Listening Skills",
       "Public Speaking & Stage Confidence",
@@ -1767,7 +1767,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "SE.png",
+    "image": "SE.AVIF",
     "features": [
       "Grammar — Tenses, Modals & Sentence Structure",
       "Everyday Conversation Practice",
@@ -1825,7 +1825,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "MEVBA.png",
+    "image": "MEVBA.AVIF",
     "features": [
       "VBA Editor & Module Basics",
       "Recording & Editing Macros",
@@ -1892,7 +1892,7 @@
     "duration": "1 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "MA.png",
+    "image": "MA.AVIF",
     "features": [
       "Relational Database Design",
       "Tables, Relationships & Referential Integrity",
@@ -1950,7 +1950,7 @@
     "duration": "9-12 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "ADFA.png",
+    "image": "ADFA.AVIF",
     "features": [
       "Financial Accounting — Journal to Balance Sheet",
       "Corporate Accounting & IFRS/GAAP",
@@ -2023,7 +2023,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "ALMC.png",
+    "image": "ALMC.AVIF",
     "features": [
       "Money Laundering Stages & Financial Crimes",
       "PMLA, FIU-IND, RBI & FATF Guidelines",
@@ -2086,7 +2086,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "TPGST.png",
+    "image": "TPGST.AVIF",
     "features": [
       "Tally Prime — Complete Accounting Setup",
       "Ledger Groups & Voucher Entries",
@@ -2139,7 +2139,7 @@
     "duration": "4 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "CIA.png",
+    "image": "CIA.AVIF",
     "features": [
       "Financial Accounting — Journal to Balance Sheet",
       "Advanced Excel — MIS Reports & Dashboards",
@@ -2197,7 +2197,7 @@
     "duration": "1 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "BUSYAS.png",
+    "image": "BUSYAS.AVIF",
     "features": [
       "Company Setup in BUSY",
       "Ledger Accounts & Voucher Entries",
@@ -2250,7 +2250,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "SAPFICO.png",
+    "image": "SAPFICO.AVIF",
     "features": [
       "SAP FI — Chart of Accounts & GL Posting",
       "Accounts Payable & Receivable",
@@ -2308,7 +2308,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "SAPMM.png",
+    "image": "SAPMM.AVIF",
     "features": [
       "Material Master Records & Purchasing Org",
       "Purchase Requisition to PO Workflow",
@@ -2371,7 +2371,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "SAPSD.png",
+    "image": "SAPSD.AVIF",
     "features": [
       "Customer & Material Master Data",
       "Quotation to Sales Order Processing",
@@ -2434,7 +2434,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "SAPPP.png",
+    "image": "SAPPP.AVIF",
     "features": [
       "Bill of Materials (BOM) & Work Centers",
       "Routing & Machine Capacity Planning",
@@ -2497,7 +2497,7 @@
     "duration": "2 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "SAPHCM.png",
+    "image": "SAPHCM.AVIF",
     "features": [
       "Organizational Structure & Position Management",
       "Employee Master Data & Hiring Process",
@@ -2565,7 +2565,7 @@
     "duration": "3 Months",
     "price": "Contact for Pricing",
     "category": "advance",
-    "image": "B3DA.png",
+    "image": "B3DA.AVIF",
     "features": [
       "3D Modeling — Hard Surface & Organic",
       "Materials, UV Mapping & Texturing",

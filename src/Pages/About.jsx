@@ -50,7 +50,7 @@ const MISSION_VISION = [
   },
 ];
 
-const GALLERY_IMAGES = ["/AB.jpeg", "/AB2.jpeg", "/Team.jpeg"];
+const GALLERY_IMAGES = ["/AB.AVIF", "/AB2.AVIF", "/Team.AVIF"];
 
 const USP_ITEMS = [
   "Advanced Curriculum",
