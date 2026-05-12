@@ -103,7 +103,7 @@ const PLACEMENT_LOGOS = [
   "Capgemini.WebP",
   "Hcl.png",
   "Oracle.png",
-  "Sap.png",
+  "Sap.WebP",
   "Adobe.WebP",
   "Cisco.WebP",
   "Intel.png",
