@@ -2042,7 +2042,7 @@ export default function Hero() {
           {/* Mobile: Stacked Layout | Desktop: Single Row */}
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center">
             {/* Contact Links */}
-            <div className="flex justify-between sm:flex-row gap-3 sm:gap-4 items-center">
+            <div className="flex justify-between  sm:flex-row gap-3 sm:gap-2 items-center">
               <a
                 href="tel:+919560307098"
                 className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
