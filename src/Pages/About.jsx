@@ -230,40 +230,48 @@ export default function About() {
         </p>
       </motion.section>
 
-      {/* ── Footer ── */}
+      {/* ── FOOTER BOTTOM ── */}
       <footer className="bg-blue-950 mt-6">
-        <div className="max-w-6xl mx-auto px-4 py-4 sm:py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
-          <p className="text-blue-300 text-xs sm:text-sm text-center">
-            © 2026 IIOFT. All Rights Reserved.
-          </p>
-          <div className="flex gap-4">
-            <a
-              href="tel:+919560307098"
-              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
-            >
-              +91 9560307098
-            </a>
-            <a
-              href="mailto:info@iioft.co.in"
-              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
-            >
-              info@iioft.co.in
-            </a>
-          </div>
-          <div className="flex gap-4">
-            <Link
-              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
-              to="/PrivacyPolicy"
-            >
-              PrivacyPolicy
-            </Link>
+        <div className="max-w-6xl mx-auto px-4 py-6 sm:py-5">
+          {/* Mobile: Stacked Layout | Desktop: Single Row */}
+          <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center">
+            {/* Copyright */}
+            <p className="text-blue-300 text-xs sm:text-sm text-center sm:text-left">
+              © 2026 IIOFT. All Rights Reserved.
+            </p>
 
-            <Link
-              className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
-              to="/TermsConditions"
-            >
-              TermsConditions
-            </Link>
+            {/* Contact Links */}
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center">
+              <a
+                href="tel:+919560307098"
+                className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors"
+              >
+                📞 +91 9560307098
+              </a>
+              <a
+                href="mailto:info@iioft.co.in"
+                className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors break-all"
+              >
+                ✉️ info@iioft.co.in
+              </a>
+            </div>
+
+            {/* Policy Links */}
+            <div className="flex gap-4 sm:gap-3 items-center justify-center flex-wrap">
+              <Link
+                className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors whitespace-nowrap"
+                to="/PrivacyPolicy"
+              >
+                Privacy Policy
+              </Link>
+              <span className="text-blue-600 hidden sm:inline">|</span>
+              <Link
+                className="text-blue-400 hover:text-white text-xs sm:text-sm transition-colors whitespace-nowrap"
+                to="/TermsConditions"
+              >
+                Terms & Conditions
+              </Link>
+            </div>
           </div>
         </div>
       </footer>
