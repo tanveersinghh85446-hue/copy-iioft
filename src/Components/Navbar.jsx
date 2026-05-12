@@ -53,7 +53,7 @@ export default function Navbar() {
               <Link to="/">
                 <img
                   className="h-12 w-auto object-contain"
-                  src="NSDC.png"
+                  src="NSDC.WebP"
                   alt="Logo"
                 />
               </Link>
