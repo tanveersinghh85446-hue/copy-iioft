@@ -29,7 +29,7 @@ export default function Navbar() {
     { path: "/", name: "Home" },
     { path: "/course", name: "Course" },
     { path: "/contact", name: "Contact" },
-    { path: "/apply", name: "Enquire" },
+    { path: "/enquire", name: "Enquire" },
   ];
 
   return (
