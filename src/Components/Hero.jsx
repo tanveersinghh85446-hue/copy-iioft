@@ -177,37 +177,69 @@ const LOCATIONS = [
   },
 ];
 
+// const SOCIAL_LINKS = [
+//   {
+//     href: "https://www.facebook.com/profile.php?id=61578516476737",
+//     icon: <FaFacebookF className="text-blue-600 text-lg md:text-2xl" />,
+//   },
+//   {
+//     href: "https://www.instagram.com/iioft.official",
+//     icon: <FaInstagramSquare className="text-pink-600 text-lg md:text-2xl" />,
+//   },
+//   {
+//     href: "https://www.youtube.com/channel/UCLhUsvW0O-c6mf7Ti9jrOBg",
+//     icon: <FaYoutube className="text-red-600 text-lg md:text-2xl" />,
+//   },
+//   {
+//     href: "https://www.linkedin.com/in/iioft-a72bb83b7/",
+//     icon: <FaLinkedin className="text-blue-800 text-lg md:text-2xl" />,
+//   },
+//   {
+//     href: "https://x.com/iioft",
+//     icon: <FaXTwitter className="text-black text-lg md:text-2xl" />,
+//   },
+//   {
+//     href: "https://mail.google.com/mail/?view=cm&fs=1&to=info@iioft.co.in&su=Inquiry&body=Hello%20IIOFT%20Team",
+//     icon: <IoIosMailUnread className="text-yellow-500 text-lg md:text-2xl" />,
+//   },
+//   {
+//     href: "https://wa.me/919560307098",
+//     icon: <BsWhatsapp className="text-green-600 text-lg md:text-2xl" />,
+//   },
+// ];
 const SOCIAL_LINKS = [
   {
     href: "https://www.facebook.com/profile.php?id=61578516476737",
-    icon: <FaFacebookF className="text-blue-600 text-lg md:text-2xl" />,
+    icon: <FaFacebookF />,
+    label: "Facebook",
   },
   {
     href: "https://www.instagram.com/iioft.official",
-    icon: <FaInstagramSquare className="text-pink-600 text-lg md:text-2xl" />,
+    icon: <FaInstagramSquare />,
+    label: "Instagram",
   },
   {
     href: "https://www.youtube.com/channel/UCLhUsvW0O-c6mf7Ti9jrOBg",
-    icon: <FaYoutube className="text-red-600 text-lg md:text-2xl" />,
+    icon: <FaYoutube />,
+    label: "YouTube",
   },
   {
     href: "https://www.linkedin.com/in/iioft-a72bb83b7/",
-    icon: <FaLinkedin className="text-blue-800 text-lg md:text-2xl" />,
+    icon: <FaLinkedin />,
+    label: "LinkedIn",
   },
-  {
-    href: "https://x.com/iioft",
-    icon: <FaXTwitter className="text-black text-lg md:text-2xl" />,
-  },
+  { href: "https://x.com/iioft", icon: <FaXTwitter />, label: "X (Twitter)" },
   {
     href: "https://mail.google.com/mail/?view=cm&fs=1&to=info@iioft.co.in&su=Inquiry&body=Hello%20IIOFT%20Team",
-    icon: <IoIosMailUnread className="text-yellow-500 text-lg md:text-2xl" />,
+    icon: <IoIosMailUnread />,
+    label: "Email",
   },
   {
     href: "https://wa.me/919560307098",
-    icon: <BsWhatsapp className="text-green-600 text-lg md:text-2xl" />,
+    icon: <BsWhatsapp />,
+    label: "WhatsApp",
   },
 ];
-
 const COUNTER_TARGETS = {
   labs: 10,
   faculty: 80,
@@ -668,6 +700,7 @@ function ChatBot() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => setIsOpen(true)}
+            aria-label="Open chat assistant"
             className="fixed bottom-6 right-6 z-50 bg-linear-to-r from-blue-600 to-blue-700 text-white p-4 rounded-full shadow-2xl hover:shadow-blue-500/50 transition-all duration-300"
           >
             <FaRobot className="text-3xl" />
@@ -706,6 +739,7 @@ function ChatBot() {
               </div>
               <button
                 onClick={() => setIsOpen(false)}
+                aria-label="Close chat"
                 className="text-white hover:bg-white/20 p-2 rounded-full transition-all"
               >
                 <FaTimes className="text-xl" />
@@ -834,6 +868,7 @@ function ChatBot() {
                 <button
                   onClick={() => handleSend()}
                   disabled={!inputText.trim()}
+                  aria-label="Send message"
                   className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-all"
                 >
                   <FaPaperPlane className="text-lg" />
@@ -873,17 +908,31 @@ function LogoMarquee() {
   );
 }
 
-function SocialButton({ href, icon }) {
+// function SocialButton({ href, icon }) {
+//   return (
+//     <a href={href} target="_blank" rel="noopener noreferrer">
+//       <button className="bg-white transition-transform duration-300 hover:scale-150 h-9 w-9 md:h-12 md:w-12 rounded-full flex items-center justify-center">
+//         {icon}
+//       </button>
+//     </a>
+//   );
+// }
+
+// ─── Main Hero Component ──────────────────────────────────────────────────────
+
+// AFTER
+function SocialButton({ href, icon, label }) {
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
-      <button className="bg-white transition-transform duration-300 hover:scale-150 h-9 w-9 md:h-12 md:w-12 rounded-full flex items-center justify-center">
+      <button
+        aria-label={label}
+        className="bg-white transition-transform duration-300 hover:scale-150 h-9 w-9 md:h-12 md:w-12 rounded-full flex items-center justify-center"
+      >
         {icon}
       </button>
     </a>
   );
 }
-
-// ─── Main Hero Component ──────────────────────────────────────────────────────
 
 export default function Hero() {
   const [showMap, setShowMap] = useState(false);
