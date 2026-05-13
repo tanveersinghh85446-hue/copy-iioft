@@ -263,7 +263,7 @@ export default function Contact() {
           <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold leading-snug">
             Ready to Start Your Future<br className="hidden sm:block" /> With IIOFT?
           </h2>
-          <p className="mt-3 text-blue-100 text-sm sm:text-base max-w-md mx-auto">
+          <p className="mt-3 text-white text-sm sm:text-base max-w-md mx-auto">
             Join thousands of students building successful careers with industry-ready skills.
           </p>
           <a

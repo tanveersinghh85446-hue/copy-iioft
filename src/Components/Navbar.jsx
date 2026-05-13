@@ -198,7 +198,7 @@ export default function Navbar() {
                         className={`text-base font-medium transition duration-300 hover:text-yellow-300 ${
                           pathname === path
                             ? "text-yellow-300"
-                            : "text-blue-100"
+                            : "text-white"
                         }`}
                       >
                         → {name}

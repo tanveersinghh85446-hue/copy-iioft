@@ -699,7 +699,7 @@ function ChatBot() {
                   <h3 className="text-white font-bold text-lg">
                     IIOFT Assistant
                   </h3>
-                  <p className="text-blue-100 text-xs">
+                  <p className="text-white text-xs">
                     Online • Replies instantly
                   </p>
                 </div>
@@ -1070,7 +1070,7 @@ export default function Hero() {
           <h2 className="text-4xl md:text-5xl font-bold text-white">
             Our Hiring Partners
           </h2>
-          <p className="text-blue-100 mt-4 text-lg">
+          <p className="text-white mt-4 text-lg">
             Students Placed In Top MNC Companies
           </p>
         </div>
@@ -1172,7 +1172,7 @@ export default function Hero() {
               src="Logo.WebP"
               alt="Logo"
             />
-            <p className="text-sm text-blue-100 leading-relaxed">
+            <p className="text-sm text-white leading-relaxed">
               International Institute of Futuristic Technology (IIOFT) prepares
               students with practical skills and advanced knowledge.
             </p>
@@ -1198,7 +1198,7 @@ export default function Hero() {
                 {LOCATIONS.map((loc, i) => (
                   <li
                     key={i}
-                    className="flex items-start gap-2 text-sm text-blue-100 cursor-pointer hover:text-black transition-colors duration-200"
+                    className="flex items-start gap-2 text-sm text-white cursor-pointer hover:text-black transition-colors duration-200"
                     onClick={() => window.open(loc.link, "_blank")}
                   >
                     <FaMapMarkerAlt className="text-blue-300 text-xs mt-1 shrink-0" />{" "}
@@ -1222,7 +1222,7 @@ export default function Hero() {
                   <Link
                     key={to}
                     to={to}
-                    className="flex items-center gap-2 text-sm text-blue-100 hover:text-black transition-colors duration-200"
+                    className="flex items-center gap-2 text-sm text-white hover:text-black transition-colors duration-200"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-300 shrink-0" />{" "}
                     {label}
@@ -1240,7 +1240,7 @@ export default function Hero() {
                   <li key={to}>
                     <Link
                       to={to}
-                      className="flex items-center gap-2 text-sm text-blue-100 hover:text-black transition-colors duration-200"
+                      className="flex items-center gap-2 text-sm text-white hover:text-black transition-colors duration-200"
                     >
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-300 shrink-0" />
                       {label}
@@ -1254,15 +1254,15 @@ export default function Hero() {
               <h3 className="text-lg font-bold mb-3">Contact Us</h3>
               <div className="w-8 h-0.5 bg-blue-300 mb-3" />
               <div className="space-y-2">
-                <p className="flex items-center gap-2 text-sm text-blue-100">
+                <p className="flex items-center gap-2 text-sm text-white">
                   <FaPhoneAlt className="text-blue-300 shrink-0" /> +91
                   9560307098
                 </p>
-                <p className="flex items-center gap-2 text-sm text-blue-100">
+                <p className="flex items-center gap-2 text-sm text-white">
                   <FaEnvelope className="text-blue-300 shrink-0" />{" "}
                   info@iioft.co.in
                 </p>
-                <p className="flex items-center gap-2 text-sm text-blue-100">
+                <p className="flex items-center gap-2 text-sm text-white">
                   <FaMapMarkerAlt className="text-blue-300 shrink-0" /> India,
                   Dwarka
                 </p>
