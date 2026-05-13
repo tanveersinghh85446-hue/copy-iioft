@@ -96,7 +96,7 @@ const PLACEMENT_LOGOS = [
   "Aws.WebP",
   "Ibm.AVIF",
   "Deloitte.WebP",
-  "Accenture.WebP",
+  "Accenture.png",
   "tcs.WebP",
   "Infosys.png",
   "Wipro.png",
