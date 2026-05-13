@@ -1211,7 +1211,7 @@ export default function Hero() {
             <div className="lg:shrink-0">
               <h3 className="text-lg font-bold mb-3">Quick Links</h3>
               <div className="w-8 h-0.5 bg-blue-300 mb-3" />
-              <ul className="flex flex-col space-y-1.5">
+              {/* <ul className="flex flex-col space-y-1.5">
                 {[
                   ["Home", "/"],
                   ["Contact", "/contact"],
@@ -1227,6 +1227,25 @@ export default function Hero() {
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-300 shrink-0" />{" "}
                     {label}
                   </Link>
+                ))}
+              </ul> */}
+              <ul className="flex flex-col space-y-1.5">
+                {[
+                  ["Home", "/"],
+                  ["Contact", "/contact"],
+                  ["Course", "/course"],
+                  ["About", "/about"],
+                  ["Know More", "/know-more"],
+                ].map(([label, to]) => (
+                  <li key={to}>
+                    <Link
+                      to={to}
+                      className="flex items-center gap-2 text-sm text-blue-100 hover:text-black transition-colors duration-200"
+                    >
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-300 shrink-0" />
+                      {label}
+                    </Link>
+                  </li>
                 ))}
               </ul>
             </div>
