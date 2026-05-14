@@ -81,25 +81,25 @@ const LOGOS = [
   "accenture.WebP",
   "Genpact.WebP",
   "GoldManSachs.WebP",
-  "Hcl.WebP",
-  "Ibm.AVIF",
+  "Hcl.webp",
+  "Ibm.Webp",
   "Microsoft.WebP",
   "NielsenIQ.WebP",
   "Ramboll.png",
-  "Wipro.png",
-  "Wsp.png",
+  "Wipro.WebP",
+  "Wsp.WebP",
 ];
 
 const PLACEMENT_LOGOS = [
   "Google.WebP",
   "Microsoft.WebP",
   "Aws.WebP",
-  "Ibm.AVIF",
+  "Ibm.Webp",
   "Deloitte.WebP",
   "Accenture.png",
   "tcs.WebP",
   "Infosys.png",
-  "Wipro.png",
+  "Wipro.WebP",
   "Capgemini.WebP",
   "Hcl.WebP",
   "Oracle.WebP",
@@ -111,6 +111,7 @@ const PLACEMENT_LOGOS = [
   "Salesforce.WebP",
   "Tm.WebP",
   "Nvidia.WebP",
+  
 ];
 
 const PROS = [
@@ -1328,7 +1329,7 @@ export default function Hero() {
                 ×
               </button>
               <img
-                src="Map.png"
+                src="Map.AVIF"
                 alt="Map Full View"
                 className="max-w-[90%] max-h-[90%] rounded-lg shadow-2xl"
               />
