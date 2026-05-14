@@ -1005,7 +1005,8 @@ export default function Hero() {
             <span className="text-yellow-400">Skill Up with </span>
             <span className="text-blue-400 font-bold">IIOFT</span>
           </p>
-          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+
+          {/* <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <Link to="course">
               <button className="min-h-12 px-6 py-3 sm:px-8 sm:py-3 bg-blue-600 rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 w-full sm:w-auto animate-bounce">
                 Explore Courses
@@ -1015,6 +1016,22 @@ export default function Hero() {
               <button className="min-h-12 px-6 py-3 border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 w-full sm:w-auto animate-bounce">
                 Enquire Now
               </button>
+            </Link>
+          </div> */}
+
+          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+            <Link
+              to="/course"
+              className="min-h-12 px-6 py-3 sm:px-8 sm:py-3 bg-blue-600 rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 w-full sm:w-auto animate-bounce inline-flex items-center justify-center"
+            >
+              Explore Courses
+            </Link>
+
+            <Link
+              to="/Enquire"
+              className="min-h-12 px-6 py-3 border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 w-full sm:w-auto animate-bounce inline-flex items-center justify-center"
+            >
+              Enquire Now
             </Link>
           </div>
         </div>
