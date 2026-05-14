@@ -111,7 +111,6 @@ const PLACEMENT_LOGOS = [
   "Salesforce.WebP",
   "Tm.WebP",
   "Nvidia.WebP",
-  
 ];
 
 const PROS = [
@@ -178,66 +177,40 @@ const LOCATIONS = [
   },
 ];
 
-// const SOCIAL_LINKS = [
-//   {
-//     href: "https://www.facebook.com/profile.php?id=61578516476737",
-//     icon: <FaFacebookF className="text-blue-600 text-lg md:text-2xl" />,
-//   },
-//   {
-//     href: "https://www.instagram.com/iioft.official",
-//     icon: <FaInstagramSquare className="text-pink-600 text-lg md:text-2xl" />,
-//   },
-//   {
-//     href: "https://www.youtube.com/channel/UCLhUsvW0O-c6mf7Ti9jrOBg",
-//     icon: <FaYoutube className="text-red-600 text-lg md:text-2xl" />,
-//   },
-//   {
-//     href: "https://www.linkedin.com/in/iioft-a72bb83b7/",
-//     icon: <FaLinkedin className="text-blue-800 text-lg md:text-2xl" />,
-//   },
-//   {
-//     href: "https://x.com/iioft",
-//     icon: <FaXTwitter className="text-black text-lg md:text-2xl" />,
-//   },
-//   {
-//     href: "https://mail.google.com/mail/?view=cm&fs=1&to=info@iioft.co.in&su=Inquiry&body=Hello%20IIOFT%20Team",
-//     icon: <IoIosMailUnread className="text-yellow-500 text-lg md:text-2xl" />,
-//   },
-//   {
-//     href: "https://wa.me/919560307098",
-//     icon: <BsWhatsapp className="text-green-600 text-lg md:text-2xl" />,
-//   },
-// ];
 const SOCIAL_LINKS = [
   {
     href: "https://www.facebook.com/profile.php?id=61578516476737",
-    icon: <FaFacebookF />,
+    icon: <FaFacebookF className="text-blue-600 text-lg md:text-2xl" />,
     label: "Facebook",
   },
   {
     href: "https://www.instagram.com/iioft.official",
-    icon: <FaInstagramSquare />,
+    icon: <FaInstagramSquare className="text-pink-600 text-lg md:text-2xl" />,
     label: "Instagram",
   },
   {
     href: "https://www.youtube.com/channel/UCLhUsvW0O-c6mf7Ti9jrOBg",
-    icon: <FaYoutube />,
+    icon: <FaYoutube className="text-red-600 text-lg md:text-2xl" />,
     label: "YouTube",
   },
   {
     href: "https://www.linkedin.com/in/iioft-a72bb83b7/",
-    icon: <FaLinkedin />,
+    icon: <FaLinkedin className="text-blue-800 text-lg md:text-2xl" />,
     label: "LinkedIn",
   },
-  { href: "https://x.com/iioft", icon: <FaXTwitter />, label: "X (Twitter)" },
+  {
+    href: "https://x.com/iioft",
+    icon: <FaXTwitter className="text-black text-lg md:text-2xl" />,
+    label: "X (Twitter)",
+  },
   {
     href: "https://mail.google.com/mail/?view=cm&fs=1&to=info@iioft.co.in&su=Inquiry&body=Hello%20IIOFT%20Team",
-    icon: <IoIosMailUnread />,
+    icon: <IoIosMailUnread className="text-yellow-500 text-lg md:text-2xl" />,
     label: "Email",
   },
   {
     href: "https://wa.me/919560307098",
-    icon: <BsWhatsapp />,
+    icon: <BsWhatsapp className="text-green-600 text-lg md:text-2xl" />,
     label: "WhatsApp",
   },
 ];
@@ -908,7 +881,6 @@ function LogoMarquee() {
     </div>
   );
 }
-
 
 // ─── Main Hero Component ──────────────────────────────────────────────────────
 
