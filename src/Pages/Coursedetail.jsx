@@ -84,14 +84,7 @@ export default function CourseDetail() {
         </p>
         <h1 className="text-2xl font-bold underline mb-1">{course.title}</h1>
         <p className="italic text-gray-600 mb-4">{course.shortDescription}</p>
-
-        {/* Image */}
-        {/* <img
-          src={imgSrc}
-          alt={course.title}
-          className="w-full rounded-lg mb-5 object-cover"
-          onError={(e) => (e.target.style.display = "none")}
-        /> */}
+        
 
         {/* Duration & Price */}
         <div className="flex gap-6 mb-6">

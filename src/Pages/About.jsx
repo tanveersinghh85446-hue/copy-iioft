@@ -206,8 +206,7 @@
 //               variants={fadeUp}
 //               whileHover={{ y: -15 }}
 //               className="p-8 bg-linear3
-              
-              
+
 //               -to-br from-blue-100 to-indigo-100 rounded-2xl shadow-xl text-center"
 //             >
 //               <h3 className="font-bold text-xl mb-3">{item}</h3>
@@ -233,13 +232,13 @@
 //       {/* ── FOOTER BOTTOM ── */}
 // <footer className="bg-blue-950 mt-6 border-t border-blue-900">
 //   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-    
+
 //     {/* Main Footer Content */}
 //     <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
-      
+
 //       {/* Contact Section */}
 //       <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left w-full lg:w-auto">
-        
+
 //         <a
 //           href="tel:+919560307098"
 //           className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
@@ -259,7 +258,7 @@
 
 //       {/* Policy Links */}
 //       <div className="flex flex-wrap justify-center items-center gap-3 text-center">
-        
+
 //         <Link
 //           to="/PrivacyPolicy"
 //           className="text-blue-300 hover:text-white text-sm transition-all duration-300"
@@ -290,8 +289,6 @@
 //     </div>
 //   );
 // }
-
-
 
 import React from "react";
 import { Helmet } from "react-helmet-async";

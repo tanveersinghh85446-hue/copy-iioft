@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_LINKS = [
   { path: "/", name: "Home" },
-    { path: "/course", name: "Course" },
+  { path: "/course", name: "Course" },
   { path: "/about", name: "About" },
   { path: "/know-more", name: "Know More" },
   { path: "/blog", name: "Blog" },
@@ -57,8 +57,6 @@ export default function Navbar() {
                   alt="Logo"
                 />
               </Link>
-
-               
             </div>
           </div>
 
@@ -109,7 +107,9 @@ export default function Navbar() {
               key={path}
               to={path}
               className={`transition duration-300 hover:text-yellow-300 ${
-                pathname === path ? "text-yellow-300 border-b-2 border-yellow-300" : ""
+                pathname === path
+                  ? "text-yellow-300 border-b-2 border-yellow-300"
+                  : ""
               }`}
             >
               {name}
@@ -196,9 +196,7 @@ export default function Navbar() {
                         to={path}
                         onClick={() => setIsOpen(false)}
                         className={`text-base font-medium transition duration-300 hover:text-yellow-300 ${
-                          pathname === path
-                            ? "text-yellow-300"
-                            : "text-white"
+                          pathname === path ? "text-yellow-300" : "text-white"
                         }`}
                       >
                         → {name}

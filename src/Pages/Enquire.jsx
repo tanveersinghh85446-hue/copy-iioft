@@ -556,7 +556,9 @@ export default function Enquire() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-extrabold text-indigo-700">Enquire Now</h2>
+          <h2 className="text-4xl font-extrabold text-indigo-700">
+            Enquire Now
+          </h2>
           <p className="text-gray-500 mt-6 text-lg">
             INTERNATIONAL INSTITUTE OF FUTURISTIC TECHNOLOGY
           </p>
@@ -566,62 +568,57 @@ export default function Enquire() {
       </section>
 
       {/* ── FOOTER BOTTOM ── */}
-<footer className="bg-blue-950 mt-6 border-t border-blue-900">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-    
-    {/* Main Footer Content */}
-    <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
-      
-      {/* Contact Section */}
-      <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left w-full lg:w-auto">
-        
-        <a
-          href="tel:+919560307098"
-          className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
-        >
-          <span className="text-base">📞</span>
-          <span>+91 9560307098</span>
-        </a>
+      <footer className="bg-blue-950 mt-6 border-t border-blue-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          {/* Main Footer Content */}
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
+            {/* Contact Section */}
+            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left w-full lg:w-auto">
+              <a
+                href="tel:+919560307098"
+                className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
+              >
+                <span className="text-base">📞</span>
+                <span>+91 9560307098</span>
+              </a>
 
-        <a
-          href="mailto:info@iioft.co.in"
-          className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
-        >
-          <span className="text-base">✉️</span>
-          <span className="break-all">info@iioft.co.in</span>
-        </a>
-      </div>
+              <a
+                href="mailto:info@iioft.co.in"
+                className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
+              >
+                <span className="text-base">✉️</span>
+                <span className="break-all">info@iioft.co.in</span>
+              </a>
+            </div>
 
-      {/* Policy Links */}
-      <div className="flex flex-wrap justify-center items-center gap-3 text-center">
-        
-        <Link
-          to="/PrivacyPolicy"
-          className="text-blue-300 hover:text-white text-sm transition-all duration-300"
-        >
-          Privacy Policy
-        </Link>
+            {/* Policy Links */}
+            <div className="flex flex-wrap justify-center items-center gap-3 text-center">
+              <Link
+                to="/PrivacyPolicy"
+                className="text-blue-300 hover:text-white text-sm transition-all duration-300"
+              >
+                Privacy Policy
+              </Link>
 
-        <span className="text-blue-700 hidden sm:block">•</span>
+              <span className="text-blue-700 hidden sm:block">•</span>
 
-        <Link
-          to="/TermsConditions"
-          className="text-blue-300 hover:text-white text-sm transition-all duration-300"
-        >
-          Terms & Conditions
-        </Link>
-      </div>
-    </div>
+              <Link
+                to="/TermsConditions"
+                className="text-blue-300 hover:text-white text-sm transition-all duration-300"
+              >
+                Terms & Conditions
+              </Link>
+            </div>
+          </div>
 
-    {/* Bottom Copyright */}
-    <div className="mt-5 pt-4 border-t border-blue-900 text-center lg:text-left">
-      <p className="text-blue-400 text-xs sm:text-sm leading-relaxed">
-        © 2026 IIOFT. All Rights Reserved.
-      </p>
-    </div>
-  </div>
-</footer>
-
+          {/* Bottom Copyright */}
+          <div className="mt-5 pt-4 border-t border-blue-900 text-center lg:text-left">
+            <p className="text-blue-400 text-xs sm:text-sm leading-relaxed">
+              © 2026 IIOFT. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

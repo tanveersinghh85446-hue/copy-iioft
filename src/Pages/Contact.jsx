@@ -17,8 +17,14 @@ const FAQ_SECTIONS = [
     subtitle: "Explore flexible learning options available at IIOFT.",
     emoji: "🎓",
     items: [
-      ["Are classes online or offline?", "IIOFT offers both online and offline learning modes to suit every student's lifestyle and schedule."],
-      ["Are classes live or recorded?", "We provide live interactive classes alongside recorded lectures so you never miss a session."],
+      [
+        "Are classes online or offline?",
+        "IIOFT offers both online and offline learning modes to suit every student's lifestyle and schedule.",
+      ],
+      [
+        "Are classes live or recorded?",
+        "We provide live interactive classes alongside recorded lectures so you never miss a session.",
+      ],
     ],
   },
   {
@@ -26,8 +32,14 @@ const FAQ_SECTIONS = [
     subtitle: "Learn more about certification and career support at IIOFT.",
     emoji: "🏆",
     items: [
-      ["Will I receive a certificate?", "Yes, students receive an official industry-recognized certificate upon successful course completion."],
-      ["Does IIOFT provide placement assistance?", "Yes, we provide end-to-end placement support including mock interviews, resume building, and job referrals."],
+      [
+        "Will I receive a certificate?",
+        "Yes, students receive an official industry-recognized certificate upon successful course completion.",
+      ],
+      [
+        "Does IIOFT provide placement assistance?",
+        "Yes, we provide end-to-end placement support including mock interviews, resume building, and job referrals.",
+      ],
     ],
   },
   {
@@ -35,9 +47,18 @@ const FAQ_SECTIONS = [
     subtitle: "Find answers to common questions about courses at IIOFT.",
     emoji: "💡",
     items: [
-      ["What courses are available at IIOFT?", "IIOFT offers Web Development, Data Science, AI, Cyber Security, Digital Marketing, and Software Development."],
-      ["What is the duration of the courses?", "Course durations range from 3 months to 1 year depending on the selected program and depth."],
-      ["Can beginners apply?", "Absolutely! We offer foundation-level courses with no prior experience required."],
+      [
+        "What courses are available at IIOFT?",
+        "IIOFT offers Web Development, Data Science, AI, Cyber Security, Digital Marketing, and Software Development.",
+      ],
+      [
+        "What is the duration of the courses?",
+        "Course durations range from 3 months to 1 year depending on the selected program and depth.",
+      ],
+      [
+        "Can beginners apply?",
+        "Absolutely! We offer foundation-level courses with no prior experience required.",
+      ],
     ],
   },
 ];
@@ -85,7 +106,9 @@ function FAQItem({ question, answer, index }) {
         onClick={() => setOpen(!open)}
         className="w-full flex justify-between items-center p-4 sm:p-5 bg-white hover:bg-blue-50 transition-colors duration-200 text-left"
       >
-        <span className="font-semibold text-gray-800 text-sm sm:text-base pr-4">{question}</span>
+        <span className="font-semibold text-gray-800 text-sm sm:text-base pr-4">
+          {question}
+        </span>
         <motion.span
           animate={{ rotate: open ? 45 : 0 }}
           transition={{ duration: 0.3 }}
@@ -129,9 +152,13 @@ function FAQSection({ section, index, wide }) {
         <div className="relative mb-6">
           <div className="bg-linear-to-r from-blue-600 to-blue-700 rounded-2xl px-5 py-5 sm:py-6 text-center shadow-lg shadow-blue-200">
             <span className="text-3xl mb-2 block">{section.emoji}</span>
-            <h2 className="text-lg sm:text-2xl font-bold text-white tracking-wide">{section.title}</h2>
+            <h2 className="text-lg sm:text-2xl font-bold text-white tracking-wide">
+              {section.title}
+            </h2>
           </div>
-          <p className="text-center text-gray-500 text-xs sm:text-sm mt-3 mb-4 px-2">{section.subtitle}</p>
+          <p className="text-center text-gray-500 text-xs sm:text-sm mt-3 mb-4 px-2">
+            {section.subtitle}
+          </p>
         </div>
         {/* FAQ items */}
         <div className="space-y-3">
@@ -149,13 +176,24 @@ function FAQSection({ section, index, wide }) {
 export default function Contact() {
   return (
     <div className="bg-linear-to-br from-blue-50 via-white to-blue-100 min-h-screen font-sans">
-
       <Helmet>
         <title>Contact Us - IIOFT Delhi | Admissions & Enquiry</title>
-        <meta name="description" content="IIOFT Delhi se contact karo. Admission enquiry, course details ya career counselling ke liye humse aaj hi sampark karo. Phone: +91 9560307098. Location: Dwarka, Delhi." />
-        <meta name="keywords" content="IIOFT contact, IIOFT Delhi address, IIOFT phone number, IIOFT admission enquiry, contact futuristic technology institute Delhi, IIOFT Dwarka" />
-        <meta property="og:title" content="Contact Us - IIOFT Delhi | Admissions & Enquiry" />
-        <meta property="og:description" content="IIOFT Delhi se contact karo - Admission, courses ya career counselling ke liye. Phone: +91 9560307098. Location: Dwarka, Delhi." />
+        <meta
+          name="description"
+          content="IIOFT Delhi se contact karo. Admission enquiry, course details ya career counselling ke liye humse aaj hi sampark karo. Phone: +91 9560307098. Location: Dwarka, Delhi."
+        />
+        <meta
+          name="keywords"
+          content="IIOFT contact, IIOFT Delhi address, IIOFT phone number, IIOFT admission enquiry, contact futuristic technology institute Delhi, IIOFT Dwarka"
+        />
+        <meta
+          property="og:title"
+          content="Contact Us - IIOFT Delhi | Admissions & Enquiry"
+        />
+        <meta
+          property="og:description"
+          content="IIOFT Delhi se contact karo - Admission, courses ya career counselling ke liye. Phone: +91 9560307098. Location: Dwarka, Delhi."
+        />
         <meta property="og:url" content="https://iioft.co.in/contact" />
         <link rel="canonical" href="https://iioft.co.in/contact" />
       </Helmet>
@@ -184,11 +222,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight"
           >
-            Get in{" "}
-            <span className="text-blue-600 relative">
-              Touch
-              
-            </span>
+            Get in <span className="text-blue-600 relative">Touch</span>
           </motion.h1>
 
           <motion.p
@@ -197,7 +231,9 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-sm sm:text-base md:text-lg mt-5 max-w-xs sm:max-w-md md:max-w-2xl text-gray-500 leading-relaxed"
           >
-            We'd love to hear from you! Reach out to IIOFT for admissions, course enquiries, or career counselling — our team is ready to assist you.
+            We'd love to hear from you! Reach out to IIOFT for admissions,
+            course enquiries, or career counselling — our team is ready to
+            assist you.
           </motion.p>
         </div>
       </div>
@@ -234,13 +270,22 @@ export default function Contact() {
             viewport={{ once: true }}
             className="text-center mb-10"
           >
-            <span className="text-blue-600 font-semibold text-sm tracking-widest uppercase">FAQs</span>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mt-1">Your Questions, Answered</h2>
+            <span className="text-blue-600 font-semibold text-sm tracking-widest uppercase">
+              FAQs
+            </span>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mt-1">
+              Your Questions, Answered
+            </h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {FAQ_SECTIONS.map((section, i) => (
-              <FAQSection key={section.title} section={section} index={i} wide={i === 2} />
+              <FAQSection
+                key={section.title}
+                section={section}
+                index={i}
+                wide={i === 2}
+              />
             ))}
           </div>
         </div>
@@ -259,12 +304,16 @@ export default function Contact() {
           <div className="absolute top-0 left-0 w-40 h-40 bg-white opacity-5 rounded-full -translate-x-1/2 -translate-y-1/2" />
           <div className="absolute bottom-0 right-0 w-56 h-56 bg-white opacity-5 rounded-full translate-x-1/3 translate-y-1/3" />
 
-          <p className="text-blue-200 text-xs sm:text-sm uppercase tracking-widest font-medium mb-2">Take the next step</p>
+          <p className="text-blue-200 text-xs sm:text-sm uppercase tracking-widest font-medium mb-2">
+            Take the next step
+          </p>
           <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold leading-snug">
-            Ready to Start Your Future<br className="hidden sm:block" /> With IIOFT?
+            Ready to Start Your Future
+            <br className="hidden sm:block" /> With IIOFT?
           </h2>
           <p className="mt-3 text-white text-sm sm:text-base max-w-md mx-auto">
-            Join thousands of students building successful careers with industry-ready skills.
+            Join thousands of students building successful careers with
+            industry-ready skills.
           </p>
           <a
             href="tel:+919560307098"
@@ -290,12 +339,21 @@ export default function Contact() {
             {/* Top accent stripe */}
             <div className={`bg-linear-to-r ${gradient} h-1.5 w-full`} />
             <div className="p-4 sm:p-6 text-center">
-              <div className={`w-10 h-10 sm:w-12 sm:h-12 bg-linear-to-br ${gradient} rounded-xl flex items-center justify-center mx-auto mb-3 shadow-md`}>
+              <div
+                className={`w-10 h-10 sm:w-12 sm:h-12 bg-linear-to-br ${gradient} rounded-xl flex items-center justify-center mx-auto mb-3 shadow-md`}
+              >
                 <Icon className="text-white text-lg sm:text-xl" />
               </div>
-              <h3 className="text-sm sm:text-base font-bold text-gray-800 mb-1.5">{title}</h3>
+              <h3 className="text-sm sm:text-base font-bold text-gray-800 mb-1.5">
+                {title}
+              </h3>
               {lines.map((line) => (
-                <p key={line} className="text-gray-500 text-xs sm:text-sm leading-relaxed">{line}</p>
+                <p
+                  key={line}
+                  className="text-gray-500 text-xs sm:text-sm leading-relaxed"
+                >
+                  {line}
+                </p>
               ))}
             </div>
           </motion.div>
@@ -303,62 +361,57 @@ export default function Contact() {
       </div>
 
       {/* ── FOOTER BOTTOM ── */}
-<footer className="bg-blue-950 mt-6 border-t border-blue-900">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-    
-    {/* Main Footer Content */}
-    <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
-      
-      {/* Contact Section */}
-      <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left w-full lg:w-auto">
-        
-        <a
-          href="tel:+919560307098"
-          className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
-        >
-          <span className="text-base">📞</span>
-          <span>+91 9560307098</span>
-        </a>
+      <footer className="bg-blue-950 mt-6 border-t border-blue-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          {/* Main Footer Content */}
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
+            {/* Contact Section */}
+            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left w-full lg:w-auto">
+              <a
+                href="tel:+919560307098"
+                className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
+              >
+                <span className="text-base">📞</span>
+                <span>+91 9560307098</span>
+              </a>
 
-        <a
-          href="mailto:info@iioft.co.in"
-          className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
-        >
-          <span className="text-base">✉️</span>
-          <span className="break-all">info@iioft.co.in</span>
-        </a>
-      </div>
+              <a
+                href="mailto:info@iioft.co.in"
+                className="flex items-center gap-2 text-blue-300 hover:text-white text-sm transition-all duration-300 break-all"
+              >
+                <span className="text-base">✉️</span>
+                <span className="break-all">info@iioft.co.in</span>
+              </a>
+            </div>
 
-      {/* Policy Links */}
-      <div className="flex flex-wrap justify-center items-center gap-3 text-center">
-        
-        <Link
-          to="/PrivacyPolicy"
-          className="text-blue-300 hover:text-white text-sm transition-all duration-300"
-        >
-          Privacy Policy
-        </Link>
+            {/* Policy Links */}
+            <div className="flex flex-wrap justify-center items-center gap-3 text-center">
+              <Link
+                to="/PrivacyPolicy"
+                className="text-blue-300 hover:text-white text-sm transition-all duration-300"
+              >
+                Privacy Policy
+              </Link>
 
-        <span className="text-blue-700 hidden sm:block">•</span>
+              <span className="text-blue-700 hidden sm:block">•</span>
 
-        <Link
-          to="/TermsConditions"
-          className="text-blue-300 hover:text-white text-sm transition-all duration-300"
-        >
-          Terms & Conditions
-        </Link>
-      </div>
-    </div>
+              <Link
+                to="/TermsConditions"
+                className="text-blue-300 hover:text-white text-sm transition-all duration-300"
+              >
+                Terms & Conditions
+              </Link>
+            </div>
+          </div>
 
-    {/* Bottom Copyright */}
-    <div className="mt-5 pt-4 border-t border-blue-900 text-center lg:text-left">
-      <p className="text-blue-400 text-xs sm:text-sm leading-relaxed">
-        © 2026 IIOFT. All Rights Reserved.
-      </p>
-    </div>
-  </div>
-</footer>
-
+          {/* Bottom Copyright */}
+          <div className="mt-5 pt-4 border-t border-blue-900 text-center lg:text-left">
+            <p className="text-blue-400 text-xs sm:text-sm leading-relaxed">
+              © 2026 IIOFT. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

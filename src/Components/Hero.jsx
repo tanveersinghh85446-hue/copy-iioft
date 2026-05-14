@@ -1309,7 +1309,6 @@ export default function Hero() {
             </div>
           </div>
 
-
           <div className="w-full lg:w-56 lg:shrink-0">
             <img
               src="/Map-364w.avif"
