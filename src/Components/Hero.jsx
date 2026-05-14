@@ -1199,10 +1199,19 @@ export default function Hero() {
       <div className="bg-blue-600 text-white px-6 md:px-12 lg:px-32 py-12">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
           <div className="w-full lg:max-w-55 lg:shrink-0">
-            <img
+            {/* <img
               className="max-h-12 w-auto object-contain mb-4"
               src="Logo.WebP"
               alt="Logo"
+            /> */}
+            <img
+              className="max-h-12 w-auto object-contain mb-4"
+              src="/Logo-175w.webp"
+              srcSet="/Logo-175w.webp 175w, /Logo-350w.webp 350w"
+              sizes="175px"
+              alt="Logo"
+              loading="lazy"
+              decoding="async"
             />
             <p className="text-sm text-white leading-relaxed">
               International Institute of Futuristic Technology (IIOFT) prepares
@@ -1300,11 +1309,24 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="w-full lg:w-56 lg:shrink-0">
+          {/* <div className="w-full lg:w-56 lg:shrink-0">
             <img
               src="Map.AVIF"
               alt="Global Presence Map"
               onClick={() => setShowMap(true)}
+              className="w-full lg:w-56 h-auto rounded-xl shadow-lg opacity-90 hover:opacity-100 transition duration-300 cursor-pointer"
+            />
+          </div> */}
+
+          <div className="w-full lg:w-56 lg:shrink-0">
+            <img
+              src="/Map-364w.avif"
+              srcSet="/Map-364w.avif 364w, /Map-728w.avif 728w"
+              sizes="(min-width: 1024px) 224px, 364px"
+              alt="Global Presence Map"
+              onClick={() => setShowMap(true)}
+              loading="lazy"
+              decoding="async"
               className="w-full lg:w-56 h-auto rounded-xl shadow-lg opacity-90 hover:opacity-100 transition duration-300 cursor-pointer"
             />
           </div>
