@@ -201,7 +201,7 @@
     "fullDescription": "This 3-month Desktop Publishing course covers everything from layout design and typography to print-ready file preparation. You'll work with Adobe InDesign, CorelDRAW, and Photoshop to design brochures, banners, books, and print media — and learn to deliver professional print projects.",
     "duration": "3 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "DTP.AVIF",
     "features": [
       "Adobe InDesign / PageMaker for Layout",
@@ -286,7 +286,7 @@
     "fullDescription": "This comprehensive full-stack web development course takes you from complete beginner to building and deploying real-world web applications. You'll master frontend (HTML, CSS, JavaScript, React) and backend (Node.js, Express, MongoDB/MySQL) technologies, plus deployment, testing, and security best practices.",
     "duration": "8-12 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "FSWD.AVIF",
     "features": [
       "HTML5, CSS3, JavaScript & React.js",
@@ -494,7 +494,7 @@
     "fullDescription": "This Data Analytics course teaches you to collect, clean, analyze, and visualize data using Excel, SQL, Python, Power BI, and Tableau. You'll work on real datasets and build dashboards that drive business decisions — from sales analysis to customer churn.",
     "duration": "6-8 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "DA.AVIF",
     "features": [
       "Excel for Data Analysis",
@@ -547,7 +547,7 @@
     "fullDescription": "This Ethical Hacking course covers the complete hacking lifecycle — from reconnaissance and scanning to exploitation, web application attacks, wireless hacking, and cryptography. You'll work with industry tools like Kali Linux, Metasploit, Burp Suite, and Wireshark.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "EH.AVIF",
     "features": [
       "Kali Linux & Penetration Testing",
@@ -604,7 +604,7 @@
     "fullDescription": "This Digital Marketing course covers all major digital channels — SEO, social media marketing, PPC advertising, email campaigns, content marketing, and Google Analytics. You'll run live campaigns and build measurable marketing skills that businesses need.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "DM.AVIF",
     "features": [
       "SEO — On-page, Off-page & Technical",
@@ -763,7 +763,7 @@
     "fullDescription": "This HR Management Diploma covers end-to-end HR operations — from HRIS platforms like SAP SuccessFactors and Workday to recruitment pipelines, payroll processing, HR analytics, and strategic workforce planning.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "soft skill's",
     "image": "HRMD.AVIF",
     "features": [
       "SAP SuccessFactors & Workday Basics",
@@ -1151,7 +1151,7 @@
     "fullDescription": "This Microsoft Office course covers all major applications in the Office suite — from advanced Word document formatting and Excel dashboards to PowerPoint presentations, Outlook email management, and Teams collaboration. Includes MOS exam preparation.",
     "duration": "2-3 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "MO.AVIF",
     "features": [
       "Microsoft Word — Advanced Formatting & Mail Merge",
@@ -1322,69 +1322,7 @@
     "metaTitle": "2D & 3D Animation Course | Adobe Animate & Blender | 6 Months",
     "metaDescription": "Master both 2D and 3D animation in one 6-month course. Learn Adobe Animate for 2D and Blender for 3D modeling, rigging & rendering. Build a professional animation showreel."
   },
-  {
-    "id": "AEF",
-    "slug": "adobe-after-effects-vfx-motion-graphics",
-    "title": "Adobe After Effects (VFX & Motion Graphics)",
-    "shortDescription": "Learn VFX, motion graphics, green screen compositing, and cinematic effects in 3–4 months.",
-    "fullDescription": "This Adobe After Effects course covers motion graphics, kinetic typography, green screen VFX, motion tracking, compositing, color grading, and advanced expressions. Build a professional showreel with YouTube intros, Instagram reels, and promotional VFX content.",
-    "duration": "2–4 Months",
-    "price": "Contact for Pricing",
-    "category": "advance",
-    "image": "AAE.AVIF",
-    "features": [
-      "Motion Graphics & Kinetic Typography",
-      "Green Screen & Chroma Key VFX",
-      "Motion Tracking & Rotoscoping",
-      "Cinematic Color Grading & LUTs",
-      "Expressions & Animation Automation",
-      "3D Space & Camera Movement in AE"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Introduction to After Effects",
-        "topics": ["Workspace & Composition", "Keyframe Animation Basics"]
-      },
-      {
-        "module": 2,
-        "title": "Motion Graphics & Text",
-        "topics": ["Animated Titles", "Kinetic Typography", "Easing"]
-      },
-      {
-        "module": 3,
-        "title": "VFX Basics",
-        "topics": ["Green Screen", "Masking & Rotoscoping", "Motion Tracking"]
-      },
-      {
-        "module": 4,
-        "title": "Advanced Effects & Compositing",
-        "topics": ["Layer Integration", "Glows & Cinematic Transitions"]
-      },
-      {
-        "module": 5,
-        "title": "Color & Lighting",
-        "topics": ["Exposure & Contrast", "LUTs & Cinematic Tones"]
-      },
-      {
-        "module": 6,
-        "title": "Advanced Animation",
-        "topics": ["Expressions", "3D Camera Movement"]
-      },
-      {
-        "module": 7,
-        "title": "Real Projects",
-        "topics": ["YouTube Intro", "Instagram Reel Effects", "Promo Video"]
-      },
-      {
-        "module": 8,
-        "title": "Career Preparation",
-        "topics": ["Freelancing", "Premiere Pro Pipeline"]
-      }
-    ],
-    "metaTitle": "Adobe After Effects Course | VFX, Motion Graphics & Cinematic Effects",
-    "metaDescription": "Learn Adobe After Effects for VFX, motion graphics & cinematic effects. Master green screen, motion tracking, color grading & expressions. Build a professional showreel in 3–4 months."
-  },
+
   {
     "id": "FILMORA",
     "slug": "filmora-video-editing",
@@ -1448,69 +1386,7 @@
     "metaTitle": "Filmora Video Editing Course | YouTube, Reels & Social Media Editing",
     "metaDescription": "Learn video editing with Filmora in 2 months. Edit YouTube videos, Instagram Reels & promotional content. Covers audio editing, color correction & export optimization."
   },
-  {
-    "id": "PPRO",
-    "slug": "adobe-premiere-pro-video-editing",
-    "title": "Adobe Premiere Pro Video Editing",
-    "shortDescription": "Professional video editing course covering Premiere Pro for YouTube, social media, and corporate videos.",
-    "fullDescription": "This 3-month Adobe Premiere Pro course covers the complete video editing workflow — from importing and cutting to audio editing, color grading, motion effects, multi-camera editing, and export for all platforms. Build a professional editing showreel.",
-    "duration": "2 Months",
-    "price": "Contact for Pricing",
-    "category": "advance",
-    "image": "APP.AVIF",
-    "features": [
-      "Professional Cutting & Sequence Editing",
-      "Audio Editing & Sound Design",
-      "Color Correction & Cinematic Grading",
-      "Titles, Captions & Motion Effects",
-      "Multi-Camera Editing & Time Remapping",
-      "Export for YouTube, Instagram & Corporate Use"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Introduction & Interface",
-        "topics": ["Workspace, Sequence Settings, Media Import"]
-      },
-      {
-        "module": 2,
-        "title": "Basic Editing",
-        "topics": ["Cutting, Ripple Edit, Transitions"]
-      },
-      {
-        "module": 3,
-        "title": "Audio Editing",
-        "topics": ["Levels, Music Sync, Voice-Over"]
-      },
-      {
-        "module": 4,
-        "title": "Color Grading",
-        "topics": ["Cinematic Looks, LUTs, Color Matching"]
-      },
-      {
-        "module": 5,
-        "title": "Titles & Effects",
-        "topics": ["Animated Titles", "Keyframe Animation"]
-      },
-      {
-        "module": 6,
-        "title": "Advanced Editing",
-        "topics": ["Multi-Camera", "Speed Ramp", "Shortcuts"]
-      },
-      {
-        "module": 7,
-        "title": "Real Projects",
-        "topics": ["YouTube, Reels, Corporate Videos"]
-      },
-      {
-        "module": 8,
-        "title": "Career Preparation",
-        "topics": ["Freelancing", "Intro to After Effects"]
-      }
-    ],
-    "metaTitle": "Adobe Premiere Pro Video Editing Course | 3-Month Professional Training",
-    "metaDescription": "Learn Adobe Premiere Pro for professional video editing. Covers color grading, audio editing, multi-camera editing & export for YouTube, Instagram & corporate videos."
-  },
+
   {
     "id": "MAYA",
     "slug": "maya-3d-animation",
@@ -1638,6 +1514,69 @@
     "metaDescription": "Master UI/UX design with Figma. Learn UX research, wireframing, design systems, interactive prototyping & accessibility. Build a professional portfolio in 4 months."
   },
   {
+    "id": "PPRO",
+    "slug": "adobe-premiere-pro-video-editing",
+    "title": "Adobe Premiere Pro Video Editing",
+    "shortDescription": "Professional video editing course covering Premiere Pro for YouTube, social media, and corporate videos.",
+    "fullDescription": "This 3-month Adobe Premiere Pro course covers the complete video editing workflow — from importing and cutting to audio editing, color grading, motion effects, multi-camera editing, and export for all platforms. Build a professional editing showreel.",
+    "duration": "2 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "APP.AVIF",
+    "features": [
+      "Professional Cutting & Sequence Editing",
+      "Audio Editing & Sound Design",
+      "Color Correction & Cinematic Grading",
+      "Titles, Captions & Motion Effects",
+      "Multi-Camera Editing & Time Remapping",
+      "Export for YouTube, Instagram & Corporate Use"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction & Interface",
+        "topics": ["Workspace, Sequence Settings, Media Import"]
+      },
+      {
+        "module": 2,
+        "title": "Basic Editing",
+        "topics": ["Cutting, Ripple Edit, Transitions"]
+      },
+      {
+        "module": 3,
+        "title": "Audio Editing",
+        "topics": ["Levels, Music Sync, Voice-Over"]
+      },
+      {
+        "module": 4,
+        "title": "Color Grading",
+        "topics": ["Cinematic Looks, LUTs, Color Matching"]
+      },
+      {
+        "module": 5,
+        "title": "Titles & Effects",
+        "topics": ["Animated Titles", "Keyframe Animation"]
+      },
+      {
+        "module": 6,
+        "title": "Advanced Editing",
+        "topics": ["Multi-Camera", "Speed Ramp", "Shortcuts"]
+      },
+      {
+        "module": 7,
+        "title": "Real Projects",
+        "topics": ["YouTube, Reels, Corporate Videos"]
+      },
+      {
+        "module": 8,
+        "title": "Career Preparation",
+        "topics": ["Freelancing", "Intro to After Effects"]
+      }
+    ],
+    "metaTitle": "Adobe Premiere Pro Video Editing Course | 3-Month Professional Training",
+    "metaDescription": "Learn Adobe Premiere Pro for professional video editing. Covers color grading, audio editing, multi-camera editing & export for YouTube, Instagram & corporate videos."
+  },
+  {
     "id": "BA",
     "slug": "business-analyst",
     "title": "Business Analyst",
@@ -1708,7 +1647,7 @@
     "fullDescription": "This Personality Development course covers self-awareness, communication skills, public speaking, emotional intelligence, leadership, professional etiquette, and goal-setting frameworks. Perfect for students and professionals who want to grow personally and professionally.",
     "duration": "1 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "soft skill's",
     "image": "PD.AVIF",
     "features": [
       "Communication & Active Listening Skills",
@@ -1758,6 +1697,190 @@
     "metaTitle": "Personality Development Course | Communication, Confidence & Leadership",
     "metaDescription": "Develop communication skills, public speaking confidence, emotional intelligence & leadership. Corporate etiquette, resume building & mock interviews included."
   },
+
+  {
+    "id": "advanced-excel-finance",
+    "slug": "microsoft-excel-advanced-for-finance",
+    "title": "Microsoft Excel (Advanced For Finance)",
+    "shortDescription": "Master advanced Excel techniques for finance including pivot tables, financial functions, data analysis, and automation tools.",
+    "fullDescription": "This comprehensive Advanced Excel for Finance course covers everything from fundamental Excel operations to advanced financial modeling, data analysis, and automation. Learn to create professional financial reports, build complex models, and automate workflows using Excel's powerful features including Pivot Tables, Advanced Functions, What-if Analysis, and VBA Macros.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "EAFF.AVIF",
+    "features": [
+      "Excel Interface & Navigation Mastery",
+      "Advanced Financial Functions & Formulas",
+      "Pivot Tables & Dynamic Reporting",
+      "Data Analysis & Visualization Tools",
+      "Financial Modeling & Scenario Analysis",
+      "VBA & Macros for Automation",
+      "Professional Dashboard Creation"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Excel Fundamentals for Finance",
+        "topics": [
+          "Excel Interface and Navigation",
+          "Workbook and Worksheet Management",
+          "Data Entry and Formatting",
+          "Cell Referencing (Relative, Absolute, Mixed)",
+          "Basic Mathematical Functions"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Essential Financial Functions",
+        "topics": [
+          "SUM, AVERAGE, COUNT Functions",
+          "IF and Nested IF Functions",
+          "VLOOKUP and HLOOKUP",
+          "XLOOKUP Introduction",
+          "Financial Functions (PMT, NPV, IRR)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Data Analysis Tools",
+        "topics": [
+          "Sorting and Filtering Data",
+          "Conditional Formatting",
+          "Data Validation",
+          "Text Functions (LEFT, RIGHT, MID, LEN)",
+          "Date and Time Functions"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Pivot Tables and Pivot Charts",
+        "topics": [
+          "Creating Pivot Tables",
+          "Pivot Table Calculations",
+          "Data Summarization Techniques",
+          "Financial Data Analysis",
+          "Pivot Charts"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Advanced Excel Tools",
+        "topics": [
+          "Advanced Lookup Functions",
+          "INDEX and MATCH Functions",
+          "What-if Analysis",
+          "Scenario Manager",
+          "Goal Seek"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Automation & Financial Reporting",
+        "topics": [
+          "Introduction to Excel Macros",
+          "Recording and Editing Macros",
+          "Financial Dashboards",
+          "MIS Reporting in Excel",
+          "Data Visualization with Charts"
+        ]
+      }
+    ],
+    "metaTitle": "Advanced Excel for Finance Course | Financial Modeling & Data Analysis",
+    "metaDescription": "Master Advanced Excel for Finance with Pivot Tables, Financial Functions, Data Analysis, and Automation. Learn financial modeling, reporting, and dashboard creation in 2-3 months."
+  },
+
+  {
+    "id": "tally-prime-gst",
+    "slug": "advance-diploma-finance-accounting-tally-gst",
+    "title": "Advance Diploma in Finance and Accounting - Tally Prime + GST",
+    "shortDescription": "Comprehensive Tally Prime course with GST covering accounting fundamentals, voucher entries, GST compliance, inventory management, and financial reporting.",
+    "fullDescription": "This Advanced Diploma in Finance and Accounting with Tally Prime + GST is designed for aspiring accountants and finance professionals. Master complete accounting workflows from company creation to financial reporting, GST registration and compliance, inventory management, and MIS reporting. Get certified training on India's most trusted accounting software.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "ADTP.AVIF",
+    "features": [
+      "Tally Prime Interface & Company Setup",
+      "Complete Voucher Entry System",
+      "GST Registration & Compliance",
+      "Inventory & Stock Management",
+      "Financial Reports & MIS Analysis",
+      "ISO Certified Training",
+      "NSDC Skill Development Certification"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Accounting & Tally",
+        "topics": [
+          "Fundamentals of Accounting",
+          "Accounting Concepts & Principles",
+          "Introduction to Tally Prime Interface",
+          "Company Creation in Tally",
+          "Ledger and Group Creation"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Accounting Transactions",
+        "topics": [
+          "Voucher Types in Tally",
+          "Payment Voucher",
+          "Receipt Voucher",
+          "Contra Voucher",
+          "Journal Voucher",
+          "Purchase and Sales Entries"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "GST Concepts",
+        "topics": [
+          "Introduction to Goods and Services Tax",
+          "GST Registration Process",
+          "GST Structure (CGST, SGST, IGST)",
+          "GST Configuration in Tally",
+          "GST Ledger Creation"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "GST Transactions in Tally",
+        "topics": [
+          "GST Purchase Entries",
+          "GST Sales Entries",
+          "Input Tax Credit (ITC)",
+          "GST Invoicing",
+          "GST Reports"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Inventory Management",
+        "topics": [
+          "Stock Groups and Stock Items",
+          "Units of Measurement",
+          "Godown Management",
+          "Purchase Orders",
+          "Sales Orders"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Financial Reports",
+        "topics": [
+          "Trial Balance",
+          "Profit and Loss Statement",
+          "Balance Sheet",
+          "GST Reports",
+          "MIS and Financial Analysis"
+        ]
+      }
+    ],
+    "metaTitle": "Tally Prime + GST Course | Advanced Diploma in Finance & Accounting",
+    "metaDescription": "Master Tally Prime with GST compliance. Learn accounting, voucher entries, GST registration, inventory management, and financial reporting. ISO & NSDC certified training in 2-3 months."
+  },
+
   {
     "id": "se",
     "slug": "spoken-english",
@@ -1766,7 +1889,7 @@
     "fullDescription": "This Spoken English course takes you from grammar basics to confident everyday and business English conversations. You'll practice pronunciation, fluency techniques, idioms, formal vocabulary, and real-world scenarios like interviews and presentations.",
     "duration": "3 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "soft skill's",
     "image": "SE.AVIF",
     "features": [
       "Grammar — Tenses, Modals & Sentence Structure",
@@ -2015,6 +2138,69 @@
     "metaDescription": "Complete diploma in finance & accounting covering financial statements, GST, corporate accounting, Tally Prime & Excel financial modeling. Job-ready in 9–12 months."
   },
   {
+    "id": "AEF",
+    "slug": "adobe-after-effects-vfx-motion-graphics",
+    "title": "Adobe After Effects (VFX & Motion Graphics)",
+    "shortDescription": "Learn VFX, motion graphics, green screen compositing, and cinematic effects in 3–4 months.",
+    "fullDescription": "This Adobe After Effects course covers motion graphics, kinetic typography, green screen VFX, motion tracking, compositing, color grading, and advanced expressions. Build a professional showreel with YouTube intros, Instagram reels, and promotional VFX content.",
+    "duration": "2–4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "AAE.AVIF",
+    "features": [
+      "Motion Graphics & Kinetic Typography",
+      "Green Screen & Chroma Key VFX",
+      "Motion Tracking & Rotoscoping",
+      "Cinematic Color Grading & LUTs",
+      "Expressions & Animation Automation",
+      "3D Space & Camera Movement in AE"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to After Effects",
+        "topics": ["Workspace & Composition", "Keyframe Animation Basics"]
+      },
+      {
+        "module": 2,
+        "title": "Motion Graphics & Text",
+        "topics": ["Animated Titles", "Kinetic Typography", "Easing"]
+      },
+      {
+        "module": 3,
+        "title": "VFX Basics",
+        "topics": ["Green Screen", "Masking & Rotoscoping", "Motion Tracking"]
+      },
+      {
+        "module": 4,
+        "title": "Advanced Effects & Compositing",
+        "topics": ["Layer Integration", "Glows & Cinematic Transitions"]
+      },
+      {
+        "module": 5,
+        "title": "Color & Lighting",
+        "topics": ["Exposure & Contrast", "LUTs & Cinematic Tones"]
+      },
+      {
+        "module": 6,
+        "title": "Advanced Animation",
+        "topics": ["Expressions", "3D Camera Movement"]
+      },
+      {
+        "module": 7,
+        "title": "Real Projects",
+        "topics": ["YouTube Intro", "Instagram Reel Effects", "Promo Video"]
+      },
+      {
+        "module": 8,
+        "title": "Career Preparation",
+        "topics": ["Freelancing", "Premiere Pro Pipeline"]
+      }
+    ],
+    "metaTitle": "Adobe After Effects Course | VFX, Motion Graphics & Cinematic Effects",
+    "metaDescription": "Learn Adobe After Effects for VFX, motion graphics & cinematic effects. Master green screen, motion tracking, color grading & expressions. Build a professional showreel in 3–4 months."
+  },
+  {
     "id": "aml",
     "slug": "anti-money-laundering",
     "title": "Anti-Money Laundering (AML) Certification",
@@ -2022,7 +2208,7 @@
     "fullDescription": "This AML Certification course covers money laundering stages, Indian regulatory framework (PMLA, FIU-IND, RBI Guidelines), KYC/CDD processes, suspicious transaction identification, STR/CTR reporting, investigation procedures, and the role of AI in AML compliance.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "ALMC.AVIF",
     "features": [
       "Money Laundering Stages & Financial Crimes",
@@ -2249,7 +2435,7 @@
     "fullDescription": "This SAP FICO course covers the complete financial accounting and controlling modules — chart of accounts, vendor/customer management, asset accounting, cost center allocation, profitability analysis, financial reporting, and integration with MM, SD, and PP modules.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "SAPFICO.AVIF",
     "features": [
       "SAP FI — Chart of Accounts & GL Posting",
@@ -2496,7 +2682,7 @@
     "fullDescription": "This SAP HCM course covers organizational management, personnel administration, time management, payroll processing, recruitment, performance management, and HR analytics — with integration to FI and other SAP modules.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "soft skill's",
     "image": "SAPHCM.AVIF",
     "features": [
       "Organizational Structure & Position Management",
@@ -2618,5 +2804,96 @@
     ],
     "metaTitle": "Blender 3D Animation Course | Modeling, Rigging & Rendering | 4–6 Months",
     "metaDescription": "Learn Blender 3D animation from scratch. Covers modeling, UV mapping, rigging, walk cycles, Eevee & Cycles rendering. Build a professional 3D animation showreel."
-  }
+  },
+  {
+  "id": "sap-fico",
+  "slug": "advance-diploma-sap-fico-financial-accounting-controlling",
+  "title": "SAP FICO (Financial Accounting & Controlling)",
+  "shortDescription": "Advanced SAP FICO course covering Financial Accounting (FI), Controlling (CO), integration, reporting, and real-world ERP implementation.",
+  "fullDescription": "Master SAP FICO - the most in-demand ERP skill for finance professionals. This comprehensive course covers SAP Financial Accounting (FI) and Controlling (CO) modules, from basic navigation to advanced integration, cost allocation, budgeting, and financial reporting. Learn through industry-based real projects with certified trainers and get 100% placement assistance.",
+  "duration": "3-4 Months",
+  "price": "Contact for Pricing",
+  "category": "trending course",
+  "image": "sap-fico.avif",
+  "features": [
+    "Advanced Curriculum with Real Projects",
+    "Certified Trainers with Industry Experience",
+    "Complete FI and CO Module Coverage",
+    "Hands-on SAP System Access",
+    "Industry Based Real Projects",
+    "100% Placement Assistance",
+    "ISO Certified Training",
+    "NSDC Skill Development Certification"
+  ],
+  "syllabus": [
+    {
+      "module": 1,
+      "title": "Introduction to SAP & ERP",
+      "topics": [
+        "Overview of ERP Systems",
+        "Introduction to SAP Architecture",
+        "SAP GUI Navigation",
+        "Enterprise Structure in SAP",
+        "Client, Company, and Company Code"
+      ]
+    },
+    {
+      "module": 2,
+      "title": "SAP Financial Accounting (FI)",
+      "topics": [
+        "General Ledger Accounting",
+        "Accounts Payable (AP)",
+        "Accounts Receivable (AR)",
+        "Bank Accounting",
+        "Asset Accounting"
+      ]
+    },
+    {
+      "module": 3,
+      "title": "FI Configuration",
+      "topics": [
+        "Company Code Configuration",
+        "Chart of Accounts",
+        "Fiscal Year Variant",
+        "Posting Period Variant",
+        "Document Types and Number Ranges"
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Controlling (CO) Basics",
+      "topics": [
+        "Introduction to SAP Controlling",
+        "Cost Element Accounting",
+        "Cost Center Accounting",
+        "Internal Orders",
+        "Profit Center Accounting"
+      ]
+    },
+    {
+      "module": 5,
+      "title": "Integration of FI and CO",
+      "topics": [
+        "FI and CO Integration Concepts",
+        "Cost Allocation Methods",
+        "Activity Based Costing",
+        "Budgeting and Planning",
+        "Profitability Analysis"
+      ]
+    },
+    {
+      "module": 6,
+      "title": "Reporting & Financial Closing",
+      "topics": [
+        "SAP Financial Reports",
+        "Balance Sheet & P&L Reports",
+        "Cost Center Reports",
+        "SAP MIS Reports",
+        "Financial Closing Process"
+      ]
+    }
+  ],
+  "metaTitle": "SAP FICO Course | Financial Accounting & Controlling Training with Placement",
+  "metaDescription": "Master SAP FICO with hands-on training in Financial Accounting (FI) and Controlling (CO). Learn ERP, cost accounting, reporting, and get 100% placement assistance. ISO & NSDC certified course in 3-4 months."
+}
 ]

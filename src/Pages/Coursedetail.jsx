@@ -70,12 +70,12 @@ export default function CourseDetail() {
 
       <div className="max-w-3xl mx-auto px-5 py-10 bg-white text-gray-900 font-sans text-[15px] leading-relaxed">
 
-        {/* Back Link */}
+        {/* Back to all course  Link */}
         <Link
           to="/courses"
-          className="text-blue-600 text-sm font-semibold hover:underline mb-6 inline-block"
+          className="text-black hover:bg-amber-300 h-10 rounded-2xl  border-2 w-45 text-sm font-semibold mb-6 inline-block"
         >
-          ← Back to All Courses
+          <h2 className="mt-2  px-4 font-bold hover:text-white">← Back to All Courses</h2>
         </Link>
 
         {/* Header */}

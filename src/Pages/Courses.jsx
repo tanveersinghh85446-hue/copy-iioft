@@ -2,6 +2,27 @@ import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import coursesData from "../data/courses.json";
 
+// const categoryColors = {
+//   master: {
+//     bg: "bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600",
+//     badge: "bg-blue-700/70",
+//     accent: "text-blue-600",
+//     border: "border-blue-200",
+//     btnBorder: "border-blue-600",
+//     btnHover: "hover:bg-blue-600",
+//     tabActive: "bg-gradient-to-r from-blue-700 to-blue-600",
+//   },
+//   advance: {
+//     bg: "bg-gradient-to-br from-indigo-950 via-indigo-800 to-indigo-600",
+//     badge: "bg-indigo-700/70",
+//     accent: "text-indigo-600",
+//     border: "border-indigo-200",
+//     btnBorder: "border-indigo-600",
+//     btnHover: "hover:bg-indigo-600",
+//     tabActive: "bg-gradient-to-r from-indigo-700 to-indigo-600",
+//   },
+// };
+
 const categoryColors = {
   master: {
     bg: "bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600",
@@ -12,6 +33,27 @@ const categoryColors = {
     btnHover: "hover:bg-blue-600",
     tabActive: "bg-gradient-to-r from-blue-700 to-blue-600",
   },
+
+  "soft skill's": {
+    bg: "bg-gradient-to-br from-green-900 via-green-800 to-green-600",
+    badge: "bg-green-700/70",
+    accent: "text-green-600",
+    border: "border-green-200",
+    btnBorder: "border-green-600",
+    btnHover: "hover:bg-green-600",
+    tabActive: "bg-gradient-to-r from-green-700 to-green-600",
+  },
+
+  "tranding course": {
+    bg: "bg-gradient-to-br from-yellow-700 via-yellow-600 to-orange-500",
+    badge: "bg-yellow-600/70",
+    accent: "text-yellow-600",
+    border: "border-yellow-200",
+    btnBorder: "border-yellow-600",
+    btnHover: "hover:bg-yellow-600",
+    tabActive: "bg-gradient-to-r from-yellow-600 to-orange-500",
+  },
+
   advance: {
     bg: "bg-gradient-to-br from-indigo-950 via-indigo-800 to-indigo-600",
     badge: "bg-indigo-700/70",
@@ -145,46 +187,22 @@ export default function Courses() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* ── HERO ── */}
-      <div className="bg-linear-to-br from-slate-900 via-blue-900 to-indigo-900 text-white py-16 px-4 text-center">
-        <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-3">
-          Explore Our Courses
+      <div className="bg-linear-to-br from-slate-900 via-blue-900 to-indigo-900 text-white py-12 md:py-16 px-4 text-center">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight mb-3">
+          Explore <span className="text-amber-400">IIOFT</span> Our Courses
         </h1>
-        <p className="text-white/60 text-sm md:text-base max-w-xl mx-auto">
+        <p className="text-white/60 text-xs sm:text-sm md:text-base max-w-xl mx-auto px-4">
           Industry-ready programs in tech, design, finance, animation, and more.
         </p>
       </div>
 
       {/* ── TABS + SEARCH ── */}
       <div className="sticky top-0 z-30 bg-white border-b border-slate-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
-          {/* Tabs */}
-          <div className="flex rounded-xl overflow-hidden border border-slate-200 shrink-0">
-            <button
-              onClick={() => handleTab("master")}
-              className={`px-5 py-2.5 text-sm font-semibold cursor-pointer border-0 transition-all duration-150 ${
-                activeTab === "master"
-                  ? "bg-linear-to-r from-blue-700 to-blue-600 text-white"
-                  : "bg-white text-slate-600 hover:bg-slate-50"
-              }`}
-            >
-              Master Diploma
-            </button>
-            <button
-              onClick={() => handleTab("advance")}
-              className={`px-5 py-2.5 text-sm font-semibold cursor-pointer border-0 border-l border-slate-200 transition-all duration-150 ${
-                activeTab === "advance"
-                  ? "bg-linear-to-r from-indigo-700 to-indigo-600 text-white"
-                  : "bg-white text-slate-600 hover:bg-slate-50"
-              }`}
-            >
-              Advance Professional
-            </button>
-          </div>
-
-          {/* Search */}
-          <div className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2 w-full sm:w-64">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-3 flex flex-col gap-3">
+          {/* Search - Full Width on Mobile */}
+          <div className="flex items-center gap-2 bg-slate-50 border border-black rounded-xl px-3.5 py-2 w-100">
             <svg
-              className="w-4 h-4 text-slate-400 shrink-0"
+              className="w-4 h-4 text-black shrink-0"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -200,12 +218,12 @@ export default function Courses() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search courses..."
-              className="bg-transparent border-0 outline-none text-sm text-black w-full placeholder-slate-400"
+              className="border-0 outline-none text-sm text-black w-full placeholder-black"
             />
             {search && (
               <button
                 onClick={() => setSearch("")}
-                className="bg-transparent border-0 cursor-pointer text-slate-400"
+                className="bg-transparent border-0 cursor-pointer text-black"
               >
                 <svg
                   className="w-3.5 h-3.5"
@@ -223,23 +241,94 @@ export default function Courses() {
               </button>
             )}
           </div>
+
+          {/* Course Tabs - Responsive Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 w-full border-2 border-black rounded-xl overflow-hidden p-2">
+            <button
+              onClick={() => handleTab("master")}
+              className={`px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-semibold cursor-pointer border-0 rounded-lg transition-all duration-150 ${
+                activeTab === "master"
+                  ? "bg-linear-to-r from-blue-700 to-blue-600 text-white"
+                  : "bg-white text-black hover:bg-slate-50"
+              }`}
+            >
+              <h2 className="flex flex-col sm:flex-row gap-1 sm:gap-2 md:gap-4 text-sm sm:text-base md:text-xl font-semibold items-center justify-center">
+                <span className="text-xs sm:text-sm md:text-base">
+                  Master Diploma
+                </span>
+                <span className="text-base sm:text-lg md:text-xl">🎓</span>
+              </h2>
+            </button>
+
+            <button
+              onClick={() => handleTab("soft skill's")}
+              className={`px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-semibold cursor-pointer border-0 rounded-lg transition-all duration-150 ${
+                activeTab === "soft skill's"
+                  ? "bg-linear-to-r from-green-600 to-green-600 text-white"
+                  : "bg-white text-black hover:bg-slate-50"
+              }`}
+            >
+              <h2 className="flex flex-col sm:flex-row gap-1 sm:gap-2 md:gap-4 text-sm sm:text-base md:text-xl font-semibold items-center justify-center">
+                <span className="text-xs sm:text-sm md:text-base">
+                  Soft Skill's
+                </span>
+                <span className="text-base sm:text-lg md:text-xl">📚</span>
+              </h2>
+            </button>
+
+            <button
+              onClick={() => handleTab("tranding course")}
+              className={`px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-semibold cursor-pointer border-0 rounded-lg transition-all duration-150 ${
+                activeTab === "tranding course"
+                  ? "bg-linear-to-r from-yellow-500 to-yellow-500 text-white"
+                  : "bg-white text-black hover:bg-slate-50"
+              }`}
+            >
+              <h2 className="flex flex-col sm:flex-row gap-1 sm:gap-2 md:gap-4 text-sm sm:text-base md:text-xl font-semibold items-center justify-center">
+                <span className="text-xs sm:text-sm md:text-base">
+                  Tranding Course
+                </span>
+                <span className="text-base sm:text-lg md:text-xl">🚀</span>
+              </h2>
+            </button>
+
+            <button
+              onClick={() => handleTab("advance")}
+              className={`px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-semibold cursor-pointer border-0 rounded-lg transition-all duration-150 ${
+                activeTab === "advance"
+                  ? "bg-linear-to-r from-indigo-700 to-indigo-600 text-white"
+                  : "bg-white text-black hover:bg-slate-50"
+              }`}
+            >
+              <h2 className="flex flex-col sm:flex-row gap-1 sm:gap-2 md:gap-4 text-sm sm:text-base md:text-xl font-semibold items-center justify-center">
+                <span className="text-xs sm:text-sm md:text-base">
+                  Advance Professional
+                </span>
+                <span className="text-base sm:text-lg md:text-xl">⭐</span>
+              </h2>
+            </button>
+          </div>
         </div>
       </div>
 
       {/* ── COURSE GRID ── */}
-      <main className="max-w-7xl mx-auto w-full px-4 sm:px-6 py-10">
+      <main className="max-w-7xl mx-auto w-full px-3 sm:px-4 md:px-6 py-6 md:py-10">
         {/* Section heading */}
-        <div className="mb-6 flex items-center gap-3">
+        <div className="mb-6 flex items-center gap-2 md:gap-3 flex-wrap">
           <span
-            className={`w-1 h-6 rounded-sm ${activeTab === "master" ? "bg-blue-600" : "bg-indigo-600"}`}
+            className={`w-1 h-5 md:h-6 rounded-sm ${activeTab === "master" ? "bg-blue-600" : "bg-indigo-600"}`}
           />
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-slate-700">
+          <h2 className="text-sm sm:text-base md:text-xl font-extrabold uppercase tracking-wider md:tracking-widest text-slate-700">
             {activeTab === "master"
               ? "Master Diploma Courses"
-              : "Advance Professional Specialization"}
+              : activeTab === "soft skill's"
+                ? "Soft Skills Courses"
+                : activeTab === "tranding course"
+                  ? "Trending Courses"
+                  : "Advance Professional Specialization"}
           </h2>
-          <span className="text-xs text-slate-400 font-medium">
-            ({filtered.length} courses)
+          <span className="text-base sm:text-lg md:text-xl text-slate-400 font-medium">
+            ({filtered.length})
           </span>
         </div>
 
@@ -248,12 +337,7 @@ export default function Courses() {
             No courses found for "{search}"
           </div>
         ) : (
-          <div
-            className="grid gap-6"
-            style={{
-              gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            }}
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
             {filtered.map((course) => (
               <CourseCard key={course.id} course={course} />
             ))}
