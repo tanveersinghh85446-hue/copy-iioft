@@ -8,7 +8,9 @@ import coursesData from "../data/courses.json";
 function NotFound() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4 text-center px-4">
-      <div className="text-5xl"><TbMoodEmpty/></div>
+      <div className="text-5xl">
+        <TbMoodEmpty />
+      </div>
       <h1 className="text-2xl font-bold text-gray-800">Course Not Found</h1>
       <p className="text-gray-500 text-sm max-w-xs">
         The course you're looking for doesn't exist or may have been moved.
@@ -17,7 +19,7 @@ function NotFound() {
         to="/courses"
         className="mt-2 text-blue-600 border-black font-semibold text-sm hover:underline"
       >
-         Back to Courses
+        Back to Courses
       </Link>
     </div>
   );
@@ -49,8 +51,8 @@ export default function CourseDetail() {
   const course = coursesData.find((c) => c.slug === slug);
   if (!course) return <NotFound />;
 
-  const imgSrc = `/${course.image.split("/").pop()}`;
-
+  // const imgSrc = `/${course.image.split("/").pop()}`;
+  const imgSrc = `/${(course.image || "").split("/").pop()}`;
   return (
     <>
       <Helmet>
@@ -65,26 +67,32 @@ export default function CourseDetail() {
         <meta name="twitter:title" content={course.metaTitle} />
         <meta name="twitter:description" content={course.metaDescription} />
         <meta name="twitter:image" content={imgSrc} />
-        <link rel="canonical" href={`${window.location.origin}/course/${course.slug}`} />
+        <link
+          rel="canonical"
+          href={`${window.location.origin}/course/${course.slug}`}
+        />
       </Helmet>
 
       <div className="max-w-3xl mx-auto px-5 py-10 bg-white text-gray-900 font-sans text-[15px] leading-relaxed">
-
         {/* Back to all course  Link */}
         <Link
           to="/courses"
           className="text-black hover:bg-amber-300 h-10 rounded-2xl  border-2 w-45 text-sm font-semibold mb-6 inline-block"
         >
-          <h2 className="mt-2  px-4 font-bold hover:text-white">← Back to All Courses</h2>
+          <h2 className="mt-2  px-4 font-bold hover:text-white">
+            ← Back to All Courses
+          </h2>
         </Link>
 
         {/* Header */}
         <p className="text-sm text-gray-500 mb-1 tracking-wide">
-          IIOFT — {course.category === "master" ? "Master Diploma" : "Advance Professional"}
+          IIOFT —{" "}
+          {course.category === "master"
+            ? "Master Diploma"
+            : "Advance Professional"}
         </p>
         <h1 className="text-2xl font-bold underline mb-1">{course.title}</h1>
         <p className="italic text-gray-600 mb-4">{course.shortDescription}</p>
-        
 
         {/* Duration & Price */}
         <div className="flex gap-6 mb-6">
@@ -104,7 +112,9 @@ export default function CourseDetail() {
         {/* Course Features */}
         {course.features?.length > 0 && (
           <>
-            <h2 className="text-lg font-bold underline mb-3">Course Features</h2>
+            <h2 className="text-lg font-bold underline mb-3">
+              Course Features
+            </h2>
             <ul className="list-disc pl-6 mb-2 text-gray-800 space-y-1">
               {course.features.map((f, i) => (
                 <li key={i}>{f}</li>
@@ -142,9 +152,7 @@ export default function CourseDetail() {
           >
             Enquire Now →
           </Link>
-         
         </div>
-
       </div>
     </>
   );

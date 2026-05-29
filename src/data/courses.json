@@ -1,110 +1,271 @@
 [
   {
-    "id": "DOAP",
-    "slug": "diploma-office-automation-publishing",
-    "title": "Diploma in Office Automation & Publishing",
-    "shortDescription": "Master Microsoft Office, DTP tools, and office automation in this comprehensive 6-month diploma program.",
-    "fullDescription": "This 6-month diploma equips you with complete office productivity skills — from Word, Excel, PowerPoint, and Outlook to CorelDRAW-based desktop publishing. You'll learn real-world document handling, data reporting, and office automation workflows that prepare you for roles like Office Executive, MIS Executive, or Data Entry Operator.",
-    "duration": "6 Months",
+    "id": "mso",
+    "slug": "microsoft-office",
+    "title": "Microsoft Office",
+    "shortDescription": "Master Word, Excel, PowerPoint, Outlook, Teams, and OneNote with a focus on professional productivity.",
+    "fullDescription": "This Microsoft Office course covers all major applications in the Office suite — from advanced Word document formatting and Excel dashboards to PowerPoint presentations, Outlook email management, and Teams collaboration. Includes MOS exam preparation.",
+    "duration": "2-3 Months",
     "price": "Contact for Pricing",
-    "category": "master",
-    "image": "DOAP.AVIF",
+    "category": "tranding course",
+    "image": "MO.AVIF",
     "features": [
-      "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook, Access)",
-      "Desktop Publishing with CorelDRAW",
-      "Professional Email & Calendar Management",
-      "Office Automation & Workflow Optimization",
-      "Mock Interviews & Resume Building",
-      "10 Real-World Projects"
+      "Microsoft Word — Advanced Formatting & Mail Merge",
+      "Microsoft Excel — Pivot Tables, VLOOKUP, Dashboards",
+      "PowerPoint — Custom Animations & Presenter Mode",
+      "Outlook — Email & Calendar Management",
+      "Microsoft Teams & OneNote Collaboration",
+      "MOS Certification Exam Preparation"
     ],
     "syllabus": [
       {
         "module": 1,
-        "title": "Computer Fundamentals & Office Productivity",
+        "title": "MS Office Suite Overview",
+        "topics": ["Interface, OneDrive & Keyboard Shortcuts"]
+      },
+      {
+        "module": 2,
+        "title": "Microsoft Word Advanced",
+        "topics": ["Styles, Mail Merge, TOC & Macros"]
+      },
+      {
+        "module": 3,
+        "title": "Microsoft Excel Professional",
+        "topics": ["VLOOKUP, INDEX-MATCH, Pivot Tables"]
+      },
+      {
+        "module": 4,
+        "title": "PowerPoint Advanced",
+        "topics": ["Custom Animations", "Embedding Media"]
+      },
+      {
+        "module": 5,
+        "title": "Outlook",
+        "topics": ["Email Rules", "Calendar & Task Management"]
+      },
+      {
+        "module": 6,
+        "title": "Teams & OneNote",
+        "topics": ["Collaboration", "Planner & Task Management"]
+      },
+      {
+        "module": 7,
+        "title": "Capstone & Certification Prep",
+        "topics": ["MOS Exam Prep", "Portfolio Projects"]
+      }
+    ],
+    "metaTitle": "Microsoft Office Course | Word, Excel, PowerPoint, Teams & MOS Certification",
+    "metaDescription": "Master Microsoft Office — Word, Excel, PowerPoint, Outlook, Teams & OneNote. Professional productivity training with MOS certification exam preparation."
+  },
+  {
+    "id": "advanced-excel-finance",
+    "slug": "microsoft-excel-advanced-for-finance",
+    "title": "Microsoft Excel (Advanced For Finance)",
+    "shortDescription": "Master advanced Excel techniques for finance including pivot tables, financial functions, data analysis, and automation tools.",
+    "fullDescription": "This comprehensive Advanced Excel for Finance course covers everything from fundamental Excel operations to advanced financial modeling, data analysis, and automation. Learn to create professional financial reports, build complex models, and automate workflows using Excel's powerful features including Pivot Tables, Advanced Functions, What-if Analysis, and VBA Macros.",
+    "duration": "2-3 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "EAFF.AVIF",
+    "features": [
+      "Excel Interface & Navigation Mastery",
+      "Advanced Financial Functions & Formulas",
+      "Pivot Tables & Dynamic Reporting",
+      "Data Analysis & Visualization Tools",
+      "Financial Modeling & Scenario Analysis",
+      "VBA & Macros for Automation",
+      "Professional Dashboard Creation"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Excel Fundamentals for Finance",
         "topics": [
-          "Operating System Basics",
-          "File/Folder Management",
-          "Keyboard Shortcuts",
-          "Email Usage",
-          "Basic Cybersecurity Awareness"
+          "Excel Interface and Navigation",
+          "Workbook and Worksheet Management",
+          "Data Entry and Formatting",
+          "Cell Referencing (Relative, Absolute, Mixed)",
+          "Basic Mathematical Functions"
         ]
       },
       {
         "module": 2,
-        "title": "Microsoft Word",
+        "title": "Essential Financial Functions",
         "topics": [
-          "Text Formatting",
-          "Professional Documents — Letters, Reports, Resumes",
-          "Mail Merge",
-          "Headers, Footers & Tables"
+          "SUM, AVERAGE, COUNT Functions",
+          "IF and Nested IF Functions",
+          "VLOOKUP and HLOOKUP",
+          "XLOOKUP Introduction",
+          "Financial Functions (PMT, NPV, IRR)"
         ]
       },
       {
         "module": 3,
-        "title": "Microsoft Excel",
+        "title": "Data Analysis Tools",
         "topics": [
-          "Formulas & Functions — SUM, IF, VLOOKUP",
-          "Pivot Tables & Charts",
-          "Data Reports & Analysis"
+          "Sorting and Filtering Data",
+          "Conditional Formatting",
+          "Data Validation",
+          "Text Functions (LEFT, RIGHT, MID, LEN)",
+          "Date and Time Functions"
         ]
       },
       {
         "module": 4,
-        "title": "Microsoft PowerPoint",
+        "title": "Pivot Tables and Pivot Charts",
         "topics": [
-          "Slide Design Principles",
-          "Transitions & Animations",
-          "Visual Storytelling"
+          "Creating Pivot Tables",
+          "Pivot Table Calculations",
+          "Data Summarization Techniques",
+          "Financial Data Analysis",
+          "Pivot Charts"
         ]
       },
       {
         "module": 5,
-        "title": "Outlook & Office Communication",
+        "title": "Advanced Excel Tools",
         "topics": [
-          "Professional Emails",
-          "Calendar Management",
-          "Communication Etiquette"
+          "Advanced Lookup Functions",
+          "INDEX and MATCH Functions",
+          "What-if Analysis",
+          "Scenario Manager",
+          "Goal Seek"
         ]
       },
       {
         "module": 6,
-        "title": "Microsoft Access",
+        "title": "Automation & Financial Reporting",
         "topics": [
-          "Tables, Records & Fields",
-          "Queries & Data Retrieval",
-          "Form-Based Data Entry"
-        ]
-      },
-      {
-        "module": 7,
-        "title": "Desktop Publishing (DTP)",
-        "topics": [
-          "Brochures, Cards & Flyers in CorelDRAW",
-          "Typography & Color Usage"
-        ]
-      },
-      {
-        "module": 8,
-        "title": "Office Automation",
-        "topics": ["Templates & Basic Macros", "Cloud Platform Collaboration"]
-      },
-      {
-        "module": 9,
-        "title": "Practical Projects",
-        "topics": ["Multi-Tool Projects", "Speed & Accuracy Training"]
-      },
-      {
-        "module": 10,
-        "title": "Career Preparation",
-        "topics": [
-          "Resume Building",
-          "Mock Interviews",
-          "Professional Etiquette"
+          "Introduction to Excel Macros",
+          "Recording and Editing Macros",
+          "Financial Dashboards",
+          "MIS Reporting in Excel",
+          "Data Visualization with Charts"
         ]
       }
     ],
-    "metaTitle": "Diploma in Office Automation & Publishing | 6-Month Program",
-    "metaDescription": "Learn Microsoft Office, DTP, and office automation in a 6-month hands-on diploma. Covers Word, Excel, PowerPoint, Access, CorelDRAW & more. Build a career as an Office Executive or MIS Executive."
+    "metaTitle": "Advanced Excel for Finance Course | Financial Modeling & Data Analysis",
+    "metaDescription": "Master Advanced Excel for Finance with Pivot Tables, Financial Functions, Data Analysis, and Automation. Learn financial modeling, reporting, and dashboard creation in 2-3 months."
+  },
+  {
+    "id": "vba",
+    "slug": "microsoft-excel-vba-macros",
+    "title": "Microsoft Excel (VBA + Macros) Advanced",
+    "shortDescription": "Advanced Excel course covering VBA programming, Macros, UserForms, and office automation.",
+    "fullDescription": "This Advanced Excel VBA & Macros course teaches you to automate repetitive tasks, build custom UserForms, write VBA scripts, and create powerful automated reporting tools in Excel — from invoice generators to payroll systems.",
+    "duration": "2 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "MEVBA.AVIF",
+    "features": [
+      "VBA Editor & Module Basics",
+      "Recording & Editing Macros",
+      "Control Structures (If, Loops, Case)",
+      "Working with Excel Objects via VBA",
+      "Custom UserForms & Data Entry Systems",
+      "Automating Charts, Reports & Emails"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Excel Advanced Revision",
+        "topics": ["Power Query", "Dynamic Arrays", "Named Ranges"]
+      },
+      {
+        "module": 2,
+        "title": "Introduction to VBA",
+        "topics": ["VBA Editor", "Variables & Procedures"]
+      },
+      {
+        "module": 3,
+        "title": "Macros in Excel",
+        "topics": ["Recording & Editing Macros", "Macro Security"]
+      },
+      {
+        "module": 4,
+        "title": "VBA Control Structures",
+        "topics": ["If/Else", "Loops", "Nested Conditions"]
+      },
+      {
+        "module": 5,
+        "title": "Excel Objects",
+        "topics": ["Workbooks, Sheets, Ranges via VBA"]
+      },
+      {
+        "module": 6,
+        "title": "UserForms",
+        "topics": ["TextBox, ComboBox", "Form Validation"]
+      },
+      {
+        "module": 7,
+        "title": "Advanced VBA & Automation",
+        "topics": ["File Operations", "Sending Emails via Outlook"]
+      },
+      {
+        "module": 8,
+        "title": "Projects",
+        "topics": [
+          "Invoice Generator",
+          "Payroll Automation",
+          "Dashboard with VBA"
+        ]
+      }
+    ],
+    "metaTitle": "Advanced Excel VBA & Macros Course | Automation & UserForms",
+    "metaDescription": "Master Excel VBA & Macros for office automation. Build invoice generators, payroll systems & automated dashboards. Advanced Excel programming in 2–3 months."
+  },
+  {
+    "id": "da",
+    "slug": "data-analytics",
+    "title": "Data Analytics",
+    "shortDescription": "Learn Excel, SQL, Python, Power BI and Tableau to become a job-ready data analyst.",
+    "fullDescription": "This Data Analytics course teaches you to collect, clean, analyze, and visualize data using Excel, SQL, Python, Power BI, and Tableau. You'll work on real datasets and build dashboards that drive business decisions — from sales analysis to customer churn.",
+    "duration": "6-8 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "DA.AVIF",
+    "features": [
+      "Excel for Data Analysis",
+      "SQL Queries & Database Analysis",
+      "Python (Pandas, Matplotlib, Seaborn)",
+      "Power BI Dashboard Creation",
+      "Statistics & Business Analytics",
+      "5 Real-World Projects"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Data Analytics",
+        "topics": ["Analytics Life Cycle", "Roles & Industry Applications"]
+      },
+      {
+        "module": 2,
+        "title": "Excel for Data Analysis",
+        "topics": ["Pivot Tables", "Data Cleaning", "Charts"]
+      },
+      {
+        "module": 3,
+        "title": "SQL",
+        "topics": ["Joins, Subqueries", "Group By & Aggregates"]
+      },
+      {
+        "module": 4,
+        "title": "Python",
+        "topics": ["NumPy & Pandas", "EDA", "Matplotlib & Seaborn"]
+      },
+      {
+        "module": 5,
+        "title": "Power BI",
+        "topics": ["DAX", "Dashboard Creation", "Interactive Reports"]
+      },
+      {
+        "module": 6,
+        "title": "Statistics & Business Analytics",
+        "topics": ["Correlation & Regression", "KPIs & Metrics"]
+      }
+    ],
+    "metaTitle": "Data Analytics Course | Excel, SQL, Python, Power BI & Tableau",
+    "metaDescription": "Become a data analyst with Excel, SQL, Python, Power BI & Tableau. Build sales dashboards, HR analytics reports & customer churn models. Job-ready in 4–6 months."
   },
   {
     "id": "ZBRUSH",
@@ -114,7 +275,7 @@
     "fullDescription": "Master ZBrush — the industry-standard tool for 3D sculpting used in films, games, and product design. You'll learn organic and hard surface sculpting, retopology, Polypaint texturing, and rendering workflows. Build a portfolio-ready character sculpt and learn to pitch clients professionally.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "ZB3DS.AVIF",
     "features": [
       "Industry-standard ZBrush software",
@@ -286,7 +447,7 @@
     "fullDescription": "This comprehensive full-stack web development course takes you from complete beginner to building and deploying real-world web applications. You'll master frontend (HTML, CSS, JavaScript, React) and backend (Node.js, Express, MongoDB/MySQL) technologies, plus deployment, testing, and security best practices.",
     "duration": "8-12 Months",
     "price": "Contact for Pricing",
-    "category": "tranding course",
+    "category": "advance",
     "image": "FSWD.AVIF",
     "features": [
       "HTML5, CSS3, JavaScript & React.js",
@@ -455,89 +616,201 @@
       {
         "module": 1,
         "title": "Introduction to Data Science",
-        "topics": ["Data Science Life Cycle", "Roles & Tools Overview"]
+        "topics": [
+          "What is Data Science? ",
+          "Data Science Life Cycle Roles: Data Analyst, DataScientist, ML Engineer ",
+          "Applications of Data Science ",
+          "Tools Overview: Python, R, SQL, Power BI ",
+          "Installation & Setup (Anaconda, Jupyter Notebook)"
+        ]
       },
       {
         "module": 2,
         "title": "Python for Data Science",
-        "topics": ["NumPy, Pandas, Matplotlib, Seaborn"]
+        "topics": [
+          "Python Basics (Variables, Data Types, Operators)",
+          "Conditional Statements & Loops",
+          "Functions & Modules ",
+          "OOPS Concepts ",
+          "File Handling Exception Handling",
+          "Libraries: NumPy Pandas Matplotlib Seaborn"
+        ]
       },
       {
         "module": 3,
-        "title": "Statistics & Mathematics",
-        "topics": ["Probability", "Hypothesis Testing", "Linear Algebra"]
+        "title": " Statistics & Mathematics for Data Science ",
+        "topics": [
+          "Descriptive Statistics",
+          "Probability ",
+          "Random Variables",
+          "Probability Distributions ",
+          "Hypothesis Testing ",
+          "Correlation & Covariance ",
+          "Linear Algebra Basics ",
+          "Matrices & Vectors ",
+          "Calculus Basics (Derivatives & Gradients)"
+        ]
       },
       {
         "module": 4,
-        "title": "Machine Learning",
-        "topics": ["Supervised & Unsupervised Learning", "Ensemble Methods"]
+        "title": "Data Analysis & Visualization ",
+        "topics": [
+          "Data Cleaning ",
+          "Handling Missing Values ",
+          "Outlier Detection ",
+          "Feature Engineering ",
+          "Exploratory Data Analysis (EDA) ",
+          "Data Visualization Techniques ",
+          "Dashboard Basics "
+        ]
       },
       {
         "module": 5,
-        "title": "Deep Learning",
-        "topics": ["CNN, RNN, LSTM", "Transfer Learning, GAN, NLP"]
+        "title": "Machine Learning Fundamentals",
+        "topics": [
+          "What is Machine Learning?",
+          "Supervised Learning ",
+          "Unsupervised Learning ",
+          "Reinforcement Learning ",
+          "ML Workflow",
+          "Train-Test Split ",
+          "Bias-Variance Tradeoff ",
+          "Model Evaluation Metrics"
+        ]
       },
       {
         "module": 6,
-        "title": "Big Data & Deployment",
-        "topics": ["Hadoop, Spark", "Flask, Streamlit, AWS"]
+        "title": "Supervised Learning Regression Algorithms",
+        "topics": [
+          "Linear Regression ",
+          "Multiple Regression ",
+          "Ridge & Lasso Regression ",
+          "Polynomial Regression"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Unsupervised Learning",
+        "topics": [
+          "K-Means ",
+          "Clustering ",
+          "Hierarchical Clustering ",
+          "DBSCAN ",
+          "Principal Component Analysis (PCA)",
+          "Association Rule Mining (Apriori)"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Advanced Machine Learning ",
+        "topics": [
+          "Ensemble Learning",
+          "Boosting (AdaBoost, Gradient Boosting, XGBoost) ",
+          "Hyperparameter Tuning ",
+          "Cross Validation ",
+          "Feature Selection Techniques",
+          "Model Deployment Basics"
+        ]
+      },
+      {
+        "module": 9,
+        "title": " Introduction to Deep Learning ",
+        "topics": [
+          "Artificial Intelligence vs Machine Learning vs Deep Learning",
+          "Neural Network Basics ",
+          "Perceptron Model",
+          "Activation Functions",
+          "Forward & Backpropagation ",
+          "Loss Functions Optimizers"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Artificial Neural Networks (ANN) ",
+        "topics": [
+          "Building ANN using Python ",
+          "TensorFlow Introduction",
+          "Keras Framework",
+          "Model Compilation & Training ",
+          "Model Evaluation"
+        ]
+      },
+      {
+        "module": 11,
+        "title": " Convolutional Neural Networks (CNN)",
+        "topics": [
+          "Image Processing Basics",
+          "Convolution Operation ",
+          "Pooling Layers",
+          "CNN Architecture",
+          "Image Classification Project "
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Recurrent Neural Networks (RNN)",
+        "topics": [
+          "Sequence Data ",
+          "RNN Architecture",
+          "LSTM",
+          "GRU",
+          "Time Series ",
+          "Forecasting "
+        ]
+      },
+      {
+        "module": 13,
+        "title": "Advanced Deep Learning",
+        "topics": [
+          "Transfer Learning   ",
+          "Pre-trained Models ",
+          "Autoencoders",
+          "GAN (Generative Adversarial Networks)",
+          " NLP Basics ",
+          "Word Embeddings ",
+          "Transformers Introduction"
+        ]
+      },
+      {
+        "module": 14,
+        "title": "Natural Language Processing (NLP)",
+        "topics": [
+          "Text Preprocessing  ",
+          "Tokenization ",
+          "Stemming & Lemmatization ",
+          "TF-IDF",
+          " Sentiment Analysis  ",
+          "Chatbot Basics"
+        ]
+      },
+      {
+        "module": 15,
+        "title": "Big Data & Deployment ",
+        "topics": [
+          "Introduction to Big Data ",
+          "Hadoop Basics ",
+          "Spark Basics ",
+          "Model Deployment ",
+          "Flask / Streamlit   ",
+          "API Creation",
+          "Cloud Introduction (AWS Basics) "
+        ]
+      },
+      {
+        "module": 16,
+        "title": "Projects",
+        "topics": [
+          "  House Price Prediction",
+          "Customer Segmentation  ",
+          "Sales Forecasting ",
+          "Image Classification ",
+          " Sentiment Analysis  ",
+          "End-to-End Deployment Project"
+        ]
       }
     ],
     "metaTitle": "Data Science Course | Python, ML, Deep Learning & AI",
     "metaDescription": "Learn Data Science with Python, Machine Learning, Deep Learning, NLP & AWS deployment. Build real projects like house price prediction, image classification & sentiment analysis."
-  },
-  {
-    "id": "da",
-    "slug": "data-analytics",
-    "title": "Data Analytics",
-    "shortDescription": "Learn Excel, SQL, Python, Power BI and Tableau to become a job-ready data analyst.",
-    "fullDescription": "This Data Analytics course teaches you to collect, clean, analyze, and visualize data using Excel, SQL, Python, Power BI, and Tableau. You'll work on real datasets and build dashboards that drive business decisions — from sales analysis to customer churn.",
-    "duration": "6-8 Months",
-    "price": "Contact for Pricing",
-    "category": "tranding course",
-    "image": "DA.AVIF",
-    "features": [
-      "Excel for Data Analysis",
-      "SQL Queries & Database Analysis",
-      "Python (Pandas, Matplotlib, Seaborn)",
-      "Power BI Dashboard Creation",
-      "Statistics & Business Analytics",
-      "5 Real-World Projects"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Introduction to Data Analytics",
-        "topics": ["Analytics Life Cycle", "Roles & Industry Applications"]
-      },
-      {
-        "module": 2,
-        "title": "Excel for Data Analysis",
-        "topics": ["Pivot Tables", "Data Cleaning", "Charts"]
-      },
-      {
-        "module": 3,
-        "title": "SQL",
-        "topics": ["Joins, Subqueries", "Group By & Aggregates"]
-      },
-      {
-        "module": 4,
-        "title": "Python",
-        "topics": ["NumPy & Pandas", "EDA", "Matplotlib & Seaborn"]
-      },
-      {
-        "module": 5,
-        "title": "Power BI",
-        "topics": ["DAX", "Dashboard Creation", "Interactive Reports"]
-      },
-      {
-        "module": 6,
-        "title": "Statistics & Business Analytics",
-        "topics": ["Correlation & Regression", "KPIs & Metrics"]
-      }
-    ],
-    "metaTitle": "Data Analytics Course | Excel, SQL, Python, Power BI & Tableau",
-    "metaDescription": "Become a data analyst with Excel, SQL, Python, Power BI & Tableau. Build sales dashboards, HR analytics reports & customer churn models. Job-ready in 4–6 months."
   },
   {
     "id": "eh",
@@ -703,59 +976,6 @@
     "metaDescription": "Learn interior design with hands-on training in space planning, color theory, AutoCAD & SketchUp. Work on real residential and commercial design projects."
   },
   {
-    "id": "fa",
-    "slug": "advanced-finance-accounting",
-    "title": "Advanced Finance & Accounting",
-    "shortDescription": "Master corporate financial reporting, cost accounting, taxation, and financial management.",
-    "fullDescription": "This Advanced Finance & Accounting course covers corporate reporting, financial analysis, cost accounting, taxation (GST & corporate tax), investment appraisal, and financial management using Excel, Tally ERP, and QuickBooks.",
-    "duration": "4-6 Months",
-    "price": "Contact for Pricing",
-    "category": "master",
-    "image": "AFA.AVIF",
-    "features": [
-      "Corporate Financial Reporting",
-      "Financial Ratio & Trend Analysis",
-      "Cost & Management Accounting",
-      "GST & Corporate Taxation",
-      "Capital Budgeting & Investment Appraisal",
-      "Tally ERP & Excel (Advanced)"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Advanced Accounting",
-        "topics": ["Accounting Standards", "Financial Statements"]
-      },
-      {
-        "module": 2,
-        "title": "Corporate Reporting",
-        "topics": ["Balance Sheet, P&L", "IFRS / GAAP"]
-      },
-      {
-        "module": 3,
-        "title": "Financial Analysis",
-        "topics": ["Ratio Analysis", "Trend & Comparative Analysis"]
-      },
-      {
-        "module": 4,
-        "title": "Cost Accounting",
-        "topics": ["Budgeting & Variance Analysis", "Break-even Analysis"]
-      },
-      {
-        "module": 5,
-        "title": "Taxation",
-        "topics": ["GST & Indirect Taxes", "Corporate Tax Planning"]
-      },
-      {
-        "module": 6,
-        "title": "Financial Management",
-        "topics": ["Capital Budgeting", "Risk Management"]
-      }
-    ],
-    "metaTitle": "Advanced Finance & Accounting Course | GST, Tally, Excel",
-    "metaDescription": "Master corporate financial reporting, cost accounting, GST taxation & financial management. Covers Tally ERP, Excel & QuickBooks."
-  },
-  {
     "id": "hr",
     "slug": "human-resource-management-diploma",
     "title": "Human Resource Management Diploma",
@@ -816,7 +1036,7 @@
     "fullDescription": "This Python course takes you from basics to advanced — covering variables, data structures, OOP, file handling, web scraping, API integration, GUI development with Tkinter, and automation scripting. Includes interview preparation and 6 real projects.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "PP.AVIF",
     "features": [
       "Python Fundamentals & Control Flow",
@@ -878,7 +1098,7 @@
     "fullDescription": "This UI/UX Design course covers the full design process — from user research and wireframing to high-fidelity mockups in Figma, interactive prototyping, accessibility standards, and portfolio building. Prepare for real design roles with end-to-end case studies.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "UIUXD.AVIF",
     "features": [
       "Design Thinking & User Research",
@@ -931,7 +1151,7 @@
     "fullDescription": "This Cloud Computing course covers all three major cloud platforms — AWS, Microsoft Azure, and Google Cloud — plus DevOps tools like Docker, Kubernetes, Terraform, and GitHub Actions. Prepare for AWS Solutions Architect and Azure AZ-900 certifications.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "CC.AVIF",
     "features": [
       "AWS (EC2, S3, RDS, Lambda)",
@@ -984,7 +1204,7 @@
     "fullDescription": "This AI course covers AI fundamentals, Python for AI, search algorithms, knowledge representation, machine learning, deep learning, and generative AI — including LLMs, prompt engineering, fine-tuning, LangChain, RAG, and AI agents.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "AI.AVIF",
     "features": [
       "Python, NumPy & Data Visualization",
@@ -1040,7 +1260,7 @@
     "fullDescription": "This Mobile App Development course uses React Native to teach you cross-platform iOS and Android development. You'll cover core UI components, state management with Redux, Firebase backend integration, push notifications, and publishing your app to both stores.",
     "duration": "4 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "DAMD.AVIF",
     "features": [
       "React Native & Expo Framework",
@@ -1093,7 +1313,7 @@
     "fullDescription": "This 3-month Adobe Animate course covers the complete 2D animation workflow — from drawing tools and timeline animation to symbols, masking, interactive elements, sound integration, and exporting. Build animated ads, social media content, and educational animations.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "AA.AVIF",
     "features": [
       "Timeline & Frame-by-Frame Animation",
@@ -1144,64 +1364,6 @@
     "metaDescription": "Learn Adobe Animate for 2D animation, motion graphics & interactive content. Create animated ads, educational videos & social media animations in just 3 months."
   },
   {
-    "id": "mso",
-    "slug": "microsoft-office",
-    "title": "Microsoft Office",
-    "shortDescription": "Master Word, Excel, PowerPoint, Outlook, Teams, and OneNote with a focus on professional productivity.",
-    "fullDescription": "This Microsoft Office course covers all major applications in the Office suite — from advanced Word document formatting and Excel dashboards to PowerPoint presentations, Outlook email management, and Teams collaboration. Includes MOS exam preparation.",
-    "duration": "2-3 Months",
-    "price": "Contact for Pricing",
-    "category": "tranding course",
-    "image": "MO.AVIF",
-    "features": [
-      "Microsoft Word — Advanced Formatting & Mail Merge",
-      "Microsoft Excel — Pivot Tables, VLOOKUP, Dashboards",
-      "PowerPoint — Custom Animations & Presenter Mode",
-      "Outlook — Email & Calendar Management",
-      "Microsoft Teams & OneNote Collaboration",
-      "MOS Certification Exam Preparation"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "MS Office Suite Overview",
-        "topics": ["Interface, OneDrive & Keyboard Shortcuts"]
-      },
-      {
-        "module": 2,
-        "title": "Microsoft Word Advanced",
-        "topics": ["Styles, Mail Merge, TOC & Macros"]
-      },
-      {
-        "module": 3,
-        "title": "Microsoft Excel Professional",
-        "topics": ["VLOOKUP, INDEX-MATCH, Pivot Tables"]
-      },
-      {
-        "module": 4,
-        "title": "PowerPoint Advanced",
-        "topics": ["Custom Animations", "Embedding Media"]
-      },
-      {
-        "module": 5,
-        "title": "Outlook",
-        "topics": ["Email Rules", "Calendar & Task Management"]
-      },
-      {
-        "module": 6,
-        "title": "Teams & OneNote",
-        "topics": ["Collaboration", "Planner & Task Management"]
-      },
-      {
-        "module": 7,
-        "title": "Capstone & Certification Prep",
-        "topics": ["MOS Exam Prep", "Portfolio Projects"]
-      }
-    ],
-    "metaTitle": "Microsoft Office Course | Word, Excel, PowerPoint, Teams & MOS Certification",
-    "metaDescription": "Master Microsoft Office — Word, Excel, PowerPoint, Outlook, Teams & OneNote. Professional productivity training with MOS certification exam preparation."
-  },
-  {
     "id": "GD",
     "slug": "graphic-designing",
     "title": "Graphic Designing",
@@ -1209,7 +1371,7 @@
     "fullDescription": "This Graphic Designing course covers the complete design workflow — from color theory and typography to Photoshop image editing, Illustrator logo design, CorelDRAW print media, and Canva social media creatives. Build a professional portfolio and learn to freelance.",
     "duration": "4 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "GD.AVIF",
     "features": [
       "Adobe Photoshop — Image Editing & Poster Design",
@@ -1267,7 +1429,7 @@
     "fullDescription": "This 6-month animation program teaches you both 2D animation using Adobe Animate and 3D animation using Blender. You'll cover animation principles, character design, rigging, rendering, and create a professional showreel for your portfolio.",
     "duration": "6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "2D3DA.AVIF",
     "features": [
       "12 Principles of Animation",
@@ -1322,7 +1484,6 @@
     "metaTitle": "2D & 3D Animation Course | Adobe Animate & Blender | 6 Months",
     "metaDescription": "Master both 2D and 3D animation in one 6-month course. Learn Adobe Animate for 2D and Blender for 3D modeling, rigging & rendering. Build a professional animation showreel."
   },
-
   {
     "id": "FILMORA",
     "slug": "filmora-video-editing",
@@ -1386,7 +1547,6 @@
     "metaTitle": "Filmora Video Editing Course | YouTube, Reels & Social Media Editing",
     "metaDescription": "Learn video editing with Filmora in 2 months. Edit YouTube videos, Instagram Reels & promotional content. Covers audio editing, color correction & export optimization."
   },
-
   {
     "id": "MAYA",
     "slug": "maya-3d-animation",
@@ -1697,98 +1857,6 @@
     "metaTitle": "Personality Development Course | Communication, Confidence & Leadership",
     "metaDescription": "Develop communication skills, public speaking confidence, emotional intelligence & leadership. Corporate etiquette, resume building & mock interviews included."
   },
-
-  {
-    "id": "advanced-excel-finance",
-    "slug": "microsoft-excel-advanced-for-finance",
-    "title": "Microsoft Excel (Advanced For Finance)",
-    "shortDescription": "Master advanced Excel techniques for finance including pivot tables, financial functions, data analysis, and automation tools.",
-    "fullDescription": "This comprehensive Advanced Excel for Finance course covers everything from fundamental Excel operations to advanced financial modeling, data analysis, and automation. Learn to create professional financial reports, build complex models, and automate workflows using Excel's powerful features including Pivot Tables, Advanced Functions, What-if Analysis, and VBA Macros.",
-    "duration": "2-3 Months",
-    "price": "Contact for Pricing",
-    "category": "tranding course",
-    "image": "EAFF.AVIF",
-    "features": [
-      "Excel Interface & Navigation Mastery",
-      "Advanced Financial Functions & Formulas",
-      "Pivot Tables & Dynamic Reporting",
-      "Data Analysis & Visualization Tools",
-      "Financial Modeling & Scenario Analysis",
-      "VBA & Macros for Automation",
-      "Professional Dashboard Creation"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Excel Fundamentals for Finance",
-        "topics": [
-          "Excel Interface and Navigation",
-          "Workbook and Worksheet Management",
-          "Data Entry and Formatting",
-          "Cell Referencing (Relative, Absolute, Mixed)",
-          "Basic Mathematical Functions"
-        ]
-      },
-      {
-        "module": 2,
-        "title": "Essential Financial Functions",
-        "topics": [
-          "SUM, AVERAGE, COUNT Functions",
-          "IF and Nested IF Functions",
-          "VLOOKUP and HLOOKUP",
-          "XLOOKUP Introduction",
-          "Financial Functions (PMT, NPV, IRR)"
-        ]
-      },
-      {
-        "module": 3,
-        "title": "Data Analysis Tools",
-        "topics": [
-          "Sorting and Filtering Data",
-          "Conditional Formatting",
-          "Data Validation",
-          "Text Functions (LEFT, RIGHT, MID, LEN)",
-          "Date and Time Functions"
-        ]
-      },
-      {
-        "module": 4,
-        "title": "Pivot Tables and Pivot Charts",
-        "topics": [
-          "Creating Pivot Tables",
-          "Pivot Table Calculations",
-          "Data Summarization Techniques",
-          "Financial Data Analysis",
-          "Pivot Charts"
-        ]
-      },
-      {
-        "module": 5,
-        "title": "Advanced Excel Tools",
-        "topics": [
-          "Advanced Lookup Functions",
-          "INDEX and MATCH Functions",
-          "What-if Analysis",
-          "Scenario Manager",
-          "Goal Seek"
-        ]
-      },
-      {
-        "module": 6,
-        "title": "Automation & Financial Reporting",
-        "topics": [
-          "Introduction to Excel Macros",
-          "Recording and Editing Macros",
-          "Financial Dashboards",
-          "MIS Reporting in Excel",
-          "Data Visualization with Charts"
-        ]
-      }
-    ],
-    "metaTitle": "Advanced Excel for Finance Course | Financial Modeling & Data Analysis",
-    "metaDescription": "Master Advanced Excel for Finance with Pivot Tables, Financial Functions, Data Analysis, and Automation. Learn financial modeling, reporting, and dashboard creation in 2-3 months."
-  },
-
   {
     "id": "tally-prime-gst",
     "slug": "advance-diploma-finance-accounting-tally-gst",
@@ -1880,7 +1948,6 @@
     "metaTitle": "Tally Prime + GST Course | Advanced Diploma in Finance & Accounting",
     "metaDescription": "Master Tally Prime with GST compliance. Learn accounting, voucher entries, GST registration, inventory management, and financial reporting. ISO & NSDC certified training in 2-3 months."
   },
-
   {
     "id": "se",
     "slug": "spoken-english",
@@ -1940,73 +2007,6 @@
     "metaDescription": "Improve spoken English with grammar, pronunciation & business communication training. Practice everyday conversations, interviews, group discussions & public speaking."
   },
   {
-    "id": "vba",
-    "slug": "microsoft-excel-vba-macros",
-    "title": "Microsoft Excel (VBA + Macros) Advanced",
-    "shortDescription": "Advanced Excel course covering VBA programming, Macros, UserForms, and office automation.",
-    "fullDescription": "This Advanced Excel VBA & Macros course teaches you to automate repetitive tasks, build custom UserForms, write VBA scripts, and create powerful automated reporting tools in Excel — from invoice generators to payroll systems.",
-    "duration": "2 Months",
-    "price": "Contact for Pricing",
-    "category": "advance",
-    "image": "MEVBA.AVIF",
-    "features": [
-      "VBA Editor & Module Basics",
-      "Recording & Editing Macros",
-      "Control Structures (If, Loops, Case)",
-      "Working with Excel Objects via VBA",
-      "Custom UserForms & Data Entry Systems",
-      "Automating Charts, Reports & Emails"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Excel Advanced Revision",
-        "topics": ["Power Query", "Dynamic Arrays", "Named Ranges"]
-      },
-      {
-        "module": 2,
-        "title": "Introduction to VBA",
-        "topics": ["VBA Editor", "Variables & Procedures"]
-      },
-      {
-        "module": 3,
-        "title": "Macros in Excel",
-        "topics": ["Recording & Editing Macros", "Macro Security"]
-      },
-      {
-        "module": 4,
-        "title": "VBA Control Structures",
-        "topics": ["If/Else", "Loops", "Nested Conditions"]
-      },
-      {
-        "module": 5,
-        "title": "Excel Objects",
-        "topics": ["Workbooks, Sheets, Ranges via VBA"]
-      },
-      {
-        "module": 6,
-        "title": "UserForms",
-        "topics": ["TextBox, ComboBox", "Form Validation"]
-      },
-      {
-        "module": 7,
-        "title": "Advanced VBA & Automation",
-        "topics": ["File Operations", "Sending Emails via Outlook"]
-      },
-      {
-        "module": 8,
-        "title": "Projects",
-        "topics": [
-          "Invoice Generator",
-          "Payroll Automation",
-          "Dashboard with VBA"
-        ]
-      }
-    ],
-    "metaTitle": "Advanced Excel VBA & Macros Course | Automation & UserForms",
-    "metaDescription": "Master Excel VBA & Macros for office automation. Build invoice generators, payroll systems & automated dashboards. Advanced Excel programming in 2–3 months."
-  },
-  {
     "id": "mac",
     "slug": "microsoft-access",
     "title": "Microsoft Access",
@@ -2063,79 +2063,6 @@
     ],
     "metaTitle": "Microsoft Access Course | Database Design, Queries, Forms & Reports",
     "metaDescription": "Learn Microsoft Access for database management. Design relational databases, write queries, build forms & generate automated reports. Covers macros & complete business apps."
-  },
-  {
-    "id": "adfa",
-    "slug": "advanced-diploma-finance-accounting",
-    "title": "Advanced Diploma in Finance & Accounting",
-    "shortDescription": "Comprehensive diploma covering financial accounting, corporate reporting, GST, Tally Prime, and financial modeling.",
-    "fullDescription": "This Advanced Finance & Accounting Diploma covers everything from journal entries and financial statements to corporate accounting, GST filing, auditing, financial management, Tally Prime, and Excel financial modeling. Job-ready for finance roles.",
-    "duration": "9-12 Months",
-    "price": "Contact for Pricing",
-    "category": "advance",
-    "image": "ADFA.AVIF",
-    "features": [
-      "Financial Accounting — Journal to Balance Sheet",
-      "Corporate Accounting & IFRS/GAAP",
-      "Cost & Management Accounting",
-      "GST Filing (GSTR-1, 3B) & Tax Planning",
-      "Tally Prime — Complete Accounting Software",
-      "Financial Modeling & Excel Dashboard"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Financial Accounting Fundamentals",
-        "topics": ["Double Entry", "Trial Balance", "BRS"]
-      },
-      {
-        "module": 2,
-        "title": "Financial Statements",
-        "topics": ["Balance Sheet, P&L, Cash Flow"]
-      },
-      {
-        "module": 3,
-        "title": "Corporate Accounting",
-        "topics": ["Share Capital", "Debentures", "Mergers"]
-      },
-      {
-        "module": 4,
-        "title": "Cost Accounting",
-        "topics": ["Marginal Costing", "Variance Analysis"]
-      },
-      {
-        "module": 5,
-        "title": "Taxation",
-        "topics": ["Income Tax", "GST Returns (GSTR-1, 3B)"]
-      },
-      {
-        "module": 6,
-        "title": "Auditing",
-        "topics": ["Internal Controls", "Audit Reports"]
-      },
-      {
-        "module": 7,
-        "title": "Financial Management",
-        "topics": ["Capital Budgeting (NPV, IRR)"]
-      },
-      {
-        "module": 8,
-        "title": "Tally Prime",
-        "topics": ["GST in Tally", "Payroll & MIS Reports"]
-      },
-      {
-        "module": 9,
-        "title": "Advanced Excel",
-        "topics": ["Financial Modeling", "Scenario Analysis"]
-      },
-      {
-        "module": 10,
-        "title": "Capstone & Interview Prep",
-        "topics": ["End-to-End Financial Project"]
-      }
-    ],
-    "metaTitle": "Advanced Diploma in Finance & Accounting | Tally, GST & Excel Financial Modeling",
-    "metaDescription": "Complete diploma in finance & accounting covering financial statements, GST, corporate accounting, Tally Prime & Excel financial modeling. Job-ready in 9–12 months."
   },
   {
     "id": "AEF",
@@ -2682,7 +2609,7 @@
     "fullDescription": "This SAP HCM course covers organizational management, personnel administration, time management, payroll processing, recruitment, performance management, and HR analytics — with integration to FI and other SAP modules.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "soft skill's",
+    "category": "",
     "image": "SAPHCM.AVIF",
     "features": [
       "Organizational Structure & Position Management",
@@ -2806,94 +2733,363 @@
     "metaDescription": "Learn Blender 3D animation from scratch. Covers modeling, UV mapping, rigging, walk cycles, Eevee & Cycles rendering. Build a professional 3D animation showreel."
   },
   {
-  "id": "sap-fico",
-  "slug": "advance-diploma-sap-fico-financial-accounting-controlling",
-  "title": "SAP FICO (Financial Accounting & Controlling)",
-  "shortDescription": "Advanced SAP FICO course covering Financial Accounting (FI), Controlling (CO), integration, reporting, and real-world ERP implementation.",
-  "fullDescription": "Master SAP FICO - the most in-demand ERP skill for finance professionals. This comprehensive course covers SAP Financial Accounting (FI) and Controlling (CO) modules, from basic navigation to advanced integration, cost allocation, budgeting, and financial reporting. Learn through industry-based real projects with certified trainers and get 100% placement assistance.",
-  "duration": "3-4 Months",
-  "price": "Contact for Pricing",
-  "category": "trending course",
-  "image": "sap-fico.avif",
-  "features": [
-    "Advanced Curriculum with Real Projects",
-    "Certified Trainers with Industry Experience",
-    "Complete FI and CO Module Coverage",
-    "Hands-on SAP System Access",
-    "Industry Based Real Projects",
-    "100% Placement Assistance",
-    "ISO Certified Training",
-    "NSDC Skill Development Certification"
-  ],
-  "syllabus": [
-    {
-      "module": 1,
-      "title": "Introduction to SAP & ERP",
-      "topics": [
-        "Overview of ERP Systems",
-        "Introduction to SAP Architecture",
-        "SAP GUI Navigation",
-        "Enterprise Structure in SAP",
-        "Client, Company, and Company Code"
-      ]
-    },
-    {
-      "module": 2,
-      "title": "SAP Financial Accounting (FI)",
-      "topics": [
-        "General Ledger Accounting",
-        "Accounts Payable (AP)",
-        "Accounts Receivable (AR)",
-        "Bank Accounting",
-        "Asset Accounting"
-      ]
-    },
-    {
-      "module": 3,
-      "title": "FI Configuration",
-      "topics": [
-        "Company Code Configuration",
-        "Chart of Accounts",
-        "Fiscal Year Variant",
-        "Posting Period Variant",
-        "Document Types and Number Ranges"
-      ]
-    },
-    {
-      "module": 4,
-      "title": "Controlling (CO) Basics",
-      "topics": [
-        "Introduction to SAP Controlling",
-        "Cost Element Accounting",
-        "Cost Center Accounting",
-        "Internal Orders",
-        "Profit Center Accounting"
-      ]
-    },
-    {
-      "module": 5,
-      "title": "Integration of FI and CO",
-      "topics": [
-        "FI and CO Integration Concepts",
-        "Cost Allocation Methods",
-        "Activity Based Costing",
-        "Budgeting and Planning",
-        "Profitability Analysis"
-      ]
-    },
-    {
-      "module": 6,
-      "title": "Reporting & Financial Closing",
-      "topics": [
-        "SAP Financial Reports",
-        "Balance Sheet & P&L Reports",
-        "Cost Center Reports",
-        "SAP MIS Reports",
-        "Financial Closing Process"
-      ]
-    }
-  ],
-  "metaTitle": "SAP FICO Course | Financial Accounting & Controlling Training with Placement",
-  "metaDescription": "Master SAP FICO with hands-on training in Financial Accounting (FI) and Controlling (CO). Learn ERP, cost accounting, reporting, and get 100% placement assistance. ISO & NSDC certified course in 3-4 months."
-}
+    "id": "sap-fico",
+    "slug": "advance-diploma-sap-fico-financial-accounting-controlling",
+    "title": "SAP FICO (Financial Accounting & Controlling)",
+    "shortDescription": "Advanced SAP FICO course covering Financial Accounting (FI), Controlling (CO), integration, reporting, and real-world ERP implementation.",
+    "fullDescription": "Master SAP FICO - the most in-demand ERP skill for finance professionals. This comprehensive course covers SAP Financial Accounting (FI) and Controlling (CO) modules, from basic navigation to advanced integration, cost allocation, budgeting, and financial reporting. Learn through industry-based real projects with certified trainers and get 100% placement assistance.",
+    "duration": "3-4 Months",
+    "price": "Contact for Pricing",
+    "category": "trending course",
+    "image": "sap-fico.avif",
+    "features": [
+      "Advanced Curriculum with Real Projects",
+      "Certified Trainers with Industry Experience",
+      "Complete FI and CO Module Coverage",
+      "Hands-on SAP System Access",
+      "Industry Based Real Projects",
+      "100% Placement Assistance",
+      "ISO Certified Training",
+      "NSDC Skill Development Certification"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to SAP & ERP",
+        "topics": [
+          "Overview of ERP Systems",
+          "Introduction to SAP Architecture",
+          "SAP GUI Navigation",
+          "Enterprise Structure in SAP",
+          "Client, Company, and Company Code"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "SAP Financial Accounting (FI)",
+        "topics": [
+          "General Ledger Accounting",
+          "Accounts Payable (AP)",
+          "Accounts Receivable (AR)",
+          "Bank Accounting",
+          "Asset Accounting"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "FI Configuration",
+        "topics": [
+          "Company Code Configuration",
+          "Chart of Accounts",
+          "Fiscal Year Variant",
+          "Posting Period Variant",
+          "Document Types and Number Ranges"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Controlling (CO) Basics",
+        "topics": [
+          "Introduction to SAP Controlling",
+          "Cost Element Accounting",
+          "Cost Center Accounting",
+          "Internal Orders",
+          "Profit Center Accounting"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Integration of FI and CO",
+        "topics": [
+          "FI and CO Integration Concepts",
+          "Cost Allocation Methods",
+          "Activity Based Costing",
+          "Budgeting and Planning",
+          "Profitability Analysis"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Reporting & Financial Closing",
+        "topics": [
+          "SAP Financial Reports",
+          "Balance Sheet & P&L Reports",
+          "Cost Center Reports",
+          "SAP MIS Reports",
+          "Financial Closing Process"
+        ]
+      }
+    ],
+    "metaTitle": "SAP FICO Course | Financial Accounting & Controlling Training with Placement",
+    "metaDescription": "Master SAP FICO with hands-on training in Financial Accounting (FI) and Controlling (CO). Learn ERP, cost accounting, reporting, and get 100% placement assistance. ISO & NSDC certified course in 3-4 months."
+  },
+  {
+    "id": "is",
+    "slug": "interview-skills",
+    "title": "Interview Skills",
+    "shortDescription": "Build confidence, communication, and preparation skills to crack HR, technical, and panel interviews successfully.",
+    "fullDescription": "This Interview Skills course takes you from self-assessment and resume building to confident HR and technical interview performance. You'll practice body language, communication, mock interviews, group discussions, and real-world interview scenarios to help you land your dream job.",
+    "duration": "Basic: 15–20 Hours | Advanced: 30–45 Hours",
+    "price": "Contact for Pricing",
+    "category": "soft skill's",
+    "image": "IS.AVIF",
+    "features": [
+      "Types of Interviews — HR, Technical, Telephonic, Video & Panel",
+      "Resume Writing & ATS-Friendly Profile Building",
+      "Communication, Body Language & Grooming",
+      "STAR Method & Common HR Interview Questions",
+      "Group Discussion Rules & Leadership Skills",
+      "Mock Interviews with Feedback & Improvement"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Interview Skills",
+        "topics": [
+          "What is an Interview?",
+          "Types of Interviews",
+          "Interview Process Overview"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Self-Assessment & Career Preparation",
+        "topics": [
+          "SWOT Analysis",
+          "Goal Setting",
+          "Building Confidence",
+          "Understanding Job Descriptions"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Resume & Profile Building",
+        "topics": [
+          "ATS-Friendly Resume Writing",
+          "Cover Letter Writing",
+          "LinkedIn Profile Optimization"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Communication Skills",
+        "topics": [
+          "Verbal & Non-Verbal Communication",
+          "Active Listening",
+          "Presentation Skills",
+          "Professional Email Writing"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Body Language & Grooming",
+        "topics": [
+          "Eye Contact & Posture",
+          "Dress Code & Professional Appearance",
+          "Confidence Through Body Language"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Interview Preparation Techniques",
+        "topics": [
+          "Company Research",
+          "Common interview questions",
+          "STAR method for answering questions",
+          "How to Introduce Yourself",
+          "Preparing elevator pitch"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "HR Interview Questions",
+        "topics": [
+          "Tell Me About Yourself",
+          "Strengths & Weaknesses",
+          "Why should we hire you ?",
+          "Why do you want this job?",
+          "Salary Expectations",
+          "Career goals",
+          "Handling Tricky Questions"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Technical Interview Skills",
+        "topics": [
+          "Technical question handling",
+          "Problem-Solving Approach",
+          "Explaining Projects Confidently",
+          "Industry-Specific Preparation",
+          "Coding/technical assessment basics"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Group Discussion (GD)",
+        "topics": [
+          "GD Rules & Structure",
+          "Leadership in Discussions",
+          "Listening & Rebuttal Skills",
+          "Mock GD Practice",
+          "Communication during GD"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Mock Interviews & Practice",
+        "topics": [
+          "HR Mock Interviews",
+          "Technical Mock Interviews",
+          "Video Interview Practice",
+          "Feedback & Improvement",
+          "Confidence-building exercises"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Stress & Nervousness Management",
+        "topics": [
+          "Managing Interview Fear",
+          "Confidence-building activities",
+          "Stress Management Techniques",
+          "Handling Pressure Situations",
+          "Positive thinking"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Post-Interview Skills",
+        "topics": [
+          "Thank-You Emails",
+          "Offer acceptance etiquette",
+          "Follow-Up Techniques",
+          "Salary Negotiation Basics",
+          "Handling Rejection Professionally"
+        ]
+      }
+    ],
+    "metaTitle": "Interview Skills Course | HR, Technical & Mock Interview Preparation",
+    "metaDescription": "Master interview skills with resume building, body language, HR & technical interview prep, group discussions, and mock interview practice. Crack your dream job confidently."
+  },
+  {
+    "id": "da-interview-branding",
+    "slug": "data-analyst-45-day-plan",
+    "title": "45-Day Data Analyst Interview + Personal Branding Plan",
+    "shortDescription": "A structured 45-day roadmap for aspiring Data Analysts to prepare for interviews, build a personal brand, and secure remote opportunities.",
+    "fullDescription": "This roadmap is designed for aspiring and growing Data Analysts who already know the tools and now want to prepare for interviews, build a personal brand, and secure remote opportunities. Covers SQL, Power BI, Excel, DAX, personal branding, and mock interviews over 6 weeks.",
+    "duration": "45 Days",
+    "category": "tranding course",
+    "image": "ADICA.AVIF",
+
+    "features": [
+      "time 1 Hour task SQL Practice",
+      "time 1 Hour task Power BI / Dashboard Practice",
+      "time 30 Minutes task Excel Revision",
+      "time 30 Minutes task HR Questions",
+      "time 30 Minutes task LinkedIn + Social Media",
+      "time 15 Minutes task English Speaking Practice"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Build Strong Foundation",
+        "topics": [
+          "Update Resume and LinkedIn profile",
+          "Revise Excel basics and formulas",
+          "Practice SQL basics: SELECT, WHERE, GROUP BY, ORDER BY",
+          "Learn SQL Joins",
+          "Revise Power BI basics and create a simple dashboard",
+          "Practice DAX basics: SUM(), CALCULATE(), FILTER()",
+          "Practice HR questions and upload first project on GitHub"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Intermediate SQL + Power BI",
+        "topics": [
+          "Learn aggregate functions: COUNT, AVG, SUM, MAX, MIN",
+          "Practice Power Query and data cleaning",
+          "Create KPI dashboards",
+          "Practice SQL subqueries",
+          "Post SQL tips on LinkedIn",
+          "Attempt mock interview #1",
+          "Update portfolio"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Advanced Analytics Concepts",
+        "topics": [
+          "Practice Window Functions: RANK, DENSE_RANK, ROW_NUMBER",
+          "Learn Star Schema and Data Modeling",
+          "Practice advanced DAX concepts",
+          "Create HR Analytics Dashboard",
+          "Learn storytelling in dashboards",
+          "Attempt mock interview #2",
+          "Upload dashboards on LinkedIn"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Real Interview Preparation",
+        "topics": [
+          "Revise SQL completely",
+          "Revise Excel interview questions",
+          "Revise Power BI interview questions",
+          "Prepare project explanations",
+          "Practice scenario-based questions",
+          "Attempt mock interview #3",
+          "Improve resume"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Personal Branding",
+        "topics": [
+          "Create analytics content strategy",
+          "Create Instagram analytics page",
+          "Upload SQL and Power BI tutorials",
+          "Network with recruiters and analysts",
+          "Apply for jobs",
+          "Attempt mock interview #4"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Confidence + Applications",
+        "topics": [
+          "Practice advanced SQL",
+          "Revise all DAX concepts",
+          "Improve dashboard UI/UX",
+          "Practice confidence speaking",
+          "Create end-to-end Amazon Analytics Dashboard",
+          "Apply for remote jobs",
+          "Attempt mock interview #5"
+        ]
+      },
+      {
+        "module": "7",
+        "title": "Final Revision",
+        "topics": [
+          "Revise SQL notes",
+          "Revise Power BI + DAX notes",
+          "Final mock interview",
+          "Resume and LinkedIn final check"
+        ]
+      }
+    ],
+    "socialMediaStrategy": [
+      {
+        "platform": "LinkedIn",
+        "purpose": "Projects, networking, learning updates"
+      },
+      { "platform": "GitHub", "purpose": "Upload SQL and Power BI projects" },
+      { "platform": "Instagram", "purpose": "Analytics reels and tutorials" },
+      {
+        "platform": "YouTube",
+        "purpose": "Dashboard tutorials and interview tips"
+      }
+    ]
+  }
 ]

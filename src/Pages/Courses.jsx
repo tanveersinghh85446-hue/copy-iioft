@@ -76,7 +76,7 @@ function CourseCard({ course }) {
         className={`relative ${cat.bg} overflow-hidden`}
         style={{ height: "150px" }}
       >
-        <img
+        {/* <img
           src={`/${course.image.split("/").pop()}`}
           alt={course.title}
           className="w-full h-full object-cover"
@@ -87,6 +87,22 @@ function CourseCard({ course }) {
           onError={(e) => {
             e.target.style.display = "none";
             e.target.nextSibling.style.display = "flex";
+          }}
+        /> */}
+
+        <img
+          src={`/${(course.image || "").split("/").pop()}`}
+          alt={course.title}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
+          width={700}
+          height={150}
+          onError={(e) => {
+            e.target.style.display = "none";
+            if (e.target.nextSibling) {
+              e.target.nextSibling.style.display = "flex";
+            }
           }}
         />
         <div
@@ -121,7 +137,7 @@ function CourseCard({ course }) {
         </p>
 
         {/* Features preview */}
-        <ul className="flex flex-col gap-1 flex-1">
+        {/* <ul className="flex flex-col gap-1 flex-1">
           {course.features.slice(0, 3).map((f, i) => (
             <li
               key={i}
@@ -134,6 +150,29 @@ function CourseCard({ course }) {
             </li>
           ))}
           {course.features.length > 3 && (
+            <li className={`text-xs font-medium ${cat.accent} mt-0.5`}>
+              +{course.features.length - 3} more features
+            </li>
+          )}
+        </ul> */}
+        {/* Features preview */}
+        <ul className="flex flex-col gap-1 flex-1">
+          {(course.features || []).slice(0, 3).map((f, i) => (
+            <li
+              key={i}
+              className="flex items-start gap-1.5 text-xs text-slate-500"
+            >
+              <span
+                className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 ${cat.accent.replace(
+                  "text-",
+                  "bg-",
+                )}`}
+              />
+              {f}
+            </li>
+          ))}
+
+          {(course.features || []).length > 3 && (
             <li className={`text-xs font-medium ${cat.accent} mt-0.5`}>
               +{course.features.length - 3} more features
             </li>
