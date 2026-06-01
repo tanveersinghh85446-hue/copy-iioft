@@ -57,6 +57,7 @@
     "metaTitle": "Microsoft Office Course | Word, Excel, PowerPoint, Teams & MOS Certification",
     "metaDescription": "Master Microsoft Office — Word, Excel, PowerPoint, Outlook, Teams & OneNote. Professional productivity training with MOS certification exam preparation."
   },
+
   {
     "id": "advanced-excel-finance",
     "slug": "microsoft-excel-advanced-for-finance",
@@ -147,6 +148,7 @@
     "metaTitle": "Advanced Excel for Finance Course | Financial Modeling & Data Analysis",
     "metaDescription": "Master Advanced Excel for Finance with Pivot Tables, Financial Functions, Data Analysis, and Automation. Learn financial modeling, reporting, and dashboard creation in 2-3 months."
   },
+
   {
     "id": "vba",
     "slug": "microsoft-excel-vba-macros",
@@ -214,6 +216,7 @@
     "metaTitle": "Advanced Excel VBA & Macros Course | Automation & UserForms",
     "metaDescription": "Master Excel VBA & Macros for office automation. Build invoice generators, payroll systems & automated dashboards. Advanced Excel programming in 2–3 months."
   },
+
   {
     "id": "da",
     "slug": "data-analytics",
@@ -225,48 +228,87 @@
     "category": "tranding course",
     "image": "DA.AVIF",
     "features": [
-      "Excel for Data Analysis",
-      "SQL Queries & Database Analysis",
-      "Python (Pandas, Matplotlib, Seaborn)",
-      "Power BI Dashboard Creation",
-      "Statistics & Business Analytics",
-      "5 Real-World Projects"
+      "Data Analysis Tools",
+      "Microsoft Excel (Advanced)",
+      "Microsoft Power BI",
+      "MySQL / SQL Workbench",
+      "Python (Jupyter Notebook / Anaconda)"
     ],
     "syllabus": [
       {
         "module": 1,
-        "title": "Introduction to Data Analytics",
-        "topics": ["Analytics Life Cycle", "Roles & Industry Applications"]
+        "title": "Excel Foundation",
+        "topics": [
+          "Excel Interface & Ribbon",
+          "Workbook vs Worksheet",
+          "Rows, Columns, Cells",
+          "Data Entry Techniques",
+          "AutoFill & Flash Fill"
+        ]
       },
       {
         "module": 2,
-        "title": "Excel for Data Analysis",
-        "topics": ["Pivot Tables", "Data Cleaning", "Charts"]
+        "title": "Formatting & Data Handling",
+        "topics": [
+          "Number Formatting",
+          "Conditional Formatting",
+          "Data Sorting & Filtering",
+          "Remove Duplicates",
+          "Text to Columns"
+        ]
       },
       {
         "module": 3,
-        "title": "SQL",
-        "topics": ["Joins, Subqueries", "Group By & Aggregates"]
+        "title": " Formulas & Functions",
+        "topics": [
+          "SUM, AVERAGE, COUNT",
+          "MAX, MIN",
+          "IF, AND, OR",
+          "Nested IF",
+          "LEFT, RIGHT, MID",
+          "LEN, TRIM",
+          "CONCAT, TEXTJOIN"
+        ]
       },
       {
         "module": 4,
-        "title": "Python",
-        "topics": ["NumPy & Pandas", "EDA", "Matplotlib & Seaborn"]
+        "title": "Lookup & Reference",
+        "topics": [
+          "VLOOKUP",
+          "HLOOKUP",
+          "INDEX + MATCH",
+          "XLOOKUP",
+          "OFFSET",
+          "INDIRECT"
+        ]
       },
       {
         "module": 5,
-        "title": "Power BI",
-        "topics": ["DAX", "Dashboard Creation", "Interactive Reports"]
+        "title": "Data Analysis Tools",
+        "topics": [
+          "Pivot Tables",
+          "Pivot Charts",
+          "Slicers & Timelines",
+          "What-If Analysis",
+          "Goal Seek"
+        ]
       },
       {
         "module": 6,
-        "title": "Statistics & Business Analytics",
-        "topics": ["Correlation & Regression", "KPIs & Metrics"]
+        "title": ": Advanced Excel",
+        "topics": [
+          "Data Validation",
+          "Dynamic Ranges",
+          "Dashboard Creation",
+          "Macros Recording",
+          "Introduction to VBA"
+        ]
       }
     ],
     "metaTitle": "Data Analytics Course | Excel, SQL, Python, Power BI & Tableau",
     "metaDescription": "Become a data analyst with Excel, SQL, Python, Power BI & Tableau. Build sales dashboards, HR analytics reports & customer churn models. Job-ready in 4–6 months."
   },
+
   {
     "id": "ZBRUSH",
     "slug": "zbrush-3d-sculpting",
@@ -354,6 +396,7 @@
     "metaTitle": "ZBrush 3D Sculpting Course | 4-Month Professional Program",
     "metaDescription": "Learn ZBrush 3D sculpting for films, games & collectibles. Master organic sculpting, retopology, Polypaint & rendering. Build a professional character artist portfolio."
   },
+
   {
     "id": "DTP",
     "slug": "desktop-publishing-dtp",
@@ -439,6 +482,7 @@
     "metaTitle": "Desktop Publishing (DTP) Course | 3-Month Program | InDesign, CorelDRAW",
     "metaDescription": "Learn DTP with InDesign, CorelDRAW & Photoshop. Design brochures, banners, books & print media. Become a professional DTP Operator in just 3 months."
   },
+
   {
     "id": "wd",
     "slug": "full-stack-web-development",
@@ -526,6 +570,7 @@
     "metaTitle": "Full Stack Web Development Course | MERN Stack | React, Node.js, MongoDB",
     "metaDescription": "Master full-stack web development with React, Node.js, MongoDB & MySQL. Build real-world MERN stack applications and become job-ready. Includes deployment & interview prep."
   },
+
   {
     "id": "DAMD",
     "slug": "diploma-animation-multimedia-designing",
@@ -594,6 +639,7 @@
     "metaTitle": "Diploma in Animation, Multimedia & Designing | 9–12 Month Program",
     "metaDescription": "Complete diploma in graphic design, 2D & 3D animation, video editing & UI/UX. Learn Photoshop, Illustrator, Blender, Premiere Pro, After Effects & Figma."
   },
+
   {
     "id": "ds",
     "slug": "data-science",
@@ -812,15 +858,16 @@
     "metaTitle": "Data Science Course | Python, ML, Deep Learning & AI",
     "metaDescription": "Learn Data Science with Python, Machine Learning, Deep Learning, NLP & AWS deployment. Build real projects like house price prediction, image classification & sentiment analysis."
   },
+
   {
     "id": "eh",
     "slug": "ethical-hacking",
     "title": "Ethical Hacking",
-    "shortDescription": "Learn penetration testing, web hacking, network security, and cybersecurity tools with Kali Linux.",
-    "fullDescription": "This Ethical Hacking course covers the complete hacking lifecycle — from reconnaissance and scanning to exploitation, web application attacks, wireless hacking, and cryptography. You'll work with industry tools like Kali Linux, Metasploit, Burp Suite, and Wireshark.",
+    "shortDescription": "Basic Knowledge of Computers & Networking",
+    "fullDescription": "Certified Ethical Hacking Professional Program",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "tranding course",
+    "category": "master",
     "image": "EH.AVIF",
     "features": [
       "Kali Linux & Penetration Testing",
@@ -833,42 +880,177 @@
     "syllabus": [
       {
         "module": 1,
-        "title": "Introduction to Ethical Hacking",
-        "topics": ["Hacker Types", "Hacking Life Cycle", "Legal Guidelines"]
+        "title": " Introduction to Ethical Hacking",
+        "topics": [
+          "Information Security Concepts (CIA Triad)",
+          "Cyber Threats & Attack Types",
+          "Hackers vs Ethical Hackers",
+          "Cyber Laws & IT Act",
+          "Types of Hackers (White Hat, Black Hat, Grey Hat)",
+          "Phases of Ethical Hacking",
+          "Penetration Testing vs Ethical Hacking",
+          "Bug Bounty Programs",
+          "Setting up Lab Environment",
+          "Installing VirtualBox / VMware",
+          "  House Price Prediction"
+        ]
       },
       {
         "module": 2,
-        "title": "Footprinting & Reconnaissance",
+        "title": "Networking Fundamentals",
         "topics": [
-          "Domain & IP Lookup",
-          "Network Scanning",
-          "Social Engineering"
+          "Network Basics",
+          "OSI Model",
+          "TCP/IP Model",
+          "  House Price Prediction",
+          "MAC Address",
+          "DNS, DHCP, HTTP, HTTPS",
+          "Network Devices",
+          "Router, Switch, Firewall",
+          "IDS & IPS",
+          "Packet Analysis using Wireshark",
+          "Network Scanning using Nmap"
         ]
       },
       {
         "module": 3,
-        "title": "Scanning & Enumeration",
-        "topics": ["Port Scanning", "Nmap & Nessus"]
+        "title": "Footprinting & Reconnaissance",
+        "topics": [
+          "Information Gathering",
+          "Passive & Active Reconnaissance",
+          "WHOIS Lookup",
+          "DNS Enumeration",
+          "Google Dorking",
+          "Tools",
+          "Maltego",
+          "theHarvester",
+          "Live Target Information Gathering",
+          "Subdomain Enumeration"
+        ]
       },
       {
         "module": 4,
-        "title": "System Hacking",
-        "topics": ["Password Cracking", "Trojans & Backdoors"]
+        "title": "Scanning Networks",
+        "topics": [
+          "Scanning Techniques",
+          "Port Scanning",
+          "Vulnerability Scanning",
+          "Banner Grabbing",
+          "Tools",
+          "Nessus",
+          "OpenVAS",
+          "Netcat",
+          "Vulnerability Assessment of Test Machine"
+        ]
       },
       {
         "module": 5,
-        "title": "Web Application Hacking",
-        "topics": ["SQL Injection", "XSS & CSRF", "OWASP Top 10"]
+        "title": "Malware Threats",
+        "topics": [
+          " Types of Malware",
+          "Virus",
+          "Worm",
+          "Trojan",
+          "Ransomware",
+          "Malware Analysis Basics",
+          "Static Analysis",
+          "Dynamic Analysis",
+          "Creating Payload using msfvenom (Educational Purpose)"
+        ]
       },
       {
         "module": 6,
-        "title": "Network, Wireless & Cryptography",
-        "topics": ["Wi-Fi Hacking", "Packet Sniffing", "Encryption"]
+        "title": "Sniffing & Social Engineering",
+        "topics": [
+          "ARP Poisoning",
+          "Packet Sniffing",
+          "MITM Attack",
+          "Phishing",
+          "Email Spoofing",
+          "Human-Based Attacks",
+          "Wireshark",
+          "SET Toolkit"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Web Application Hacking",
+        "topics": [
+          "HTML",
+          "HTTP Methods",
+          "Sessions & Cookies",
+          "SQL Injection",
+          "XSS",
+          "CSRF",
+          "Broken Authentication",
+          "Burp Suite",
+          "SQLmap",
+          "Testing Vulnerable Web Application"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Wireless Network Hacking",
+        "topics": [
+          "Wireless Concepts",
+          "WPA/WPA2",
+          "Encryption Methods",
+          "Deauthentication Attack",
+          "Evil Twin Attack",
+          "Aircrack-ng"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Cryptography",
+        "topics": [
+          "Cryptography Basics",
+          "Symmetric Encryption",
+          "Asymmetric Encryption",
+          "Hashing Algorithms",
+          "SSL/TLS Concepts"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Cloud & IoT Security",
+        "topics": [
+          "Cloud Security Basics",
+          "Cloud Threats",
+          "Security Controls",
+          "Hashing Algorithms",
+          "SSL/TLS Concepts"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Penetration Testing & Reporting",
+        "topics": [
+          "Penetration Testing Methodology",
+          "Planning",
+          "Scanning",
+          "Exploitation",
+          "Reporting",
+          "Vulnerability Report Format",
+          "Risk Assessment",
+          "Remediation Steps",
+          "Web Application Penetration Testing",
+          "Network Security Assessment",
+          "Security Audit Simulation",
+          "Interview Preparation",
+          "Resume Building",
+          "Mock Practical Exam",
+          "Ethical Hacker",
+          "Penetration Tester",
+          "Security Analyst",
+          "Cyber Security Consultant"
+        ]
       }
     ],
-    "metaTitle": "Ethical Hacking Course | Kali Linux, Metasploit, Burp Suite",
+    "metaTitle": "SOFTWARE & TOOLS COVERED | Kali Linux, Nmap, Wireshark, Metasploit, Burp Suite, SQLmap, Nessus, OpenVAS, Aircrack-ng, John the Ripper, Hydra, Maltego",
     "metaDescription": "Learn ethical hacking & penetration testing with Kali Linux, Nmap, Metasploit & Burp Suite. Master web hacking, wireless security & OWASP Top 10 vulnerabilities."
   },
+
   {
     "id": "dm",
     "slug": "digital-marketing",
@@ -890,38 +1072,139 @@
     "syllabus": [
       {
         "module": 1,
-        "title": "Introduction to Digital Marketing",
-        "topics": ["Digital Channels Overview", "Career Opportunities"]
+        "title": " Introduction to Digital Marketing",
+        "topics": [
+          "What is Digital Marketing?",
+          "Traditional Marketing vs Digital Marketing",
+          "Importance of Digital Marketing in Business",
+          "Digital Marketing Channels Overview",
+          "Digital Marketing Channels Overview",
+          "Online Customer Journey",
+          "Digital Marketing Strategy & Planning",
+          "Understanding Target Audience & Buyer Persona",
+          "B2B vs B2C Marketing"
+        ]
       },
       {
         "module": 2,
-        "title": "SEO",
-        "topics": ["Keyword Research", "On-page & Off-page SEO", "SEO Tools"]
+        "title": "Website Planning & Development",
+        "topics": [
+          "Introduction to Domain & Hosting",
+          "Types of Websites",
+          "Website Structure & Architecture",
+          "Introduction to WordPress",
+          "Installing WordPress",
+          "Themes & Plugins",
+          "Creating Pages & Blog Posts",
+          "SEO-Friendly Website Design",
+          "Mobile Optimization",
+          "Landing Page Creation"
+        ]
       },
       {
         "module": 3,
-        "title": "Social Media Marketing",
-        "topics": ["Content Strategy", "Facebook, Instagram, LinkedIn"]
+        "title": "SEO Fundamentals",
+        "topics": [
+          "What is SEO?",
+          "How Search Engines Work",
+          "On-Page SEO",
+          "Off-Page SEO",
+          "SEO Tools",
+          "Technical SEO",
+          "Google Algorithm Basics",
+          "Keyword Research"
+        ]
       },
       {
         "module": 4,
-        "title": "Paid Advertising (PPC)",
-        "topics": ["Google Ads", "Campaign Optimization"]
+        "title": "On-Page SEO",
+        "topics": [
+          "Keyword Research Tools",
+          "Title Tag Optimization",
+          "Meta Description",
+          "Header Tags (H1–H6)",
+          "URL Structure",
+          "Internal Linking",
+          "Image Optimization",
+          "Content Optimization",
+          "Schema Markup",
+          "SEO Audit"
+        ]
       },
       {
         "module": 5,
-        "title": "Email & Content Marketing",
-        "topics": ["Email Automation", "Blog Writing & SEO Content"]
+        "title": "Off-Page SEO",
+        "topics": [
+          "Backlink Building",
+          "Directory Submission",
+          "Social Bookmarking",
+          "Guest Posting",
+          "Article Submission",
+          "Blog Commenting",
+          "Forum Posting",
+          "Business Listing",
+          "Influencer Outreach"
+        ]
       },
       {
         "module": 6,
-        "title": "Analytics & Reporting",
-        "topics": ["Google Analytics", "KPIs & Conversion Tracking"]
+        "title": " Technical SEO",
+        "topics": [
+          "Website Speed Optimization",
+          "Core Web Vitals",
+          "Mobile-Friendly Testing",
+          "XML Sitemap",
+          "Robots.txt",
+          "Canonical Tag",
+          "HTTPS & SSL",
+          "Google Search Console Setup"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Google Ads (PPC)",
+        "topics": [
+          "Introduction to Pay-Per-Click",
+          "Google Ads Account Setup",
+          "Ad Copywriting",
+          "XML Sitemap",
+          "Quality Score",
+          "Bidding Strategies",
+          "Conversion Tracking",
+          "Display Ads",
+          "Shopping Ads",
+          "Video Ads",
+          "Remarketing"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Social Media Marketing Overview",
+        "topics": [
+          "Introduction to Social Media Platforms",
+          "Content Strategy",
+          "Social Media Branding",
+          "Audience Engagement"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Facebook & Instagram Marketing",
+        "topics": [
+          "Business Manager Setup",
+          "Creating Ad Campaigns",
+          "Audience Targeting",
+          "Pixel Setup",
+          "Lead Generation Ads",
+          "E-commerce Ads",
+          "Performance Analysis"
+        ]
       }
     ],
     "metaTitle": "Digital Marketing Course | SEO, Google Ads, Social Media & Analytics",
     "metaDescription": "Master digital marketing — SEO, Google Ads, social media, email marketing & analytics. Run live campaigns and become job-ready in 4–6 months."
   },
+
   {
     "id": "id",
     "slug": "interior-design-diploma",
@@ -975,6 +1258,7 @@
     "metaTitle": "Interior Design Diploma | AutoCAD, SketchUp, Space Planning",
     "metaDescription": "Learn interior design with hands-on training in space planning, color theory, AutoCAD & SketchUp. Work on real residential and commercial design projects."
   },
+
   {
     "id": "hr",
     "slug": "human-resource-management-diploma",
@@ -1028,6 +1312,7 @@
     "metaTitle": "Human Resource Management Diploma | SAP, Payroll, HR Analytics",
     "metaDescription": "Learn HR management with SAP SuccessFactors, Workday, recruitment, payroll & HR analytics. Diploma in strategic HRM for modern workplaces."
   },
+
   {
     "id": "py",
     "slug": "python-programming",
@@ -1090,6 +1375,7 @@
     "metaTitle": "Python Programming Course | OOP, Web Scraping, Automation",
     "metaDescription": "Learn Python from scratch to advanced. Covers OOP, data structures, web scraping, API requests, GUI development & automation. Includes 6 real-world projects."
   },
+
   {
     "id": "uiux",
     "slug": "ui-ux-design",
@@ -1143,6 +1429,7 @@
     "metaTitle": "UI/UX Design Course | Figma, Prototyping & User Research",
     "metaDescription": "Become a UI/UX designer with Figma, Adobe XD & InVision. Learn user research, wireframing, prototyping & accessibility. Build a portfolio with 5 real-world case studies."
   },
+
   {
     "id": "cc",
     "slug": "cloud-computing",
@@ -1196,6 +1483,7 @@
     "metaTitle": "Cloud Computing Course | AWS, Azure, GCP, Docker & Kubernetes",
     "metaDescription": "Learn cloud computing with AWS, Azure, Google Cloud, Docker & Kubernetes. Master DevOps, CI/CD & Terraform. Prepare for AWS Solutions Architect & Azure AZ-900 certifications."
   },
+
   {
     "id": "ai",
     "slug": "artificial-intelligence",
@@ -1252,6 +1540,7 @@
     "metaTitle": "Artificial Intelligence Course | ML, Generative AI, LLMs & LangChain",
     "metaDescription": "Learn AI from fundamentals to Generative AI. Covers ML, deep learning, LLMs, prompt engineering, LangChain, RAG & AI agents using Python, TensorFlow & OpenAI API."
   },
+
   {
     "id": "mad",
     "slug": "mobile-app-development",
@@ -1305,6 +1594,7 @@
     "metaTitle": "Mobile App Development Course | React Native, Firebase & Redux",
     "metaDescription": "Build iOS & Android apps with React Native. Learn Firebase, Redux, push notifications & deploy to Play Store and App Store. Covers Expo, Android Studio & Xcode."
   },
+
   {
     "id": "ANIM",
     "slug": "adobe-animate",
@@ -1363,6 +1653,7 @@
     "metaTitle": "Adobe Animate Course | 2D Animation, Motion Graphics & Interactive Content",
     "metaDescription": "Learn Adobe Animate for 2D animation, motion graphics & interactive content. Create animated ads, educational videos & social media animations in just 3 months."
   },
+
   {
     "id": "GD",
     "slug": "graphic-designing",
@@ -1421,6 +1712,7 @@
     "metaTitle": "Graphic Designing Course | Photoshop, Illustrator, CorelDRAW & Canva",
     "metaDescription": "Learn graphic design with Adobe Photoshop, Illustrator, CorelDRAW & Canva. Design logos, posters, brochures & social media creatives. Build a Behance portfolio in 4 months."
   },
+
   {
     "id": "ANIM2D3D",
     "slug": "2d-3d-animation",
@@ -1484,6 +1776,7 @@
     "metaTitle": "2D & 3D Animation Course | Adobe Animate & Blender | 6 Months",
     "metaDescription": "Master both 2D and 3D animation in one 6-month course. Learn Adobe Animate for 2D and Blender for 3D modeling, rigging & rendering. Build a professional animation showreel."
   },
+
   {
     "id": "FILMORA",
     "slug": "filmora-video-editing",
@@ -1547,6 +1840,7 @@
     "metaTitle": "Filmora Video Editing Course | YouTube, Reels & Social Media Editing",
     "metaDescription": "Learn video editing with Filmora in 2 months. Edit YouTube videos, Instagram Reels & promotional content. Covers audio editing, color correction & export optimization."
   },
+
   {
     "id": "MAYA",
     "slug": "maya-3d-animation",
@@ -1615,6 +1909,7 @@
     "metaTitle": "Maya 3D Animation Course | Modeling, Rigging & Arnold Rendering | 6 Months",
     "metaDescription": "Learn Autodesk Maya for professional 3D animation. Covers modeling, UV mapping, rigging, walk cycles, dynamics & Arnold rendering. Build a film-quality animation showreel."
   },
+
   {
     "id": "UIUX",
     "slug": "ui-ux-design-figma-advanced",
@@ -1673,6 +1968,7 @@
     "metaTitle": "Advanced UI/UX Design Course with Figma | Prototyping & Case Studies",
     "metaDescription": "Master UI/UX design with Figma. Learn UX research, wireframing, design systems, interactive prototyping & accessibility. Build a professional portfolio in 4 months."
   },
+
   {
     "id": "PPRO",
     "slug": "adobe-premiere-pro-video-editing",
@@ -1736,6 +2032,7 @@
     "metaTitle": "Adobe Premiere Pro Video Editing Course | 3-Month Professional Training",
     "metaDescription": "Learn Adobe Premiere Pro for professional video editing. Covers color grading, audio editing, multi-camera editing & export for YouTube, Instagram & corporate videos."
   },
+
   {
     "id": "BA",
     "slug": "business-analyst",
@@ -1799,6 +2096,7 @@
     "metaTitle": "Business Analyst Course | Excel, SQL, Power BI, Agile & BRD/FRD",
     "metaDescription": "Become a Business Analyst with Excel, SQL, Power BI, Tableau & Agile. Learn BRD/FRD documentation, use cases & domain case studies. 4-month job-ready program."
   },
+
   {
     "id": "PD",
     "slug": "personality-development",
@@ -1857,6 +2155,7 @@
     "metaTitle": "Personality Development Course | Communication, Confidence & Leadership",
     "metaDescription": "Develop communication skills, public speaking confidence, emotional intelligence & leadership. Corporate etiquette, resume building & mock interviews included."
   },
+
   {
     "id": "tally-prime-gst",
     "slug": "advance-diploma-finance-accounting-tally-gst",
@@ -1948,6 +2247,7 @@
     "metaTitle": "Tally Prime + GST Course | Advanced Diploma in Finance & Accounting",
     "metaDescription": "Master Tally Prime with GST compliance. Learn accounting, voucher entries, GST registration, inventory management, and financial reporting. ISO & NSDC certified training in 2-3 months."
   },
+
   {
     "id": "se",
     "slug": "spoken-english",
@@ -2006,6 +2306,7 @@
     "metaTitle": "Spoken English Course | Fluency, Grammar & Business Communication",
     "metaDescription": "Improve spoken English with grammar, pronunciation & business communication training. Practice everyday conversations, interviews, group discussions & public speaking."
   },
+
   {
     "id": "mac",
     "slug": "microsoft-access",
@@ -2064,6 +2365,7 @@
     "metaTitle": "Microsoft Access Course | Database Design, Queries, Forms & Reports",
     "metaDescription": "Learn Microsoft Access for database management. Design relational databases, write queries, build forms & generate automated reports. Covers macros & complete business apps."
   },
+
   {
     "id": "AEF",
     "slug": "adobe-after-effects-vfx-motion-graphics",
@@ -2127,6 +2429,7 @@
     "metaTitle": "Adobe After Effects Course | VFX, Motion Graphics & Cinematic Effects",
     "metaDescription": "Learn Adobe After Effects for VFX, motion graphics & cinematic effects. Master green screen, motion tracking, color grading & expressions. Build a professional showreel in 3–4 months."
   },
+
   {
     "id": "aml",
     "slug": "anti-money-laundering",
@@ -2190,6 +2493,7 @@
     "metaTitle": "AML Certification Course | PMLA, KYC, Transaction Monitoring & FATF",
     "metaDescription": "Get certified in Anti-Money Laundering (AML). Learn PMLA, FIU-IND, KYC/CDD, transaction monitoring, STR/CTR reporting & AI in AML compliance."
   },
+
   {
     "id": "tally",
     "slug": "tally-prime-gst",
@@ -2243,6 +2547,7 @@
     "metaTitle": "Tally Prime + GST Course | Professional Accounting & GST Returns",
     "metaDescription": "Learn Tally Prime with GST for professional accounting. Covers ledgers, inventory, GSTR-1, GSTR-3B, e-invoicing & financial reports. Job-ready accounting course."
   },
+
   {
     "id": "cia",
     "slug": "certified-industrial-accountant",
@@ -2301,6 +2606,7 @@
     "metaTitle": "Certified Industrial Accountant (CIA) | Tally, GST, Excel MIS & Accounting",
     "metaDescription": "Become a Certified Industrial Accountant with training in financial accounting, Tally Prime, GST, advanced Excel MIS & cost accounting. Includes mock interviews & resume prep."
   },
+
   {
     "id": "busy",
     "slug": "busy-accounting-software",
@@ -2354,6 +2660,7 @@
     "metaTitle": "BUSY Accounting Software Course | GST, Inventory & Financial Reports",
     "metaDescription": "Learn BUSY accounting software for GST compliance, inventory management & financial reporting. Professional training in GSTR-1, GSTR-3B & e-way bill generation."
   },
+
   {
     "id": "sapfico",
     "slug": "sap-fico",
@@ -2412,6 +2719,7 @@
     "metaTitle": "SAP FICO Course | Financial Accounting & Controlling | ERP Professional",
     "metaDescription": "Learn SAP FICO for financial accounting & controlling. Covers GL posting, asset accounting, cost centers, profitability analysis & module integration. SAP consultant career prep."
   },
+
   {
     "id": "sapmm",
     "slug": "sap-mm-materials-management",
@@ -2475,6 +2783,7 @@
     "metaTitle": "SAP MM Course | Materials Management, Procurement & Inventory | ERP",
     "metaDescription": "Learn SAP MM for materials management & procurement. Covers purchase orders, goods receipt, inventory management, invoice verification & 3-way matching. SAP MM consultant prep."
   },
+
   {
     "id": "sapsd",
     "slug": "sap-sd-sales-distribution",
@@ -2538,6 +2847,7 @@
     "metaTitle": "SAP SD Course | Sales & Distribution, Order Management & Billing | ERP",
     "metaDescription": "Learn SAP SD for sales order management, delivery, billing & pricing. Complete order-to-cash cycle training with MM & FI integration. SAP SD consultant career preparation."
   },
+
   {
     "id": "sappp",
     "slug": "sap-pp-production-planning",
@@ -2601,6 +2911,7 @@
     "metaTitle": "SAP PP Course | Production Planning, MRP & Manufacturing Execution | ERP",
     "metaDescription": "Learn SAP PP for production planning & manufacturing execution. Covers BOM, MRP, work centers, routing, production orders & quality control. SAP PP consultant prep."
   },
+
   {
     "id": "saphcm",
     "slug": "sap-hcm-human-capital-management",
@@ -2669,6 +2980,7 @@
     "metaTitle": "SAP HCM Course | Human Capital Management, Payroll & HR Operations | ERP",
     "metaDescription": "Learn SAP HCM for HR operations — payroll, time management, personnel administration & talent management. Complete SAP Human Capital Management consultant training."
   },
+
   {
     "id": "BLENDER",
     "slug": "blender-3d-animation",
@@ -2732,6 +3044,7 @@
     "metaTitle": "Blender 3D Animation Course | Modeling, Rigging & Rendering | 4–6 Months",
     "metaDescription": "Learn Blender 3D animation from scratch. Covers modeling, UV mapping, rigging, walk cycles, Eevee & Cycles rendering. Build a professional 3D animation showreel."
   },
+
   {
     "id": "sap-fico",
     "slug": "advance-diploma-sap-fico-financial-accounting-controlling",
@@ -2823,6 +3136,7 @@
     "metaTitle": "SAP FICO Course | Financial Accounting & Controlling Training with Placement",
     "metaDescription": "Master SAP FICO with hands-on training in Financial Accounting (FI) and Controlling (CO). Learn ERP, cost accounting, reporting, and get 100% placement assistance. ISO & NSDC certified course in 3-4 months."
   },
+
   {
     "id": "is",
     "slug": "interview-skills",
@@ -2972,6 +3286,7 @@
     "metaTitle": "Interview Skills Course | HR, Technical & Mock Interview Preparation",
     "metaDescription": "Master interview skills with resume building, body language, HR & technical interview prep, group discussions, and mock interview practice. Crack your dream job confidently."
   },
+
   {
     "id": "da-interview-branding",
     "slug": "data-analyst-45-day-plan",
@@ -3091,5 +3406,607 @@
         "purpose": "Dashboard tutorials and interview tips"
       }
     ]
+  },
+
+  {
+    "id": "pyml",
+    "slug": "python-machine-learning",
+    "title": "Python + Machine Learning",
+    "shortDescription": "Master Python fundamentals to building and deploying real-world Machine Learning models — a complete course for beginners.",
+    "fullDescription": "This Python + Machine Learning course takes you from Python basics to building and deploying real-world ML models. You'll cover Python fundamentals, data analysis with NumPy & Pandas, data visualization, supervised and unsupervised learning algorithms, model optimization, and basic deployment using Flask/Streamlit.",
+    "duration": "3.5 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "PML.AVIF",
+    "features": [
+      "Python Fundamentals — Variables, Loops, Functions, OOP",
+      "Data Analysis — NumPy, Pandas, Data Cleaning",
+      "Data Visualization — Matplotlib & Seaborn",
+      "Supervised Learning — Regression & Classification",
+      "Unsupervised Learning — Clustering & PCA",
+      "Model Optimization — GridSearchCV & Cross-Validation",
+      "Model Deployment — Flask / Streamlit Web App"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Python Basics",
+        "topics": [
+          "Python Introduction & Setup",
+          "Variables & Data Types",
+          "Operators",
+          "Input/Output",
+          "Conditional Statements (if, else)",
+          "Mini Project: Student Result System"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Loops & Data Structures",
+        "topics": [
+          "Loops (for, while)",
+          "Lists, Tuples, Sets",
+          "Dictionaries",
+          "String Handling",
+          "Mini Project: Contact Book System"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Functions & File Handling",
+        "topics": [
+          "Functions (Arguments, Return)",
+          "Modules & Packages",
+          "Exception Handling",
+          "File Handling (Read/Write)",
+          "Mini Project: Library Management System (CLI)"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "NumPy & Pandas Basics",
+        "topics": [
+          "NumPy Arrays",
+          "Pandas Series & DataFrames",
+          "Data Loading (CSV, Excel)",
+          "Basic Data Operations"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Data Cleaning & Analysis",
+        "topics": [
+          "Handling Missing Values",
+          "Filtering & Grouping",
+          "Aggregation Functions",
+          "Data Transformation",
+          "Mini Project: Sales Data Analysis"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Data Visualization",
+        "topics": [
+          "Matplotlib",
+          "Seaborn",
+          "Plot Types (Bar, Line, Heatmap)",
+          "Mini Project: Data Visualization Dashboard (Static)"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "ML Introduction",
+        "topics": [
+          "What is Machine Learning?",
+          "Types: Supervised / Unsupervised / Reinforcement",
+          "ML Workflow",
+          "Train/Test Split"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Supervised Learning — Regression",
+        "topics": [
+          "Linear Regression",
+          "Multiple Regression",
+          "Model Evaluation (MAE, MSE, R²)",
+          "Mini Project: House Price Prediction"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Classification Algorithms",
+        "topics": [
+          "Logistic Regression",
+          "KNN",
+          "Decision Tree",
+          "Confusion Matrix & Accuracy",
+          "Mini Project: Spam Email Classifier"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Unsupervised Learning",
+        "topics": [
+          "Clustering (K-Means)",
+          "Dimensionality Reduction (PCA Basics)",
+          "Mini Project: Customer Segmentation"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Advanced ML Models",
+        "topics": [
+          "Random Forest",
+          "Support Vector Machine (SVM)",
+          "Model Comparison"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Model Optimization",
+        "topics": [
+          "Hyperparameter Tuning (GridSearchCV)",
+          "Cross-Validation",
+          "Overfitting vs Underfitting"
+        ]
+      },
+      {
+        "module": 13,
+        "title": "Model Deployment",
+        "topics": [
+          "Saving Models (Pickle / Joblib)",
+          "Flask / Streamlit Basics",
+          "Mini Project: ML Web App"
+        ]
+      },
+      {
+        "module": 14,
+        "title": "Capstone Project",
+        "topics": [
+          "Data Cleaning & Preprocessing",
+          "Feature Engineering",
+          "Model Building & Evaluation",
+          "Visualization",
+          "Deployment (Basic Web App)",
+          "Project Options: Loan Approval / Student Performance / Employee Attrition / Stock Price Trend"
+        ]
+      }
+    ],
+    "metaTitle": "Python + Machine Learning Course | Data Analysis, ML Models & Deployment",
+    "metaDescription": "Learn Python and Machine Learning from scratch. Covers NumPy, Pandas, Scikit-learn, regression, classification, clustering, and model deployment using Flask/Streamlit. Real-world projects included."
+  },
+
+  {
+    "id": "ml",
+    "slug": "machine-learning",
+    "title": "Machine Learning",
+    "shortDescription": "Beginner to intermediate ML course covering supervised, unsupervised learning, model optimization, and deployment in 2 months.",
+    "fullDescription": "This Machine Learning course covers Python data handling, supervised and unsupervised learning algorithms, model optimization techniques, and basic deployment using Streamlit. You'll work on real-world datasets and build projects like House Price Prediction, Customer Segmentation, and a final deployed ML web app.",
+    "duration": "2 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "ML.AVIF",
+    "features": [
+      "Python Basics — Variables, Loops, Functions",
+      "Data Handling — NumPy, Pandas, Matplotlib, Seaborn",
+      "Supervised Learning — Regression & Classification",
+      "Unsupervised Learning — Clustering & PCA",
+      "Advanced Models — Random Forest, SVM, GridSearchCV",
+      "Model Deployment — Streamlit Web App"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Python & Data Handling Foundations",
+        "topics": [
+          "Python Basics (Variables, Loops, Functions)",
+          "NumPy (Arrays, Operations)",
+          "Pandas (Data Cleaning, Filtering, Grouping)",
+          "Data Visualization (Matplotlib, Seaborn)",
+          "Mini Project: Data Analysis on COVID-19 / Sales Dataset"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Introduction to Machine Learning",
+        "topics": [
+          "What is Machine Learning?",
+          "Types: Supervised, Unsupervised, Reinforcement Learning",
+          "ML Workflow (Data → Model → Evaluation)",
+          "Train-Test Split",
+          "Linear Regression",
+          "Project: House Price Prediction"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Supervised Learning — Classification",
+        "topics": [
+          "Logistic Regression",
+          "K-Nearest Neighbors (KNN)",
+          "Decision Trees",
+          "Accuracy, Precision, Recall, F1-Score",
+          "Confusion Matrix",
+          "Project: Student Pass/Fail Prediction"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Advanced Algorithms",
+        "topics": [
+          "Random Forest",
+          "Support Vector Machine (SVM)",
+          "Hyperparameter Tuning (GridSearchCV)",
+          "Project: Loan Approval Prediction"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Unsupervised Learning",
+        "topics": [
+          "Clustering (K-Means)",
+          "Hierarchical Clustering",
+          "Dimensionality Reduction (PCA)",
+          "Project: Customer Segmentation"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Model Optimization & Deployment Basics",
+        "topics": [
+          "Overfitting vs Underfitting",
+          "Cross-Validation",
+          "Feature Engineering",
+          "Introduction to Flask / Streamlit",
+          "Mini Project: Model Optimization"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Final Project & Deployment",
+        "topics": [
+          "Data Preprocessing",
+          "Model Building & Evaluation",
+          "Deploy using Streamlit",
+          "Project Options: Spam Email Classifier / Movie Recommendation System / Disease Prediction / Sales Forecasting"
+        ]
+      }
+    ],
+    "metaTitle": "Machine Learning Course | Supervised, Unsupervised Learning & Deployment",
+    "metaDescription": "Learn Machine Learning in 2 months. Covers regression, classification, clustering, Random Forest, SVM, hyperparameter tuning & Streamlit deployment. Real-world projects included."
+  },
+
+  {
+    "id": "pbi",
+    "slug": "power-bi",
+    "title": "Power BI",
+    "shortDescription": "Master Power BI for interactive dashboards, DAX, data modeling, and business reporting in 1.5 months.",
+    "fullDescription": "This Power BI course takes you from data loading and cleaning to advanced DAX calculations, data modeling, and professional dashboard design. You'll work on real business datasets and build interactive reports for e-commerce, HR, finance, and retail domains — with publishing on Power BI Service.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "PBI.AVIF",
+    "features": [
+      "Power BI Interface & Data Sources (Excel, CSV, SQL)",
+      "Power Query — Data Cleaning & Transformation",
+      "Data Modeling — Relationships & Star Schema",
+      "DAX — Calculated Columns, Measures & Time Intelligence",
+      "Interactive Dashboards — Slicers, Drill-Down & Bookmarks",
+      "Power BI Service — Publishing & Row-Level Security"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction & Data Basics",
+        "topics": [
+          "Introduction to Business Intelligence (BI)",
+          "What is Power BI & Its Components",
+          "Installation & Interface Overview",
+          "Data Sources (Excel, CSV, SQL Basics)",
+          "Data Loading & Preview",
+          "Data Cleaning Basics (Power Query)",
+          "Mini Project: Sales Data Cleaning Dashboard"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Data Transformation (Power Query)",
+        "topics": [
+          "Power Query Editor (Advanced)",
+          "Filtering, Sorting & Grouping",
+          "Merge & Append Queries",
+          "Creating Custom Columns",
+          "Data Types & Transformations",
+          "Mini Project: Customer Data Transformation"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Data Modeling & DAX Basics",
+        "topics": [
+          "Data Modeling Concepts",
+          "Relationships (1-to-Many, Many-to-Many)",
+          "Star Schema Basics",
+          "Introduction to DAX",
+          "Calculated Columns vs Measures",
+          "Basic DAX Functions (SUM, COUNT, IF)",
+          "Mini Project: Sales KPI Dashboard"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Advanced DAX & Visualization",
+        "topics": [
+          "Advanced DAX (CALCULATE, FILTER, ALL)",
+          "Time Intelligence (YTD, MTD)",
+          "Data Visualization Principles",
+          "Charts: Bar, Line, Pie, Maps",
+          "Slicers & Filters",
+          "Drill-Down & Drill-Through",
+          "Mini Project: Regional Sales Analysis Dashboard"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Advanced Features & Reporting",
+        "topics": [
+          "Dashboard Design Best Practices",
+          "Bookmarks & Buttons",
+          "Tooltips Customization",
+          "Conditional Formatting",
+          "Power BI Service (Intro)",
+          "Publishing Reports",
+          "Mini Project: Financial Dashboard"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Capstone Project & Deployment",
+        "topics": [
+          "End-to-End Project Development",
+          "Data Refresh & Scheduling",
+          "Sharing Dashboards",
+          "Row-Level Security (Basic)",
+          "Resume & Portfolio Building",
+          "Project Options: E-commerce Sales / HR Analytics / Retail Store Performance / Healthcare Dashboard"
+        ]
+      }
+    ],
+    "metaTitle": "Power BI Course | DAX, Data Modeling, Dashboards & Business Intelligence",
+    "metaDescription": "Master Power BI in 1.5 months. Learn Power Query, DAX, data modeling, interactive dashboards & Power BI Service. Build real-world BI dashboards for e-commerce, HR, finance & retail."
+  },
+
+  {
+    "id": "django",
+    "slug": "django-web-development",
+    "title": "Django Web Development",
+    "shortDescription": "From Python basics to Django, REST APIs, and deployment — become a job-ready full-stack Django developer in 2.5 months.",
+    "fullDescription": "This Django course covers everything from Python fundamentals and web basics to advanced Django features like Class-Based Views, Django REST Framework, middleware, signals, and deployment. You'll build 4–5 mini projects and one major project (E-commerce, Job Portal, E-learning, or Hospital Management System).",
+    "duration": "2.5 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "DWD.AVIF",
+    "features": [
+      "Python Fundamentals & OOP",
+      "HTML, CSS, Bootstrap & JavaScript Basics",
+      "Django MVT Architecture — URLs, Views, Templates",
+      "Models, ORM, Migrations & Django Admin",
+      "CRUD Operations, Forms & File Uploads",
+      "User Authentication — Login, Signup & Sessions",
+      "Django REST Framework (DRF) & Postman Testing",
+      "Deployment on Render / PythonAnywhere"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Python Fundamentals",
+        "topics": [
+          "Python Setup",
+          "Variables & Data Types",
+          "Conditions & Loops",
+          "Functions",
+          "Lists, Tuples & Dictionary",
+          "File Handling",
+          "OOP Basics",
+          "Project: CLI-based Student Management System"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Web Basics",
+        "topics": [
+          "HTTP, Request/Response",
+          "HTML5 & CSS3",
+          "Bootstrap",
+          "JavaScript Basics",
+          "Project: Personal Portfolio Website"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Django Introduction",
+        "topics": [
+          "Django Installation",
+          "Project & App Creation",
+          "MVT Architecture",
+          "URLs & Views",
+          "Templates",
+          "Static Files",
+          "Project: Static Blog Website (No Database)"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Models & Database",
+        "topics": [
+          "Models & ORM",
+          "Migrations",
+          "SQLite / MySQL",
+          "Django Admin",
+          "Project: Student Database System"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Forms & CRUD",
+        "topics": [
+          "Django Forms",
+          "Model Forms",
+          "CRUD Operations",
+          "File Upload (Images / Docs)",
+          "Project: CRUD Blog App (Add/Edit/Delete Posts)"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Authentication System",
+        "topics": [
+          "User Registration / Login / Logout",
+          "Authentication & Authorization",
+          "Sessions & Cookies",
+          "Project: Login/Signup Dashboard System"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Advanced Views & Features",
+        "topics": [
+          "Class-Based Views (CBV)",
+          "Pagination",
+          "Messages Framework",
+          "Custom Error Pages",
+          "Project: Advanced Blog with Pagination"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Django REST Framework (DRF)",
+        "topics": [
+          "API Basics",
+          "Serializers",
+          "API Views & ViewSets",
+          "CRUD APIs",
+          "Testing with Postman",
+          "Project: Blog REST API"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Advanced Concepts",
+        "topics": [
+          "Middleware",
+          "Signals",
+          "Caching Basics",
+          "Email Sending",
+          "Performance Optimization Basics",
+          "Project: Notification System (Email on Signup/Post)"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Deployment & Final Project",
+        "topics": [
+          "Git & GitHub",
+          "Deployment (Render / PythonAnywhere)",
+          "Debugging & Optimization",
+          "Final Project Options: E-commerce Website / Job Portal / E-learning Platform / Hospital Management System"
+        ]
+      }
+    ],
+    "metaTitle": "Django Web Development Course | REST API, Authentication & Deployment",
+    "metaDescription": "Learn Django from basics to advanced in 2.5 months. Covers MVT, ORM, CRUD, authentication, Django REST Framework, and deployment. Build real-world projects including e-commerce and job portal."
+  },
+
+  {
+    "id": "ai-course",
+    "slug": "artificial-intelligence-course",
+    "title": "Artificial Intelligence (AI)",
+    "shortDescription": "From AI fundamentals to Machine Learning, Deep Learning, NLP, and deployment — a practical AI course in 2.5 months.",
+    "fullDescription": "This Artificial Intelligence course covers Python & math foundations, supervised and unsupervised machine learning, deep learning with TensorFlow/Keras, natural language processing, and model deployment using Streamlit or Flask. You'll build 4–5 real-world projects and create a portfolio ready for internships or freelance work.",
+    "duration": "2.5 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "AII.AVIF",
+    "features": [
+      "Python, NumPy, Pandas & Matplotlib",
+      "Statistics & Linear Algebra Basics",
+      "Supervised Learning — Regression & Classification",
+      "Unsupervised Learning — Clustering & Feature Engineering",
+      "Deep Learning — Neural Networks, TensorFlow & Keras",
+      "Natural Language Processing — Sentiment Analysis",
+      "Model Deployment — Streamlit / Flask & GitHub"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Python & Math Foundations",
+        "topics": [
+          "Python Basics (Variables, Loops, Functions)",
+          "Libraries: NumPy, Pandas, Matplotlib",
+          "Basic Statistics (Mean, Median, Variance)",
+          "Linear Algebra Basics (Vectors, Matrices)",
+          "Mini Project: Data Analysis Project (Student Marks / Sales Data)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Introduction to Machine Learning",
+        "topics": [
+          "What is AI, ML & Deep Learning",
+          "Types of ML: Supervised & Unsupervised",
+          "Linear Regression",
+          "Classification (KNN, Decision Tree)",
+          "Model Evaluation (Accuracy, Confusion Matrix)",
+          "Mini Project: House Price Prediction"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Advanced Machine Learning",
+        "topics": [
+          "Random Forest",
+          "Support Vector Machine (SVM)",
+          "Clustering (K-Means)",
+          "Feature Engineering",
+          "Overfitting & Underfitting",
+          "Mini Project: Customer Segmentation"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Introduction to Deep Learning",
+        "topics": [
+          "Neural Networks Basics",
+          "Activation Functions",
+          "TensorFlow / Keras Basics",
+          "Image Data Handling",
+          "Mini Project: Image Classification (Cats vs Dogs)"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Natural Language Processing (NLP)",
+        "topics": [
+          "Text Preprocessing (Tokenization, Stopwords)",
+          "Bag of Words & TF-IDF",
+          "Sentiment Analysis",
+          "Introduction to Transformers (Basic Idea)",
+          "Mini Project: Sentiment Analysis App"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Final Project & Deployment",
+        "topics": [
+          "Streamlit / Flask Web App",
+          "GitHub Project Upload",
+          "Portfolio Building",
+          "Final Project Options: AI Chatbot / Sales Prediction System / Disease Prediction Model / Movie Recommendation System"
+        ]
+      }
+    ],
+    "metaTitle": "Artificial Intelligence Course | ML, Deep Learning, NLP & Deployment",
+    "metaDescription": "Learn Artificial Intelligence in 2.5 months. Covers Python, machine learning, deep learning with TensorFlow, NLP, sentiment analysis, and model deployment. Build a real-world AI project portfolio."
   }
 ]
