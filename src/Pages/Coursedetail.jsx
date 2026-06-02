@@ -1521,7 +1521,7 @@ function SyllabusItem({ mod, accent, defaultOpen }) {
         className="w-full flex items-center gap-2.5 py-3.5 text-left bg-transparent border-0 cursor-pointer group"
       >
         <span
-          className="text-xs font-medium tabular-nums min-w-[22px] shrink-0"
+          className="text-xs font-medium tabular-nums min-w-5.5 shrink-0"
           style={{ color: accent.color }}
         >
           {String(mod.module).padStart(2, "0")}
@@ -1604,7 +1604,7 @@ export default function CourseDetail() {
               All Courses
             </Link>
             <span className="text-gray-300 text-xs">/</span>
-            <span className="text-xs text-gray-400 truncate max-w-[220px]">{course.title}</span>
+            <span className="text-xs text-gray-400 truncate max-w-55">{course.title}</span>
           </div>
         </div>
 
