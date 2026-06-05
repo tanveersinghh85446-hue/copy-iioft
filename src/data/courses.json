@@ -4008,5 +4008,988 @@
     ],
     "metaTitle": "Artificial Intelligence Course | ML, Deep Learning, NLP & Deployment",
     "metaDescription": "Learn Artificial Intelligence in 2.5 months. Covers Python, machine learning, deep learning with TensorFlow, NLP, sentiment analysis, and model deployment. Build a real-world AI project portfolio."
+  },
+
+  {
+    "id": "r-programming",
+    "slug": "r-programming",
+    "title": "R Programming",
+    "shortDescription": "Learn R programming from basics to data analysis, statistical methods, visualization, and dashboard creation in 1.5 months.",
+    "fullDescription": "This R Programming course takes you from R basics to performing data analysis, statistical testing, regression modeling, and building dashboards with Shiny. You'll work with real-world datasets using packages like dplyr, ggplot2, tidyr, and caret — and generate professional reports using R Markdown.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "RP.AVIF",
+    "features": [
+      "R & RStudio Setup — Data Types, Vectors, Matrices",
+      "Data Import/Export — CSV, Excel",
+      "Data Manipulation with dplyr",
+      "Data Visualization with ggplot2",
+      "Statistical Analysis — Hypothesis Testing, Correlation",
+      "Linear & Multiple Regression in R",
+      "Advanced R — tidyr, stringr, caret",
+      "R Markdown & Shiny Dashboard Basics"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to R & Basics",
+        "topics": [
+          "Introduction to R & RStudio",
+          "Installation & Setup",
+          "Data Types (Vectors, Matrices, Lists, Data Frames)",
+          "Basic Operations & Functions",
+          "Control Statements (if-else, Loops)",
+          "Project: Student Record Management"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Data Handling & Visualization",
+        "topics": [
+          "Data Import/Export (CSV, Excel)",
+          "Data Manipulation using dplyr",
+          "Data Cleaning Techniques",
+          "Data Visualization using ggplot2",
+          "Project: Sales Data Analysis & Visualization"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Statistical Analysis in R",
+        "topics": [
+          "Descriptive Statistics (Mean, Median, Variance)",
+          "Probability Distributions",
+          "Hypothesis Testing (t-test, Chi-square)",
+          "Correlation & Covariance",
+          "Project: Survey Data Analysis"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Data Analysis & Regression",
+        "topics": [
+          "Linear Regression",
+          "Multiple Regression",
+          "Model Evaluation",
+          "ANOVA Basics",
+          "Project: House Price Prediction"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Advanced R & Data Science Tools",
+        "topics": [
+          "Data Reshaping with tidyr",
+          "String Handling with stringr",
+          "Date-Time Handling",
+          "Introduction to caret Package",
+          "Basic Machine Learning Concepts in R",
+          "Project: Customer Data Analysis"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Reporting & Final Project",
+        "topics": [
+          "R Markdown (Report Generation)",
+          "Data Storytelling",
+          "Dashboard Basics using Shiny (Intro)",
+          "Final Project: Interactive Shiny Dashboard / Complete Data Analysis Report / Sales Forecasting Project"
+        ]
+      }
+    ],
+    "metaTitle": "R Programming Course | Data Analysis, ggplot2, Statistics & Shiny",
+    "metaDescription": "Learn R programming in 1.5 months. Covers data handling, ggplot2 visualization, statistical analysis, regression, caret, R Markdown & Shiny dashboards. Real-world projects included."
+  },
+
+  {
+    "id": "tableau",
+    "slug": "tableau",
+    "title": "Tableau",
+    "shortDescription": "Master Tableau for interactive dashboards, data visualization, LOD expressions, and business intelligence reporting in 1.5 months.",
+    "fullDescription": "This Tableau course takes you from BI basics and data connections to advanced calculations, LOD expressions, dashboard design, and publishing on Tableau Public/Server. You'll work on real business datasets and build 3–5 portfolio-ready dashboards across sales, finance, and customer analytics domains.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "T.AVIF",
+    "features": [
+      "Tableau Interface & Data Source Connections",
+      "Data Cleaning, Joins, Unions & Relationships",
+      "Calculated Fields, Parameters & Sets",
+      "Advanced Charts — Maps, Dual-Axis, Highlight Tables",
+      "Table Calculations & Forecasting",
+      "Dashboard Design — Actions, Filters & Story Points",
+      "LOD Expressions (Intro)",
+      "Publishing on Tableau Public/Server"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Tableau Basics & Data Connection",
+        "topics": [
+          "Introduction to Tableau & BI Concepts",
+          "Tableau Interface (Workspace, Panes, Sheets)",
+          "Connecting to Data Sources (Excel, CSV, SQL Basics)",
+          "Data Types & Roles (Dimensions vs Measures)",
+          "Basic Charts (Bar, Line, Pie)",
+          "Project: Superstore Sales Basic Dashboard"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Data Preparation & Visualization",
+        "topics": [
+          "Data Cleaning in Tableau",
+          "Joins, Unions & Relationships",
+          "Sorting, Filtering & Grouping",
+          "Calculated Fields (Basic Formulas)",
+          "Advanced Charts (Maps, Highlight Tables)",
+          "Project: Regional Sales Analysis Dashboard"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Advanced Charts & Calculations",
+        "topics": [
+          "Table Calculations (Running Total, % Difference)",
+          "Parameters & Sets",
+          "Dual-Axis Charts",
+          "Forecasting Basics",
+          "Project: Profit & Sales Trend Analysis"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Dashboard Design & Interactivity",
+        "topics": [
+          "Dashboard Creation",
+          "Actions (Filter, Highlight, URL)",
+          "Story Points",
+          "Layout Design & Formatting",
+          "User-Friendly Dashboard Principles",
+          "Project: Interactive Business Dashboard"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Advanced Analytics & Performance",
+        "topics": [
+          "Level of Detail (LOD) Expressions (Basic Intro)",
+          "Data Blending",
+          "Performance Optimization",
+          "Real-Time Data Concepts",
+          "Project: Customer Behavior Analysis Dashboard"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Publishing & Final Project",
+        "topics": [
+          "Publishing Dashboards (Tableau Public/Server)",
+          "Sharing & Exporting Reports",
+          "Resume & Portfolio Building",
+          "Final Project: Sales & Profit Dashboard / Supply Chain Analysis / Financial Performance Dashboard"
+        ]
+      }
+    ],
+    "metaTitle": "Tableau Course | Dashboards, LOD Expressions & Business Intelligence",
+    "metaDescription": "Learn Tableau in 1.5 months. Covers data connections, calculated fields, LOD expressions, dashboard design, story points & publishing. Build 3–5 portfolio-ready BI dashboards."
+  },
+
+  {
+    "id": "dotnet",
+    "slug": "full-stack-dotnet-development",
+    "title": "Full Stack .NET Development",
+    "shortDescription": "Become a job-ready Full Stack .NET Developer with C#, ASP.NET Core, SQL Server, REST APIs, and deployment in 4–5 months.",
+    "fullDescription": "This Full Stack .NET Development course covers C# programming, OOP, frontend (HTML, CSS, JS, Bootstrap), SQL Server database design, ASP.NET Core MVC, Entity Framework Core, REST API development with JWT, and application deployment. You'll build 4–6 mini projects and one major E-commerce web application.",
+    "duration": "4-5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "FSND.AVIF",
+    "features": [
+      "C# Programming & OOP Concepts",
+      "Frontend — HTML5, CSS3, JavaScript & Bootstrap",
+      "SQL Server — CRUD, Joins, Stored Procedures",
+      "ASP.NET Core MVC — Controllers, Views, Models",
+      "Entity Framework Core & Dependency Injection",
+      "REST API Development with JWT Authentication",
+      "LINQ, Logging & Performance Optimization",
+      "Deployment on IIS/Cloud & Git/GitHub"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Programming Fundamentals (C# Basics)",
+        "topics": [
+          "Introduction to .NET & Visual Studio",
+          "C# Syntax, Variables & Data Types",
+          "Control Statements (if-else, Loops)",
+          "Functions & Arrays",
+          "OOP Concepts (Class, Object, Inheritance, Polymorphism, Encapsulation)",
+          "Project: Console-Based Banking System"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Frontend Development",
+        "topics": [
+          "HTML5 (Structure, Forms)",
+          "CSS3 (Layout, Flexbox, Responsive Design)",
+          "JavaScript (DOM, Events, Validation)",
+          "Bootstrap (UI Components)",
+          "Project: Responsive Business Website"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Database (SQL Server)",
+        "topics": [
+          "SQL Basics (CRUD Operations)",
+          "Joins, Views & Indexes",
+          "Stored Procedures & Functions",
+          "Database Design Basics",
+          "Project: Student Management Database"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "ASP.NET Core (Backend Development)",
+        "topics": [
+          "Introduction to ASP.NET Core",
+          "MVC Architecture",
+          "Controllers, Views & Models",
+          "Routing & Middleware",
+          "Entity Framework Core (ORM)",
+          "Dependency Injection",
+          "Authentication & Authorization",
+          "Project: E-commerce Web Application (Backend)"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Web API Development",
+        "topics": [
+          "REST API Concepts",
+          "Creating APIs with ASP.NET Core",
+          "CRUD APIs",
+          "Testing APIs (Postman)",
+          "JWT Authentication",
+          "Project: Product Management REST API"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Frontend Integration",
+        "topics": [
+          "API Integration using JavaScript / Fetch / Axios",
+          "Basic Angular or React (Optional)",
+          "Form Handling & Validation",
+          "Project: Frontend for E-commerce App"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Advanced Topics",
+        "topics": [
+          "LINQ (Language Integrated Query)",
+          "Logging & Exception Handling",
+          "Caching Basics",
+          "Performance Optimization",
+          "Introduction to Microservices (Basic)",
+          "Project: Optimized Data Handling Module"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Deployment & Final Project",
+        "topics": [
+          "Application Deployment (IIS / Cloud Basics)",
+          "Git & GitHub",
+          "CI/CD Basics",
+          "Resume & Interview Preparation",
+          "Final Project: Complete E-commerce Web Application (Login/Register, Product Listing, Cart, Admin Panel, REST API Integration)"
+        ]
+      }
+    ],
+    "metaTitle": "Full Stack .NET Development Course | C#, ASP.NET Core, SQL Server & REST API",
+    "metaDescription": "Become a Full Stack .NET Developer in 4–5 months. Learn C#, ASP.NET Core MVC, Entity Framework, SQL Server, REST APIs with JWT, and deployment. Build a complete E-commerce application."
+  },
+
+  {
+    "id": "java-fullstack",
+    "slug": "full-stack-java-development",
+    "title": "Full Stack Java Development",
+    "shortDescription": "Become a job-ready Full Stack Java Developer with Core Java, Spring Boot, MySQL, REST APIs, and React/Angular in 4–5 months.",
+    "fullDescription": "This Full Stack Java Development course covers Core Java, OOP, Advanced Java (JDBC, Servlets), frontend development (HTML, CSS, JS, Bootstrap), MySQL database design, Spring Boot, Spring MVC, Hibernate/JPA, REST API development, and deployment using Maven and Tomcat. You'll build 4–6 projects and one major E-commerce web application.",
+    "duration": "4-5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "FSJD.AVIF",
+    "features": [
+      "Core Java — OOP, Collections, Exception Handling",
+      "Advanced Java — JDBC, Servlets & JSP",
+      "Frontend — HTML5, CSS3, JavaScript & Bootstrap",
+      "MySQL — CRUD, Joins, Stored Procedures",
+      "Spring Boot & Spring MVC Architecture",
+      "Hibernate/JPA ORM & Spring Security",
+      "REST API Development & Postman Testing",
+      "Deployment with Maven/Gradle, Tomcat & Git"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Core Java Fundamentals",
+        "topics": [
+          "Introduction to Java & JDK Setup",
+          "Data Types, Variables & Operators",
+          "Control Statements (if-else, Loops)",
+          "Arrays & Strings",
+          "OOP Concepts (Class, Object, Inheritance, Polymorphism, Encapsulation, Abstraction)",
+          "Exception Handling",
+          "Collections Framework (List, Set, Map)",
+          "Project: Banking Management System (Console-based)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Advanced Java",
+        "topics": [
+          "JDBC (Java Database Connectivity)",
+          "File Handling",
+          "Multithreading Basics",
+          "Introduction to Servlets & JSP",
+          "Project: Student Management System (JDBC-based)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Frontend Development",
+        "topics": [
+          "HTML5 (Forms, Structure)",
+          "CSS3 (Flexbox, Responsive Design)",
+          "JavaScript (DOM, Events, Validation)",
+          "Bootstrap",
+          "Project: Responsive Portfolio Website"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Database (MySQL)",
+        "topics": [
+          "SQL Basics (CRUD Operations)",
+          "Joins, Views & Indexes",
+          "Stored Procedures",
+          "Database Design",
+          "Project: Employee Management Database"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Spring Framework (Core & Spring Boot)",
+        "topics": [
+          "Spring Core (IOC, Dependency Injection)",
+          "Spring Boot Basics",
+          "Spring MVC Architecture",
+          "REST API Development",
+          "Spring Data JPA (Hibernate ORM)",
+          "Validation & Exception Handling",
+          "Security Basics (Spring Security)",
+          "Project: E-commerce Backend Application"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "REST API & Integration",
+        "topics": [
+          "RESTful Services",
+          "CRUD APIs using Spring Boot",
+          "API Testing (Postman)",
+          "JSON Handling",
+          "Project: Product Management REST API"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Frontend Integration",
+        "topics": [
+          "API Integration using Fetch/Axios",
+          "Form Handling",
+          "Basic React or Angular (Optional)",
+          "Project: E-commerce Frontend Integration"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Deployment & Final Project",
+        "topics": [
+          "Git & GitHub",
+          "Build Tools (Maven/Gradle)",
+          "Deployment (Tomcat / Cloud Basics)",
+          "CI/CD Basics",
+          "Resume & Interview Preparation",
+          "Final Project: Complete E-commerce Web Application (User Registration, Product Catalog, Shopping Cart, Admin Dashboard, REST API Integration)"
+        ]
+      }
+    ],
+    "metaTitle": "Full Stack Java Development Course | Spring Boot, MySQL, REST API & React",
+    "metaDescription": "Become a Full Stack Java Developer in 4–5 months. Learn Core Java, Spring Boot, Hibernate, MySQL, REST APIs, and frontend integration. Build a complete E-commerce application with deployment."
+  },
+
+  {
+    "id": "php-fullstack",
+    "slug": "full-stack-php-development",
+    "title": "Full Stack PHP Development",
+    "shortDescription": "Become a job-ready Full Stack PHP Developer with Core PHP, Laravel, MySQL, REST APIs, and deployment in 3.5–4 months.",
+    "fullDescription": "This Full Stack PHP Development course covers PHP basics, OOP, sessions, file handling, security fundamentals, frontend (HTML, CSS, JS, Bootstrap), MySQL database design, Laravel MVC framework, REST API development, payment gateway integration, and live deployment. You'll build 4–6 mini projects and one major E-commerce web application.",
+    "duration": "3.5-4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "FSPD.AVIF",
+    "features": [
+      "PHP Basics — Syntax, Variables, Forms, Functions",
+      "Advanced PHP — OOP, Sessions, File Handling, Security",
+      "Frontend — HTML5, CSS3, JavaScript & Bootstrap",
+      "MySQL — CRUD, Joins, PDO/MySQLi Integration",
+      "Laravel — MVC, Routing, Blade, Eloquent ORM",
+      "REST API Development in Laravel",
+      "Payment Gateway Integration (Stripe/PayPal Demo)",
+      "Deployment on cPanel/Cloud & Git/GitHub"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Programming Basics & PHP Introduction",
+        "topics": [
+          "Introduction to Web Development & PHP",
+          "Installing XAMPP/WAMP",
+          "PHP Syntax, Variables & Data Types",
+          "Operators & Control Statements (if-else, Loops)",
+          "Functions & Arrays",
+          "Form Handling (GET/POST)",
+          "Project: Simple Calculator & Form Handling App"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Advanced PHP",
+        "topics": [
+          "Sessions & Cookies",
+          "File Handling",
+          "Error Handling",
+          "Object-Oriented PHP (OOP Concepts)",
+          "PHP with JSON & APIs",
+          "Security Basics (SQL Injection, XSS Prevention)",
+          "Project: User Authentication System (Login/Register)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Frontend Development",
+        "topics": [
+          "HTML5 (Structure, Forms)",
+          "CSS3 (Flexbox, Responsive Design)",
+          "JavaScript (DOM, Events, Validation)",
+          "Bootstrap",
+          "Project: Responsive Business Website"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Database (MySQL)",
+        "topics": [
+          "MySQL Basics (CRUD Operations)",
+          "Joins, Views & Indexes",
+          "Database Design",
+          "Connecting PHP with MySQL (MySQLi / PDO)",
+          "Project: Student Management System (PHP + MySQL)"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "PHP Framework (Laravel)",
+        "topics": [
+          "Introduction to Laravel",
+          "MVC Architecture",
+          "Routing, Controllers & Views",
+          "Blade Templating",
+          "Eloquent ORM",
+          "Authentication & Authorization",
+          "REST API Development in Laravel",
+          "Project: E-commerce Application (Laravel Backend)"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "API Integration & Advanced Concepts",
+        "topics": [
+          "REST API Integration",
+          "Payment Gateway Basics (Stripe/PayPal Demo)",
+          "AJAX with PHP",
+          "CRUD Operations using API",
+          "Project: Online Payment Integration Demo"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Deployment & Final Project",
+        "topics": [
+          "Git & GitHub",
+          "Hosting & Deployment (cPanel / Cloud Basics)",
+          "Domain & Database Setup",
+          "Basic SEO Concepts",
+          "Resume & Interview Preparation",
+          "Final Project: Complete E-commerce Website (User Registration, Product Listing, Cart, Order Management, Admin Panel)"
+        ]
+      }
+    ],
+    "metaTitle": "Full Stack PHP Development Course | Laravel, MySQL, REST API & Deployment",
+    "metaDescription": "Become a Full Stack PHP Developer in 3.5–4 months. Learn Core PHP, Laravel, MySQL, REST APIs, payment gateway integration, and deployment. Build a complete E-commerce application."
+  },
+
+  {
+    "id": "mean-stack",
+    "slug": "full-stack-mean-development",
+    "title": "Full Stack MEAN Development",
+    "shortDescription": "Become a job-ready Full Stack MEAN Stack Developer with MongoDB, Express.js, Angular, Node.js, and REST APIs in 4–5 months.",
+    "fullDescription": "This Full Stack MEAN Stack Development course covers web fundamentals, advanced JavaScript (ES6+), Node.js with Express, MongoDB with Mongoose, JWT-based REST APIs, Angular framework, full-stack integration, and deployment. You'll build 4–6 mini projects and one major E-commerce web application.",
+    "duration": "4-5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "FSMD.AVIF",
+    "features": [
+      "HTML5, CSS3, JavaScript & Responsive Design",
+      "Advanced JavaScript — ES6+, Async/Await, Fetch API",
+      "Node.js & Express.js Backend Development",
+      "MongoDB & Mongoose (NoSQL Database)",
+      "REST API Development with JWT Authentication",
+      "Angular — Components, Routing, Forms, HTTP Client",
+      "Full Stack Integration — Angular + Node.js",
+      "Deployment on Netlify/Vercel & Git/GitHub"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Web Development Basics",
+        "topics": [
+          "Internet & Web Fundamentals",
+          "HTML5 (Structure, Forms)",
+          "CSS3 (Flexbox, Grid, Responsive Design)",
+          "JavaScript Basics (Variables, Loops, Functions, DOM)",
+          "Project: Responsive Portfolio Website"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Advanced JavaScript",
+        "topics": [
+          "ES6+ Features (Arrow Functions, Promises, Modules)",
+          "Event Handling",
+          "Asynchronous JS (Callbacks, Promises, Async/Await)",
+          "Fetch API & AJAX",
+          "Project: To-Do List App with Local Storage"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Node.js (Backend Development)",
+        "topics": [
+          "Introduction to Node.js",
+          "Modules & NPM",
+          "File System Operations",
+          "Building Server using HTTP Module",
+          "Express.js Framework",
+          "Routing & Middleware",
+          "Project: Basic REST API using Node.js & Express"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Database (MongoDB)",
+        "topics": [
+          "NoSQL Concepts",
+          "MongoDB CRUD Operations",
+          "MongoDB Atlas (Cloud DB)",
+          "Mongoose (ODM)",
+          "Schema & Model Design",
+          "Project: User Management System (MongoDB + Node.js)"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "REST API Development",
+        "topics": [
+          "RESTful API Design",
+          "CRUD Operations with Express & MongoDB",
+          "Authentication (JWT)",
+          "API Testing (Postman)",
+          "Project: Authentication API (Login/Register with JWT)"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Angular (Frontend Framework)",
+        "topics": [
+          "Introduction to Angular",
+          "Components, Modules & Services",
+          "Data Binding & Directives",
+          "Routing in Angular",
+          "Forms (Template-Driven & Reactive)",
+          "HTTP Client & API Integration",
+          "Project: E-commerce Frontend (Angular)"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Full Stack Integration",
+        "topics": [
+          "Connecting Angular with Node.js Backend",
+          "API Consumption",
+          "State Management Basics",
+          "Error Handling",
+          "Project: Full Stack CRUD Application"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Deployment & Final Project",
+        "topics": [
+          "Git & GitHub",
+          "Deployment (Netlify, Vercel or Cloud Basics)",
+          "Environment Configuration",
+          "Resume & Interview Preparation",
+          "Final Project: Complete E-commerce Web Application — MEAN Stack (User Auth, Product Catalog, Cart, Admin Dashboard, REST API)"
+        ]
+      }
+    ],
+    "metaTitle": "Full Stack MEAN Development Course | MongoDB, Express, Angular & Node.js",
+    "metaDescription": "Become a Full Stack MEAN Stack Developer in 4–5 months. Learn MongoDB, Express.js, Angular, Node.js, JWT REST APIs, and deployment. Build a complete E-commerce application."
+  },
+
+  {
+    "id": "software-developer",
+    "slug": "software-developer-course",
+    "title": "Software Developer Course",
+    "shortDescription": "Complete job-oriented software development course covering programming, DSA, databases, frontend, backend, and deployment in 5–6 months.",
+    "fullDescription": "This Software Developer course gives you a complete foundation in software engineering — from programming fundamentals (Python/Java/C#) and data structures to frontend development, backend REST APIs, Git, Agile practices, and live deployment. You'll build 4–6 projects plus one major application and be ready for Software Developer and Web Developer roles.",
+    "duration": "5-6 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "SDC.AVIF",
+    "features": [
+      "Programming Fundamentals — Python / Java / C# (Choose One)",
+      "Data Structures & Algorithms — Arrays, Linked Lists, Sorting",
+      "SQL Database — CRUD, Joins, Stored Procedures",
+      "Frontend — HTML5, CSS3, JavaScript & Bootstrap",
+      "Backend REST API — Node.js / Spring / .NET / PHP (Choose One)",
+      "Git & GitHub — Version Control & Collaboration",
+      "Agile & Scrum, SDLC & Unit Testing Basics",
+      "Deployment on Cloud & Interview Preparation"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Programming Fundamentals",
+        "topics": [
+          "Choose One Language: Python / Java / C#",
+          "Basics (Variables, Data Types, Operators)",
+          "Control Statements (if-else, Loops)",
+          "Functions & Arrays",
+          "OOP Concepts (Class, Object, Inheritance, Polymorphism)",
+          "Exception Handling",
+          "Project: Console-Based Management System (Banking / Library)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Data Structures & Algorithms",
+        "topics": [
+          "Arrays, Linked List, Stack & Queue",
+          "Searching & Sorting Algorithms",
+          "Recursion Basics",
+          "Time & Space Complexity",
+          "Project: Student Record System using DSA Concepts"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Database Management (SQL)",
+        "topics": [
+          "SQL Basics (CRUD Operations)",
+          "Joins, Views & Indexes",
+          "Stored Procedures",
+          "Database Design",
+          "Project: Employee/Student Database System"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Frontend Development",
+        "topics": [
+          "HTML5 & CSS3",
+          "JavaScript (DOM, Events, Validation)",
+          "Responsive Design (Bootstrap)",
+          "Project: Responsive Portfolio Website"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Backend Development",
+        "topics": [
+          "Choose One Stack: Node.js / Java Spring / .NET / PHP",
+          "Server-Side Programming",
+          "REST API Development",
+          "Authentication (JWT/Session)",
+          "MVC Architecture",
+          "Project: CRUD REST API Application"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Version Control & Tools",
+        "topics": [
+          "Git & GitHub",
+          "Debugging Techniques",
+          "IDE Usage (VS Code / IntelliJ / Visual Studio)",
+          "Project: Project Hosted on GitHub"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Software Development Practices",
+        "topics": [
+          "SDLC (Software Development Life Cycle)",
+          "Agile & Scrum Basics",
+          "Testing Basics (Unit Testing)",
+          "Code Quality & Best Practices",
+          "Project: Test Case Design for Application"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Final Project & Deployment",
+        "topics": [
+          "Full Project Development",
+          "Deployment (Cloud Basics)",
+          "Resume & Interview Preparation",
+          "Final Project: E-commerce Application / Online Learning Platform / Hospital Management System / Chat Application (User Login, Database Integration, API Backend, Responsive Frontend, Admin Panel)"
+        ]
+      }
+    ],
+    "metaTitle": "Software Developer Course | Programming, DSA, Backend, APIs & Deployment",
+    "metaDescription": "Become a job-ready Software Developer in 5–6 months. Learn programming (Python/Java/C#), DSA, SQL, HTML/CSS, REST APIs, Git, Agile practices, and deployment. Build 4–6 real-world projects."
+  },
+
+  {
+    "id": "advanced-java",
+    "slug": "advanced-java",
+    "title": "Advanced Java",
+    "shortDescription": "Learn Advanced Java — JDBC, Servlets, JSP, Spring Boot basics, and Hibernate in 1 month with real-world projects.",
+    "fullDescription": "This Advanced Java course covers enterprise-level Java programming — JDBC for database connectivity, Servlet lifecycle and request handling, JSP with JSTL, MVC architecture, and introductions to Spring Boot and Hibernate ORM. You'll build dynamic web applications and deploy on Apache Tomcat.",
+    "duration": "1 Month",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "AJ.AVIF",
+    "features": [
+      "JDBC — Database Connectivity & CRUD with MySQL",
+      "Servlets — Lifecycle, Request/Response & Session Tracking",
+      "JSP — Implicit Objects, JSTL & MVC Basics",
+      "Spring Boot Introduction & REST API Basics",
+      "Hibernate ORM Basics",
+      "Deployment on Apache Tomcat"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "JDBC & Database Connectivity",
+        "topics": [
+          "Introduction to Advanced Java",
+          "JDBC Architecture & Drivers",
+          "Connecting Java with MySQL",
+          "CRUD Operations using JDBC",
+          "PreparedStatement & ResultSet",
+          "Transaction Management Basics",
+          "Project: Student Management System (JDBC)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Servlets",
+        "topics": [
+          "Introduction to Servlets",
+          "Servlet Lifecycle",
+          "Handling Client Requests & Responses",
+          "Session Tracking (Cookies, HttpSession)",
+          "Servlet Configuration (web.xml, Annotations)",
+          "Project: User Login System using Servlets"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "JSP (Java Server Pages)",
+        "topics": [
+          "Introduction to JSP",
+          "JSP Lifecycle",
+          "Implicit Objects",
+          "JSTL (JSP Standard Tag Library)",
+          "MVC Architecture Basics",
+          "Project: Dynamic Web Application (JSP + Servlet)"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Framework Introduction & Final Project",
+        "topics": [
+          "Introduction to Spring & Spring Boot",
+          "REST API Basics",
+          "Hibernate (ORM) Basics",
+          "MVC Architecture Overview",
+          "Deployment on Tomcat",
+          "Final Project: Mini E-commerce Web Application / Online Student Portal"
+        ]
+      }
+    ],
+    "metaTitle": "Advanced Java Course | JDBC, Servlets, JSP, Spring Boot & Hibernate",
+    "metaDescription": "Learn Advanced Java in 1 month. Covers JDBC, Servlets, JSP, JSTL, MVC architecture, Spring Boot basics, and Hibernate ORM. Deploy dynamic web applications on Apache Tomcat."
+  },
+
+  {
+    "id": "css",
+    "slug": "css",
+    "title": "CSS",
+    "shortDescription": "Master CSS from basics to responsive design, Flexbox, Grid, animations, and Bootstrap in 1 month.",
+    "fullDescription": "This CSS course takes you from styling fundamentals to advanced layout techniques with Flexbox and Grid, responsive design with media queries, transitions, animations, pseudo-elements, and Bootstrap components. You'll build 3–4 real-world UI projects including a fully responsive website.",
+    "duration": "1 Month",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "CSS.AVIF",
+    "features": [
+      "CSS Basics — Selectors, Colors, Fonts & Box Model",
+      "Layout & Positioning — Flexbox, Float & Display",
+      "CSS Grid — Advanced Layouts",
+      "Responsive Design — Media Queries & Mobile-First",
+      "Pseudo-Classes, Pseudo-Elements & Animations",
+      "Bootstrap — Grid System, Components & Forms"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "CSS Basics",
+        "topics": [
+          "Introduction to CSS (Inline, Internal, External)",
+          "Selectors (Element, Class, ID, Group)",
+          "Colors, Backgrounds & Borders",
+          "Fonts & Text Styling",
+          "Box Model (Margin, Padding, Border)",
+          "Project: Styled Personal Profile Page"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Layout & Positioning",
+        "topics": [
+          "Display Properties (Block, Inline, Inline-Block)",
+          "Positioning (Static, Relative, Absolute, Fixed, Sticky)",
+          "Float & Clear",
+          "Flexbox (Layout, Alignment, Spacing)",
+          "Project: Website Layout Design using Flexbox"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Advanced CSS & Responsive Design",
+        "topics": [
+          "CSS Grid",
+          "Media Queries (Responsive Design)",
+          "Responsive Images & Typography",
+          "Pseudo-Classes & Pseudo-Elements",
+          "Transitions & Basic Animations",
+          "Project: Responsive Landing Page"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "CSS Framework & Final Project",
+        "topics": [
+          "Introduction to Bootstrap",
+          "Grid System & Components",
+          "Forms, Buttons & Navigation",
+          "UI Design Best Practices",
+          "Final Project: Complete Responsive Website / Product Landing Page"
+        ]
+      }
+    ],
+    "metaTitle": "CSS Course | Flexbox, Grid, Responsive Design & Bootstrap",
+    "metaDescription": "Learn CSS in 1 month. Covers selectors, box model, Flexbox, CSS Grid, responsive design with media queries, transitions, animations, and Bootstrap. Build 3–4 real-world UI projects."
+  },
+  {
+    "id": "core-java",
+    "slug": "core-java",
+    "title": "Core Java",
+    "shortDescription": "Learn Core Java from scratch — fundamentals, OOP, collections, exception handling, and file handling in 1 month.",
+    "fullDescription": "This Core Java course takes complete beginners from Java setup and syntax to OOP principles, arrays, strings, exception handling, Collections Framework, file handling, and multithreading basics. You'll build console-based applications and complete a final mini project.",
+    "duration": "1 Month",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "CJ.AVIF",
+    "features": [
+      "Java Setup — JDK, JVM, JRE Concepts",
+      "Variables, Data Types, Operators & Control Statements",
+      "OOP — Classes, Objects, Inheritance, Polymorphism",
+      "Arrays, Strings & Exception Handling",
+      "Collections Framework — List, Set, Map",
+      "File Handling & Multithreading Basics"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Java Basics",
+        "topics": [
+          "Introduction to Java & JDK Setup",
+          "JVM, JRE & JDK Concepts",
+          "Variables, Data Types & Operators",
+          "Input/Output (Scanner Class)",
+          "Control Statements (if-else, switch, Loops)",
+          "Project: Basic Calculator Program"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "OOP Concepts",
+        "topics": [
+          "Classes & Objects",
+          "Constructors",
+          "Method Overloading",
+          "Inheritance",
+          "Polymorphism (Compile-Time & Runtime)",
+          "Encapsulation & Abstraction",
+          "Project: Bank Management System (Console-based)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Advanced Core Java",
+        "topics": [
+          "Arrays & Strings",
+          "Exception Handling (try-catch, finally, throw)",
+          "Collections Framework (List, Set, Map)",
+          "Wrapper Classes",
+          "Project: Student Record Management System"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "File Handling & Final Project",
+        "topics": [
+          "File Handling (Read/Write Files)",
+          "Basics of Multithreading",
+          "Introduction to Packages",
+          "Java Coding Best Practices",
+          "Final Project: Library Management System / Simple Billing System"
+        ]
+      }
+    ],
+    "metaTitle": "Core Java Course | OOP, Collections, Exception Handling & File Handling",
+    "metaDescription": "Learn Core Java in 1 month. Covers Java basics, OOP concepts, arrays, strings, exception handling, Collections Framework, and file handling. Build console-based applications with real projects."
   }
 ]
