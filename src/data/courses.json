@@ -865,7 +865,7 @@
     "title": "Ethical Hacking",
     "shortDescription": "Basic Knowledge of Computers & Networking",
     "fullDescription": "Certified Ethical Hacking Professional Program",
-    "duration": "4-6 Months",
+    "duration": "10-12 Months",
     "price": "Contact for Pricing",
     "category": "master",
     "image": "EH.AVIF",
@@ -1321,7 +1321,7 @@
     "fullDescription": "This Python course takes you from basics to advanced — covering variables, data structures, OOP, file handling, web scraping, API integration, GUI development with Tkinter, and automation scripting. Includes interview preparation and 6 real projects.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "PP.AVIF",
     "features": [
       "Python Fundamentals & Control Flow",
@@ -3294,7 +3294,7 @@
     "shortDescription": "A structured 45-day roadmap for aspiring Data Analysts to prepare for interviews, build a personal brand, and secure remote opportunities.",
     "fullDescription": "This roadmap is designed for aspiring and growing Data Analysts who already know the tools and now want to prepare for interviews, build a personal brand, and secure remote opportunities. Covers SQL, Power BI, Excel, DAX, personal branding, and mock interviews over 6 weeks.",
     "duration": "45 Days",
-    "category": "tranding course",
+    "category": "soft skill's",
     "image": "ADICA.AVIF",
 
     "features": [
@@ -3416,7 +3416,7 @@
     "fullDescription": "This Python + Machine Learning course takes you from Python basics to building and deploying real-world ML models. You'll cover Python fundamentals, data analysis with NumPy & Pandas, data visualization, supervised and unsupervised learning algorithms, model optimization, and basic deployment using Flask/Streamlit.",
     "duration": "3.5 Months",
     "price": "Contact for Pricing",
-    "category": "tranding course",
+    "category": "advance",
     "image": "PML.AVIF",
     "features": [
       "Python Fundamentals — Variables, Loops, Functions, OOP",
@@ -3585,7 +3585,7 @@
     "fullDescription": "This Machine Learning course covers Python data handling, supervised and unsupervised learning algorithms, model optimization techniques, and basic deployment using Streamlit. You'll work on real-world datasets and build projects like House Price Prediction, Customer Segmentation, and a final deployed ML web app.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "tranding course",
+    "category": "advance",
     "image": "ML.AVIF",
     "features": [
       "Python Basics — Variables, Loops, Functions",
@@ -3785,7 +3785,7 @@
     "fullDescription": "This Django course covers everything from Python fundamentals and web basics to advanced Django features like Class-Based Views, Django REST Framework, middleware, signals, and deployment. You'll build 4–5 mini projects and one major project (E-commerce, Job Portal, E-learning, or Hospital Management System).",
     "duration": "2.5 Months",
     "price": "Contact for Pricing",
-    "category": "tranding course",
+    "category": "advance",
     "image": "DWD.AVIF",
     "features": [
       "Python Fundamentals & OOP",
@@ -4674,7 +4674,7 @@
     "fullDescription": "This Software Developer course gives you a complete foundation in software engineering — from programming fundamentals (Python/Java/C#) and data structures to frontend development, backend REST APIs, Git, Agile practices, and live deployment. You'll build 4–6 projects plus one major application and be ready for Software Developer and Web Developer roles.",
     "duration": "5-6 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "SDC.AVIF",
     "features": [
       "Programming Fundamentals — Python / Java / C# (Choose One)",
@@ -4991,5 +4991,522 @@
     ],
     "metaTitle": "Core Java Course | OOP, Collections, Exception Handling & File Handling",
     "metaDescription": "Learn Core Java in 1 month. Covers Java basics, OOP concepts, arrays, strings, exception handling, Collections Framework, and file handling. Build console-based applications with real projects."
+  },
+
+  {
+    "id": "angular",
+    "slug": "angular-development",
+    "title": "Angular Development",
+    "shortDescription": "Master Angular framework with TypeScript, components, services, routing, and REST APIs — become a job-ready Angular developer in 3 months.",
+    "fullDescription": "This comprehensive Angular Development course takes you from basics to advanced — covering TypeScript fundamentals, components and templates, directives, pipes, forms (template-driven and reactive), dependency injection, services, routing, REST API integration, RxJS observables, authentication, Angular Material, and deployment. You'll build 5 real-world projects including Student Management, E-Commerce, Hospital Management, and Online Course systems.",
+    "duration": "3 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "AJJ.AVIF",
+    "features": [
+      "TypeScript Fundamentals & Advanced Concepts",
+      "Components, Directives, Pipes & Templates",
+      "Template-Driven & Reactive Forms with Validation",
+      "Services & Dependency Injection",
+      "Angular Routing & Route Guards",
+      "REST API Integration with HttpClient",
+      "RxJS Observables & Async Pipe",
+      "JWT Authentication & Security",
+      "Angular Material UI Components",
+      "Performance Optimization & Deployment"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Angular",
+        "topics": [
+          "Angular Framework Overview",
+          "Angular vs AngularJS Comparison",
+          "Angular Features & Architecture",
+          "Node.js & Angular CLI Installation",
+          "Creating First Angular Application",
+          "Project Structure Understanding"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "TypeScript Fundamentals",
+        "topics": [
+          "Introduction to TypeScript",
+          "Variables & Data Types",
+          "Functions & Parameters",
+          "Classes & Objects",
+          "Interfaces & Type Annotations",
+          "Modules & Imports",
+          "ES6+ Features (Arrow Functions, Destructuring, Spread Operator)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Components & Templates",
+        "topics": [
+          "Angular Components Creation",
+          "Component Lifecycle Hooks",
+          "Interpolation Data Binding",
+          "Property Binding",
+          "Event Binding",
+          "Two-Way Binding (ngModel)",
+          "Template Syntax & Expressions"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Directives & Pipes",
+        "topics": [
+          "Structural Directives (*ngIf, *ngFor, *ngSwitch)",
+          "Attribute Directives ([ngClass], [ngStyle])",
+          "Custom Directives Creation",
+          "Built-in Pipes (uppercase, lowercase, currency, date)",
+          "Custom Pipes Development"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Forms in Angular",
+        "topics": [
+          "Template-Driven Forms",
+          "Form Control & Validation",
+          "Reactive Forms & FormBuilder",
+          "Form Validation (Built-in & Custom Validators)",
+          "Dynamic Form Creation",
+          "Error Handling in Forms"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Services & Dependency Injection",
+        "topics": [
+          "Creating Angular Services",
+          "Dependency Injection (DI) Concepts",
+          "Singleton Services",
+          "Sharing Data Between Components",
+          "HttpClient Module for API Calls",
+          "Interceptors (Introduction)"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Routing & Navigation",
+        "topics": [
+          "Angular Router Setup",
+          "Route Parameters & Query Parameters",
+          "Route Guards (CanActivate, CanDeactivate)",
+          "Lazy Loading Modules",
+          "Nested Routing",
+          "Navigation Menu Implementation"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "REST API Integration",
+        "topics": [
+          "REST API Concepts",
+          "GET, POST, PUT, DELETE Operations",
+          "API Consumption with HttpClient",
+          "JSON Data Handling",
+          "Error Handling & Retry Logic",
+          "Environment Configuration"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Advanced Angular Concepts",
+        "topics": [
+          "RxJS Basics & Observables",
+          "Subjects & BehaviorSubjects",
+          "Operators (map, filter, switchMap, mergeMap)",
+          "Async Pipe Usage",
+          "State Management Concepts",
+          "Memory Leak Prevention (Unsubscribe)"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Authentication & Security",
+        "topics": [
+          "JWT Authentication Implementation",
+          "Login & Logout System",
+          "Route Security & Authorization",
+          "Token Management & Storage",
+          "Session Handling",
+          "CORS & Security Best Practices"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Angular Material & UI Design",
+        "topics": [
+          "Angular Material Installation",
+          "Material Components (Button, Card, Input, etc.)",
+          "Data Tables & Pagination",
+          "Dialogs & Modals",
+          "Responsive Layouts",
+          "Admin Dashboard Design",
+          "Dark Mode Support"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Project Development & Deployment",
+        "topics": [
+          "Project Architecture & Best Practices",
+          "Code Optimization",
+          "Testing & Debugging",
+          "Build Process & Optimization",
+          "Deployment on Netlify/Vercel/Cloud",
+          "GitHub Integration",
+          "Performance Monitoring"
+        ]
+      }
+    ],
+    "metaTitle": "Angular Development Course | TypeScript, REST APIs & Material Design | 3 Months",
+    "metaDescription": "Master Angular framework in 3 months. Learn TypeScript, components, services, routing, REST API integration, authentication & Angular Material. Build 5 real-world projects."
+  },
+
+  {
+    "id": "wd",
+    "slug": "web-designing",
+    "title": "Web Designing",
+    "shortDescription": "Learn professional web designing from scratch — HTML5, CSS3, Bootstrap, JavaScript, responsive design, UI/UX, and deployment in 4 months.",
+    "fullDescription": "This comprehensive Web Designing course covers the complete web design workflow — from HTML5 and CSS3 fundamentals to advanced responsive design with Flexbox and Grid, Bootstrap framework, JavaScript interactivity, jQuery effects, UI/UX design principles, website deployment, and SEO optimization. You'll build 5 professional portfolio-ready websites and learn design tools like Figma.",
+    "duration": "4 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "WDCS.AVIF",
+    "features": [
+      "HTML5 Fundamentals — Semantic Tags, Forms, Multimedia",
+      "CSS3 Mastery — Box Model, Flexbox, Grid, Animations",
+      "Responsive Design — Media Queries, Mobile-First Approach",
+      "Bootstrap 5 Framework — Components, Grid System, Utilities",
+      "JavaScript Basics — DOM Manipulation, Events, Validation",
+      "jQuery Effects & UI Enhancements",
+      "UI/UX Design Principles — Wireframing, Prototyping",
+      "Website Deployment & SEO Optimization",
+      "Git & GitHub Integration"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Web Designing",
+        "topics": [
+          "Internet & Website Fundamentals",
+          "Types of Websites (Static, Dynamic, E-commerce)",
+          "Web Design vs Web Development",
+          "Domain & Hosting Concepts",
+          "Website Planning & Structure",
+          "Layout Design Basics",
+          "Introduction to VS Code Editor"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "HTML5 Fundamentals",
+        "topics": [
+          "HTML Document Structure",
+          "Headings, Paragraphs & Text Formatting",
+          "Hyperlinks & Navigation",
+          "Lists (Ordered, Unordered, Definition)",
+          "Tables & Data Presentation",
+          "Forms & Input Elements",
+          "Semantic HTML5 Tags (header, nav, section, footer)",
+          "Images, Audio & Video Embedding",
+          "Meta Tags & SEO Basics"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "CSS3 Fundamentals",
+        "topics": [
+          "CSS Introduction (Inline, Internal, External)",
+          "Selectors (Element, Class, ID, Pseudo)",
+          "Colors & Backgrounds",
+          "Fonts & Typography",
+          "Box Model (Margin, Padding, Border)",
+          "Display Properties (Block, Inline, Inline-Block)",
+          "Borders & Shadows",
+          "Background Images & Gradients"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Advanced CSS3 Layouts",
+        "topics": [
+          "Flexbox Complete Guide",
+          "CSS Grid Layouts",
+          "Positioning (Static, Relative, Absolute, Fixed, Sticky)",
+          "Pseudo-Classes & Pseudo-Elements",
+          "CSS Variables (Custom Properties)",
+          "Transitions & Transforms",
+          "Animations & Keyframes",
+          "Filter Effects & Opacity"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Responsive Web Design",
+        "topics": [
+          "Mobile-First Design Approach",
+          "Media Queries (Breakpoints)",
+          "Responsive Images & Videos",
+          "Flexible Layouts & Units (%, em, rem, vw)",
+          "Responsive Navigation Menu",
+          "Cross-Browser Compatibility Testing",
+          "Chrome DevTools for Responsive Design"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Bootstrap Framework",
+        "topics": [
+          "Bootstrap Installation & Setup",
+          "Grid System (Rows, Columns, Breakpoints)",
+          "Bootstrap Components (Navbar, Cards, Carousel)",
+          "Buttons, Forms & Input Groups",
+          "Modal Windows & Alerts",
+          "Dropdown Menus & Pagination",
+          "Responsive Utilities & Spacing",
+          "Bootstrap Customization"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "JavaScript Basics",
+        "topics": [
+          "JavaScript Syntax & Variables",
+          "Data Types & Operators",
+          "Control Statements (if-else, Loops)",
+          "Functions & Scope",
+          "Arrays & Objects",
+          "DOM Manipulation",
+          "Event Listeners & Handlers",
+          "Form Validation"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "jQuery & UI Effects",
+        "topics": [
+          "jQuery Selectors & Methods",
+          "DOM Manipulation with jQuery",
+          "Event Handling",
+          "Effects (Show, Hide, Fade, Slide)",
+          "Animations with jQuery",
+          "Form Validation with jQuery",
+          "AJAX Basics"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Website Deployment & SEO",
+        "topics": [
+          "Domain Registration Process",
+          "Web Hosting Selection",
+          "FTP & File Transfer",
+          "Website Deployment Steps",
+          "Introduction to SEO",
+          "Meta Tags & Keywords",
+          "Google Search Console Setup",
+          "Sitemap & robots.txt Creation"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "UI/UX Design Fundamentals",
+        "topics": [
+          "Introduction to UI/UX Design",
+          "Design Principles (Balance, Contrast, Alignment)",
+          "Color Theory & Palette Selection",
+          "Typography & Font Pairing",
+          "Wireframing Techniques",
+          "Prototyping with Figma",
+          "User Experience Best Practices",
+          "Accessibility Standards (WCAG)"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Design Tools & Prototyping",
+        "topics": [
+          "Figma Basics & Interface",
+          "Creating Wireframes in Figma",
+          "High-Fidelity Mockups",
+          "Canva for Quick Designs",
+          "Exporting & Handoff",
+          "Responsive Design in Figma"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Final Project Development",
+        "topics": [
+          "Project Planning & Requirements",
+          "Design Implementation",
+          "Code Optimization",
+          "Testing & Debugging",
+          "Cross-Browser Testing",
+          "Performance Optimization",
+          "Final Deployment",
+          "Project Presentation"
+        ]
+      }
+    ],
+    "metaTitle": "Web Designing Course | HTML5, CSS3, Bootstrap, Responsive Design & SEO | 4 Months",
+    "metaDescription": "Learn professional web designing in 4 months. Master HTML5, CSS3, Bootstrap, JavaScript, responsive design, UI/UX, Figma, and deployment. Build 5 portfolio-ready websites."
+  },
+
+  {
+    "id": "javascript",
+    "slug": "javascript-programming",
+    "title": "JavaScript Programming",
+    "shortDescription": "Master JavaScript from basics to ES6+, async programming, API integration, and real-world projects in 2 months.",
+    "fullDescription": "This JavaScript Programming course takes you from complete beginner to intermediate/advanced level — covering JavaScript fundamentals, control flow, arrays and objects, DOM manipulation, events, form handling, ES6+ features (arrow functions, destructuring, spread operator), async/await, Promises, Fetch API, and JSON. You'll build 4 interactive projects including Task Manager, Weather App, Expense Tracker, and E-Commerce Shopping Cart.",
+    "duration": "2 Months",
+    "price": "Contact for Pricing",
+    "category": "tranding course",
+    "image": "JSS.AVIF",
+    "features": [
+      "JavaScript Fundamentals — Variables, Data Types, Operators",
+      "Control Flow — Conditionals, Loops, Functions",
+      "Arrays & Objects — Methods, Manipulation, Iteration",
+      "DOM Manipulation — Selecting, Creating, Modifying Elements",
+      "Event Handling — Mouse, Keyboard, Form Events",
+      "ES6+ Features — Arrow Functions, Destructuring, Spread Operator",
+      "Asynchronous JavaScript — Callbacks, Promises, Async/Await",
+      "Fetch API & REST Integration",
+      "Form Validation & Error Handling"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to JavaScript",
+        "topics": [
+          "What is JavaScript & History",
+          "JavaScript in Browser Console",
+          "Setting up Development Environment (VS Code)",
+          "Variables (var, let, const) — Scope & Hoisting",
+          "Data Types (Primitive & Reference)",
+          "Type Conversion & Coercion",
+          "Operators (Arithmetic, Logical, Comparison)",
+          "Input/Output (console.log, alert, prompt)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Control Flow & Functions",
+        "topics": [
+          "Conditional Statements (if, else-if, else)",
+          "Switch Statement",
+          "Ternary Operator",
+          "for Loop & Iteration",
+          "while & do-while Loops",
+          "break & continue Statements",
+          "Function Declaration & Expression",
+          "Arrow Functions",
+          "Function Scope & Closure",
+          "Hoisting Behavior"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Arrays & Objects",
+        "topics": [
+          "Array Creation & Indexing",
+          "Array Methods (push, pop, shift, unshift)",
+          "Array Manipulation (splice, slice, concat)",
+          "Array Iteration (forEach, map, filter)",
+          "Searching Arrays (find, includes, indexOf)",
+          "Sorting & Reducing (sort, reduce)",
+          "Object Literals & Properties",
+          "Object Methods & this keyword",
+          "Math Object & Methods",
+          "Date Object & Formatting",
+          "String Methods (substring, split, replace, toUpperCase)"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "DOM Manipulation",
+        "topics": [
+          "What is DOM (Document Object Model)",
+          "Selecting Elements (getElementById, querySelector, querySelectorAll)",
+          "DOM Traversal (parentElement, children, siblings)",
+          "Modifying Content (textContent, innerHTML)",
+          "Modifying Attributes (setAttribute, getAttribute)",
+          "CSS Manipulation (classList, style property)",
+          "Creating Elements (createElement, appendChild)",
+          "Removing Elements (removeChild, remove)",
+          "Clone & Replace Elements"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Events & Form Handling",
+        "topics": [
+          "Event Types (click, change, submit, input)",
+          "Event Listener Methods (addEventListener, removeEventListener)",
+          "Mouse Events (click, dblclick, hover, mouseover)",
+          "Keyboard Events (keydown, keyup, keypress)",
+          "Form Validation Techniques",
+          "Event Bubbling & Event Capture",
+          "Event Delegation Pattern",
+          "preventDefault & stopPropagation",
+          "this Context in Events"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Advanced ES6+ Features",
+        "topics": [
+          "Template Literals (Backticks)",
+          "Destructuring (Arrays & Objects)",
+          "Spread Operator (...)",
+          "Rest Parameters",
+          "Default Parameters",
+          "for...of & for...in Loops",
+          "Enhanced Object Literals",
+          "Classes & Constructors",
+          "Inheritance with extends",
+          "Static Methods"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Asynchronous JavaScript",
+        "topics": [
+          "Synchronous vs Asynchronous Code",
+          "setTimeout & setInterval",
+          "Callbacks & Callback Hell",
+          "Promises (Create, Resolve, Reject)",
+          "Promise Chaining",
+          "async/await Syntax",
+          "Error Handling (try-catch-finally)",
+          "Fetch API Basics",
+          "API Data Fetching & JSON Parsing",
+          "Handling API Errors"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Project Development & Deployment",
+        "topics": [
+          "Project Planning & Structure",
+          "Code Organization & Best Practices",
+          "Debugging Techniques (Chrome DevTools)",
+          "Performance Optimization",
+          "Version Control (Git Basics)",
+          "GitHub Repository Setup",
+          "Deployment (GitHub Pages)",
+          "Documentation & Comments",
+          "Code Review & Testing"
+        ]
+      }
+    ],
+    "metaTitle": "JavaScript Programming Course | ES6+, Async/Await, APIs & Projects | 2 Months",
+    "metaDescription": "Learn JavaScript in 2 months. Master fundamentals, ES6+ features, async programming, Fetch API, DOM manipulation, and build 4 interactive projects. Beginner to intermediate level."
   }
 ]
