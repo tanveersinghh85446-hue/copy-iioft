@@ -2502,7 +2502,7 @@
     "fullDescription": "This Tally Prime + GST course covers accounting fundamentals, ledger management, inventory tracking, GST configuration, GSTR-1 and GSTR-3B reports, e-invoicing, e-way bills, and financial reporting — making you fully job-ready for accounting roles.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "TPGST.AVIF",
     "features": [
       "Tally Prime — Complete Accounting Setup",
@@ -4317,126 +4317,6 @@
   },
 
   {
-    "id": "java-fullstack",
-    "slug": "full-stack-java-development",
-    "title": "Full Stack Java Development",
-    "shortDescription": "Become a job-ready Full Stack Java Developer with Core Java, Spring Boot, MySQL, REST APIs, and React/Angular in 4–5 months.",
-    "fullDescription": "This Full Stack Java Development course covers Core Java, OOP, Advanced Java (JDBC, Servlets), frontend development (HTML, CSS, JS, Bootstrap), MySQL database design, Spring Boot, Spring MVC, Hibernate/JPA, REST API development, and deployment using Maven and Tomcat. You'll build 4–6 projects and one major E-commerce web application.",
-    "duration": "4-5 Months",
-    "price": "Contact for Pricing",
-    "category": "advance",
-    "image": "FSJD.AVIF",
-    "features": [
-      "Core Java — OOP, Collections, Exception Handling",
-      "Advanced Java — JDBC, Servlets & JSP",
-      "Frontend — HTML5, CSS3, JavaScript & Bootstrap",
-      "MySQL — CRUD, Joins, Stored Procedures",
-      "Spring Boot & Spring MVC Architecture",
-      "Hibernate/JPA ORM & Spring Security",
-      "REST API Development & Postman Testing",
-      "Deployment with Maven/Gradle, Tomcat & Git"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Core Java Fundamentals",
-        "topics": [
-          "Introduction to Java & JDK Setup",
-          "Data Types, Variables & Operators",
-          "Control Statements (if-else, Loops)",
-          "Arrays & Strings",
-          "OOP Concepts (Class, Object, Inheritance, Polymorphism, Encapsulation, Abstraction)",
-          "Exception Handling",
-          "Collections Framework (List, Set, Map)",
-          "Project: Banking Management System (Console-based)"
-        ]
-      },
-      {
-        "module": 2,
-        "title": "Advanced Java",
-        "topics": [
-          "JDBC (Java Database Connectivity)",
-          "File Handling",
-          "Multithreading Basics",
-          "Introduction to Servlets & JSP",
-          "Project: Student Management System (JDBC-based)"
-        ]
-      },
-      {
-        "module": 3,
-        "title": "Frontend Development",
-        "topics": [
-          "HTML5 (Forms, Structure)",
-          "CSS3 (Flexbox, Responsive Design)",
-          "JavaScript (DOM, Events, Validation)",
-          "Bootstrap",
-          "Project: Responsive Portfolio Website"
-        ]
-      },
-      {
-        "module": 4,
-        "title": "Database (MySQL)",
-        "topics": [
-          "SQL Basics (CRUD Operations)",
-          "Joins, Views & Indexes",
-          "Stored Procedures",
-          "Database Design",
-          "Project: Employee Management Database"
-        ]
-      },
-      {
-        "module": 5,
-        "title": "Spring Framework (Core & Spring Boot)",
-        "topics": [
-          "Spring Core (IOC, Dependency Injection)",
-          "Spring Boot Basics",
-          "Spring MVC Architecture",
-          "REST API Development",
-          "Spring Data JPA (Hibernate ORM)",
-          "Validation & Exception Handling",
-          "Security Basics (Spring Security)",
-          "Project: E-commerce Backend Application"
-        ]
-      },
-      {
-        "module": 6,
-        "title": "REST API & Integration",
-        "topics": [
-          "RESTful Services",
-          "CRUD APIs using Spring Boot",
-          "API Testing (Postman)",
-          "JSON Handling",
-          "Project: Product Management REST API"
-        ]
-      },
-      {
-        "module": 7,
-        "title": "Frontend Integration",
-        "topics": [
-          "API Integration using Fetch/Axios",
-          "Form Handling",
-          "Basic React or Angular (Optional)",
-          "Project: E-commerce Frontend Integration"
-        ]
-      },
-      {
-        "module": 8,
-        "title": "Deployment & Final Project",
-        "topics": [
-          "Git & GitHub",
-          "Build Tools (Maven/Gradle)",
-          "Deployment (Tomcat / Cloud Basics)",
-          "CI/CD Basics",
-          "Resume & Interview Preparation",
-          "Final Project: Complete E-commerce Web Application (User Registration, Product Catalog, Shopping Cart, Admin Dashboard, REST API Integration)"
-        ]
-      }
-    ],
-    "metaTitle": "Full Stack Java Development Course | Spring Boot, MySQL, REST API & React",
-    "metaDescription": "Become a Full Stack Java Developer in 4–5 months. Learn Core Java, Spring Boot, Hibernate, MySQL, REST APIs, and frontend integration. Build a complete E-commerce application with deployment."
-  },
-
-  {
     "id": "php-fullstack",
     "slug": "full-stack-php-development",
     "title": "Full Stack PHP Development",
@@ -5176,7 +5056,7 @@
     "fullDescription": "This comprehensive Web Designing course covers the complete web design workflow — from HTML5 and CSS3 fundamentals to advanced responsive design with Flexbox and Grid, Bootstrap framework, JavaScript interactivity, jQuery effects, UI/UX design principles, website deployment, and SEO optimization. You'll build 5 professional portfolio-ready websites and learn design tools like Figma.",
     "duration": "4 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "WDCS.AVIF",
     "features": [
       "HTML5 Fundamentals — Semantic Tags, Forms, Multimedia",
@@ -5367,7 +5247,7 @@
     "fullDescription": "This JavaScript Programming course takes you from complete beginner to intermediate/advanced level — covering JavaScript fundamentals, control flow, arrays and objects, DOM manipulation, events, form handling, ES6+ features (arrow functions, destructuring, spread operator), async/await, Promises, Fetch API, and JSON. You'll build 4 interactive projects including Task Manager, Weather App, Expense Tracker, and E-Commerce Shopping Cart.",
     "duration": "2 Months",
     "price": "Contact for Pricing",
-    "category": "tranding course",
+    "category": "advance",
     "image": "JSS.AVIF",
     "features": [
       "JavaScript Fundamentals — Variables, Data Types, Operators",
@@ -5508,5 +5388,662 @@
     ],
     "metaTitle": "JavaScript Programming Course | ES6+, Async/Await, APIs & Projects | 2 Months",
     "metaDescription": "Learn JavaScript in 2 months. Master fundamentals, ES6+ features, async programming, Fetch API, DOM manipulation, and build 4 interactive projects. Beginner to intermediate level."
+  },
+
+  {
+    "id": "cakephp",
+    "slug": "cakephp-development",
+    "title": "CakePHP Development",
+    "shortDescription": "Master CakePHP framework for building dynamic web applications — MVC architecture, ORM, authentication, REST APIs, and real-world projects in 2.5 months.",
+    "fullDescription": "This comprehensive CakePHP Development course takes you from PHP basics to building production-ready web applications using the CakePHP framework. You'll cover MVC architecture, database design, ORM, CRUD operations, form handling, validation, authentication, authorization, middleware, file uploads, email functionality, REST API development, and frontend integration. Build 4 real-world projects including Student Management, Blog, E-Commerce, and complete Online Cake Shop system with admin dashboard.",
+    "duration": "2.5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "CPHP.AVIF",
+    "features": [
+      "PHP Fundamentals — Variables, OOP, Functions",
+      "MVC Architecture — Controllers, Views, Models",
+      "CakePHP Framework Setup & Configuration",
+      "Database Design & MySQL Integration",
+      "CakePHP ORM — Query Builder, Associations",
+      "CRUD Operations — Create, Read, Update, Delete",
+      "Form Handling & Data Validation",
+      "Authentication & Role-Based Authorization",
+      "Components, Helpers & Middleware",
+      "REST API Development & JSON Responses",
+      "File Upload & Email Functionality",
+      "Bootstrap Integration & AJAX",
+      "Admin Dashboard & Deployment"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to PHP & MVC Architecture",
+        "topics": [
+          "PHP Fundamentals (Variables, Data Types, Operators)",
+          "Control Statements (if-else, switch, loops)",
+          "Functions & Arrays in PHP",
+          "Introduction to Object-Oriented PHP (Classes, Objects)",
+          "Inheritance, Interfaces & Traits",
+          "MVC Architecture Concept & Benefits",
+          "Introduction to CakePHP Framework",
+          "CakePHP vs Other PHP Frameworks",
+          "Installing PHP, Apache, MySQL (XAMPP/WAMP)",
+          "Installing Composer & CakePHP via Composer"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "CakePHP Basics & Project Structure",
+        "topics": [
+          "CakePHP Directory Structure",
+          "Configuration Files (config/app.php, database.php)",
+          "Creating Controllers & Actions",
+          "Creating Views & Templates",
+          "Routing Basics (Route Definition)",
+          "URL Structure & Naming Conventions",
+          "Request & Response Handling",
+          "Passing Data to Views",
+          "Template Inheritance & Layouts",
+          "Creating Basic Pages (Home, About, Contact)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Database Design & CakePHP ORM",
+        "topics": [
+          "Database Configuration Setup",
+          "Creating Tables Manually",
+          "CakePHP Migrations (Creating, Running, Rolling Back)",
+          "Schema Generation & Management",
+          "CakePHP ORM Basics",
+          "Model Creation & Configuration",
+          "Associations (hasMany, belongsTo, hasAndBelongsToMany)",
+          "Query Builder Usage",
+          "Fetching Data (find, first, list)",
+          "Working with Relationships",
+          "Eager Loading & Query Optimization"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "CRUD Operations & Query Building",
+        "topics": [
+          "Create Operation — Adding Records",
+          "Read Operation — Fetching & Displaying Data",
+          "Update Operation — Editing Records",
+          "Delete Operation — Removing Records",
+          "Bulk Operations",
+          "Advanced Query Building",
+          "Filtering, Sorting & Pagination",
+          "Using Where Clauses & Conditions",
+          "Joins & Complex Queries",
+          "Transaction Handling"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Forms & Data Validation",
+        "topics": [
+          "Form Helper & HTML Generation",
+          "Creating HTML Forms",
+          "Form Inputs (Text, Email, Password, Select, Checkbox)",
+          "Data Validation Rules",
+          "Built-in Validators (required, email, numeric, etc.)",
+          "Custom Validation Rules",
+          "Displaying Validation Errors",
+          "Form State Management",
+          "Client-Side & Server-Side Validation",
+          "CSRF Protection in Forms",
+          "File Input Fields"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Authentication & Authorization",
+        "topics": [
+          "CakePHP Authentication Plugin",
+          "User Registration System",
+          "Login & Logout Functionality",
+          "Password Hashing & Security",
+          "Session Management",
+          "Remember-Me Functionality",
+          "Role-Based Access Control (RBAC)",
+          "Authorization Middleware",
+          "Protecting Routes & Actions",
+          "Admin vs User Roles",
+          "Permission Management"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Advanced Features & Components",
+        "topics": [
+          "Creating Custom Components",
+          "Using Built-in Components",
+          "Helper Classes & Custom Helpers",
+          "Middleware in CakePHP",
+          "Flash Messages (Success, Error, Warning)",
+          "File Upload Handling",
+          "File Storage & Organization",
+          "Image Processing (Resize, Thumbnail)",
+          "Email Configuration & Sending",
+          "Email Templates",
+          "Logging & Debugging"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "REST API Development",
+        "topics": [
+          "REST API Concepts",
+          "JSON Responses",
+          "Creating API Endpoints",
+          "HTTP Methods (GET, POST, PUT, DELETE)",
+          "API Error Handling",
+          "Status Codes & Response Formats",
+          "Request Parsing & Validation",
+          "API Authentication (Token-Based)",
+          "CORS Configuration",
+          "API Documentation Basics",
+          "Testing APIs with Postman"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Frontend Integration & AJAX",
+        "topics": [
+          "Bootstrap Integration in CakePHP",
+          "Responsive Layout Creation",
+          "AJAX Request Handling",
+          "jQuery with CakePHP",
+          "Dynamic Form Submission",
+          "Loading & Updating Content without Page Refresh",
+          "Spinner & Loading Indicators",
+          "Form Validation with AJAX",
+          "Real-Time Search Implementation",
+          "API Integration with Frontend",
+          "JSON Data Processing"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Project Development & Deployment",
+        "topics": [
+          "Project Planning & Architecture",
+          "Code Organization Best Practices",
+          "Git & Version Control",
+          "Testing Basics (Unit Testing)",
+          "Debugging Techniques",
+          "Performance Optimization",
+          "Caching Strategies",
+          "Security Best Practices",
+          "Environment Configuration (.env files)",
+          "Deployment Steps",
+          "Server Setup & Configuration",
+          "Domain & SSL Setup",
+          "Monitoring & Maintenance"
+        ]
+      }
+    ],
+    "metaTitle": "CakePHP Development Course | MVC Framework, ORM, REST APIs & E-Commerce | 2.5 Months",
+    "metaDescription": "Master CakePHP in 2.5 months. Learn MVC architecture, database design, CRUD operations, authentication, REST APIs, file uploads, and build 4 real-world projects including E-Commerce website."
+  },
+
+  {
+    "id": "mongodb",
+    "slug": "mongodb-development",
+    "title": "MongoDB Development",
+    "shortDescription": "Master MongoDB NoSQL database — CRUD operations, aggregation framework, indexing, Node.js integration, and real-world projects in 1.5 months.",
+    "fullDescription": "This comprehensive MongoDB Development course takes you from NoSQL fundamentals to building production-ready applications with MongoDB. You'll learn MongoDB architecture, BSON data types, complete CRUD operations, advanced querying with aggregation framework, indexing strategies, data modeling patterns, integration with Node.js and Mongoose ODM, REST API development, security best practices, cloud deployment with MongoDB Atlas, and real-world e-commerce database design. Build a complete E-Commerce Product Management System with user authentication, shopping cart, order management, and analytics dashboard.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "MDB.AVIF",
+    "features": [
+      "NoSQL & MongoDB Fundamentals",
+      "MongoDB Installation & Setup (Local & Cloud)",
+      "Complete CRUD Operations (Create, Read, Update, Delete)",
+      "Query Operators — Comparison, Logical, Array, Element",
+      "Aggregation Framework — Pipelines, Grouping, Sorting",
+      "Indexing Strategies — Single, Compound, Text, Unique Indexes",
+      "Data Modeling — Embedding, Referencing, Relationships",
+      "MongoDB with Node.js & Mongoose ODM",
+      "REST API Development & Testing",
+      "Security — Authentication, Authorization, Encryption",
+      "MongoDB Atlas — Cloud Deployment & Management",
+      "Performance Optimization & Query Analysis"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "MongoDB Fundamentals & Setup",
+        "topics": [
+          "Introduction to NoSQL Databases",
+          "SQL vs NoSQL Comparison",
+          "Types of NoSQL Databases (Document, Key-Value, Graph, Column)",
+          "MongoDB Architecture & Components",
+          "MongoDB Use Cases & Benefits",
+          "Installing MongoDB Community Edition",
+          "MongoDB Compass GUI Tool",
+          "MongoDB Atlas Cloud Setup",
+          "Creating Local & Cloud Databases",
+          "BSON Data Types & Formats",
+          "JSON vs BSON Comparison",
+          "Database, Collection & Document Concepts"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "CRUD Operations in MongoDB",
+        "topics": [
+          "Insert Operations — insertOne(), insertMany()",
+          "Understanding ObjectId & _id Field",
+          "Read Operations — find(), findOne()",
+          "Query Projection — Selecting Fields",
+          "Update Operations — updateOne(), updateMany(), replaceOne()",
+          "Delete Operations — deleteOne(), deleteMany()",
+          "Bulk Write Operations",
+          "Comparison Operators ($eq, $ne, $gt, $lt, $gte, $lte)",
+          "Logical Operators ($and, $or, $not, $nor)",
+          "Element Operators ($exists, $type)",
+          "Array Operators ($in, $nin, $all, $elemMatch)",
+          "String Query Patterns"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Advanced Querying & Indexing",
+        "topics": [
+          "Sorting Results — sort() Method",
+          "Limiting & Skipping Results — limit(), skip()",
+          "Pagination Implementation",
+          "Regular Expression Queries",
+          "Single Field Indexing",
+          "Compound Indexes (Multiple Fields)",
+          "Text Indexes for Full-Text Search",
+          "Unique Indexes & Sparse Indexes",
+          "Index Creation & Management",
+          "Query Analysis with explain()",
+          "Performance Optimization Strategies",
+          "Index Best Practices",
+          "Introduction to Aggregation Pipeline"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Aggregation Framework & Data Modeling",
+        "topics": [
+          "Aggregation Pipeline Concept",
+          "$match Stage — Filtering Documents",
+          "$group Stage — Grouping & Aggregation",
+          "$project Stage — Reshaping Documents",
+          "$sort Stage — Sorting Results",
+          "$limit & $skip Stages",
+          "$lookup Stage — Joining Collections",
+          "$unwind Stage — Array Expansion",
+          "$facet Stage — Multi-faceted Aggregations",
+          "$bucket & $bucketAuto Stages",
+          "$sortByCount Stage",
+          "Embedding Documents (One-to-One, One-to-Many)",
+          "Referencing Documents (Normalized Approach)",
+          "Many-to-Many Relationships",
+          "Schema Design Patterns",
+          "Denormalization Best Practices",
+          "Designing for Performance"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "MongoDB with Node.js & Mongoose",
+        "topics": [
+          "MongoDB Node.js Driver Installation",
+          "Connecting to MongoDB from Node.js",
+          "Connection String & URL",
+          "CRUD Operations using Driver",
+          "Mongoose ODM Introduction",
+          "Installing Mongoose Package",
+          "Schema Definition & Creation",
+          "Model Creation & Configuration",
+          "Data Types & Field Options",
+          "Validation Rules (required, min, max, enum)",
+          "Custom Validators",
+          "Pre & Post Hooks (Middleware)",
+          "Virtual Fields",
+          "Instance Methods & Static Methods",
+          "Connecting to MongoDB with Mongoose",
+          "CRUD with Mongoose",
+          "Lean Queries & Performance"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "REST APIs, Security & Deployment",
+        "topics": [
+          "Express.js Framework Basics",
+          "REST API Concepts & HTTP Methods",
+          "Building CRUD APIs with Mongoose",
+          "Request & Response Handling",
+          "Error Handling & Validation",
+          "API Testing with Postman",
+          "Pagination in APIs",
+          "Filtering & Sorting in APIs",
+          "Authentication (JWT Tokens)",
+          "Authorization & Role-Based Access",
+          "MongoDB Security — Authentication",
+          "User Roles & Permissions",
+          "Data Encryption Basics",
+          "Connection String Security",
+          "MongoDB Atlas Cluster Creation",
+          "Database Backup & Restore",
+          "Monitoring & Performance Tracking",
+          "Environment Variables & Configuration",
+          "Deployment Best Practices",
+          "Production Deployment Setup"
+        ]
+      }
+    ],
+    "metaTitle": "MongoDB Development Course | NoSQL, CRUD, Aggregation & Node.js Integration | 1.5 Months",
+    "metaDescription": "Master MongoDB in 1.5 months. Learn CRUD operations, aggregation framework, indexing, Mongoose ODM, REST APIs, authentication, and MongoDB Atlas deployment. Build real-world E-Commerce projects."
+  },
+  {
+    "id": "java-fullstack",
+    "slug": "full-stack-java-development",
+    "title": "Full Stack Java Development",
+    "shortDescription": "Become a job-ready Full Stack Java Developer with Core Java, Spring Boot, MySQL, REST APIs, and React/Angular in 4–5 months.",
+    "fullDescription": "This Full Stack Java Development course covers Core Java, OOP, Advanced Java (JDBC, Servlets), frontend development (HTML, CSS, JS, Bootstrap), MySQL database design, Spring Boot, Spring MVC, Hibernate/JPA, REST API development, and deployment using Maven and Tomcat. You'll build 4–6 projects and one major E-commerce web application.",
+    "duration": "4-5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "FSJD.AVIF",
+    "features": [
+      "Core Java — OOP, Collections, Exception Handling",
+      "Advanced Java — JDBC, Servlets & JSP",
+      "Frontend — HTML5, CSS3, JavaScript & Bootstrap",
+      "MySQL — CRUD, Joins, Stored Procedures",
+      "Spring Boot & Spring MVC Architecture",
+      "Hibernate/JPA ORM & Spring Security",
+      "REST API Development & Postman Testing",
+      "Deployment with Maven/Gradle, Tomcat & Git"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Core Java Fundamentals",
+        "topics": [
+          "Introduction to Java & JDK Setup",
+          "Data Types, Variables & Operators",
+          "Control Statements (if-else, Loops)",
+          "Arrays & Strings",
+          "OOP Concepts (Class, Object, Inheritance, Polymorphism, Encapsulation, Abstraction)",
+          "Exception Handling",
+          "Collections Framework (List, Set, Map)",
+          "Project: Banking Management System (Console-based)"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Advanced Java",
+        "topics": [
+          "JDBC (Java Database Connectivity)",
+          "File Handling",
+          "Multithreading Basics",
+          "Introduction to Servlets & JSP",
+          "Project: Student Management System (JDBC-based)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Frontend Development",
+        "topics": [
+          "HTML5 (Forms, Structure)",
+          "CSS3 (Flexbox, Responsive Design)",
+          "JavaScript (DOM, Events, Validation)",
+          "Bootstrap",
+          "Project: Responsive Portfolio Website"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Database (MySQL)",
+        "topics": [
+          "SQL Basics (CRUD Operations)",
+          "Joins, Views & Indexes",
+          "Stored Procedures",
+          "Database Design",
+          "Project: Employee Management Database"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Spring Framework (Core & Spring Boot)",
+        "topics": [
+          "Spring Core (IOC, Dependency Injection)",
+          "Spring Boot Basics",
+          "Spring MVC Architecture",
+          "REST API Development",
+          "Spring Data JPA (Hibernate ORM)",
+          "Validation & Exception Handling",
+          "Security Basics (Spring Security)",
+          "Project: E-commerce Backend Application"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "REST API & Integration",
+        "topics": [
+          "RESTful Services",
+          "CRUD APIs using Spring Boot",
+          "API Testing (Postman)",
+          "JSON Handling",
+          "Project: Product Management REST API"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Frontend Integration",
+        "topics": [
+          "API Integration using Fetch/Axios",
+          "Form Handling",
+          "Basic React or Angular (Optional)",
+          "Project: E-commerce Frontend Integration"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Deployment & Final Project",
+        "topics": [
+          "Git & GitHub",
+          "Build Tools (Maven/Gradle)",
+          "Deployment (Tomcat / Cloud Basics)",
+          "CI/CD Basics",
+          "Resume & Interview Preparation",
+          "Final Project: Complete E-commerce Web Application (User Registration, Product Catalog, Shopping Cart, Admin Dashboard, REST API Integration)"
+        ]
+      }
+    ],
+    "metaTitle": "Full Stack Java Development Course | Spring Boot, MySQL, REST API & React",
+    "metaDescription": "Become a Full Stack Java Developer in 4–5 months. Learn Core Java, Spring Boot, Hibernate, MySQL, REST APIs, and frontend integration. Build a complete E-commerce application with deployment."
+  },
+
+  {
+    "id": "nodejs",
+    "slug": "nodejs-development",
+    "title": "Node.js Development",
+    "shortDescription": "Master Node.js backend development — Express.js, REST APIs, MongoDB integration, authentication, file uploads, and real-world e-commerce projects in 1.5 months.",
+    "fullDescription": "This comprehensive Node.js Development course takes you from JavaScript essentials to building production-ready backend applications. You'll learn Node.js fundamentals, core modules (FS, Events, Streams), Express.js framework, REST API development, MongoDB integration with Mongoose, JWT authentication, security best practices, file uploads, email services, testing, and deployment. Build a complete E-Commerce Backend API system with user authentication, product management, shopping cart, order processing, admin dashboard, image uploads, and email notifications.",
+    "duration": "1.5 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "NJ.AVIF",
+    "features": [
+      "JavaScript ES6+ Fundamentals & Async Programming",
+      "Node.js Architecture & Event-Driven Model",
+      "Core Modules — FS, Path, OS, Events, Streams, Buffers",
+      "Express.js Framework — Routing, Middleware, Error Handling",
+      "REST API Development — GET, POST, PUT, DELETE",
+      "MongoDB Integration & Mongoose ODM",
+      "Authentication & Authorization — JWT, bcrypt, RBAC",
+      "File Uploads with Multer & Image Processing",
+      "Email Services with Nodemailer",
+      "Security Best Practices — Helmet, CORS, Rate Limiting",
+      "Testing & Debugging Techniques",
+      "Deployment & MongoDB Atlas Integration",
+      "Production-Ready Architecture & Best Practices"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "JavaScript Essentials & Node.js Fundamentals",
+        "topics": [
+          "ES6+ Features Review (Arrow Functions, Destructuring)",
+          "Template Literals & String Methods",
+          "Spread & Rest Operators",
+          "Promises & Promise Chaining",
+          "Async/Await Syntax & Error Handling",
+          "What is Node.js & Use Cases",
+          "Node.js Architecture & How It Works",
+          "Event-Driven Architecture",
+          "Single-Threaded Asynchronous Model",
+          "Installing Node.js & NPM",
+          "Node.js Versions & LTS",
+          "Running Node Applications",
+          "REPL (Read-Eval-Print Loop)",
+          "Global Objects (global, process, Buffer)",
+          "Modules & CommonJS",
+          "Package Management with NPM",
+          "package.json & npm Scripts"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Core Node.js Modules",
+        "topics": [
+          "FS Module — Reading Files (readFile, readFileSync)",
+          "Writing Files (writeFile, appendFile)",
+          "Updating & Deleting Files",
+          "Working with Directories (mkdir, rmdir, readdir)",
+          "File Permissions & Stats",
+          "Path Module — Path Operations & Parsing",
+          "Resolving & Normalizing Paths",
+          "OS Module — System Information",
+          "CPU & Memory Usage",
+          "EventEmitter — Creating Custom Events",
+          "Event Listeners & Emitters",
+          "Readable Streams — Consuming Data",
+          "Writable Streams — Writing Data",
+          "Pipe Operations (piping streams)",
+          "Transform Streams",
+          "Buffers — Introduction & Operations",
+          "Encoding & Decoding (UTF-8, Base64, Hex)"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Web Server & Express.js Fundamentals",
+        "topics": [
+          "HTTP Module — Creating Web Servers",
+          "Request Object (headers, method, URL)",
+          "Response Object (status codes, headers, data)",
+          "Handling GET & POST Requests",
+          "Routing Basics with HTTP Module",
+          "Introduction to Express.js",
+          "Express Installation & Setup",
+          "Creating Express Application",
+          "Routing (GET, POST, PUT, DELETE)",
+          "Route Parameters & Query Strings",
+          "Middleware Concept",
+          "Built-in Middleware (express.json, express.static)",
+          "Custom Middleware Creation",
+          "Middleware Execution Order",
+          "Error Handling Middleware",
+          "Request Validation",
+          "Response Methods (send, json, status)"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "REST APIs & Best Practices",
+        "topics": [
+          "REST Architecture Principles",
+          "HTTP Methods & Status Codes",
+          "API Design Best Practices",
+          "Naming Conventions for Routes",
+          "Request/Response Structure",
+          "JSON Response Formatting",
+          "Error Response Handling",
+          "API Documentation Basics",
+          "Testing APIs with Postman",
+          "CRUD Operations API Design",
+          "Pagination Implementation",
+          "Filtering & Sorting",
+          "Versioning APIs (v1, v2)",
+          "API Authentication & Authorization",
+          "Rate Limiting Concepts"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Database Integration — MongoDB & Mongoose",
+        "topics": [
+          "NoSQL Concepts & Advantages",
+          "MongoDB Installation & Setup",
+          "Collections & Documents Basics",
+          "MongoDB Driver Installation",
+          "Connecting to MongoDB from Node.js",
+          "CRUD Operations with Driver",
+          "Mongoose ODM Introduction",
+          "Schema Definition & Creation",
+          "Model Creation & Configuration",
+          "Data Types & Field Options",
+          "Validation Rules (required, min, max)",
+          "Custom Validators",
+          "Pre & Post Hooks (Middleware)",
+          "Virtual Fields & Methods",
+          "Relationships (One-to-Many, Many-to-Many)",
+          "Population & Referencing",
+          "Query Methods (find, findById, findOne, updateOne)",
+          "Lean Queries for Performance",
+          "Indexing & Query Optimization"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Authentication, Security & Advanced Features",
+        "topics": [
+          "Password Hashing with bcrypt",
+          "JWT (JSON Web Tokens) — Creation & Verification",
+          "Token Refresh & Expiration",
+          "Authentication Middleware",
+          "Authorization & Role-Based Access Control",
+          "Error Handling Classes & Global Error Handler",
+          "API Error Responses & Status Codes",
+          "Helmet for Security Headers",
+          "CORS Configuration & Handling",
+          "Rate Limiting with express-rate-limit",
+          "Data Sanitization & Input Validation",
+          "XSS Protection",
+          "SQL Injection Prevention",
+          "File Uploads with Multer",
+          "File Validation (type, size)",
+          "Image Optimization & Processing",
+          "Multer Configuration & Storage",
+          "Email Services with Nodemailer",
+          "Email Templates",
+          "Email Verification & Password Reset",
+          "Testing Basics (Unit Tests, Integration Tests)",
+          "API Testing with Postman",
+          "Debugging Tools & Techniques",
+          "Environment Variables (.env)",
+          "Production Configuration",
+          "Deploying to Cloud Services",
+          "MongoDB Atlas Setup & Connection",
+          "Performance Optimization",
+          "Logging Best Practices"
+        ]
+      }
+    ],
+    "metaTitle": "Node.js Development Course | Express.js, REST APIs, MongoDB & Authentication | 1.5 Months",
+    "metaDescription": "Master Node.js backend development in 1.5 months. Learn Express.js, REST APIs, MongoDB with Mongoose, JWT authentication, file uploads, security, and build a complete E-Commerce backend system."
   }
 ]
