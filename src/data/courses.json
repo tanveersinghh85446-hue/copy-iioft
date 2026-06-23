@@ -6045,5 +6045,512 @@
     ],
     "metaTitle": "Node.js Development Course | Express.js, REST APIs, MongoDB & Authentication | 1.5 Months",
     "metaDescription": "Master Node.js backend development in 1.5 months. Learn Express.js, REST APIs, MongoDB with Mongoose, JWT authentication, file uploads, security, and build a complete E-Commerce backend system."
-  }
+  },
+
+  {
+    "id": "adca",
+    "slug": "advanced-diploma-computer-applications",
+    "title": "ADCA (Advanced Diploma in Computer Applications)",
+    "shortDescription": "Master computer fundamentals, MS Office, graphic designing, programming, web designing, Tally Prime, DBMS, networking, and professional skills through practical training and live projects.",
+    "fullDescription": "ADCA (Advanced Diploma in Computer Applications) is a comprehensive one-year professional diploma program designed to build strong computer application skills. Students learn computer fundamentals, Windows operating system, MS Office, internet technologies, graphic designing, C & C++ programming, database management, web designing, Tally Prime with GST, hardware & networking, and employability skills. The course includes practical sessions, live projects, and industry-oriented training to prepare students for professional careers in IT and office automation.",
+    "duration": "12 Months",
+    "price": "Contact for Pricing",
+    "category": "advance",
+    "image": "ADICAA.AVIF",
+    "features": [
+      "Computer Fundamentals & Operating Systems",
+      "MS Office Professional Suite",
+      "Internet & Email Management",
+      "Graphic Designing with Photoshop & CorelDRAW",
+      "Programming in C Language",
+      "Object-Oriented Programming with C++",
+      "Database Management System (DBMS)",
+      "Web Designing with HTML, CSS & JavaScript",
+      "Tally Prime with GST & Accounting",
+      "Soft Skills & Employability Training",
+      "Live Projects & Industrial Exposure",
+      "Industry-Oriented Practical Training"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Computer Fundamentals",
+        "topics": [
+          "Introduction to Computers",
+          "History & Generations of Computers",
+          "Hardware & Software Concepts",
+          "Input & Output Devices",
+          "Memory & Storage Devices",
+          "Operating Systems",
+          "Number System & Computer Languages",
+          "Computer Security & Antivirus",
+          "System Configuration",
+          "File Management",
+          "Software Installation"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Operating System (Windows)",
+        "topics": [
+          "Windows Environment",
+          "File & Folder Management",
+          "Control Panel",
+          "User Accounts",
+          "Disk Management",
+          "System Maintenance",
+          "Creating User Accounts",
+          "System Settings Configuration",
+          "Backup & Restore"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "MS Office Professional",
+        "topics": [
+          "MS Word",
+          "Document Creation",
+          "Formatting & Editing",
+          "Tables & Mail Merge",
+          "Page Setup",
+          "Templates",
+          "MS Excel",
+          "Formulas & Functions",
+          "Charts & Graphs",
+          "Pivot Tables",
+          "Data Validation",
+          "Financial Calculations",
+          "MS PowerPoint",
+          "Presentation Design",
+          "Animations & Transitions",
+          "Smart Art",
+          "Multimedia Integration",
+          "MS Access",
+          "Database Creation",
+          "Forms & Reports",
+          "Queries"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Internet & Email",
+        "topics": [
+          "Internet Concepts",
+          "Browsers & Search Engines",
+          "Email Management",
+          "Cloud Computing",
+          "Online Forms",
+          "Digital Payments",
+          "Cyber Safety",
+          "Google Drive Usage",
+          "Online Collaboration Tools"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Graphic Designing",
+        "topics": [
+          "Adobe Photoshop",
+          "CorelDRAW",
+          "Image Editing",
+          "Banner Designing",
+          "Logo Designing",
+          "Social Media Creatives",
+          "Poster Designing",
+          "Advertisement Design"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Programming in C",
+        "topics": [
+          "Introduction to Programming",
+          "Variables & Data Types",
+          "Operators",
+          "Loops",
+          "Functions",
+          "Arrays",
+          "Pointers",
+          "Structures",
+          "File Handling"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "C++ Programming",
+        "topics": [
+          "Object Oriented Programming",
+          "Classes & Objects",
+          "Inheritance",
+          "Polymorphism",
+          "Constructors & Destructors",
+          "Function Overloading",
+          "Operator Overloading",
+          "File Management"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Database Management System (DBMS)",
+        "topics": [
+          "Database Concepts",
+          "MS Access",
+          "SQL Basics",
+          "Tables",
+          "Queries",
+          "Forms",
+          "Reports",
+          "Database Design"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Web Designing",
+        "topics": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Responsive Design",
+          "Forms & Validation",
+          "Website Hosting",
+          "Portfolio Website Development"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Tally Prime with GST",
+        "topics": [
+          "Accounting Fundamentals",
+          "Company Creation",
+          "Voucher Entries",
+          "Inventory Management",
+          "GST Configuration",
+          "Payroll Management",
+          "Banking Transactions",
+          "Business Accounting System"
+        ]
+      },
+
+      {
+        "module": 11,
+        "title": "Soft Skills & Employability",
+        "topics": [
+          "Communication Skills",
+          "Interview Preparation",
+          "Resume Building",
+          "Presentation Skills",
+          "Personality Development",
+          "Professional Ethics"
+        ]
+      }
+    ],
+    "metaTitle": "ADCA Course | Advanced Diploma in Computer Applications | 1 Year Professional Diploma",
+    "metaDescription": "Learn Computer Fundamentals, MS Office, Graphic Designing, C, C++, DBMS, Web Designing, Tally Prime with GST, Hardware & Networking through practical training and live projects in ADCA."
+  },
+
+  {
+  "id": "adca-sap-fico",
+  "slug": "advanced-diploma-accounting-sap-fico",
+  "title": "Advanced Diploma in Accounting with SAP FICO",
+  "shortDescription": "Master advanced accounting, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO through practical training, live projects, and industrial exposure for finance and ERP careers.",
+  "fullDescription": "Advanced Diploma in Accounting with SAP FICO is a comprehensive one-year professional diploma program designed for commerce students and accounting professionals. The course combines advanced accounting, taxation, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO (Financial Accounting & Controlling). Students gain hands-on experience with General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Centers, Profit Centers, and financial reporting. The program includes theory, practicals, case studies, live projects, and industrial training to prepare students for accounting and ERP-based finance careers.",
+  "duration": "12 Months",
+  "price": "Contact for Pricing",
+  "category": "soft skill's",
+  "image": "ADICAA.AVIF",
+  "eligibility": "10+2 / B.Com / M.Com / BBA / MBA / Commerce Students",
+  "courseType": "Theory + Practical + Case Studies + Live Projects + Industrial Training",
+  "trainingHours": {
+    "theory": "250 Hours",
+    "practical": "250 Hours",
+    "projectsAndCaseStudies": "100 Hours",
+    "industrialTraining": "50 Hours",
+    "total": "650 Hours"
+  },
+  "features": [
+    "Fundamentals of Accounting & Financial Accounting",
+    "Tally Prime with GST & Inventory Management",
+    "Advanced Excel & MIS Reporting Dashboards",
+    "Business Taxation – GST, TDS & Income Tax",
+    "ERP & SAP Fundamentals",
+    "SAP FI (Financial Accounting) – GL, AP, AR, Asset Accounting",
+    "SAP CO (Controlling) – Cost Centers, Profit Centers, COPA",
+    "SAP Integration – FI-MM & FI-SD (P2P & O2C Cycles)",
+    "Financial Analysis & Reporting",
+    "Payroll Processing & Labour Compliance",
+    "Soft Skills & SAP FICO Interview Preparation",
+    "6 Major Live Projects & Industrial Exposure",
+    "Industry-Oriented Practical Training"
+  ],
+  "syllabus": [
+    {
+      "module": 1,
+      "title": "Fundamentals of Accounting",
+      "semester": 1,
+      "topics": [
+        "Introduction to Accounting",
+        "Accounting Principles & Concepts",
+        "Journal Entries",
+        "Ledger Posting",
+        "Trial Balance",
+        "Cash Book",
+        "Bank Reconciliation Statement",
+        "Final Accounts",
+        "Depreciation Accounting",
+        "Journal Entry Posting",
+        "Ledger Preparation",
+        "Financial Statement Preparation"
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Financial Accounting",
+      "semester": 1,
+      "topics": [
+        "Trading Account",
+        "Profit & Loss Account",
+        "Balance Sheet",
+        "Rectification of Errors",
+        "Consignment Accounts",
+        "Branch Accounts",
+        "Bills of Exchange",
+        "Partnership Accounts",
+        "Complete Financial Accounting of a Trading Company"
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Tally Prime with GST",
+      "semester": 1,
+      "topics": [
+        "Company Creation",
+        "Accounting Masters",
+        "Voucher Entries",
+        "Inventory Management",
+        "GST Setup",
+        "Purchase & Sales Entries",
+        "Payroll Management",
+        "Banking & Reconciliation",
+        "GST Returns",
+        "Complete Accounting of a Retail Business"
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Advanced Excel & MIS Reporting",
+      "semester": 1,
+      "topics": [
+        "Advanced Formulas",
+        "VLOOKUP, HLOOKUP",
+        "XLOOKUP",
+        "IF, Nested IF",
+        "Pivot Tables",
+        "Dashboards",
+        "Data Validation",
+        "Conditional Formatting",
+        "MIS Reports",
+        "Sales & Finance Dashboard",
+        "MIS Reporting System"
+      ]
+    },
+    {
+      "module": 5,
+      "title": "Business Taxation",
+      "semester": 1,
+      "topics": [
+        "GST Concepts",
+        "GST Registration",
+        "GST Returns",
+        "Input Tax Credit",
+        "TDS Basics",
+        "Income Tax Fundamentals",
+        "E-Invoicing",
+        "GST Return Preparation",
+        "Tax Calculation Exercises"
+      ]
+    },
+    {
+      "module": 6,
+      "title": "ERP & SAP Fundamentals",
+      "semester": 2,
+      "topics": [
+        "Introduction to ERP",
+        "SAP Overview",
+        "SAP Navigation",
+        "SAP Architecture",
+        "SAP Modules Overview",
+        "Business Processes in SAP",
+        "SAP System Navigation",
+        "Enterprise Structure Setup"
+      ]
+    },
+    {
+      "module": 7,
+      "title": "SAP FI (Financial Accounting)",
+      "semester": 2,
+      "topics": [
+        "Enterprise Structure",
+        "Company & Company Code",
+        "Chart of Accounts",
+        "Fiscal Year Variants",
+        "Posting Periods",
+        "General Ledger Accounting",
+        "Accounts Payable (AP)",
+        "Accounts Receivable (AR)",
+        "Bank Accounting",
+        "Asset Accounting",
+        "Financial Statements",
+        "Month-End Closing Activities",
+        "SAP FI Configuration for a Manufacturing Company"
+      ]
+    },
+    {
+      "module": 8,
+      "title": "SAP CO (Controlling)",
+      "semester": 2,
+      "topics": [
+        "Cost Element Accounting",
+        "Cost Center Accounting",
+        "Profit Center Accounting",
+        "Internal Orders",
+        "Product Costing",
+        "Profitability Analysis (COPA)",
+        "Budgeting & Planning",
+        "Cost Allocation",
+        "Cost Center & Profit Center Implementation"
+      ]
+    },
+    {
+      "module": 9,
+      "title": "SAP Integration",
+      "semester": 2,
+      "topics": [
+        "FI-MM Integration",
+        "FI-SD Integration",
+        "Procure-to-Pay Cycle (P2P)",
+        "Order-to-Cash Cycle (O2C)",
+        "Financial Reporting Integration",
+        "Real-Time Business Process Simulation"
+      ]
+    },
+    {
+      "module": 10,
+      "title": "Financial Analysis & Reporting",
+      "semester": 2,
+      "topics": [
+        "Ratio Analysis",
+        "Cash Flow Statement",
+        "Fund Flow Statement",
+        "Budgeting",
+        "Financial Planning",
+        "Variance Analysis",
+        "Cost Analysis",
+        "Financial Performance Analysis of a Company"
+      ]
+    },
+    {
+      "module": 11,
+      "title": "Payroll & Compliance",
+      "semester": 2,
+      "topics": [
+        "Salary Structure",
+        "PF & ESI",
+        "Professional Tax",
+        "Payroll Processing",
+        "Labour Compliance",
+        "Employee Payroll Processing"
+      ]
+    },
+    {
+      "module": 12,
+      "title": "Soft Skills & Interview Preparation",
+      "semester": 2,
+      "topics": [
+        "Communication Skills",
+        "Business Email Writing",
+        "Resume Building",
+        "SAP FICO Interview Questions",
+        "Mock Interviews",
+        "Corporate Etiquette"
+      ]
+    }
+  ],
+  "liveProjects": [
+    {
+      "project": 1,
+      "title": "Complete Accounting Management System",
+      "topics": [
+        "Journal Entries",
+        "Ledger Posting",
+        "GST Accounting",
+        "Financial Statements"
+      ]
+    },
+    {
+      "project": 2,
+      "title": "Tally Prime GST Implementation",
+      "topics": [
+        "Company Setup",
+        "Inventory Management",
+        "GST Compliance",
+        "Reports Generation"
+      ]
+    },
+    {
+      "project": 3,
+      "title": "SAP FI End-to-End Implementation",
+      "topics": [
+        "Enterprise Structure",
+        "GL, AP, AR Configuration",
+        "Asset Accounting",
+        "Financial Reporting"
+      ]
+    },
+    {
+      "project": 4,
+      "title": "SAP CO Costing Project",
+      "topics": [
+        "Cost Centers",
+        "Profit Centers",
+        "Internal Orders",
+        "Cost Allocation"
+      ]
+    },
+    {
+      "project": 5,
+      "title": "Finance Dashboard (Advanced Excel)",
+      "topics": [
+        "MIS Reports",
+        "KPI Dashboard",
+        "Budget vs Actual Analysis"
+      ]
+    },
+    {
+      "project": 6,
+      "title": "Procure-to-Pay & Order-to-Cash Cycle in SAP",
+      "topics": [
+        "Vendor Management",
+        "Customer Billing",
+        "Payment Processing",
+        "Financial Reconciliation"
+      ]
+    }
+  ],
+  "careerOpportunities": [
+    "Accounts Executive",
+    "Senior Accountant",
+    "GST Executive",
+    "Tax Consultant",
+    "MIS Executive",
+    "Finance Executive",
+    "SAP FICO End User",
+    "SAP FICO Support Consultant",
+    "SAP FICO Functional Consultant (Fresher Level)",
+    "Financial Analyst",
+    "ERP Accountant",
+    "Accounts Manager"
+  ],
+  "metaTitle": "Advanced Diploma in Accounting with SAP FICO | 1 Year Professional Diploma",
+  "metaDescription": "Learn Advanced Accounting, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO through practical training, live projects, and industrial exposure. Ideal for B.Com, M.Com, BBA, MBA students."
+}
 ]
