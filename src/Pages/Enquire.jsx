@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
@@ -26,6 +26,65 @@ const LOGOS = [
   "/GD.AVIF",
   "/2D3DA.AVIF",
 ];
+
+// Course information mapping
+const COURSE_INFO = {
+  "/DOAP.AVIF": {
+    name: "Digital Optimization & Analytics",
+    desc: "SEO, Analytics, Digital Marketing",
+  },
+  "/ZB3DS.AVIF": {
+    name: "3D Design & Modeling",
+    desc: "3DS Max, Blender, Advanced Modeling",
+  },
+  "/DTP.AVIF": {
+    name: "Desktop Publishing",
+    desc: "InDesign, Photoshop, Print Design",
+  },
+  "/FSWD.AVIF": {
+    name: "Full Stack Web Development",
+    desc: "MERN Stack, Responsive Design",
+  },
+  "/DAMD.AVIF": {
+    name: "Data Analysis & Modeling",
+    desc: "Data Science, Python, SQL",
+  },
+  "/DS.AVIF": { name: "Data Science", desc: "Machine Learning, AI, Analytics" },
+  "/DA.AVIF": {
+    name: "Digital Advertising",
+    desc: "Google Ads, Facebook Marketing",
+  },
+  "/EH.AVIF": {
+    name: "E-Commerce Hub",
+    desc: "Shopify, WooCommerce, Store Setup",
+  },
+  "/DM.AVIF": {
+    name: "Digital Marketing",
+    desc: "SEO, SEM, Social Media Marketing",
+  },
+  "/IDD.AVIF": {
+    name: "Interface & UX Design",
+    desc: "UI/UX, Figma, User Experience",
+  },
+  "/AFA.AVIF": { name: "Advanced Front-end", desc: "React, Vue, Advanced JS" },
+  "/HRMD.AVIF": { name: "HR & Management", desc: "HR Basics, Team Management" },
+  "/PP.AVIF": {
+    name: "Project Planning",
+    desc: "Agile, Scrum, Project Management",
+  },
+  "/UIUXD.AVIF": {
+    name: "UI/UX Design",
+    desc: "Figma, Prototyping, Design Systems",
+  },
+  "/CC.AVIF": {
+    name: "Cyber Security",
+    desc: "Network Security, Ethical Hacking",
+  },
+  "/AI.AVIF": {
+    name: "Artificial Intelligence",
+    desc: "Python, ML, Deep Learning",
+  },
+};
 
 const STATS = [
   { number: "1000+", label: "Students Enrolled" },
@@ -101,6 +160,130 @@ function WhatsAppIcon({ size = 24 }) {
   );
 }
 
+// ─── LOGO CAROUSEL COMPONENT ─────────────────────────────────────────────────
+
+function LogoCarousel({ logos }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(true);
+
+  useEffect(() => {
+    if (!autoPlay) return;
+
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % logos.length);
+    }, 4000); // 4 seconds per image
+
+    return () => clearInterval(interval);
+  }, [autoPlay, logos.length]);
+
+  const currentLogo = logos[currentIndex];
+  const courseInfo = COURSE_INFO[currentLogo] || {
+    name: "Course",
+    desc: "Learn new skills",
+  };
+
+  return (
+    <div className="py-20 px-6 max-w-6xl mx-auto">
+      {/* Main Carousel Container */}
+      <div className="bg-white/40 backdrop-blur-xl border border-white/60 rounded-3xl p-8 shadow-2xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Image Section */}
+          <div className="relative flex flex-col items-center">
+            <div className="w-full max-w-sm h-64 md:h-80 bg-linear-to-br from-indigo-100 to-purple-100 rounded-2xl flex items-center justify-center overflow-hidden border border-white/40">
+              <AnimatePresence mode="wait">
+                <motion.img
+                  key={currentIndex}
+                  src={currentLogo}
+                  loading="eager"
+                  decoding="async"
+                  alt={courseInfo.name}
+                  width={320}
+                  height={240}
+                  initial={{ opacity: 0, x: 50 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -50 }}
+                  transition={{ duration: 0.5 }}
+                  className="w-auto h-auto max-h-full max-w-full object-contain p-4"
+                />
+              </AnimatePresence>
+            </div>
+          </div>
+
+          {/* Info Section */}
+          <motion.div
+            key={currentIndex}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex flex-col gap-6"
+          >
+            <div>
+              <h3 className="text-3xl md:text-4xl font-bold text-indigo-700 mb-3">
+                {courseInfo.name}
+              </h3>
+              <p className="text-lg text-gray-600 mb-4">{courseInfo.desc}</p>
+              <div className="h-1 w-20 bg-linear-to-r from-indigo-600 to-purple-600 rounded-full" />
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">🎓</span>
+                <div>
+                  <h4 className="font-semibold text-gray-800">
+                    Industry-Ready
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Learn from experts in the field
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">💼</span>
+                <div>
+                  <h4 className="font-semibold text-gray-800">Job Support</h4>
+                  <p className="text-sm text-gray-600">
+                    100% placement assistance guaranteed
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">⏱️</span>
+                <div>
+                  <h4 className="font-semibold text-gray-800">
+                    Flexible Schedule
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Learn at your own pace with mentorship
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <motion.a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+            >
+              <motion.button
+                whileHover={{
+                  scale: 1.08,
+                  boxShadow: "0px 0px 30px rgba(37,211,102,0.6)",
+                }}
+                whileTap={{ scale: 0.95 }}
+                className="flex items-center gap-3 px-8 py-3 bg-[#25D366] hover:bg-[#20c25c] text-white font-semibold rounded-full shadow-lg transition-colors w-full justify-center"
+              >
+                <WhatsAppIcon size={20} />
+                Enquire Now
+              </motion.button>
+            </motion.a>
+          </motion.div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ─── Enquire Form Component ──────────────────────────────────────────────────────
 
 function EnquireForm() {
@@ -172,7 +355,6 @@ function EnquireForm() {
           className="w-full max-w-xl mx-auto bg-white/80 backdrop-blur-xl border border-white/60 rounded-xl shadow-2xl p-8"
         >
           <div className="items-center gap-4 mb-6">
-            {/* FIX 1: Logo image — width/height add kiye, actual display size ke hisaab se */}
             <img
               src="/Logo.WebP"
               alt="IIOFT Logo"
@@ -395,73 +577,6 @@ function EnquireForm() {
 export default function Enquire() {
   return (
     <div className="relative overflow-hidden bg-linear-to-b from-white via-blue-50 to-indigo-100">
-      {/* HELMET */}
-      <Helmet>
-        <title>Enquire Now - IIOFT Delhi | Admission Open 2026</title>
-        <meta
-          name="description"
-          content="IIOFT Delhi mein admission ke liye abhi Enquire karo. Web Development, Data Science, AI & Robotics, Cyber Security aur bahut saare courses mein enroll karo. 100% Placement Support."
-        />
-        <meta
-          name="keywords"
-          content="IIOFT admission, Enquire IIOFT Delhi, IIOFT enrollment 2026, technology course admission Delhi, data science admission, web development admission Delhi"
-        />
-        <meta
-          property="og:title"
-          content="Enquire Now - IIOFT Delhi | Admission Open 2026"
-        />
-        <meta
-          property="og:description"
-          content="IIOFT Delhi mein admission ke liye abhi Enquire karo. Limited seats available. 100% Placement Support!"
-        />
-        <meta property="og:url" content="https://iioft.co.in/Enquire" />
-        <link rel="canonical" href="https://iioft.co.in/Enquire" />
-
-        {/* FIX 2: Pehle 3-4 logo preload karo — LCP improve hoga */}
-        <link rel="preload" as="image" href="/DOAP.AVIF" />
-        <link rel="preload" as="image" href="/ZB3DS.AVIF" />
-        <link rel="preload" as="image" href="/DTP.AVIF" />
-        <link rel="preload" as="image" href="/FSWD.AVIF" />
-      </Helmet>
-
-      {/* Background glows */}
-      <div className="absolute -top-32 -left-32 w-96 h-96 bg-blue-400/20 blur-3xl rounded-full animate-pulse" />
-      <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-purple-400/20 blur-3xl rounded-full animate-pulse" />
-
-      {/* ─── LOGO MARQUEE ─────────────────────────────────────────────────────── */}
-      {/*
-        FIX 3 (MAIN FIX): 
-        - width={192} height={128} add kiye — browser ko actual display size pata chalega
-        - Pehle 4 images: loading="eager" (ye screen par dikhti hain)
-        - Baaki sab: loading="lazy" (already tha, theek hai)
-        - [...LOGOS, ...LOGOS] rakh sakte hain infinite scroll ke liye,
-          lekin ab width/height hone se browser waste nahi karega
-      */}
-      <div className="overflow-hidden py-16 relative">
-        <motion.div
-          className="flex gap-20 whitespace-nowrap"
-          animate={{ x: ["0%", "-50%"] }}
-          // FIX 4: "-100%" ki jagah "-50%" — kyunki array double hai,
-          // toh aadha slide hone par seamless loop milega
-          transition={{ repeat: Infinity, duration: 22, ease: "linear" }}
-        >
-          {[...LOGOS, ...LOGOS].map((logo, i) => (
-            <motion.img
-              key={i}
-              src={logo}
-              loading={i < 4 ? "eager" : "lazy"}
-              decoding="async"
-              alt="course logo"
-              width={192}
-              height={128}
-              whileHover={{ scale: 1.1 }}
-              className="h-32 md:h-44 w-auto object-contain transition duration-300"
-              style={{ aspectRatio: "3/2" }}
-            />
-          ))}
-        </motion.div>
-      </div>
-
       {/* HERO CTA */}
       <motion.section
         variants={containerVariant}
@@ -517,11 +632,43 @@ export default function Enquire() {
             </motion.button>
           </motion.a>
         </motion.div>
-
-        <motion.p variants={fadeUp} className="mt-4 text-sm text-gray-400">
-          WhatsApp pe seedha message aayega — koi form nahi, instant reply!
-        </motion.p>
       </motion.section>
+
+      {/* HELMET */}
+
+      <Helmet>
+        <title>Enquire Now - IIOFT Delhi | Admission Open 2026</title>
+        <meta
+          name="description"
+          content="IIOFT Delhi mein admission ke liye abhi Enquire karo. Web Development, Data Science, AI & Robotics, Cyber Security aur bahut saare courses mein enroll karo. 100% Placement Support."
+        />
+        <meta
+          name="keywords"
+          content="IIOFT admission, Enquire IIOFT Delhi, IIOFT enrollment 2026, technology course admission Delhi, data science admission, web development admission Delhi"
+        />
+        <meta
+          property="og:title"
+          content="Enquire Now - IIOFT Delhi | Admission Open 2026"
+        />
+        <meta
+          property="og:description"
+          content="IIOFT Delhi mein admission ke liye abhi Enquire karo. Limited seats available. 100% Placement Support!"
+        />
+        <meta property="og:url" content="https://iioft.co.in/Enquire" />
+        <link rel="canonical" href="https://iioft.co.in/Enquire" />
+
+        {/* Preload first few images */}
+        <link rel="preload" as="image" href="/DOAP.AVIF" />
+        <link rel="preload" as="image" href="/ZB3DS.AVIF" />
+        <link rel="preload" as="image" href="/DTP.AVIF" />
+      </Helmet>
+
+      {/* Background glows */}
+      <div className="absolute -top-32 -left-32 w-96 h-96 bg-blue-400/20 blur-3xl rounded-full animate-pulse" />
+      <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-purple-400/20 blur-3xl rounded-full animate-pulse" />
+
+      {/* LOGO CAROUSEL */}
+      <LogoCarousel logos={LOGOS} />
 
       {/* STATS */}
       <section className="py-20 bg-white/40 backdrop-blur-xl">

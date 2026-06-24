@@ -6249,308 +6249,2728 @@
   },
 
   {
-  "id": "adca-sap-fico",
-  "slug": "advanced-diploma-accounting-sap-fico",
-  "title": "Advanced Diploma in Accounting with SAP FICO",
-  "shortDescription": "Master advanced accounting, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO through practical training, live projects, and industrial exposure for finance and ERP careers.",
-  "fullDescription": "Advanced Diploma in Accounting with SAP FICO is a comprehensive one-year professional diploma program designed for commerce students and accounting professionals. The course combines advanced accounting, taxation, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO (Financial Accounting & Controlling). Students gain hands-on experience with General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Centers, Profit Centers, and financial reporting. The program includes theory, practicals, case studies, live projects, and industrial training to prepare students for accounting and ERP-based finance careers.",
-  "duration": "12 Months",
-  "price": "Contact for Pricing",
-  "category": "soft skill's",
-  "image": "ADICAA.AVIF",
-  "eligibility": "10+2 / B.Com / M.Com / BBA / MBA / Commerce Students",
-  "courseType": "Theory + Practical + Case Studies + Live Projects + Industrial Training",
-  "trainingHours": {
-    "theory": "250 Hours",
-    "practical": "250 Hours",
-    "projectsAndCaseStudies": "100 Hours",
-    "industrialTraining": "50 Hours",
-    "total": "650 Hours"
+    "id": "adca-sap-fico",
+    "slug": "advanced-diploma-accounting-sap-fico",
+    "title": "Advanced Diploma in Accounting with SAP FICO",
+    "shortDescription": "Master advanced accounting, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO through practical training, live projects, and industrial exposure for finance and ERP careers.",
+    "fullDescription": "Advanced Diploma in Accounting with SAP FICO is a comprehensive one-year professional diploma program designed for commerce students and accounting professionals. The course combines advanced accounting, taxation, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO (Financial Accounting & Controlling). Students gain hands-on experience with General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Centers, Profit Centers, and financial reporting. The program includes theory, practicals, case studies, live projects, and industrial training to prepare students for accounting and ERP-based finance careers.",
+    "duration": "12 Months",
+    "price": "Contact for Pricing",
+    "category": "soft skill's",
+    "image": "ADICAA.AVIF",
+    "eligibility": "10+2 / B.Com / M.Com / BBA / MBA / Commerce Students",
+    "courseType": "Theory + Practical + Case Studies + Live Projects + Industrial Training",
+    "trainingHours": {
+      "theory": "250 Hours",
+      "practical": "250 Hours",
+      "projectsAndCaseStudies": "100 Hours",
+      "industrialTraining": "50 Hours",
+      "total": "650 Hours"
+    },
+    "features": [
+      "Fundamentals of Accounting & Financial Accounting",
+      "Tally Prime with GST & Inventory Management",
+      "Advanced Excel & MIS Reporting Dashboards",
+      "Business Taxation – GST, TDS & Income Tax",
+      "ERP & SAP Fundamentals",
+      "SAP FI (Financial Accounting) – GL, AP, AR, Asset Accounting",
+      "SAP CO (Controlling) – Cost Centers, Profit Centers, COPA",
+      "SAP Integration – FI-MM & FI-SD (P2P & O2C Cycles)",
+      "Financial Analysis & Reporting",
+      "Payroll Processing & Labour Compliance",
+      "Soft Skills & SAP FICO Interview Preparation",
+      "6 Major Live Projects & Industrial Exposure",
+      "Industry-Oriented Practical Training"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Fundamentals of Accounting",
+        "semester": 1,
+        "topics": [
+          "Introduction to Accounting",
+          "Accounting Principles & Concepts",
+          "Journal Entries",
+          "Ledger Posting",
+          "Trial Balance",
+          "Cash Book",
+          "Bank Reconciliation Statement",
+          "Final Accounts",
+          "Depreciation Accounting",
+          "Journal Entry Posting",
+          "Ledger Preparation",
+          "Financial Statement Preparation"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Financial Accounting",
+        "semester": 1,
+        "topics": [
+          "Trading Account",
+          "Profit & Loss Account",
+          "Balance Sheet",
+          "Rectification of Errors",
+          "Consignment Accounts",
+          "Branch Accounts",
+          "Bills of Exchange",
+          "Partnership Accounts",
+          "Complete Financial Accounting of a Trading Company"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Tally Prime with GST",
+        "semester": 1,
+        "topics": [
+          "Company Creation",
+          "Accounting Masters",
+          "Voucher Entries",
+          "Inventory Management",
+          "GST Setup",
+          "Purchase & Sales Entries",
+          "Payroll Management",
+          "Banking & Reconciliation",
+          "GST Returns",
+          "Complete Accounting of a Retail Business"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Advanced Excel & MIS Reporting",
+        "semester": 1,
+        "topics": [
+          "Advanced Formulas",
+          "VLOOKUP, HLOOKUP",
+          "XLOOKUP",
+          "IF, Nested IF",
+          "Pivot Tables",
+          "Dashboards",
+          "Data Validation",
+          "Conditional Formatting",
+          "MIS Reports",
+          "Sales & Finance Dashboard",
+          "MIS Reporting System"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Business Taxation",
+        "semester": 1,
+        "topics": [
+          "GST Concepts",
+          "GST Registration",
+          "GST Returns",
+          "Input Tax Credit",
+          "TDS Basics",
+          "Income Tax Fundamentals",
+          "E-Invoicing",
+          "GST Return Preparation",
+          "Tax Calculation Exercises"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "ERP & SAP Fundamentals",
+        "semester": 2,
+        "topics": [
+          "Introduction to ERP",
+          "SAP Overview",
+          "SAP Navigation",
+          "SAP Architecture",
+          "SAP Modules Overview",
+          "Business Processes in SAP",
+          "SAP System Navigation",
+          "Enterprise Structure Setup"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "SAP FI (Financial Accounting)",
+        "semester": 2,
+        "topics": [
+          "Enterprise Structure",
+          "Company & Company Code",
+          "Chart of Accounts",
+          "Fiscal Year Variants",
+          "Posting Periods",
+          "General Ledger Accounting",
+          "Accounts Payable (AP)",
+          "Accounts Receivable (AR)",
+          "Bank Accounting",
+          "Asset Accounting",
+          "Financial Statements",
+          "Month-End Closing Activities",
+          "SAP FI Configuration for a Manufacturing Company"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "SAP CO (Controlling)",
+        "semester": 2,
+        "topics": [
+          "Cost Element Accounting",
+          "Cost Center Accounting",
+          "Profit Center Accounting",
+          "Internal Orders",
+          "Product Costing",
+          "Profitability Analysis (COPA)",
+          "Budgeting & Planning",
+          "Cost Allocation",
+          "Cost Center & Profit Center Implementation"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "SAP Integration",
+        "semester": 2,
+        "topics": [
+          "FI-MM Integration",
+          "FI-SD Integration",
+          "Procure-to-Pay Cycle (P2P)",
+          "Order-to-Cash Cycle (O2C)",
+          "Financial Reporting Integration",
+          "Real-Time Business Process Simulation"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "Financial Analysis & Reporting",
+        "semester": 2,
+        "topics": [
+          "Ratio Analysis",
+          "Cash Flow Statement",
+          "Fund Flow Statement",
+          "Budgeting",
+          "Financial Planning",
+          "Variance Analysis",
+          "Cost Analysis",
+          "Financial Performance Analysis of a Company"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Payroll & Compliance",
+        "semester": 2,
+        "topics": [
+          "Salary Structure",
+          "PF & ESI",
+          "Professional Tax",
+          "Payroll Processing",
+          "Labour Compliance",
+          "Employee Payroll Processing"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Soft Skills & Interview Preparation",
+        "semester": 2,
+        "topics": [
+          "Communication Skills",
+          "Business Email Writing",
+          "Resume Building",
+          "SAP FICO Interview Questions",
+          "Mock Interviews",
+          "Corporate Etiquette"
+        ]
+      }
+    ],
+    "liveProjects": [
+      {
+        "project": 1,
+        "title": "Complete Accounting Management System",
+        "topics": [
+          "Journal Entries",
+          "Ledger Posting",
+          "GST Accounting",
+          "Financial Statements"
+        ]
+      },
+      {
+        "project": 2,
+        "title": "Tally Prime GST Implementation",
+        "topics": [
+          "Company Setup",
+          "Inventory Management",
+          "GST Compliance",
+          "Reports Generation"
+        ]
+      },
+      {
+        "project": 3,
+        "title": "SAP FI End-to-End Implementation",
+        "topics": [
+          "Enterprise Structure",
+          "GL, AP, AR Configuration",
+          "Asset Accounting",
+          "Financial Reporting"
+        ]
+      },
+      {
+        "project": 4,
+        "title": "SAP CO Costing Project",
+        "topics": [
+          "Cost Centers",
+          "Profit Centers",
+          "Internal Orders",
+          "Cost Allocation"
+        ]
+      },
+      {
+        "project": 5,
+        "title": "Finance Dashboard (Advanced Excel)",
+        "topics": ["MIS Reports", "KPI Dashboard", "Budget vs Actual Analysis"]
+      },
+      {
+        "project": 6,
+        "title": "Procure-to-Pay & Order-to-Cash Cycle in SAP",
+        "topics": [
+          "Vendor Management",
+          "Customer Billing",
+          "Payment Processing",
+          "Financial Reconciliation"
+        ]
+      }
+    ],
+    "careerOpportunities": [
+      "Accounts Executive",
+      "Senior Accountant",
+      "GST Executive",
+      "Tax Consultant",
+      "MIS Executive",
+      "Finance Executive",
+      "SAP FICO End User",
+      "SAP FICO Support Consultant",
+      "SAP FICO Functional Consultant (Fresher Level)",
+      "Financial Analyst",
+      "ERP Accountant",
+      "Accounts Manager"
+    ],
+    "metaTitle": "Advanced Diploma in Accounting with SAP FICO | 1 Year Professional Diploma",
+    "metaDescription": "Learn Advanced Accounting, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO through practical training, live projects, and industrial exposure. Ideal for B.Com, M.Com, BBA, MBA students."
   },
-  "features": [
-    "Fundamentals of Accounting & Financial Accounting",
-    "Tally Prime with GST & Inventory Management",
-    "Advanced Excel & MIS Reporting Dashboards",
-    "Business Taxation – GST, TDS & Income Tax",
-    "ERP & SAP Fundamentals",
-    "SAP FI (Financial Accounting) – GL, AP, AR, Asset Accounting",
-    "SAP CO (Controlling) – Cost Centers, Profit Centers, COPA",
-    "SAP Integration – FI-MM & FI-SD (P2P & O2C Cycles)",
-    "Financial Analysis & Reporting",
-    "Payroll Processing & Labour Compliance",
-    "Soft Skills & SAP FICO Interview Preparation",
-    "6 Major Live Projects & Industrial Exposure",
-    "Industry-Oriented Practical Training"
-  ],
-  "syllabus": [
-    {
-      "module": 1,
-      "title": "Fundamentals of Accounting",
-      "semester": 1,
+
+  {
+    "id": "amd-dm",
+    "slug": "advanced-master-diploma-digital-marketing",
+    "title": "Advanced Master Diploma Program in Digital Marketing",
+    "shortDescription": "Master digital marketing through practical training, live projects, and internship covering SEO, Social Media, Google Ads, Meta Ads, Email Marketing, E-Commerce, and AI Marketing Tools.",
+    "fullDescription": "Advanced Master Diploma Program in Digital Marketing (AMD-DM) is a comprehensive one-year professional diploma designed for graduates, working professionals, and entrepreneurs. The course covers Digital Marketing Fundamentals, Website Designing, SEO, Social Media Marketing, Content Marketing, Graphic Designing, Google Ads, Meta Ads, Email Marketing, E-Commerce Marketing, Google Analytics, and AI Marketing Tools. Students gain hands-on experience through 7+ live projects, internship, and real client campaign management.",
+    "duration": "12 Months",
+    "price": "Contact for Pricing",
+    "category": "soft skill's",
+    "image": "MDDM.AVIF",
+
+    "eligibility": "10+2 / Graduate / Working Professionals / Entrepreneurs",
+    "courseType": "Theory + Practical + Live Projects + Internship",
+    "trainingHours": {
+      "total": "700-800 Hours"
+    },
+    "features": [
+      "Digital Marketing Fundamentals & Strategy",
+      "Website Designing & WordPress",
+      "Search Engine Optimization (SEO)",
+      "Social Media Marketing (SMM)",
+      "Content Marketing & Copywriting",
+      "Graphic Designing with Canva Pro & Adobe Photoshop",
+      "Google Ads & PPC Marketing",
+      "Meta Ads (Facebook & Instagram Ads)",
+      "Email Marketing & Automation",
+      "E-Commerce Marketing",
+      "Google Analytics & AI Marketing Tools",
+      "Freelancing, Internship & Portfolio Development",
+      "7+ Live Projects",
+      "Internship Included"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Digital Marketing Fundamentals",
+        "duration": "1 Month",
+        "topics": [
+          "Introduction to Digital Marketing",
+          "Traditional vs Digital Marketing",
+          "Marketing Funnel",
+          "Digital Marketing Channels",
+          "Consumer Behavior",
+          "Lead Generation Process",
+          "Marketing Strategy Development"
+        ],
+        "projects": ["Create a Digital Marketing Strategy for a Local Business"]
+      },
+      {
+        "module": 2,
+        "title": "Website Designing & WordPress",
+        "duration": "1 Month",
+        "topics": [
+          "Domain & Hosting",
+          "Website Planning",
+          "WordPress Installation",
+          "Themes & Plugins",
+          "Elementor Page Builder",
+          "Landing Page Design",
+          "Website Security",
+          "Website Optimization"
+        ],
+        "projects": ["Design a Business Website", "Create a Portfolio Website"]
+      },
+      {
+        "module": 3,
+        "title": "Search Engine Optimization (SEO)",
+        "duration": "1 Month",
+        "topics": [
+          "Keyword Research",
+          "On-Page SEO",
+          "Off-Page SEO",
+          "Technical SEO",
+          "Local SEO",
+          "Google Search Console",
+          "SEO Audit",
+          "Link Building Strategies"
+        ],
+        "tools": ["Google Search Console", "Ahrefs", "SEMrush"],
+        "projects": [
+          "Complete SEO Optimization of a Website",
+          "SEO Audit Report"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Social Media Marketing (SMM)",
+        "duration": "1 Month",
+        "topics": [
+          "Facebook Marketing",
+          "Instagram Marketing",
+          "LinkedIn Marketing",
+          "YouTube Marketing",
+          "Influencer Marketing",
+          "Content Planning",
+          "Social Media Analytics"
+        ],
+        "projects": [
+          "Create and Manage Social Media Pages",
+          "30-Day Social Media Content Calendar"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Content Marketing & Copywriting",
+        "duration": "1 Month",
+        "topics": [
+          "Content Strategy",
+          "Blog Writing",
+          "Website Content Writing",
+          "Ad Copywriting",
+          "Email Content",
+          "Video Script Writing",
+          "AI Content Creation"
+        ],
+        "projects": [
+          "Create a Complete Content Marketing Plan",
+          "Write SEO-Friendly Blog Articles"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Graphic Designing for Marketing",
+        "duration": "1 Month",
+        "topics": [
+          "Social Media Post Design (Canva Pro)",
+          "Banner Design (Canva Pro)",
+          "Poster Design (Canva Pro)",
+          "Logo Design (Canva Pro)",
+          "Image Editing (Adobe Photoshop)",
+          "Product Retouching (Adobe Photoshop)",
+          "Creative Advertisement Design (Adobe Photoshop)"
+        ],
+        "projects": [
+          "Design Brand Identity Kit",
+          "Social Media Creative Portfolio"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Google Ads & PPC Marketing",
+        "duration": "1 Month",
+        "topics": [
+          "Search Campaigns",
+          "Display Campaigns",
+          "YouTube Ads",
+          "Shopping Ads",
+          "Performance Max Campaigns",
+          "Keyword Planning",
+          "Conversion Tracking"
+        ],
+        "projects": [
+          "Create a Lead Generation Campaign",
+          "Run Google Ads Campaign"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Meta Ads (Facebook & Instagram Ads)",
+        "duration": "1 Month",
+        "topics": [
+          "Business Manager Setup",
+          "Audience Targeting",
+          "Lead Generation Ads",
+          "Conversion Campaigns",
+          "Remarketing Campaigns",
+          "Pixel Setup"
+        ],
+        "projects": ["Create and Optimize Facebook & Instagram Ad Campaigns"]
+      },
+      {
+        "module": 9,
+        "title": "Email Marketing & Automation",
+        "duration": "1 Month",
+        "topics": [
+          "Email Campaign Creation",
+          "Newsletter Design",
+          "Lead Nurturing",
+          "CRM Management",
+          "Marketing Automation",
+          "Mailchimp"
+        ],
+        "projects": ["Design an Automated Email Marketing Funnel"]
+      },
+      {
+        "module": 10,
+        "title": "E-Commerce Marketing",
+        "duration": "1 Month",
+        "topics": [
+          "Shopify Store Setup",
+          "WooCommerce",
+          "Amazon Seller Central",
+          "Flipkart Seller Hub",
+          "Product Listing Optimization",
+          "E-Commerce SEO"
+        ],
+        "projects": ["Launch and Promote an Online Store"]
+      },
+      {
+        "module": 11,
+        "title": "Google Analytics & AI Marketing Tools",
+        "duration": "1 Month",
+        "topics": [
+          "Google Analytics 4 (GA4)",
+          "Google Tag Manager",
+          "Conversion Tracking",
+          "UTM Tracking",
+          "Dashboard Reporting",
+          "ChatGPT",
+          "Gemini AI",
+          "Canva AI"
+        ],
+        "projects": [
+          "Create Marketing Performance Dashboard",
+          "AI-Based Marketing Campaign"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Freelancing, Internship & Portfolio Development",
+        "duration": "1 Month",
+        "topics": [
+          "Freelancing Platforms",
+          "Upwork & Fiverr Profile Creation",
+          "Client Communication",
+          "Proposal Writing",
+          "Resume Building",
+          "Interview Preparation",
+          "Personal Branding"
+        ],
+        "projects": [
+          "Create Professional Portfolio Website",
+          "Client Acquisition Project"
+        ]
+      }
+    ],
+    "liveProjects": [
+      {
+        "project": 1,
+        "title": "Complete Digital Marketing Campaign",
+        "topics": ["SEO", "Social Media Marketing", "Google Ads", "Analytics"]
+      },
+      {
+        "project": 2,
+        "title": "E-Commerce Marketing Project",
+        "topics": [
+          "Shopify Store Setup",
+          "Product Marketing",
+          "Paid Ads Campaign"
+        ]
+      },
+      {
+        "project": 3,
+        "title": "Social Media Brand Management",
+        "topics": ["Content Calendar", "Reels Marketing", "Engagement Strategy"]
+      },
+      {
+        "project": 4,
+        "title": "Google Ads Lead Generation Campaign",
+        "topics": ["Campaign Setup", "Tracking", "Optimization"]
+      },
+      {
+        "project": 5,
+        "title": "SEO Ranking Project",
+        "topics": ["Website Optimization", "Keyword Ranking", "SEO Audit"]
+      },
+      {
+        "project": 6,
+        "title": "Personal Branding & Portfolio Project",
+        "topics": [
+          "Website Creation",
+          "LinkedIn Optimization",
+          "Digital Portfolio"
+        ]
+      },
+      {
+        "project": 7,
+        "title": "Agency-Based Client Project",
+        "topics": [
+          "Real Client Campaign Management",
+          "Reporting & Presentation"
+        ]
+      }
+    ],
+    "toolsCovered": [
+      "WordPress",
+      "Canva Pro",
+      "Adobe Photoshop",
+      "Google Ads",
+      "Meta Ads Manager",
+      "Google Analytics 4",
+      "Google Tag Manager",
+      "Google Search Console",
+      "SEMrush",
+      "Ahrefs",
+      "Mailchimp",
+      "ChatGPT",
+      "Gemini AI",
+      "Shopify",
+      "WooCommerce"
+    ],
+    "careerOpportunities": [
+      "Digital Marketing Executive",
+      "SEO Executive",
+      "SEO Analyst",
+      "Social Media Manager",
+      "Google Ads Specialist",
+      "Performance Marketing Executive",
+      "Content Marketing Executive",
+      "Email Marketing Specialist",
+      "E-Commerce Executive",
+      "Digital Marketing Manager",
+      "Freelancer",
+      "Digital Marketing Consultant",
+      "Agency Owner"
+    ],
+    "certification": "Advanced Master Diploma in Digital Marketing (AMD-DM)",
+    "metaTitle": "Advanced Master Diploma in Digital Marketing | 1 Year Professional Diploma",
+    "metaDescription": "Learn Digital Marketing, SEO, Social Media, Google Ads, Meta Ads, Email Marketing, E-Commerce, and AI Tools through practical training, 7+ live projects, and internship."
+  },
+
+  {
+    "id": "adid",
+    "slug": "advanced-diploma-interior-design",
+    "title": "Advanced Diploma in Interior Design",
+    "shortDescription": "Master interior design through practical studio work, AutoCAD, SketchUp, 3ds Max, V-Ray rendering, site visits, and live projects covering residential and commercial interior design.",
+    "fullDescription": "Advanced Diploma in Interior Design (ADID) is a comprehensive one-year professional diploma designed for students and working professionals aspiring to build a career in interior design. The course covers design fundamentals, technical drawing, AutoCAD, SketchUp, 3ds Max, V-Ray rendering, materials & construction, furniture design, lighting design, residential & commercial interiors, estimation & costing, and portfolio development. Students gain hands-on experience through 750+ hours of theory, practical studio work, live projects, and site visits.",
+    "duration": "12 Months",
+    "price": "Contact for Pricing",
+    "category": "soft skill's",
+    "image": "ADIID.AVIF",
+
+    "eligibility": "10+2 / Graduate / Working Professionals",
+    "courseType": "Theory + Practical + Studio Work + Site Visits + Live Projects",
+    "trainingHours": {
+      "theory": "250 Hours",
+      "practicalStudioWork": "300 Hours",
+      "liveProjects": "150 Hours",
+      "siteVisitsAndWorkshops": "50 Hours",
+      "total": "750+ Hours"
+    },
+    "features": [
+      "Fundamentals of Interior Design",
+      "Interior Design Drawing & Drafting",
+      "AutoCAD for Interior Design",
+      "3D Visualization with SketchUp",
+      "3ds Max & V-Ray Rendering",
+      "Materials & Construction",
+      "Furniture Design & Modular Kitchen",
+      "Lighting Design & Color Theory",
+      "Residential Interior Design",
+      "Commercial Interior Design",
+      "Estimation, Costing & Project Management",
+      "Portfolio Development & Professional Practice",
+      "7 Major Live Projects",
+      "Site Visits & Workshops"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Fundamentals of Interior Design",
+        "duration": "1 Month",
+        "topics": [
+          "Introduction to Interior Design",
+          "Elements & Principles of Design",
+          "Design Process",
+          "Space Planning",
+          "Residential & Commercial Interiors",
+          "Design Trends",
+          "Ergonomics",
+          "Human Scale & Proportion"
+        ],
+        "projects": ["Design Concept Board for a Residential Space"]
+      },
+      {
+        "module": 2,
+        "title": "Interior Design Drawing & Drafting",
+        "duration": "1 Month",
+        "topics": [
+          "Technical Drawing",
+          "Floor Plans",
+          "Elevations",
+          "Sections",
+          "Furniture Layouts",
+          "Working Drawings",
+          "Architectural Symbols",
+          "Dimensioning Techniques"
+        ],
+        "practicals": ["Prepare Complete Residential Drawing Set"],
+        "projects": ["2BHK Residential Floor Plan Design"]
+      },
+      {
+        "module": 3,
+        "title": "AutoCAD for Interior Design",
+        "duration": "1 Month",
+        "topics": [
+          "Introduction to AutoCAD",
+          "Drawing Tools",
+          "Layers & Properties",
+          "Floor Plans",
+          "Furniture Layouts",
+          "Electrical Drawings",
+          "Plumbing Layouts",
+          "Plotting & Printing"
+        ],
+        "projects": ["Complete AutoCAD Drawing of a Residential Interior"]
+      },
+      {
+        "module": 4,
+        "title": "3D Visualization with SketchUp",
+        "duration": "1 Month",
+        "topics": [
+          "SketchUp Interface",
+          "3D Modeling",
+          "Furniture Modeling",
+          "Material Application",
+          "Lighting Setup",
+          "Scene Creation"
+        ],
+        "projects": ["3D Model of Living Room & Bedroom"]
+      },
+      {
+        "module": 5,
+        "title": "3ds Max & V-Ray Rendering",
+        "duration": "1 Month",
+        "topics": [
+          "3ds Max Basics",
+          "Interior Modeling",
+          "Texturing",
+          "Lighting Techniques",
+          "V-Ray Rendering",
+          "Photorealistic Visualization"
+        ],
+        "projects": ["High-Quality Interior Rendering Project"]
+      },
+      {
+        "module": 6,
+        "title": "Materials & Construction",
+        "duration": "1 Month",
+        "topics": [
+          "Building Materials",
+          "Flooring Materials",
+          "Wall Finishes",
+          "Ceiling Systems",
+          "Furniture Materials",
+          "Modular Furniture",
+          "Sustainable Materials"
+        ],
+        "projects": ["Material Selection Portfolio"]
+      },
+      {
+        "module": 7,
+        "title": "Furniture Design & Modular Kitchen",
+        "duration": "1 Month",
+        "topics": [
+          "Furniture Design Principles",
+          "Modular Kitchen Planning",
+          "Wardrobe Design",
+          "Storage Solutions",
+          "Space Optimization"
+        ],
+        "projects": ["Modular Kitchen Design", "Wardrobe Design Project"]
+      },
+      {
+        "module": 8,
+        "title": "Lighting Design & Color Theory",
+        "duration": "1 Month",
+        "topics": [
+          "Types of Lighting",
+          "Lighting Calculations",
+          "Decorative Lighting",
+          "Color Psychology",
+          "Color Schemes",
+          "Mood Boards"
+        ],
+        "projects": ["Lighting & Color Design for Residential Space"]
+      },
+      {
+        "module": 9,
+        "title": "Residential Interior Design",
+        "duration": "1 Month",
+        "topics": [
+          "Living Room Design",
+          "Bedroom Design",
+          "Kitchen Design",
+          "Bathroom Design",
+          "Luxury Apartment Design"
+        ],
+        "projects": ["Complete 3BHK Residential Interior Project"]
+      },
+      {
+        "module": 10,
+        "title": "Commercial Interior Design",
+        "duration": "1 Month",
+        "topics": [
+          "Office Design",
+          "Retail Store Design",
+          "Restaurant Design",
+          "Café Design",
+          "Showroom Design"
+        ],
+        "projects": ["Office Interior Design Project"]
+      },
+      {
+        "module": 11,
+        "title": "Estimation, Costing & Project Management",
+        "duration": "1 Month",
+        "topics": [
+          "BOQ (Bill of Quantity)",
+          "Interior Cost Estimation",
+          "Vendor Management",
+          "Project Scheduling",
+          "Site Supervision",
+          "Tender Documentation"
+        ],
+        "projects": ["Interior Project Cost Estimation Report"]
+      },
+      {
+        "module": 12,
+        "title": "Portfolio Development & Professional Practice",
+        "duration": "1 Month",
+        "topics": [
+          "Portfolio Preparation",
+          "Client Presentation",
+          "Freelancing Skills",
+          "Business Development",
+          "Interior Design Contracts",
+          "Interview Preparation"
+        ],
+        "projects": ["Professional Interior Design Portfolio"]
+      }
+    ],
+    "liveProjects": [
+      {
+        "project": 1,
+        "title": "Residential Interior Design",
+        "topics": [
+          "2BHK Apartment Design",
+          "Space Planning",
+          "Furniture Layout",
+          "3D Visualization"
+        ]
+      },
+      {
+        "project": 2,
+        "title": "Luxury Bedroom Design",
+        "topics": ["Concept Development", "Material Selection", "3D Rendering"]
+      },
+      {
+        "project": 3,
+        "title": "Modular Kitchen Design",
+        "topics": ["Working Drawings", "3D Model", "Material Specification"]
+      },
+      {
+        "project": 4,
+        "title": "Commercial Office Design",
+        "topics": [
+          "Reception Area",
+          "Workstations",
+          "Conference Room",
+          "Lighting Plan"
+        ]
+      },
+      {
+        "project": 5,
+        "title": "Retail Store Design",
+        "topics": [
+          "Product Display Planning",
+          "Branding Elements",
+          "Customer Flow Analysis"
+        ]
+      },
+      {
+        "project": 6,
+        "title": "Restaurant/Café Interior Design",
+        "topics": [
+          "Seating Layout",
+          "Theme Development",
+          "Lighting & Décor Design"
+        ]
+      },
+      {
+        "project": 7,
+        "title": "Complete Interior Design Portfolio",
+        "topics": [
+          "Residential Project",
+          "Commercial Project",
+          "Working Drawings",
+          "3D Renderings",
+          "BOQ & Costing"
+        ]
+      }
+    ],
+    "siteVisitsAndWorkshops": [
+      "Residential Construction Site Visit",
+      "Commercial Interior Site Visit",
+      "Furniture Manufacturing Unit Visit",
+      "Material Market Survey",
+      "Vendor Interaction Sessions"
+    ],
+    "softwareCovered": [
+      "AutoCAD",
+      "SketchUp",
+      "V-Ray",
+      "3ds Max",
+      "Photoshop",
+      "Lumion",
+      "Revit (Basic)",
+      "Microsoft Excel"
+    ],
+    "careerOpportunities": [
+      "Interior Designer",
+      "Residential Interior Designer",
+      "Commercial Interior Designer",
+      "Furniture Designer",
+      "Space Planner",
+      "CAD Draftsman",
+      "3D Visualizer",
+      "Design Consultant",
+      "Site Supervisor",
+      "Project Coordinator",
+      "Freelance Interior Designer"
+    ],
+    "certification": "Advanced Diploma in Interior Design (ADID)",
+    "metaTitle": "Advanced Diploma in Interior Design | 1 Year Professional Diploma",
+    "metaDescription": "Learn Interior Design, AutoCAD, SketchUp, 3ds Max, V-Ray Rendering, and more through practical studio work, live projects, and site visits. Ideal for 10+2, graduates, and working professionals."
+  },
+
+  {
+    "id": "admad",
+    "slug": "advanced-diploma-mobile-app-development",
+    "title": "Advanced Diploma in Mobile App Development",
+    "shortDescription": "Master Android App Development, Flutter, UI/UX Design, Firebase, API Integration, Database Management, App Testing, and Mobile App Deployment through practical training and live projects.",
+    "fullDescription": "Advanced Diploma in Mobile App Development (ADMAD) is a comprehensive one-year professional diploma designed for 10+2 students, graduates, diploma holders, and working professionals. The course covers Computer Fundamentals, Java Programming, Database Management, Android Development, Flutter, Firebase, UI/UX Design, Backend Development, and App Deployment. Students gain hands-on experience through 800+ hours of theory, practical training, 7 major live projects, and internship with placement assistance.",
+    "duration": "12 Months",
+    "price": "Contact for Pricing",
+    "category": "soft skill's",
+    "image": "ADMID.AVIF",
+
+    "eligibility": "10+2 / Graduate / Diploma Holders / Working Professionals",
+    "courseType": "Theory + Practical + Live Projects + Internship",
+    "trainingHours": {
+      "theory": "250 Hours",
+      "practical": "300 Hours",
+      "liveProjects": "150 Hours",
+      "internshipAndPortfolio": "100 Hours",
+      "total": "800+ Hours"
+    },
+    "features": [
+      "Computer Fundamentals & Programming Basics",
+      "Java Programming",
+      "Database Management System (SQLite & MySQL)",
+      "Android Development Fundamentals",
+      "Android App Development with Kotlin",
+      "Advanced Android Development with Firebase & API",
+      "Flutter Development with Dart",
+      "Advanced Flutter & Firebase",
+      "UI/UX Design for Mobile Apps (Figma & Adobe XD)",
+      "Backend Development with Node.js & Express.js",
+      "Testing & App Deployment (Google Play Store)",
+      "Internship & Portfolio Development",
+      "7 Major Live Projects",
+      "Placement Assistance"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Computer Fundamentals & Programming Basics",
+        "duration": "1 Month",
+        "topics": [
+          "Introduction to Computers",
+          "Programming Logic & Algorithms",
+          "Flowcharts",
+          "Variables & Data Types",
+          "Operators",
+          "Conditional Statements",
+          "Loops",
+          "Functions",
+          "Object-Oriented Programming Concepts"
+        ],
+        "projects": ["Calculator Application"]
+      },
+      {
+        "module": 2,
+        "title": "Java Programming",
+        "duration": "1 Month",
+        "topics": [
+          "Java Fundamentals",
+          "Classes & Objects",
+          "Constructors",
+          "Inheritance",
+          "Polymorphism",
+          "Exception Handling",
+          "Collections Framework",
+          "File Handling"
+        ],
+        "projects": ["Student Management System"]
+      },
+      {
+        "module": 3,
+        "title": "Database Management System",
+        "duration": "1 Month",
+        "topics": [
+          "Database Concepts",
+          "SQL Fundamentals",
+          "Tables & Relationships",
+          "CRUD Operations",
+          "Joins",
+          "Views",
+          "SQLite Database"
+        ],
+        "projects": ["Employee Management Database"]
+      },
+      {
+        "module": 4,
+        "title": "Android Development Fundamentals",
+        "duration": "1 Month",
+        "topics": [
+          "Android Studio Setup",
+          "Activities & Intents",
+          "Layouts & Views",
+          "RecyclerView",
+          "Fragments",
+          "Navigation Components",
+          "Material Design"
+        ],
+        "projects": ["Student Information App"]
+      },
+      {
+        "module": 5,
+        "title": "Android App Development",
+        "duration": "1 Month",
+        "topics": [
+          "Kotlin Programming",
+          "User Authentication",
+          "Shared Preferences",
+          "SQLite Integration",
+          "Notifications",
+          "Media Handling",
+          "Camera Integration"
+        ],
+        "projects": ["Notes Management Application"]
+      },
+      {
+        "module": 6,
+        "title": "Advanced Android Development",
+        "duration": "1 Month",
+        "topics": [
+          "REST API Integration",
+          "JSON Parsing",
+          "Firebase Authentication",
+          "Firebase Firestore",
+          "Push Notifications",
+          "Google Maps Integration",
+          "Payment Gateway Integration"
+        ],
+        "projects": ["Food Delivery Application"]
+      },
+      {
+        "module": 7,
+        "title": "Flutter Development",
+        "duration": "1 Month",
+        "topics": [
+          "Introduction to Flutter",
+          "Dart Programming",
+          "Widgets",
+          "Navigation",
+          "Forms & Validation",
+          "State Management",
+          "API Integration"
+        ],
+        "projects": ["E-Commerce Mobile Application"]
+      },
+      {
+        "module": 8,
+        "title": "Advanced Flutter & Firebase",
+        "duration": "1 Month",
+        "topics": [
+          "Firebase Authentication",
+          "Cloud Firestore",
+          "Push Notifications",
+          "Storage Management",
+          "Real-Time Database",
+          "App Performance Optimization"
+        ],
+        "projects": ["Online Shopping App"]
+      },
+      {
+        "module": 9,
+        "title": "UI/UX Design for Mobile Apps",
+        "duration": "1 Month",
+        "topics": [
+          "Design Principles",
+          "Wireframing",
+          "Prototyping",
+          "User Experience Design",
+          "Mobile Interface Design"
+        ],
+        "tools": ["Figma", "Adobe XD"],
+        "projects": ["Mobile Banking App UI Design"]
+      },
+      {
+        "module": 10,
+        "title": "Backend Development for Mobile Apps",
+        "duration": "1 Month",
+        "topics": [
+          "Introduction to APIs",
+          "Node.js Basics",
+          "Express.js",
+          "Authentication & Authorization",
+          "Database Connectivity",
+          "REST API Development"
+        ],
+        "projects": ["Backend API for Mobile Application"]
+      },
+      {
+        "module": 11,
+        "title": "Testing & App Deployment",
+        "duration": "1 Month",
+        "topics": [
+          "Mobile App Testing",
+          "Debugging Techniques",
+          "Performance Optimization",
+          "App Security",
+          "Google Play Store Publishing",
+          "App Maintenance"
+        ],
+        "projects": ["Complete App Deployment Project"]
+      },
+      {
+        "module": 12,
+        "title": "Internship & Portfolio Development",
+        "duration": "1 Month",
+        "topics": [
+          "Git & GitHub",
+          "Portfolio Creation",
+          "Resume Building",
+          "Freelancing Platforms",
+          "Client Communication",
+          "Interview Preparation"
+        ],
+        "projects": ["Professional Developer Portfolio"]
+      }
+    ],
+    "liveProjects": [
+      {
+        "project": 1,
+        "title": "Expense Tracker App",
+        "topics": ["Income & Expense Management", "Reports & Analytics"]
+      },
+      {
+        "project": 2,
+        "title": "Food Delivery App",
+        "topics": ["Restaurant Listing", "Order Tracking", "Online Payments"]
+      },
+      {
+        "project": 3,
+        "title": "E-Commerce Application",
+        "topics": ["Product Catalog", "Shopping Cart", "Payment Gateway"]
+      },
+      {
+        "project": 4,
+        "title": "Online Learning App",
+        "topics": ["Course Management", "Video Streaming", "Student Dashboard"]
+      },
+      {
+        "project": 5,
+        "title": "Hospital Management App",
+        "topics": ["Appointment Booking", "Patient Records", "Doctor Dashboard"]
+      },
+      {
+        "project": 6,
+        "title": "Cab Booking App",
+        "topics": ["Live GPS Tracking", "Online Payments", "Booking Management"]
+      },
+      {
+        "project": 7,
+        "title": "Final Industry Project",
+        "topics": [
+          "Real Client-Based Mobile Application",
+          "UI/UX Design",
+          "Backend Integration",
+          "Play Store Deployment"
+        ]
+      }
+    ],
+    "toolsCovered": [
+      "Android Studio",
+      "Flutter SDK",
+      "Dart",
+      "Java",
+      "Kotlin",
+      "Firebase",
+      "SQLite",
+      "MySQL",
+      "Node.js",
+      "Express.js",
+      "Figma",
+      "Adobe XD",
+      "Git & GitHub",
+      "Postman"
+    ],
+    "careerOpportunities": [
+      "Android Developer",
+      "Flutter Developer",
+      "Mobile App Developer",
+      "Software Developer",
+      "UI/UX Designer",
+      "Firebase Developer",
+      "App Tester",
+      "Full Stack Mobile Developer",
+      "Freelance App Developer",
+      "Mobile Solutions Consultant"
+    ],
+    "certification": "Advanced Diploma in Mobile App Development (ADMAD)",
+    "metaTitle": "Advanced Diploma in Mobile App Development | 1 Year Professional Diploma",
+    "metaDescription": "Learn Android App Development, Flutter, Firebase, UI/UX Design, Backend Development, and App Deployment through practical training, 7 live projects, internship, and placement assistance."
+  },
+  {
+    "id": "adsmft",
+    "slug": "advanced-diploma-stock-market-financial-trading",
+    "title": "Advanced Diploma in Stock Market & Financial Trading",
+    "shortDescription": "Master stock market trading, technical & fundamental analysis, derivatives, portfolio management, and financial modeling through live market training, projects, and internship.",
+    "fullDescription": "Advanced Diploma in Stock Market & Financial Trading (ADSMFT) is a comprehensive one-year professional diploma designed for 10+2 students, graduates, working professionals, and investors. The course covers Financial Markets, Investment Fundamentals, Fundamental Analysis, Technical Analysis, Equity Trading, Derivatives, Commodity & Currency Markets, Advanced Trading Strategies, Portfolio Management, Financial Modeling, Taxation, and Live Market Training. Students gain hands-on experience through 750+ hours of theory, practical training, live market sessions, 7 major projects, and NISM certification guidance.",
+    "duration": "12 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "ADSMFT.AVIF",
+    "eligibility": "10+2 / Graduate / Working Professionals / Investors",
+    "courseType": "Theory + Practical + Live Market Training + Projects + Internship",
+    "trainingHours": {
+      "theory": "250 Hours",
+      "practicalTraining": "250 Hours",
+      "liveMarketSessions": "150 Hours",
+      "projectsAndCaseStudies": "100 Hours",
+      "total": "750+ Hours"
+    },
+    "features": [
+      "Introduction to Financial Markets (NSE, BSE, SEBI)",
+      "Fundamentals of Investment & Wealth Creation",
+      "Fundamental Analysis of Listed Companies",
+      "Technical Analysis – Charts, Candlesticks, Indicators",
+      "Equity Trading – Intraday, Swing & Positional",
+      "Derivatives Market – Futures & Options",
+      "Commodity & Currency Market",
+      "Advanced Trading Strategies & Back-Testing",
+      "Portfolio Management & Asset Allocation",
+      "Research & Financial Modeling in Excel",
+      "Taxation & Compliance for Investors",
+      "Live Market Training & Career Development",
+      "7 Major Live Projects",
+      "NISM Certification Guidance",
+      "Placement Assistance"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Financial Markets",
+        "duration": "1 Month",
+        "topics": [
+          "Basics of Financial Markets",
+          "Indian Stock Market Structure",
+          "Primary & Secondary Market",
+          "NSE & BSE Overview",
+          "SEBI Regulations",
+          "Market Participants",
+          "Demat & Trading Accounts",
+          "IPO Process"
+        ],
+        "projects": ["Comparative Study of NSE & BSE"]
+      },
+      {
+        "module": 2,
+        "title": "Fundamentals of Investment",
+        "duration": "1 Month",
+        "topics": [
+          "Investment Planning",
+          "Risk & Return Analysis",
+          "Asset Allocation",
+          "Mutual Funds",
+          "SIP & SWP",
+          "Bonds & Debentures",
+          "ETFs",
+          "Wealth Creation Strategies"
+        ],
+        "projects": ["Personal Investment Portfolio Design"]
+      },
+      {
+        "module": 3,
+        "title": "Fundamental Analysis",
+        "duration": "1 Month",
+        "topics": [
+          "Financial Statements Analysis",
+          "Balance Sheet Analysis",
+          "Profit & Loss Statement",
+          "Cash Flow Statement",
+          "Ratio Analysis",
+          "Company Valuation",
+          "Industry Analysis",
+          "Economic Indicators"
+        ],
+        "projects": ["Fundamental Analysis of a Listed Company"]
+      },
+      {
+        "module": 4,
+        "title": "Technical Analysis",
+        "duration": "1 Month",
+        "topics": [
+          "Dow Theory",
+          "Chart Patterns",
+          "Candlestick Patterns",
+          "Support & Resistance",
+          "Trend Analysis",
+          "Moving Averages",
+          "RSI",
+          "MACD",
+          "Bollinger Bands"
+        ],
+        "projects": ["Technical Analysis Report of Selected Stocks"]
+      },
+      {
+        "module": 5,
+        "title": "Equity Trading",
+        "duration": "1 Month",
+        "topics": [
+          "Intraday Trading",
+          "Swing Trading",
+          "Positional Trading",
+          "Trading Psychology",
+          "Risk Management",
+          "Trade Planning",
+          "Stop Loss Techniques"
+        ],
+        "projects": ["Virtual Trading Portfolio"]
+      },
+      {
+        "module": 6,
+        "title": "Derivatives Market",
+        "duration": "1 Month",
+        "topics": [
+          "Futures Trading",
+          "Options Trading",
+          "Call & Put Options",
+          "Option Greeks",
+          "Option Strategies",
+          "Hedging Techniques",
+          "Index Derivatives"
+        ],
+        "projects": ["Options Strategy Development"]
+      },
+      {
+        "module": 7,
+        "title": "Commodity & Currency Market",
+        "duration": "1 Month",
+        "topics": [
+          "Commodity Trading",
+          "Gold & Silver Trading",
+          "Crude Oil Market",
+          "Currency Trading",
+          "Forex Market Basics",
+          "International Market Correlation"
+        ],
+        "projects": ["Commodity Market Analysis Report"]
+      },
+      {
+        "module": 8,
+        "title": "Advanced Trading Strategies",
+        "duration": "1 Month",
+        "topics": [
+          "Price Action Trading",
+          "Breakout Trading",
+          "Scalping Strategies",
+          "Swing Trading Strategies",
+          "Algorithmic Trading Basics",
+          "Trading Journals",
+          "Risk-Reward Management"
+        ],
+        "projects": ["Trading Strategy Back-Testing"]
+      },
+      {
+        "module": 9,
+        "title": "Portfolio Management",
+        "duration": "1 Month",
+        "topics": [
+          "Portfolio Construction",
+          "Diversification",
+          "Asset Allocation",
+          "Performance Evaluation",
+          "Rebalancing Strategies",
+          "Retirement Planning"
+        ],
+        "projects": ["₹10 Lakh Model Portfolio Design"]
+      },
+      {
+        "module": 10,
+        "title": "Research & Financial Modeling",
+        "duration": "1 Month",
+        "topics": [
+          "Excel for Finance",
+          "Financial Modeling",
+          "Stock Screening",
+          "Valuation Models",
+          "Forecasting Techniques",
+          "Equity Research Reports"
+        ],
+        "projects": ["Equity Research Report Preparation"]
+      },
+      {
+        "module": 11,
+        "title": "Taxation & Compliance",
+        "duration": "1 Month",
+        "topics": [
+          "Capital Gain Tax",
+          "Securities Transaction Tax (STT)",
+          "Tax Planning for Investors",
+          "Income Tax Basics",
+          "Financial Regulations",
+          "Investor Protection"
+        ],
+        "projects": ["Tax Calculation for Investment Portfolio"]
+      },
+      {
+        "module": 12,
+        "title": "Live Market Training & Career Development",
+        "duration": "1 Month",
+        "topics": [
+          "Live Trading Sessions",
+          "Market Observation",
+          "Research Report Writing",
+          "Client Advisory Basics",
+          "Resume Preparation",
+          "Interview Preparation",
+          "NISM Certification Guidance"
+        ],
+        "projects": ["Complete Market Analysis Presentation"]
+      }
+    ],
+    "liveProjects": [
+      {
+        "project": 1,
+        "title": "Fundamental Analysis Project",
+        "topics": [
+          "Analyze Top Listed Company",
+          "Financial Ratio Analysis",
+          "Valuation Report"
+        ]
+      },
+      {
+        "project": 2,
+        "title": "Technical Analysis Project",
+        "topics": [
+          "Candlestick Analysis",
+          "Trend Identification",
+          "Buy/Sell Recommendations"
+        ]
+      },
+      {
+        "project": 3,
+        "title": "Portfolio Management Project",
+        "topics": [
+          "Build Diversified Portfolio",
+          "Risk Assessment",
+          "Performance Tracking"
+        ]
+      },
+      {
+        "project": 4,
+        "title": "Options Trading Strategy Project",
+        "topics": ["Bull Call Spread", "Iron Condor", "Covered Call Strategy"]
+      },
+      {
+        "project": 5,
+        "title": "Equity Research Report",
+        "topics": [
+          "Company Overview",
+          "Industry Analysis",
+          "Financial Forecasting"
+        ]
+      },
+      {
+        "project": 6,
+        "title": "Live Trading Simulation",
+        "topics": [
+          "Virtual Capital Management",
+          "Trade Journal",
+          "Performance Review"
+        ]
+      },
+      {
+        "project": 7,
+        "title": "Final Capstone Project",
+        "topics": [
+          "Complete Investment & Trading Plan",
+          "Stock Selection",
+          "Portfolio Construction",
+          "Technical & Fundamental Analysis",
+          "Risk Management Strategy"
+        ]
+      }
+    ],
+    "toolsCovered": [
+      "TradingView",
+      "NSE Website Tools",
+      "BSE Website Tools",
+      "Microsoft Excel",
+      "Google Sheets",
+      "Screener.in",
+      "Moneycontrol",
+      "Chartink",
+      "Zerodha Kite",
+      "Upstox Pro",
+      "Angel One"
+    ],
+    "certificationPreparation": [
+      "NISM Series VIII – Equity Derivatives",
+      "NISM Series XV – Research Analyst",
+      "NISM Series V-A – Mutual Fund Distributors",
+      "NCFM Certifications",
+      "Basic Financial Planning"
+    ],
+    "careerOpportunities": [
+      "Stock Market Trader",
+      "Equity Dealer",
+      "Investment Advisor Assistant",
+      "Research Analyst",
+      "Portfolio Executive",
+      "Financial Planner",
+      "Mutual Fund Advisor",
+      "Wealth Management Executive",
+      "Relationship Manager",
+      "Financial Market Trainer",
+      "Trading Desk Executive"
+    ],
+    "certification": "Advanced Diploma in Stock Market & Financial Trading (ADSMFT)",
+    "metaTitle": "Advanced Diploma in Stock Market & Financial Trading | 1 Year Professional Diploma",
+    "metaDescription": "Learn Stock Market Trading, Technical & Fundamental Analysis, Derivatives, Portfolio Management, and Financial Modeling through live market training, 7 projects, and NISM certification guidance."
+  },
+  {
+    "id": "adce",
+    "slug": "advanced-diploma-civil-engineering",
+    "title": "Advanced Diploma in Civil Engineering",
+    "shortDescription": "Master civil engineering design, construction technology, surveying, estimation & costing, structural analysis, and project management with industry software like AutoCAD, STAAD Pro, Revit, and Primavera.",
+    "fullDescription": "Advanced Diploma in Civil Engineering (ADCE) is a comprehensive one-year professional diploma designed for 10+2 (PCM) students, ITI holders, diploma holders, and working professionals. The course covers Engineering Drawing, Building Materials, Surveying, Structural Analysis, Concrete Technology & RCC Design, Quantity Surveying, Environmental Engineering, Transportation Engineering, Soil Mechanics, STAAD Pro, Revit & BIM, and Construction Project Management. Students gain hands-on experience through 800+ hours of theory, practical labs, software training, 8 live projects, and site visits.",
+    "duration": "12 Months",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "ADICE.AVIF",
+    "eligibility": "10+2 (PCM) / ITI / Diploma Holders / Working Professionals",
+    "courseType": "Theory + Practical + Software Training + Site Visits + Live Projects",
+    "trainingHours": {
+      "theory": "250 Hours",
+      "practicalLabs": "300 Hours",
+      "softwareTraining": "150 Hours",
+      "liveProjectsAndSiteVisits": "100 Hours",
+      "total": "800+ Hours"
+    },
+    "features": [
+      "Engineering Drawing & AutoCAD 2D/3D",
+      "Building Materials & Construction Technology",
+      "Surveying & Advanced Surveying (Total Station, GPS)",
+      "Strength of Materials & Structural Analysis",
+      "Concrete Technology & RCC Design",
+      "Quantity Surveying, Estimation & Costing",
+      "Environmental & Water Resources Engineering",
+      "Transportation Engineering & Pavement Design",
+      "Soil Mechanics & Foundation Engineering",
+      "STAAD Pro – Structural Design Software",
+      "Revit Architecture & BIM",
+      "Construction Project Management with Primavera",
+      "8 Major Live Projects",
+      "Site Visits & Industrial Training"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Engineering Drawing & AutoCAD",
+        "duration": "1 Month",
+        "topics": [
+          "Engineering Drawing Fundamentals",
+          "Technical Drafting",
+          "Building Plans",
+          "Elevation & Section Drawings",
+          "Structural Drawings",
+          "AutoCAD 2D & 3D",
+          "Plotting & Printing Drawings"
+        ],
+        "projects": ["Complete Residential Building Drawing"]
+      },
+      {
+        "module": 2,
+        "title": "Building Materials & Construction Technology",
+        "duration": "1 Month",
+        "topics": [
+          "Building Materials",
+          "Cement, Concrete & Steel",
+          "Bricks & Masonry",
+          "Flooring & Finishing Materials",
+          "Building Construction Techniques",
+          "Green Building Concepts",
+          "Construction Safety"
+        ],
+        "projects": ["Material Testing & Construction Report"]
+      },
+      {
+        "module": 3,
+        "title": "Surveying & Advanced Surveying",
+        "duration": "1 Month",
+        "topics": [
+          "Chain Survey",
+          "Compass Survey",
+          "Levelling",
+          "Theodolite Survey",
+          "Total Station Survey",
+          "GPS Surveying",
+          "Contour Mapping"
+        ],
+        "practicals": ["Field Survey Work"],
+        "projects": ["Land Survey & Contour Map Preparation"]
+      },
+      {
+        "module": 4,
+        "title": "Strength of Materials & Structural Analysis",
+        "duration": "1 Month",
+        "topics": [
+          "Stress & Strain",
+          "Bending Moment",
+          "Shear Force",
+          "Truss Analysis",
+          "Structural Mechanics",
+          "Load Calculations",
+          "Structural Stability"
+        ],
+        "projects": ["Structural Analysis of a Building Frame"]
+      },
+      {
+        "module": 5,
+        "title": "Concrete Technology & RCC Design",
+        "duration": "1 Month",
+        "topics": [
+          "Concrete Properties",
+          "Mix Design",
+          "RCC Fundamentals",
+          "Beam Design",
+          "Slab Design",
+          "Column Design",
+          "Footing Design"
+        ],
+        "projects": ["RCC Design of G+1 Residential Building"]
+      },
+      {
+        "module": 6,
+        "title": "Quantity Surveying, Estimation & Costing",
+        "duration": "1 Month",
+        "topics": [
+          "Quantity Take-Off",
+          "BOQ Preparation",
+          "Rate Analysis",
+          "Cost Estimation",
+          "Tender Documentation",
+          "Billing Process",
+          "Valuation"
+        ],
+        "projects": ["Cost Estimation of Residential Building"]
+      },
+      {
+        "module": 7,
+        "title": "Environmental & Water Resources Engineering",
+        "duration": "1 Month",
+        "topics": [
+          "Water Supply Systems",
+          "Wastewater Management",
+          "Sewage Treatment",
+          "Rainwater Harvesting",
+          "Irrigation Engineering",
+          "Environmental Protection"
+        ],
+        "projects": ["Water Supply System Design"]
+      },
+      {
+        "module": 8,
+        "title": "Transportation Engineering",
+        "duration": "1 Month",
+        "topics": [
+          "Highway Engineering",
+          "Road Construction Materials",
+          "Pavement Design",
+          "Traffic Engineering",
+          "Railway Engineering",
+          "Airport Basics"
+        ],
+        "projects": ["Flexible Pavement Design"]
+      },
+      {
+        "module": 9,
+        "title": "Soil Mechanics & Foundation Engineering",
+        "duration": "1 Month",
+        "topics": [
+          "Soil Properties",
+          "Soil Testing",
+          "Bearing Capacity",
+          "Foundation Types",
+          "Shallow Foundations",
+          "Deep Foundations"
+        ],
+        "projects": ["Foundation Design for Residential Building"]
+      },
+      {
+        "module": 10,
+        "title": "STAAD Pro & Structural Design Software",
+        "duration": "1 Month",
+        "topics": [
+          "Introduction to STAAD Pro",
+          "Structural Modeling",
+          "Load Assignment",
+          "Analysis & Design",
+          "RCC Design",
+          "Steel Structure Design"
+        ],
+        "projects": ["Structural Design Using STAAD Pro"]
+      },
+      {
+        "module": 11,
+        "title": "Revit Architecture & BIM",
+        "duration": "1 Month",
+        "topics": [
+          "Building Information Modeling (BIM)",
+          "Revit Interface",
+          "Architectural Modeling",
+          "Structural Modeling",
+          "Quantity Extraction",
+          "Project Documentation"
+        ],
+        "projects": ["BIM Model of Commercial Building"]
+      },
+      {
+        "module": 12,
+        "title": "Construction Project Management",
+        "duration": "1 Month",
+        "topics": [
+          "Construction Planning",
+          "Primavera Basics",
+          "Project Scheduling",
+          "Resource Management",
+          "Quality Control",
+          "Site Management",
+          "Contract Management"
+        ],
+        "projects": ["Construction Project Schedule using Primavera"]
+      }
+    ],
+    "liveProjects": [
+      {
+        "project": 1,
+        "title": "Residential Building Design",
+        "topics": ["Architectural Plan", "Structural Design", "Cost Estimation"]
+      },
+      {
+        "project": 2,
+        "title": "RCC Structure Design",
+        "topics": ["Beam Design", "Slab Design", "Column Design"]
+      },
+      {
+        "project": 3,
+        "title": "Quantity Surveying Project",
+        "topics": ["BOQ Preparation", "Rate Analysis", "Tender Documents"]
+      },
+      {
+        "project": 4,
+        "title": "Road Construction Project",
+        "topics": ["Pavement Design", "Traffic Analysis", "Cost Estimation"]
+      },
+      {
+        "project": 5,
+        "title": "BIM Project using Revit",
+        "topics": [
+          "3D Building Modeling",
+          "Quantity Extraction",
+          "Documentation"
+        ]
+      },
+      {
+        "project": 6,
+        "title": "Structural Analysis using STAAD Pro",
+        "topics": ["Load Calculations", "Structural Design", "Design Reports"]
+      },
+      {
+        "project": 7,
+        "title": "Construction Project Management",
+        "topics": ["Project Planning", "Scheduling", "Resource Allocation"]
+      },
+      {
+        "project": 8,
+        "title": "Final Industry Capstone Project",
+        "topics": [
+          "Complete Building Design & Construction Documentation",
+          "Drawings",
+          "Structural Design",
+          "Estimation & Costing",
+          "Project Planning"
+        ]
+      }
+    ],
+    "siteVisitsAndIndustrialTraining": [
+      "Residential Construction Site",
+      "Commercial Building Project",
+      "Ready-Mix Concrete Plant",
+      "Highway Construction Site",
+      "Survey Camp",
+      "Structural Design Office"
+    ],
+    "softwareCovered": [
+      "AutoCAD",
+      "STAAD Pro",
+      "Revit Architecture",
+      "Primavera P6",
+      "MS Project",
+      "SketchUp",
+      "Excel for Estimation",
+      "Total Station Software"
+    ],
+    "careerOpportunities": [
+      "Civil Site Engineer",
+      "Quantity Surveyor",
+      "AutoCAD Draftsman",
+      "BIM Engineer",
+      "Estimation Engineer",
+      "Planning Engineer",
+      "Structural Design Assistant",
+      "Survey Engineer",
+      "Construction Supervisor",
+      "Project Coordinator",
+      "Civil CAD Technician"
+    ],
+    "certification": "Advanced Diploma in Civil Engineering (ADCE)",
+    "metaTitle": "Advanced Diploma in Civil Engineering | 1 Year Professional Diploma",
+    "metaDescription": "Learn Civil Engineering, AutoCAD, STAAD Pro, Revit BIM, Estimation & Costing, and Construction Project Management through practical training, 8 live projects, and site visits."
+  },
+  {
+    "id": "react-js",
+    "slug": "react-js-course",
+    "title": "React JS Course",
+    "shortDescription": "Master React JS through practical training covering components, hooks, routing, API integration, Redux, and deployment with 5 mini projects and 1 major e-commerce project.",
+    "fullDescription": "React JS Course is a 1.5-month intensive program designed for learners with basic knowledge of HTML, CSS, and JavaScript. The course covers React Fundamentals, Components & State Management, React Hooks, Routing, API Integration, Advanced State Management with Redux Toolkit, Performance Optimization, and Deployment. Students gain hands-on experience through 90–100 hours of theory and practical training, 5 mini projects, and a final major E-Commerce Web Application project.",
+    "duration": "1.5 Months (6 Weeks)",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "RJ.AVIF",
+    "eligibility": "Basic Knowledge of HTML, CSS, JavaScript",
+    "courseType": "Theory + Practical + Project",
+    "trainingHours": {
+      "total": "90-100 Hours"
+    },
+    "features": [
+      "React Fundamentals – JSX, Components, Project Structure",
+      "React Components – Props, State, Event Handling, Forms",
+      "React Hooks – useState, useEffect, useRef, useMemo, useCallback, Custom Hooks",
+      "React Router DOM – Dynamic, Nested & Protected Routes",
+      "API Integration – REST API, Fetch, Axios",
+      "Advanced State Management – Context API, Redux Toolkit",
+      "Performance Optimization – Lazy Loading, Code Splitting, React Memo",
+      "Project Development – Authentication, Form Validation, Reusable Components",
+      "Deployment – Netlify, Vercel, Git & GitHub",
+      "5 Mini Projects + 1 Major E-Commerce Project"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "module": 1,
+        "title": "React Fundamentals",
+        "topics": [
+          "Introduction to React JS",
+          "Why React?",
+          "Setting Up Development Environment",
+          "Node.js & NPM Introduction",
+          "Create React App",
+          "Project Structure",
+          "JSX Syntax",
+          "Components",
+          "Functional Components",
+          "Class Components",
+          "React Fragment"
+        ],
+        "practicals": [
+          "Create First React Application",
+          "Build Simple UI Components"
+        ]
+      },
+      {
+        "week": 2,
+        "module": 2,
+        "title": "React Components",
+        "topics": [
+          "Props",
+          "State",
+          "Event Handling",
+          "Conditional Rendering",
+          "Lists & Keys",
+          "Forms in React",
+          "Controlled Components",
+          "Uncontrolled Components"
+        ],
+        "practicals": ["Student Registration Form", "To-Do List Application"]
+      },
+      {
+        "week": 3,
+        "module": 3,
+        "title": "React Hooks",
+        "topics": [
+          "Introduction to Hooks",
+          "useState Hook",
+          "useEffect Hook",
+          "useRef Hook",
+          "useMemo Hook",
+          "useCallback Hook",
+          "Custom Hooks"
+        ],
+        "practicals": [
+          "Counter Application",
+          "Weather App with API Integration"
+        ]
+      },
+      {
+        "week": 4,
+        "modules": [
+          {
+            "module": 4,
+            "title": "React Router",
+            "topics": [
+              "React Router DOM",
+              "Route Configuration",
+              "Navigation",
+              "Dynamic Routing",
+              "Nested Routing",
+              "Protected Routes"
+            ]
+          },
+          {
+            "module": 5,
+            "title": "API Integration",
+            "topics": [
+              "REST API Basics",
+              "Fetch API",
+              "Axios",
+              "GET, POST, PUT, DELETE Requests",
+              "Error Handling"
+            ]
+          }
+        ],
+        "practicals": [
+          "Employee Management System",
+          "Product Listing Application"
+        ]
+      },
+      {
+        "week": 5,
+        "modules": [
+          {
+            "module": 6,
+            "title": "State Management",
+            "topics": [
+              "Context API",
+              "Redux Fundamentals",
+              "Redux Toolkit",
+              "Store, Actions & Reducers"
+            ]
+          },
+          {
+            "module": 7,
+            "title": "Performance Optimization",
+            "topics": [
+              "Lazy Loading",
+              "Code Splitting",
+              "React Memo",
+              "Optimization Techniques"
+            ]
+          }
+        ],
+        "practicals": ["E-Commerce Cart System", "User Authentication Module"]
+      },
+      {
+        "week": 6,
+        "modules": [
+          {
+            "module": 8,
+            "title": "Project Development",
+            "topics": [
+              "Folder Structure Best Practices",
+              "Authentication & Authorization",
+              "Form Validation",
+              "Local Storage",
+              "Environment Variables",
+              "Reusable Components"
+            ]
+          },
+          {
+            "module": 9,
+            "title": "Deployment",
+            "topics": [
+              "Build Process",
+              "Deploy on Netlify",
+              "Deploy on Vercel",
+              "Git & GitHub Integration"
+            ]
+          }
+        ],
+        "finalProject": {
+          "title": "E-Commerce Website",
+          "topics": [
+            "Home Page",
+            "Product Listing",
+            "Product Details",
+            "Shopping Cart",
+            "User Login & Registration",
+            "API Integration",
+            "Responsive Design"
+          ]
+        }
+      }
+    ],
+    "miniProjects": [
+      "Calculator App",
+      "To-Do List App",
+      "Weather Application",
+      "Student Management System",
+      "Employee Management System"
+    ],
+    "majorProject": {
+      "title": "E-Commerce Web Application",
       "topics": [
-        "Introduction to Accounting",
-        "Accounting Principles & Concepts",
-        "Journal Entries",
-        "Ledger Posting",
-        "Trial Balance",
-        "Cash Book",
-        "Bank Reconciliation Statement",
-        "Final Accounts",
-        "Depreciation Accounting",
-        "Journal Entry Posting",
-        "Ledger Preparation",
-        "Financial Statement Preparation"
+        "Authentication",
+        "Product Management",
+        "Shopping Cart",
+        "API Integration",
+        "Responsive Design"
       ]
     },
-    {
-      "module": 2,
-      "title": "Financial Accounting",
-      "semester": 1,
+    "toolsCovered": [
+      "React JS",
+      "JSX",
+      "JavaScript (ES6+)",
+      "React Router DOM",
+      "Axios",
+      "Context API",
+      "Redux Toolkit",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Git & GitHub",
+      "Netlify",
+      "Vercel"
+    ],
+    "careerOpportunities": [
+      "React JS Developer",
+      "Front-End Developer",
+      "Web Developer",
+      "UI Developer",
+      "JavaScript Developer"
+    ],
+    "certification": "React JS Development Certificate Course",
+    "metaTitle": "React JS Course | 1.5 Month Practical Training with Projects",
+    "metaDescription": "Learn React JS, Hooks, Redux Toolkit, API Integration, and Deployment through practical training with 5 mini projects and 1 major E-Commerce project."
+  },
+  {
+    "id": "laravel-php",
+    "slug": "laravel-php-framework-training-course",
+    "title": "Laravel PHP Framework Training Course",
+    "shortDescription": "Master Laravel PHP framework through practical training covering MVC architecture, Eloquent ORM, REST API development, authentication, and deployment with mini projects and a major live project.",
+    "fullDescription": "Laravel PHP Framework Training Course is a 2-month intensive program designed for learners with basic knowledge of PHP, HTML, CSS, JavaScript, and MySQL. The course covers Laravel Fundamentals, Routing, Controllers, Blade Templates, Database Management, Eloquent ORM, Authentication, Middleware, API Development, Storage, Email Notifications, Queues, and Deployment. Students gain hands-on experience through 120 hours of theory, practical training, 4 mini projects, and a major Online Course Management System project.",
+    "duration": "2 Months (8 Weeks)",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "LPFTC.AVIF",
+    "eligibility": "Basic Knowledge of PHP, HTML, CSS, JavaScript, and MySQL",
+    "courseType": "Theory + Practical + Live Projects",
+    "trainingHours": {
+      "theory": "40 Hours",
+      "practical": "50 Hours",
+      "projects": "20 Hours",
+      "deploymentAndAssessment": "10 Hours",
+      "total": "120 Hours"
+    },
+    "features": [
+      "Laravel Overview – MVC Architecture, Installation, Artisan Commands",
+      "Routing, Controllers & Blade Templates",
+      "Database Management – Migrations, Seeding, Query Builder",
+      "Eloquent ORM – Models, CRUD, Relationships",
+      "Form Handling, Validation & File Uploads",
+      "Authentication – Login, Registration, Roles & Permissions",
+      "Middleware & Session Management",
+      "RESTful API Development with Sanctum",
+      "Laravel Storage, Email & Notifications",
+      "Queues & Task Scheduling",
+      "Project Structure, Security & Performance Best Practices",
+      "Deployment – cPanel & VPS",
+      "4 Mini Projects + 1 Major Live Project"
+    ],
+    "syllabus": [
+      {
+        "month": 1,
+        "title": "Laravel Fundamentals",
+        "weeks": [
+          {
+            "week": 1,
+            "module": 1,
+            "title": "Laravel Overview",
+            "topics": [
+              "Introduction to Laravel Framework",
+              "MVC Architecture",
+              "Features of Laravel",
+              "Laravel Installation",
+              "Composer Installation",
+              "Laravel Project Structure",
+              "Environment Configuration (.env)",
+              "Artisan Commands"
+            ],
+            "practicals": [
+              "Install Laravel",
+              "Create First Laravel Application"
+            ]
+          },
+          {
+            "week": 2,
+            "modules": [
+              {
+                "module": 2,
+                "title": "Laravel Routing",
+                "topics": [
+                  "Basic Routing",
+                  "Route Parameters",
+                  "Named Routes",
+                  "Route Groups",
+                  "Middleware Basics"
+                ]
+              },
+              {
+                "module": 3,
+                "title": "Controllers",
+                "topics": [
+                  "Creating Controllers",
+                  "Resource Controllers",
+                  "Passing Data to Views"
+                ]
+              },
+              {
+                "module": 4,
+                "title": "Blade Templates",
+                "topics": [
+                  "Blade Syntax",
+                  "Layouts & Components",
+                  "Template Inheritance",
+                  "Forms & Validation"
+                ]
+              }
+            ],
+            "practicals": ["Student Registration Form"]
+          },
+          {
+            "week": 3,
+            "modules": [
+              {
+                "module": 5,
+                "title": "Database Management",
+                "topics": [
+                  "Database Configuration",
+                  "Migrations",
+                  "Database Seeding",
+                  "Query Builder"
+                ]
+              },
+              {
+                "module": 6,
+                "title": "Eloquent ORM",
+                "topics": [
+                  "Models",
+                  "CRUD Operations",
+                  "One-to-One Relationships",
+                  "One-to-Many Relationships",
+                  "Many-to-Many Relationships"
+                ]
+              }
+            ],
+            "practicals": ["Employee Management System"]
+          },
+          {
+            "week": 4,
+            "modules": [
+              {
+                "module": 7,
+                "title": "Form Handling",
+                "topics": [
+                  "Request Handling",
+                  "Validation Rules",
+                  "Custom Validation",
+                  "File Uploads"
+                ]
+              },
+              {
+                "module": 8,
+                "title": "Authentication",
+                "topics": [
+                  "Laravel Authentication",
+                  "Login & Registration",
+                  "Password Reset",
+                  "User Roles & Permissions"
+                ]
+              }
+            ],
+            "practicals": ["User Authentication System"]
+          }
+        ]
+      },
+      {
+        "month": 2,
+        "title": "Advanced Laravel Development",
+        "weeks": [
+          {
+            "week": 5,
+            "modules": [
+              {
+                "module": 9,
+                "title": "Middleware",
+                "topics": [
+                  "Creating Middleware",
+                  "Route Protection",
+                  "Custom Middleware"
+                ]
+              },
+              {
+                "module": 10,
+                "title": "Sessions & Cookies",
+                "topics": [
+                  "Session Handling",
+                  "Flash Messages",
+                  "Cookie Management"
+                ]
+              }
+            ],
+            "practicals": ["Admin Dashboard Security"]
+          },
+          {
+            "week": 6,
+            "module": 11,
+            "title": "RESTful API Development",
+            "topics": [
+              "API Routes",
+              "API Controllers",
+              "JSON Responses",
+              "Resource Collections",
+              "API Authentication (Sanctum)"
+            ],
+            "practicals": ["Student Management REST API"]
+          },
+          {
+            "week": 7,
+            "modules": [
+              {
+                "module": 12,
+                "title": "Laravel Storage",
+                "topics": ["File Storage", "Image Upload", "Storage Drivers"]
+              },
+              {
+                "module": 13,
+                "title": "Email & Notifications",
+                "topics": [
+                  "Sending Emails",
+                  "Mail Configuration",
+                  "Notifications"
+                ]
+              },
+              {
+                "module": 14,
+                "title": "Queues & Scheduling",
+                "topics": ["Laravel Queues", "Task Scheduling"]
+              }
+            ],
+            "practicals": ["Email Notification System"]
+          },
+          {
+            "week": 8,
+            "modules": [
+              {
+                "module": 15,
+                "title": "Project Structure & Best Practices",
+                "topics": [
+                  "Code Organization",
+                  "Reusable Components",
+                  "Security Best Practices",
+                  "Performance Optimization"
+                ]
+              },
+              {
+                "module": 16,
+                "title": "Deployment",
+                "topics": [
+                  "Git & GitHub",
+                  "Hosting Setup",
+                  "cPanel Deployment",
+                  "VPS Deployment Basics"
+                ]
+              }
+            ],
+            "practicals": ["Deploy Laravel Application"]
+          }
+        ]
+      }
+    ],
+    "miniProjects": [
+      {
+        "project": 1,
+        "title": "Student Registration System",
+        "topics": ["Registration Form", "Validation", "Database Integration"]
+      },
+      {
+        "project": 2,
+        "title": "Employee Management System",
+        "topics": ["CRUD Operations", "Search & Filter"]
+      },
+      {
+        "project": 3,
+        "title": "User Authentication System",
+        "topics": ["Login", "Registration", "Role Management"]
+      },
+      {
+        "project": 4,
+        "title": "REST API Project",
+        "topics": ["API Development", "CRUD Operations", "Authentication"]
+      }
+    ],
+    "majorProject": {
+      "title": "Online Course Management System",
       "topics": [
-        "Trading Account",
-        "Profit & Loss Account",
-        "Balance Sheet",
-        "Rectification of Errors",
-        "Consignment Accounts",
-        "Branch Accounts",
-        "Bills of Exchange",
-        "Partnership Accounts",
-        "Complete Financial Accounting of a Trading Company"
+        "Student Registration",
+        "Course Management",
+        "User Authentication",
+        "Admin Dashboard",
+        "File Upload System",
+        "Email Notifications",
+        "Reports & Analytics"
       ]
     },
-    {
-      "module": 3,
-      "title": "Tally Prime with GST",
-      "semester": 1,
+    "learningOutcomes": [
+      "Develop dynamic web applications using Laravel",
+      "Build secure authentication systems",
+      "Create RESTful APIs",
+      "Manage databases using Eloquent ORM",
+      "Deploy Laravel applications on live servers",
+      "Work on real-world Laravel projects"
+    ],
+    "toolsCovered": [
+      "Laravel 12.x",
+      "PHP 8.x",
+      "MySQL",
+      "Composer",
+      "XAMPP / WAMP",
+      "Visual Studio Code",
+      "Git & GitHub",
+      "Postman",
+      "Bootstrap 5",
+      "Tailwind CSS (Basic)"
+    ],
+    "careerOpportunities": [
+      "Laravel Developer",
+      "PHP Developer",
+      "Backend Developer",
+      "Full Stack Developer",
+      "Web Application Developer",
+      "Software Engineer (PHP)"
+    ],
+    "certification": "Laravel PHP Framework Training Certificate",
+    "metaTitle": "Laravel PHP Framework Training Course | 2 Month Practical Training with Live Projects",
+    "metaDescription": "Learn Laravel PHP, MVC Architecture, Eloquent ORM, REST API, Authentication, and Deployment through practical training with 4 mini projects and a major live project."
+  },
+  {
+    "id": "magento-cms",
+    "slug": "magento-cms-training-course",
+    "title": "Magento CMS Training Course",
+    "shortDescription": "Master Magento e-commerce platform through practical training covering store setup, product management, theme customization, module development, API integration, SEO, and deployment.",
+    "fullDescription": "Magento CMS Training Course is a 2-month intensive program designed for learners with basic knowledge of HTML, CSS, PHP, MySQL, and web development. The course covers Magento Fundamentals, Store Setup, Catalog Management, Theme & CMS Management, Customer & Order Management, Extension & Module Development, Database & API Integration, SEO & Marketing, Security & Performance, and Deployment. Students gain hands-on experience through 120 hours of theory, practical training, 4 mini projects, and a major Complete E-Commerce Store Development project.",
+    "duration": "2 Months (8 Weeks)",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "MCTC.AVIF",
+    "eligibility": "Basic Knowledge of HTML, CSS, PHP, MySQL, and Web Development",
+    "courseType": "Theory + Practical + Live Projects",
+    "trainingHours": {
+      "theory": "40 Hours",
+      "practical": "50 Hours",
+      "projects": "20 Hours",
+      "deploymentAndAssessment": "10 Hours",
+      "total": "120 Hours"
+    },
+    "features": [
+      "Magento Overview – Architecture, Editions, Admin Panel",
+      "Store Setup – Currency, Tax, Shipping, Payment Methods",
+      "Product Management – Simple, Configurable, Grouped, Virtual, Downloadable",
+      "CMS Management – Pages, Static Blocks, Widgets, Homepage",
+      "Theme Customization – Layout XML, Templates, CSS & LESS",
+      "Customer & Order Management – Checkout, Invoice, Shipment",
+      "Extension & Module Development with Dependency Injection",
+      "Database & API Integration – REST, GraphQL, Payment Gateway",
+      "Magento SEO – URL Rewriting, Meta Tags, Sitemap",
+      "Marketing Features – Promotions, Coupons, Newsletter",
+      "Security, Cache & Performance Optimization",
+      "Live Server Deployment – cPanel, SSL Setup",
+      "4 Mini Projects + 1 Major Live Project"
+    ],
+    "syllabus": [
+      {
+        "month": 1,
+        "title": "Magento Fundamentals",
+        "weeks": [
+          {
+            "week": 1,
+            "module": 1,
+            "title": "Magento Overview",
+            "topics": [
+              "Introduction to E-Commerce",
+              "Introduction to Magento Open Source",
+              "Features of Magento",
+              "Magento Architecture",
+              "Magento Editions",
+              "Installation & Configuration",
+              "Server Requirements",
+              "Magento Admin Panel Overview"
+            ],
+            "practicals": [
+              "Install Magento",
+              "Configure Development Environment"
+            ]
+          },
+          {
+            "week": 2,
+            "modules": [
+              {
+                "module": 2,
+                "title": "Store Configuration",
+                "topics": [
+                  "Store Settings",
+                  "Currency Configuration",
+                  "Tax Settings",
+                  "Shipping Settings",
+                  "Payment Methods"
+                ]
+              },
+              {
+                "module": 3,
+                "title": "Product Management",
+                "topics": [
+                  "Simple Products",
+                  "Configurable Products",
+                  "Grouped Products",
+                  "Virtual Products",
+                  "Downloadable Products",
+                  "Product Attributes",
+                  "Attribute Sets",
+                  "Product Categories"
+                ]
+              }
+            ],
+            "practicals": ["Create and Manage Product Catalog"]
+          },
+          {
+            "week": 3,
+            "modules": [
+              {
+                "module": 4,
+                "title": "CMS Management",
+                "topics": [
+                  "CMS Pages",
+                  "Static Blocks",
+                  "Widgets",
+                  "Homepage Customization",
+                  "Content Management"
+                ]
+              },
+              {
+                "module": 5,
+                "title": "Theme Customization",
+                "topics": [
+                  "Magento Theme Structure",
+                  "Layout XML",
+                  "Templates",
+                  "CSS & LESS",
+                  "Responsive Design"
+                ]
+              }
+            ],
+            "practicals": ["Create Custom CMS Pages", "Customize Magento Theme"]
+          },
+          {
+            "week": 4,
+            "modules": [
+              {
+                "module": 6,
+                "title": "Customer Management",
+                "topics": [
+                  "Customer Groups",
+                  "Customer Accounts",
+                  "Customer Dashboard"
+                ]
+              },
+              {
+                "module": 7,
+                "title": "Order Processing",
+                "topics": [
+                  "Shopping Cart Management",
+                  "Checkout Process",
+                  "Order Creation",
+                  "Invoice Generation",
+                  "Shipment Management",
+                  "Credit Memos"
+                ]
+              }
+            ],
+            "practicals": ["Complete Order Lifecycle Management"]
+          }
+        ]
+      },
+      {
+        "month": 2,
+        "title": "Advanced Magento Development",
+        "weeks": [
+          {
+            "week": 5,
+            "modules": [
+              {
+                "module": 8,
+                "title": "Extension Management",
+                "topics": [
+                  "Installing Extensions",
+                  "Managing Extensions",
+                  "Marketplace Integration"
+                ]
+              },
+              {
+                "module": 9,
+                "title": "Module Development",
+                "topics": [
+                  "Magento Module Structure",
+                  "Controllers",
+                  "Models",
+                  "Views",
+                  "Dependency Injection"
+                ]
+              }
+            ],
+            "practicals": ["Create Custom Magento Module"]
+          },
+          {
+            "week": 6,
+            "modules": [
+              {
+                "module": 10,
+                "title": "Magento Database",
+                "topics": [
+                  "Database Structure",
+                  "EAV Model",
+                  "Database Tables",
+                  "Data Management"
+                ]
+              },
+              {
+                "module": 11,
+                "title": "API Integration",
+                "topics": [
+                  "REST APIs",
+                  "GraphQL Basics",
+                  "Third-Party Integrations",
+                  "Payment Gateway Integration"
+                ]
+              }
+            ],
+            "practicals": ["API Integration Project"]
+          },
+          {
+            "week": 7,
+            "modules": [
+              {
+                "module": 12,
+                "title": "Magento SEO",
+                "topics": [
+                  "URL Rewriting",
+                  "Meta Tags",
+                  "Sitemap Generation",
+                  "Product SEO",
+                  "Category SEO"
+                ]
+              },
+              {
+                "module": 13,
+                "title": "Marketing Features",
+                "topics": [
+                  "Promotions",
+                  "Coupons",
+                  "Discounts",
+                  "Newsletter Management",
+                  "Customer Segmentation"
+                ]
+              },
+              {
+                "module": 14,
+                "title": "Security & Performance",
+                "topics": [
+                  "User Roles & Permissions",
+                  "Backup & Restore",
+                  "Cache Management",
+                  "Performance Optimization"
+                ]
+              }
+            ],
+            "practicals": ["SEO Optimization of Online Store"]
+          },
+          {
+            "week": 8,
+            "modules": [
+              {
+                "module": 15,
+                "title": "Deployment & Maintenance",
+                "topics": [
+                  "Live Server Deployment",
+                  "Hosting Configuration",
+                  "Domain Mapping",
+                  "SSL Setup",
+                  "Website Maintenance"
+                ]
+              },
+              {
+                "module": 16,
+                "title": "Project Development",
+                "topics": [
+                  "Project Planning",
+                  "E-Commerce Store Development",
+                  "Testing & Debugging",
+                  "Final Deployment"
+                ]
+              }
+            ],
+            "practicals": ["Deploy Magento E-Commerce Website"]
+          }
+        ]
+      }
+    ],
+    "miniProjects": [
+      {
+        "project": 1,
+        "title": "Product Catalog Management System",
+        "topics": [
+          "Categories",
+          "Products",
+          "Attributes",
+          "Inventory Management"
+        ]
+      },
+      {
+        "project": 2,
+        "title": "Magento CMS Website",
+        "topics": [
+          "Homepage Design",
+          "CMS Pages",
+          "Widgets",
+          "Content Management"
+        ]
+      },
+      {
+        "project": 3,
+        "title": "Customer & Order Management System",
+        "topics": ["Customer Registration", "Shopping Cart", "Checkout Process"]
+      },
+      {
+        "project": 4,
+        "title": "Custom Magento Module",
+        "topics": ["Custom Functionality", "Admin Configuration"]
+      }
+    ],
+    "majorProject": {
+      "title": "Complete E-Commerce Store Development",
       "topics": [
-        "Company Creation",
-        "Accounting Masters",
-        "Voucher Entries",
-        "Inventory Management",
-        "GST Setup",
-        "Purchase & Sales Entries",
-        "Payroll Management",
-        "Banking & Reconciliation",
-        "GST Returns",
-        "Complete Accounting of a Retail Business"
+        "Product Catalog",
+        "Shopping Cart",
+        "Customer Registration",
+        "Wishlist",
+        "Checkout System",
+        "Payment Gateway Integration",
+        "Order Management",
+        "SEO Optimization",
+        "Promotions & Discounts",
+        "Responsive Design"
       ]
     },
-    {
-      "module": 4,
-      "title": "Advanced Excel & MIS Reporting",
-      "semester": 1,
-      "topics": [
-        "Advanced Formulas",
-        "VLOOKUP, HLOOKUP",
-        "XLOOKUP",
-        "IF, Nested IF",
-        "Pivot Tables",
-        "Dashboards",
-        "Data Validation",
-        "Conditional Formatting",
-        "MIS Reports",
-        "Sales & Finance Dashboard",
-        "MIS Reporting System"
-      ]
-    },
-    {
-      "module": 5,
-      "title": "Business Taxation",
-      "semester": 1,
-      "topics": [
-        "GST Concepts",
-        "GST Registration",
-        "GST Returns",
-        "Input Tax Credit",
-        "TDS Basics",
-        "Income Tax Fundamentals",
-        "E-Invoicing",
-        "GST Return Preparation",
-        "Tax Calculation Exercises"
-      ]
-    },
-    {
-      "module": 6,
-      "title": "ERP & SAP Fundamentals",
-      "semester": 2,
-      "topics": [
-        "Introduction to ERP",
-        "SAP Overview",
-        "SAP Navigation",
-        "SAP Architecture",
-        "SAP Modules Overview",
-        "Business Processes in SAP",
-        "SAP System Navigation",
-        "Enterprise Structure Setup"
-      ]
-    },
-    {
-      "module": 7,
-      "title": "SAP FI (Financial Accounting)",
-      "semester": 2,
-      "topics": [
-        "Enterprise Structure",
-        "Company & Company Code",
-        "Chart of Accounts",
-        "Fiscal Year Variants",
-        "Posting Periods",
-        "General Ledger Accounting",
-        "Accounts Payable (AP)",
-        "Accounts Receivable (AR)",
-        "Bank Accounting",
-        "Asset Accounting",
-        "Financial Statements",
-        "Month-End Closing Activities",
-        "SAP FI Configuration for a Manufacturing Company"
-      ]
-    },
-    {
-      "module": 8,
-      "title": "SAP CO (Controlling)",
-      "semester": 2,
-      "topics": [
-        "Cost Element Accounting",
-        "Cost Center Accounting",
-        "Profit Center Accounting",
-        "Internal Orders",
-        "Product Costing",
-        "Profitability Analysis (COPA)",
-        "Budgeting & Planning",
-        "Cost Allocation",
-        "Cost Center & Profit Center Implementation"
-      ]
-    },
-    {
-      "module": 9,
-      "title": "SAP Integration",
-      "semester": 2,
-      "topics": [
-        "FI-MM Integration",
-        "FI-SD Integration",
-        "Procure-to-Pay Cycle (P2P)",
-        "Order-to-Cash Cycle (O2C)",
-        "Financial Reporting Integration",
-        "Real-Time Business Process Simulation"
-      ]
-    },
-    {
-      "module": 10,
-      "title": "Financial Analysis & Reporting",
-      "semester": 2,
-      "topics": [
-        "Ratio Analysis",
-        "Cash Flow Statement",
-        "Fund Flow Statement",
-        "Budgeting",
-        "Financial Planning",
-        "Variance Analysis",
-        "Cost Analysis",
-        "Financial Performance Analysis of a Company"
-      ]
-    },
-    {
-      "module": 11,
-      "title": "Payroll & Compliance",
-      "semester": 2,
-      "topics": [
-        "Salary Structure",
-        "PF & ESI",
-        "Professional Tax",
-        "Payroll Processing",
-        "Labour Compliance",
-        "Employee Payroll Processing"
-      ]
-    },
-    {
-      "module": 12,
-      "title": "Soft Skills & Interview Preparation",
-      "semester": 2,
-      "topics": [
-        "Communication Skills",
-        "Business Email Writing",
-        "Resume Building",
-        "SAP FICO Interview Questions",
-        "Mock Interviews",
-        "Corporate Etiquette"
-      ]
-    }
-  ],
-  "liveProjects": [
-    {
-      "project": 1,
-      "title": "Complete Accounting Management System",
-      "topics": [
-        "Journal Entries",
-        "Ledger Posting",
-        "GST Accounting",
-        "Financial Statements"
-      ]
-    },
-    {
-      "project": 2,
-      "title": "Tally Prime GST Implementation",
-      "topics": [
-        "Company Setup",
-        "Inventory Management",
-        "GST Compliance",
-        "Reports Generation"
-      ]
-    },
-    {
-      "project": 3,
-      "title": "SAP FI End-to-End Implementation",
-      "topics": [
-        "Enterprise Structure",
-        "GL, AP, AR Configuration",
-        "Asset Accounting",
-        "Financial Reporting"
-      ]
-    },
-    {
-      "project": 4,
-      "title": "SAP CO Costing Project",
-      "topics": [
-        "Cost Centers",
-        "Profit Centers",
-        "Internal Orders",
-        "Cost Allocation"
-      ]
-    },
-    {
-      "project": 5,
-      "title": "Finance Dashboard (Advanced Excel)",
-      "topics": [
-        "MIS Reports",
-        "KPI Dashboard",
-        "Budget vs Actual Analysis"
-      ]
-    },
-    {
-      "project": 6,
-      "title": "Procure-to-Pay & Order-to-Cash Cycle in SAP",
-      "topics": [
-        "Vendor Management",
-        "Customer Billing",
-        "Payment Processing",
-        "Financial Reconciliation"
-      ]
-    }
-  ],
-  "careerOpportunities": [
-    "Accounts Executive",
-    "Senior Accountant",
-    "GST Executive",
-    "Tax Consultant",
-    "MIS Executive",
-    "Finance Executive",
-    "SAP FICO End User",
-    "SAP FICO Support Consultant",
-    "SAP FICO Functional Consultant (Fresher Level)",
-    "Financial Analyst",
-    "ERP Accountant",
-    "Accounts Manager"
-  ],
-  "metaTitle": "Advanced Diploma in Accounting with SAP FICO | 1 Year Professional Diploma",
-  "metaDescription": "Learn Advanced Accounting, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO through practical training, live projects, and industrial exposure. Ideal for B.Com, M.Com, BBA, MBA students."
-}
+    "learningOutcomes": [
+      "Install and configure Magento",
+      "Manage products, categories, and customers",
+      "Customize Magento themes and CMS pages",
+      "Develop custom Magento modules",
+      "Integrate APIs and payment gateways",
+      "Optimize Magento stores for SEO and performance",
+      "Deploy and manage live Magento websites"
+    ],
+    "toolsCovered": [
+      "Magento Open Source",
+      "PHP",
+      "MySQL",
+      "Apache/Nginx",
+      "Composer",
+      "XAMPP/WAMP",
+      "Visual Studio Code",
+      "Git & GitHub",
+      "Postman",
+      "Google Analytics",
+      "Google Search Console"
+    ],
+    "careerOpportunities": [
+      "Magento Developer",
+      "Magento Administrator",
+      "E-Commerce Developer",
+      "PHP Developer",
+      "Web Developer",
+      "Magento Support Engineer",
+      "E-Commerce Store Manager"
+    ],
+    "certification": "Magento CMS Training Certificate",
+    "metaTitle": "Magento CMS Training Course | 2 Month Practical Training with Live Projects",
+    "metaDescription": "Learn Magento e-commerce platform, store setup, product management, theme customization, module development, API integration, and SEO through practical training with 4 mini projects and a major live project."
+  }
 ]
