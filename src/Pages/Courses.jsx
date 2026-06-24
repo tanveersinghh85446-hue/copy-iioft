@@ -103,7 +103,7 @@ function CourseCard({ course }) {
         <h3 className="text-base font-bold text-slate-900 leading-snug">
           {course.title}
         </h3>
-        <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">
+        <p className="text-xs text-black leading-relaxed line-clamp-2">
           {course.shortDescription}
         </p>
 

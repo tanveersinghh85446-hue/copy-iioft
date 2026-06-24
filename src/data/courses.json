@@ -1549,8 +1549,8 @@
     "fullDescription": "This Mobile App Development course uses React Native to teach you cross-platform iOS and Android development. You'll cover core UI components, state management with Redux, Firebase backend integration, push notifications, and publishing your app to both stores.",
     "duration": "4 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
-    "image": "DAMD.AVIF",
+    "category": "master",
+    "image": "MAD.AVIF",
     "features": [
       "React Native & Expo Framework",
       "Navigation, Forms & Responsive Layouts",
@@ -4802,6 +4802,7 @@
     "metaTitle": "CSS Course | Flexbox, Grid, Responsive Design & Bootstrap",
     "metaDescription": "Learn CSS in 1 month. Covers selectors, box model, Flexbox, CSS Grid, responsive design with media queries, transitions, animations, and Bootstrap. Build 3–4 real-world UI projects."
   },
+  
   {
     "id": "core-java",
     "slug": "core-java",
@@ -7468,6 +7469,7 @@
     "metaTitle": "Advanced Diploma in Mobile App Development | 1 Year Professional Diploma",
     "metaDescription": "Learn Android App Development, Flutter, Firebase, UI/UX Design, Backend Development, and App Deployment through practical training, 7 live projects, internship, and placement assistance."
   },
+
   {
     "id": "adsmft",
     "slug": "advanced-diploma-stock-market-financial-trading",
@@ -7787,6 +7789,7 @@
     "metaTitle": "Advanced Diploma in Stock Market & Financial Trading | 1 Year Professional Diploma",
     "metaDescription": "Learn Stock Market Trading, Technical & Fundamental Analysis, Derivatives, Portfolio Management, and Financial Modeling through live market training, 7 projects, and NISM certification guidance."
   },
+
   {
     "id": "adce",
     "slug": "advanced-diploma-civil-engineering",
@@ -8087,6 +8090,7 @@
     "metaTitle": "Advanced Diploma in Civil Engineering | 1 Year Professional Diploma",
     "metaDescription": "Learn Civil Engineering, AutoCAD, STAAD Pro, Revit BIM, Estimation & Costing, and Construction Project Management through practical training, 8 live projects, and site visits."
   },
+
   {
     "id": "react-js",
     "slug": "react-js-course",
@@ -8311,6 +8315,7 @@
     "metaTitle": "React JS Course | 1.5 Month Practical Training with Projects",
     "metaDescription": "Learn React JS, Hooks, Redux Toolkit, API Integration, and Deployment through practical training with 5 mini projects and 1 major E-Commerce project."
   },
+
   {
     "id": "laravel-php",
     "slug": "laravel-php-framework-training-course",
@@ -8621,6 +8626,7 @@
     "metaTitle": "Laravel PHP Framework Training Course | 2 Month Practical Training with Live Projects",
     "metaDescription": "Learn Laravel PHP, MVC Architecture, Eloquent ORM, REST API, Authentication, and Deployment through practical training with 4 mini projects and a major live project."
   },
+
   {
     "id": "magento-cms",
     "slug": "magento-cms-training-course",
