@@ -180,10 +180,10 @@ const featureIcons = [
 function NotFound() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4 text-center px-4">
-      <div className="text-5xl text-gray-400">
+      <div className="text-5xl text-black">
         <TbMoodEmpty />
       </div>
-      <h1 className="text-2xl font-bold text-gray-800">Course Not Found</h1>
+      <h1 className="text-2xl font-bold text-black">Course Not Found</h1>
       <p className="text-gray-500 text-sm max-w-xs">
         The course you're looking for doesn't exist or may have been moved.
       </p>
@@ -201,7 +201,7 @@ function SyllabusItem({ mod, theme, index }) {
   const [open, setOpen] = useState(index < 2);
 
   return (
-    <div className="border border-gray-200 rounded-xl overflow-hidden transition-all duration-200 hover:shadow-md">
+    <div className="border border-black rounded-xl overflow-hidden transition-all duration-200 hover:shadow-md">
       <button
         onClick={() => setOpen((o) => !o)}
         className="w-full flex items-center gap-3 px-4 py-3.5 bg-white hover:bg-gray-50 transition-colors text-left cursor-pointer border-0"
@@ -212,7 +212,7 @@ function SyllabusItem({ mod, theme, index }) {
         >
           {String(mod.module).padStart(2, "0")}
         </span>
-        <span className="font-semibold text-gray-800 text-sm flex-1">
+        <span className="font-semibold text-black text-sm flex-1">
           {mod.title}
         </span>
         <span
@@ -222,7 +222,7 @@ function SyllabusItem({ mod, theme, index }) {
         </span>
         {/* Chevron */}
         <svg
-          className={`w-4 h-4 text-gray-400 shrink-0 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+          className={`w-4 h-4 text-black shrink-0 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -376,8 +376,8 @@ export default function CourseDetail() {
         <div className="max-w-3xl mx-auto px-5 py-8 space-y-8">
           {/* Full Description */}
           {course.fullDescription && (
-            <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-              <p className="text-gray-700 leading-relaxed text-sm">
+            <div className="bg-white rounded-2xl border border-black p-6 shadow-sm">
+              <p className="text-black leading-relaxed font-semibold">
                 {course.fullDescription}
               </p>
             </div>
@@ -388,7 +388,7 @@ export default function CourseDetail() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <span className={`w-1 h-6 rounded-full ${theme.accent}`} />
-                <h2 className="text-lg font-bold text-gray-900">
+                <h2 className="text-lg font-bold text-black">
                   Course Features
                 </h2>
               </div>
@@ -397,14 +397,14 @@ export default function CourseDetail() {
                 {course.features.map((f, i) => (
                   <div
                     key={i}
-                    className="bg-white border border-gray-200 rounded-xl p-4 flex items-start gap-3 hover:shadow-md transition-shadow duration-200"
+                    className="bg-white border border-black rounded-xl p-4 flex items-start gap-3 hover:shadow-md transition-shadow duration-200"
                   >
                     <span
                       className={`w-9 h-9 rounded-lg flex items-center justify-center shrink-0 ${theme.featIconBg[i % theme.featIconBg.length]}`}
                     >
                       {featureIcons[i % featureIcons.length]}
                     </span>
-                    <span className="text-sm font-medium text-gray-800 leading-snug mt-1">
+                    <span className="text-sm font-medium text-black leading-snug mt-1">
                       {f}
                     </span>
                   </div>
@@ -418,10 +418,10 @@ export default function CourseDetail() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <span className={`w-1 h-6 rounded-full ${theme.accent}`} />
-                <h2 className="text-lg font-bold text-gray-900" id="syllabus">
+                <h2 className="text-lg font-bold text-black" id="syllabus">
                   What You Will Learn
                 </h2>
-                <span className="text-xs font-semibold text-gray-400 ml-auto">
+                <span className="text-xs font-semibold text-black ml-auto">
                   {course.syllabus.length} Modules
                 </span>
               </div>
