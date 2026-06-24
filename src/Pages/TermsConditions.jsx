@@ -140,7 +140,7 @@ export default function TermsConditions() {
                 Privacy Policy
               </Link>
 
-              <span className="text-blue-700 hidden sm:block">•</span>
+              <span className="text-white hidden sm:block">||</span>
 
               <Link
                 to="/TermsConditions"

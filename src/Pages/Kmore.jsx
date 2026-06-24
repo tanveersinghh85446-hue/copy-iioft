@@ -251,7 +251,7 @@ export default function Kmore() {
             </span>
             <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mt-2">
               Why Choose{" "}
-              <span className="text-yellow-500 font-serif italic">IIOFT?</span>
+              <span className="text-blue-500 font-serif italic">IIOFT?</span>
             </h2>
           </div>
 
@@ -396,7 +396,7 @@ export default function Kmore() {
                 Privacy Policy
               </Link>
 
-              <span className="text-blue-700 hidden sm:block">•</span>
+              <span className="text-white hidden sm:block">||</span>
 
               <Link
                 to="/TermsConditions"

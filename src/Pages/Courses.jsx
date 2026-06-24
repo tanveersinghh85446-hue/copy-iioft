@@ -369,7 +369,7 @@ export default function Courses() {
               >
                 Privacy Policy
               </Link>
-              <span className="text-blue-700 hidden sm:block">•</span>
+              <span className="text-white hidden sm:block">||</span>
               <Link
                 to="/TermsConditions"
                 className="text-blue-300 hover:text-white text-sm transition-all duration-300"
