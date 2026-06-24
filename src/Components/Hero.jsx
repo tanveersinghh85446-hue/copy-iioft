@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { RiRobot3Fill } from "react-icons/ri";
 
 import {
   FaFacebookF,
@@ -12,7 +13,6 @@ import {
   FaMapMarkerAlt,
   FaRegLightbulb,
   FaGlobe,
-  FaRobot,
   FaTimes,
   FaPaperPlane,
   FaUserCircle,
@@ -91,7 +91,7 @@ const LOGOS = [
 ];
 
 const PLACEMENT_LOGOS = [
-  "Google.WebP",
+  "Gogle.WebP",
   "Microsoft.WebP",
   "Aws.WebP",
   "Ibm.Webp",
@@ -675,11 +675,11 @@ function ChatBot() {
             whileTap={{ scale: 0.9 }}
             onClick={() => setIsOpen(true)}
             aria-label="Open chat assistant"
-            className="fixed bottom-6 right-6 z-50 bg-linear-to-r from-blue-600 to-blue-700 text-white p-4 rounded-full shadow-2xl hover:shadow-blue-500/50 transition-all duration-300"
+            className="fixed bottom-6 right-6 z-50 bg-linear-to-r from-blue-600 to-red-700 text-white p-4 rounded-full shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 animate-bounce"
           >
-            <FaRobot className="text-3xl" />
-            <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full animate-ping" />
-            <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full" />
+            <RiRobot3Fill className="text-3xl" />
+            <span className="absolute -top-1 -right-1 w-4 h-4 bg-blue-500 rounded-full animate-ping" />
+            <span className="absolute -top-1 -right-1 w-4 h-4 bg-white rounded-full" />
           </motion.button>
         )}
       </AnimatePresence>
@@ -699,7 +699,7 @@ function ChatBot() {
             <div className="bg-linear-to-r from-blue-600 to-blue-700 p-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="relative">
-                  <FaRobot className="text-3xl text-white" />
+                  <RiRobot3Fill className="text-3xl text-white" />
                   <span className="absolute bottom-0 right-0 w-3 h-3 bg-green-400 rounded-full border-2 border-white" />
                 </div>
                 <div>
@@ -736,7 +736,7 @@ function ChatBot() {
                       className={`${msg.sender === "bot" ? "bg-blue-100" : "bg-blue-600"} p-2 rounded-full h-8 w-8 flex items-center justify-center shrink-0`}
                     >
                       {msg.sender === "bot" ? (
-                        <FaRobot className="text-blue-600 text-sm" />
+                        <RiRobot3Fill className="text-blue-600 text-sm" />
                       ) : (
                         <FaUserCircle className="text-white text-sm" />
                       )}
@@ -780,7 +780,7 @@ function ChatBot() {
                   className="flex gap-2 items-end"
                 >
                   <div className="bg-blue-100 p-2 rounded-full h-8 w-8 flex items-center justify-center">
-                    <FaRobot className="text-blue-600 text-sm" />
+                    <RiRobot3Fill className="text-blue-600 text-sm" />
                   </div>
                   <div className="bg-white p-3 rounded-tr-2xl rounded-br-2xl rounded-bl-sm shadow-md">
                     <div className="flex gap-1">
@@ -1052,7 +1052,7 @@ export default function Hero() {
         </motion.h2>
       </div>
       <div className="py-8 md:py-16 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
           {PROS.map((item, i) => (
             <motion.div
               key={i}
@@ -1110,7 +1110,7 @@ export default function Hero() {
           <motion.div
             className="flex gap-8"
             animate={{ x: ["0%", "-100%"] }}
-            transition={{ repeat: Infinity, duration: 18, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
           >
             {[
               ...PLACEMENT_LOGOS.slice(0, 10),
@@ -1133,7 +1133,7 @@ export default function Hero() {
           <motion.div
             className="flex gap-8"
             animate={{ x: ["-100%", "0%"] }}
-            transition={{ repeat: Infinity, duration: 18, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 8, ease: "linear" }}
           >
             {[...PLACEMENT_LOGOS.slice(10), ...PLACEMENT_LOGOS.slice(10)].map(
               (logo, i) => (
