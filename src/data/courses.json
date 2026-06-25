@@ -8320,663 +8320,760 @@
     "id": "laravel-php",
     "slug": "laravel-php-framework-training-course",
     "title": "Laravel PHP Framework Training Course",
-    "shortDescription": "Master Laravel PHP framework through practical training covering MVC architecture, Eloquent ORM, REST API development, authentication, and deployment with mini projects and a major live project.",
-    "fullDescription": "Laravel PHP Framework Training Course is a 2-month intensive program designed for learners with basic knowledge of PHP, HTML, CSS, JavaScript, and MySQL. The course covers Laravel Fundamentals, Routing, Controllers, Blade Templates, Database Management, Eloquent ORM, Authentication, Middleware, API Development, Storage, Email Notifications, Queues, and Deployment. Students gain hands-on experience through 120 hours of theory, practical training, 4 mini projects, and a major Online Course Management System project.",
+    "shortDescription": "Master Laravel PHP framework through practical training covering MVC architecture, Eloquent ORM, REST API development, authentication, and deployment.",
+    "fullDescription": "This Laravel PHP framework course covers MVC architecture, Routing, Controllers, Blade Templates, Database Management, Eloquent ORM, Authentication, Middleware, API Development, Storage, Email Notifications, Queues, and Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major Online Course Management System project.",
     "duration": "2 Months (8 Weeks)",
     "price": "Contact for Pricing",
     "category": "master",
     "image": "LPFTC.AVIF",
-    "eligibility": "Basic Knowledge of PHP, HTML, CSS, JavaScript, and MySQL",
-    "courseType": "Theory + Practical + Live Projects",
-    "trainingHours": {
-      "theory": "40 Hours",
-      "practical": "50 Hours",
-      "projects": "20 Hours",
-      "deploymentAndAssessment": "10 Hours",
-      "total": "120 Hours"
-    },
     "features": [
-      "Laravel Overview – MVC Architecture, Installation, Artisan Commands",
+      "Laravel MVC Architecture & Installation",
       "Routing, Controllers & Blade Templates",
-      "Database Management – Migrations, Seeding, Query Builder",
-      "Eloquent ORM – Models, CRUD, Relationships",
+      "Database Management with Eloquent ORM",
       "Form Handling, Validation & File Uploads",
-      "Authentication – Login, Registration, Roles & Permissions",
+      "Authentication & User Roles Management",
       "Middleware & Session Management",
       "RESTful API Development with Sanctum",
-      "Laravel Storage, Email & Notifications",
+      "Email & Notifications System",
       "Queues & Task Scheduling",
-      "Project Structure, Security & Performance Best Practices",
-      "Deployment – cPanel & VPS",
-      "4 Mini Projects + 1 Major Live Project"
+      "Deployment on cPanel & VPS",
+      "4 Mini Projects + Major Live Project"
     ],
     "syllabus": [
       {
-        "month": 1,
-        "title": "Laravel Fundamentals",
-        "weeks": [
-          {
-            "week": 1,
-            "module": 1,
-            "title": "Laravel Overview",
-            "topics": [
-              "Introduction to Laravel Framework",
-              "MVC Architecture",
-              "Features of Laravel",
-              "Laravel Installation",
-              "Composer Installation",
-              "Laravel Project Structure",
-              "Environment Configuration (.env)",
-              "Artisan Commands"
-            ],
-            "practicals": [
-              "Install Laravel",
-              "Create First Laravel Application"
-            ]
-          },
-          {
-            "week": 2,
-            "modules": [
-              {
-                "module": 2,
-                "title": "Laravel Routing",
-                "topics": [
-                  "Basic Routing",
-                  "Route Parameters",
-                  "Named Routes",
-                  "Route Groups",
-                  "Middleware Basics"
-                ]
-              },
-              {
-                "module": 3,
-                "title": "Controllers",
-                "topics": [
-                  "Creating Controllers",
-                  "Resource Controllers",
-                  "Passing Data to Views"
-                ]
-              },
-              {
-                "module": 4,
-                "title": "Blade Templates",
-                "topics": [
-                  "Blade Syntax",
-                  "Layouts & Components",
-                  "Template Inheritance",
-                  "Forms & Validation"
-                ]
-              }
-            ],
-            "practicals": ["Student Registration Form"]
-          },
-          {
-            "week": 3,
-            "modules": [
-              {
-                "module": 5,
-                "title": "Database Management",
-                "topics": [
-                  "Database Configuration",
-                  "Migrations",
-                  "Database Seeding",
-                  "Query Builder"
-                ]
-              },
-              {
-                "module": 6,
-                "title": "Eloquent ORM",
-                "topics": [
-                  "Models",
-                  "CRUD Operations",
-                  "One-to-One Relationships",
-                  "One-to-Many Relationships",
-                  "Many-to-Many Relationships"
-                ]
-              }
-            ],
-            "practicals": ["Employee Management System"]
-          },
-          {
-            "week": 4,
-            "modules": [
-              {
-                "module": 7,
-                "title": "Form Handling",
-                "topics": [
-                  "Request Handling",
-                  "Validation Rules",
-                  "Custom Validation",
-                  "File Uploads"
-                ]
-              },
-              {
-                "module": 8,
-                "title": "Authentication",
-                "topics": [
-                  "Laravel Authentication",
-                  "Login & Registration",
-                  "Password Reset",
-                  "User Roles & Permissions"
-                ]
-              }
-            ],
-            "practicals": ["User Authentication System"]
-          }
+        "module": 1,
+        "title": "Laravel Overview & Setup",
+        "topics": [
+          "MVC Architecture",
+          "Installation",
+          "Artisan Commands",
+          "Project Structure"
         ]
       },
       {
-        "month": 2,
-        "title": "Advanced Laravel Development",
-        "weeks": [
-          {
-            "week": 5,
-            "modules": [
-              {
-                "module": 9,
-                "title": "Middleware",
-                "topics": [
-                  "Creating Middleware",
-                  "Route Protection",
-                  "Custom Middleware"
-                ]
-              },
-              {
-                "module": 10,
-                "title": "Sessions & Cookies",
-                "topics": [
-                  "Session Handling",
-                  "Flash Messages",
-                  "Cookie Management"
-                ]
-              }
-            ],
-            "practicals": ["Admin Dashboard Security"]
-          },
-          {
-            "week": 6,
-            "module": 11,
-            "title": "RESTful API Development",
-            "topics": [
-              "API Routes",
-              "API Controllers",
-              "JSON Responses",
-              "Resource Collections",
-              "API Authentication (Sanctum)"
-            ],
-            "practicals": ["Student Management REST API"]
-          },
-          {
-            "week": 7,
-            "modules": [
-              {
-                "module": 12,
-                "title": "Laravel Storage",
-                "topics": ["File Storage", "Image Upload", "Storage Drivers"]
-              },
-              {
-                "module": 13,
-                "title": "Email & Notifications",
-                "topics": [
-                  "Sending Emails",
-                  "Mail Configuration",
-                  "Notifications"
-                ]
-              },
-              {
-                "module": 14,
-                "title": "Queues & Scheduling",
-                "topics": ["Laravel Queues", "Task Scheduling"]
-              }
-            ],
-            "practicals": ["Email Notification System"]
-          },
-          {
-            "week": 8,
-            "modules": [
-              {
-                "module": 15,
-                "title": "Project Structure & Best Practices",
-                "topics": [
-                  "Code Organization",
-                  "Reusable Components",
-                  "Security Best Practices",
-                  "Performance Optimization"
-                ]
-              },
-              {
-                "module": 16,
-                "title": "Deployment",
-                "topics": [
-                  "Git & GitHub",
-                  "Hosting Setup",
-                  "cPanel Deployment",
-                  "VPS Deployment Basics"
-                ]
-              }
-            ],
-            "practicals": ["Deploy Laravel Application"]
-          }
+        "module": 2,
+        "title": "Routing & Controllers",
+        "topics": [
+          "Basic Routing",
+          "Route Parameters",
+          "Resource Controllers",
+          "Middleware Basics"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Blade Templates & Views",
+        "topics": [
+          "Blade Syntax",
+          "Layouts",
+          "Template Inheritance",
+          "Forms & Validation"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Database & Migrations",
+        "topics": [
+          "Database Configuration",
+          "Migrations",
+          "Seeding",
+          "Query Builder"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Eloquent ORM",
+        "topics": [
+          "Models",
+          "CRUD Operations",
+          "Relationships",
+          "Query Optimization"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Authentication & Security",
+        "topics": [
+          "Login & Registration",
+          "Password Reset",
+          "User Roles",
+          "Permissions"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "RESTful API Development",
+        "topics": [
+          "API Routes",
+          "JSON Responses",
+          "API Authentication",
+          "Sanctum"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Advanced Features & Deployment",
+        "topics": [
+          "Email & Notifications",
+          "File Storage",
+          "Task Scheduling",
+          "Deployment"
         ]
       }
     ],
     "miniProjects": [
-      {
-        "project": 1,
-        "title": "Student Registration System",
-        "topics": ["Registration Form", "Validation", "Database Integration"]
-      },
-      {
-        "project": 2,
-        "title": "Employee Management System",
-        "topics": ["CRUD Operations", "Search & Filter"]
-      },
-      {
-        "project": 3,
-        "title": "User Authentication System",
-        "topics": ["Login", "Registration", "Role Management"]
-      },
-      {
-        "project": 4,
-        "title": "REST API Project",
-        "topics": ["API Development", "CRUD Operations", "Authentication"]
-      }
+      "Student Registration System",
+      "Employee Management System",
+      "User Authentication System",
+      "REST API Project"
     ],
-    "majorProject": {
-      "title": "Online Course Management System",
-      "topics": [
-        "Student Registration",
-        "Course Management",
-        "User Authentication",
-        "Admin Dashboard",
-        "File Upload System",
-        "Email Notifications",
-        "Reports & Analytics"
-      ]
-    },
+    "majorProject": "Online Course Management System",
     "learningOutcomes": [
       "Develop dynamic web applications using Laravel",
       "Build secure authentication systems",
       "Create RESTful APIs",
-      "Manage databases using Eloquent ORM",
-      "Deploy Laravel applications on live servers",
-      "Work on real-world Laravel projects"
+      "Deploy Laravel applications on live servers"
     ],
     "toolsCovered": [
       "Laravel 12.x",
       "PHP 8.x",
       "MySQL",
       "Composer",
-      "XAMPP / WAMP",
-      "Visual Studio Code",
       "Git & GitHub",
       "Postman",
-      "Bootstrap 5",
-      "Tailwind CSS (Basic)"
+      "Bootstrap 5"
     ],
     "careerOpportunities": [
       "Laravel Developer",
       "PHP Developer",
       "Backend Developer",
-      "Full Stack Developer",
-      "Web Application Developer",
-      "Software Engineer (PHP)"
+      "Full Stack Developer"
     ],
     "certification": "Laravel PHP Framework Training Certificate",
     "metaTitle": "Laravel PHP Framework Training Course | 2 Month Practical Training with Live Projects",
     "metaDescription": "Learn Laravel PHP, MVC Architecture, Eloquent ORM, REST API, Authentication, and Deployment through practical training with 4 mini projects and a major live project."
   },
-
   {
     "id": "magento-cms",
     "slug": "magento-cms-training-course",
     "title": "Magento CMS Training Course",
-    "shortDescription": "Master Magento e-commerce platform through practical training covering store setup, product management, theme customization, module development, API integration, SEO, and deployment.",
-    "fullDescription": "Magento CMS Training Course is a 2-month intensive program designed for learners with basic knowledge of HTML, CSS, PHP, MySQL, and web development. The course covers Magento Fundamentals, Store Setup, Catalog Management, Theme & CMS Management, Customer & Order Management, Extension & Module Development, Database & API Integration, SEO & Marketing, Security & Performance, and Deployment. Students gain hands-on experience through 120 hours of theory, practical training, 4 mini projects, and a major Complete E-Commerce Store Development project.",
+    "shortDescription": "Master Magento e-commerce platform through practical training covering store setup, product management, theme customization, module development, and API integration.",
+    "fullDescription": "This Magento CMS course covers Store Setup, Catalog Management, Theme Customization, Customer & Order Management, Extension Development, API Integration, SEO & Marketing, Security & Performance, and Live Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major Complete E-Commerce Store Development project.",
     "duration": "2 Months (8 Weeks)",
     "price": "Contact for Pricing",
     "category": "master",
     "image": "MCTC.AVIF",
-    "eligibility": "Basic Knowledge of HTML, CSS, PHP, MySQL, and Web Development",
-    "courseType": "Theory + Practical + Live Projects",
-    "trainingHours": {
-      "theory": "40 Hours",
-      "practical": "50 Hours",
-      "projects": "20 Hours",
-      "deploymentAndAssessment": "10 Hours",
-      "total": "120 Hours"
-    },
     "features": [
-      "Magento Overview – Architecture, Editions, Admin Panel",
-      "Store Setup – Currency, Tax, Shipping, Payment Methods",
-      "Product Management – Simple, Configurable, Grouped, Virtual, Downloadable",
-      "CMS Management – Pages, Static Blocks, Widgets, Homepage",
-      "Theme Customization – Layout XML, Templates, CSS & LESS",
-      "Customer & Order Management – Checkout, Invoice, Shipment",
-      "Extension & Module Development with Dependency Injection",
-      "Database & API Integration – REST, GraphQL, Payment Gateway",
-      "Magento SEO – URL Rewriting, Meta Tags, Sitemap",
-      "Marketing Features – Promotions, Coupons, Newsletter",
-      "Security, Cache & Performance Optimization",
-      "Live Server Deployment – cPanel, SSL Setup",
-      "4 Mini Projects + 1 Major Live Project"
+      "Magento Architecture & Admin Panel",
+      "Store Configuration & Payment Methods",
+      "Product Management — Simple, Configurable, Virtual, Downloadable",
+      "CMS Management — Pages, Blocks, Widgets",
+      "Theme Customization — Layout XML, Templates, CSS",
+      "Customer & Order Management",
+      "Custom Module Development with Dependency Injection",
+      "REST & GraphQL API Integration",
+      "SEO Optimization & URL Rewriting",
+      "Marketing Features — Promotions & Coupons",
+      "Security, Cache & Performance",
+      "Live Server Deployment",
+      "4 Mini Projects + Major Live Project"
     ],
     "syllabus": [
       {
-        "month": 1,
-        "title": "Magento Fundamentals",
-        "weeks": [
-          {
-            "week": 1,
-            "module": 1,
-            "title": "Magento Overview",
-            "topics": [
-              "Introduction to E-Commerce",
-              "Introduction to Magento Open Source",
-              "Features of Magento",
-              "Magento Architecture",
-              "Magento Editions",
-              "Installation & Configuration",
-              "Server Requirements",
-              "Magento Admin Panel Overview"
-            ],
-            "practicals": [
-              "Install Magento",
-              "Configure Development Environment"
-            ]
-          },
-          {
-            "week": 2,
-            "modules": [
-              {
-                "module": 2,
-                "title": "Store Configuration",
-                "topics": [
-                  "Store Settings",
-                  "Currency Configuration",
-                  "Tax Settings",
-                  "Shipping Settings",
-                  "Payment Methods"
-                ]
-              },
-              {
-                "module": 3,
-                "title": "Product Management",
-                "topics": [
-                  "Simple Products",
-                  "Configurable Products",
-                  "Grouped Products",
-                  "Virtual Products",
-                  "Downloadable Products",
-                  "Product Attributes",
-                  "Attribute Sets",
-                  "Product Categories"
-                ]
-              }
-            ],
-            "practicals": ["Create and Manage Product Catalog"]
-          },
-          {
-            "week": 3,
-            "modules": [
-              {
-                "module": 4,
-                "title": "CMS Management",
-                "topics": [
-                  "CMS Pages",
-                  "Static Blocks",
-                  "Widgets",
-                  "Homepage Customization",
-                  "Content Management"
-                ]
-              },
-              {
-                "module": 5,
-                "title": "Theme Customization",
-                "topics": [
-                  "Magento Theme Structure",
-                  "Layout XML",
-                  "Templates",
-                  "CSS & LESS",
-                  "Responsive Design"
-                ]
-              }
-            ],
-            "practicals": ["Create Custom CMS Pages", "Customize Magento Theme"]
-          },
-          {
-            "week": 4,
-            "modules": [
-              {
-                "module": 6,
-                "title": "Customer Management",
-                "topics": [
-                  "Customer Groups",
-                  "Customer Accounts",
-                  "Customer Dashboard"
-                ]
-              },
-              {
-                "module": 7,
-                "title": "Order Processing",
-                "topics": [
-                  "Shopping Cart Management",
-                  "Checkout Process",
-                  "Order Creation",
-                  "Invoice Generation",
-                  "Shipment Management",
-                  "Credit Memos"
-                ]
-              }
-            ],
-            "practicals": ["Complete Order Lifecycle Management"]
-          }
+        "module": 1,
+        "title": "Magento Overview & Installation",
+        "topics": [
+          "E-Commerce Fundamentals",
+          "Magento Architecture",
+          "Installation",
+          "Admin Panel"
         ]
       },
       {
-        "month": 2,
-        "title": "Advanced Magento Development",
-        "weeks": [
-          {
-            "week": 5,
-            "modules": [
-              {
-                "module": 8,
-                "title": "Extension Management",
-                "topics": [
-                  "Installing Extensions",
-                  "Managing Extensions",
-                  "Marketplace Integration"
-                ]
-              },
-              {
-                "module": 9,
-                "title": "Module Development",
-                "topics": [
-                  "Magento Module Structure",
-                  "Controllers",
-                  "Models",
-                  "Views",
-                  "Dependency Injection"
-                ]
-              }
-            ],
-            "practicals": ["Create Custom Magento Module"]
-          },
-          {
-            "week": 6,
-            "modules": [
-              {
-                "module": 10,
-                "title": "Magento Database",
-                "topics": [
-                  "Database Structure",
-                  "EAV Model",
-                  "Database Tables",
-                  "Data Management"
-                ]
-              },
-              {
-                "module": 11,
-                "title": "API Integration",
-                "topics": [
-                  "REST APIs",
-                  "GraphQL Basics",
-                  "Third-Party Integrations",
-                  "Payment Gateway Integration"
-                ]
-              }
-            ],
-            "practicals": ["API Integration Project"]
-          },
-          {
-            "week": 7,
-            "modules": [
-              {
-                "module": 12,
-                "title": "Magento SEO",
-                "topics": [
-                  "URL Rewriting",
-                  "Meta Tags",
-                  "Sitemap Generation",
-                  "Product SEO",
-                  "Category SEO"
-                ]
-              },
-              {
-                "module": 13,
-                "title": "Marketing Features",
-                "topics": [
-                  "Promotions",
-                  "Coupons",
-                  "Discounts",
-                  "Newsletter Management",
-                  "Customer Segmentation"
-                ]
-              },
-              {
-                "module": 14,
-                "title": "Security & Performance",
-                "topics": [
-                  "User Roles & Permissions",
-                  "Backup & Restore",
-                  "Cache Management",
-                  "Performance Optimization"
-                ]
-              }
-            ],
-            "practicals": ["SEO Optimization of Online Store"]
-          },
-          {
-            "week": 8,
-            "modules": [
-              {
-                "module": 15,
-                "title": "Deployment & Maintenance",
-                "topics": [
-                  "Live Server Deployment",
-                  "Hosting Configuration",
-                  "Domain Mapping",
-                  "SSL Setup",
-                  "Website Maintenance"
-                ]
-              },
-              {
-                "module": 16,
-                "title": "Project Development",
-                "topics": [
-                  "Project Planning",
-                  "E-Commerce Store Development",
-                  "Testing & Debugging",
-                  "Final Deployment"
-                ]
-              }
-            ],
-            "practicals": ["Deploy Magento E-Commerce Website"]
-          }
-        ]
-      }
-    ],
-    "miniProjects": [
-      {
-        "project": 1,
-        "title": "Product Catalog Management System",
+        "module": 2,
+        "title": "Store Configuration",
         "topics": [
+          "Currency & Tax Settings",
+          "Shipping & Payment Methods",
+          "Store Settings"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Product Management",
+        "topics": [
+          "Product Types",
           "Categories",
-          "Products",
           "Attributes",
           "Inventory Management"
         ]
       },
       {
-        "project": 2,
-        "title": "Magento CMS Website",
+        "module": 4,
+        "title": "CMS & Theme Customization",
         "topics": [
-          "Homepage Design",
           "CMS Pages",
-          "Widgets",
-          "Content Management"
+          "Static Blocks",
+          "Theme Structure",
+          "Layout XML & Templates"
         ]
       },
       {
-        "project": 3,
-        "title": "Customer & Order Management System",
-        "topics": ["Customer Registration", "Shopping Cart", "Checkout Process"]
+        "module": 5,
+        "title": "Customer & Order Processing",
+        "topics": [
+          "Customer Management",
+          "Shopping Cart",
+          "Checkout",
+          "Invoice & Shipment"
+        ]
       },
       {
-        "project": 4,
-        "title": "Custom Magento Module",
-        "topics": ["Custom Functionality", "Admin Configuration"]
+        "module": 6,
+        "title": "Module Development",
+        "topics": [
+          "Module Structure",
+          "Controllers & Models",
+          "Dependency Injection"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "API & Database Integration",
+        "topics": [
+          "REST APIs",
+          "GraphQL",
+          "EAV Model",
+          "Payment Gateway Integration"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "SEO, Marketing & Deployment",
+        "topics": [
+          "SEO Optimization",
+          "Promotions & Discounts",
+          "Performance",
+          "Deployment"
+        ]
       }
     ],
-    "majorProject": {
-      "title": "Complete E-Commerce Store Development",
-      "topics": [
-        "Product Catalog",
-        "Shopping Cart",
-        "Customer Registration",
-        "Wishlist",
-        "Checkout System",
-        "Payment Gateway Integration",
-        "Order Management",
-        "SEO Optimization",
-        "Promotions & Discounts",
-        "Responsive Design"
-      ]
-    },
+    "miniProjects": [
+      "Product Catalog Management System",
+      "Magento CMS Website",
+      "Customer & Order Management System",
+      "Custom Magento Module"
+    ],
+    "majorProject": "Complete E-Commerce Store Development",
     "learningOutcomes": [
       "Install and configure Magento",
       "Manage products, categories, and customers",
-      "Customize Magento themes and CMS pages",
-      "Develop custom Magento modules",
+      "Customize themes and CMS pages",
+      "Develop custom modules",
       "Integrate APIs and payment gateways",
-      "Optimize Magento stores for SEO and performance",
       "Deploy and manage live Magento websites"
     ],
     "toolsCovered": [
       "Magento Open Source",
       "PHP",
       "MySQL",
-      "Apache/Nginx",
       "Composer",
-      "XAMPP/WAMP",
-      "Visual Studio Code",
       "Git & GitHub",
       "Postman",
-      "Google Analytics",
-      "Google Search Console"
+      "Google Analytics"
     ],
     "careerOpportunities": [
       "Magento Developer",
-      "Magento Administrator",
       "E-Commerce Developer",
       "PHP Developer",
-      "Web Developer",
-      "Magento Support Engineer",
+      "Magento Administrator",
       "E-Commerce Store Manager"
     ],
     "certification": "Magento CMS Training Certificate",
     "metaTitle": "Magento CMS Training Course | 2 Month Practical Training with Live Projects",
-    "metaDescription": "Learn Magento e-commerce platform, store setup, product management, theme customization, module development, API integration, and SEO through practical training with 4 mini projects and a major live project."
+    "metaDescription": "Learn Magento e-commerce, store setup, product management, theme customization, module development, and API integration through practical training with live projects."
+  },
+  {
+    "id": "wordpress-cms",
+    "slug": "wordpress-cms-training-course",
+    "title": "WordPress CMS Training Course",
+    "shortDescription": "Master WordPress website development through practical training covering content management, theme customization, WooCommerce, SEO optimization, and live deployment.",
+    "fullDescription": "This WordPress CMS course covers Website Creation, Theme Management, Plugin Development, WooCommerce E-Commerce, SEO & Digital Marketing, Website Security & Performance, and Live Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major E-Commerce Website Development project.",
+    "duration": "2 Months (8 Weeks)",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "WPCMSTC.AVIF",
+    "features": [
+      "WordPress Installation & Dashboard",
+      "Content Management — Posts, Pages, Categories, Tags",
+      "Website Structure — Navigation, Headers, Footers, Widgets",
+      "Theme Management & Customization",
+      "Elementor Page Builder — Drag & Drop Design",
+      "Plugin Management & Configuration",
+      "Forms & Lead Generation",
+      "WooCommerce E-Commerce Setup",
+      "Product Management & Payment Gateways",
+      "WordPress SEO — Yoast & Rank Math",
+      "Analytics & Performance Optimization",
+      "Website Security & Backup",
+      "Live Server Deployment",
+      "4 Mini Projects + Major Live Project"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "WordPress Overview & Installation",
+        "topics": [
+          "CMS Fundamentals",
+          "WordPress.com vs .org",
+          "Installation",
+          "Dashboard Setup"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Content Management",
+        "topics": [
+          "Posts & Pages",
+          "Categories & Tags",
+          "Media Library",
+          "Comments"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Website Structure & Navigation",
+        "topics": [
+          "Navigation Menus",
+          "Headers & Footers",
+          "Widgets",
+          "Customizer Settings"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Theme Management & Elementor",
+        "topics": [
+          "Installing Themes",
+          "Elementor Page Builder",
+          "Responsive Design",
+          "Landing Pages"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Plugin Management & Forms",
+        "topics": [
+          "Plugin Installation",
+          "Security Plugins",
+          "Contact Forms",
+          "Lead Capture"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "WooCommerce E-Commerce",
+        "topics": [
+          "Product Management",
+          "Shopping Cart",
+          "Checkout Process",
+          "Payment Gateways"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "SEO, Analytics & Security",
+        "topics": [
+          "Yoast & Rank Math SEO",
+          "Google Analytics",
+          "Website Security",
+          "Performance"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Website Optimization & Deployment",
+        "topics": [
+          "Cache & Speed Optimization",
+          "Migration",
+          "Domain Mapping",
+          "Live Deployment"
+        ]
+      }
+    ],
+    "miniProjects": [
+      "Personal Portfolio Website",
+      "Business Website",
+      "Blog Website",
+      "School/Institute Website"
+    ],
+    "majorProject": "E-Commerce Website Development",
+    "learningOutcomes": [
+      "Create professional websites using WordPress",
+      "Design responsive websites with Elementor",
+      "Develop e-commerce websites with WooCommerce",
+      "Optimize websites for SEO",
+      "Manage security and performance",
+      "Deploy websites on live servers"
+    ],
+    "toolsCovered": [
+      "WordPress CMS",
+      "Elementor Pro",
+      "WooCommerce",
+      "Yoast SEO",
+      "Rank Math",
+      "Contact Form 7",
+      "Google Analytics",
+      "cPanel & FileZilla"
+    ],
+    "careerOpportunities": [
+      "WordPress Developer",
+      "Website Designer",
+      "CMS Administrator",
+      "Freelance Web Designer",
+      "WooCommerce Developer",
+      "Digital Marketing Specialist"
+    ],
+    "certification": "WordPress CMS Training Certificate with Live Website Development Project",
+    "metaTitle": "WordPress CMS Training Course | 2 Month Practical Training with Live Projects",
+    "metaDescription": "Learn WordPress website development, Elementor design, WooCommerce e-commerce, SEO optimization, and deployment through practical training with live projects."
+  },
+
+  {
+    "id": "aws-cloud",
+    "slug": "aws-cloud-computing",
+    "title": "AWS Cloud Computing Certification Training",
+    "shortDescription": "Master AWS core services, networking, security, serverless computing, and DevOps with hands-on labs and live projects.",
+    "fullDescription": "This AWS Cloud Computing course covers everything from cloud fundamentals and AWS core services to advanced topics like serverless architecture, DevOps pipelines, and security. Includes 40+ hours of practical labs, 4 mini projects, a major live project, and AWS Certified Cloud Practitioner exam preparation.",
+    "duration": "1.5 Months (90–100 Hours)",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "AWSCC.AVIF",
+    "features": [
+      "AWS Core Services — EC2, S3, EBS, EFS, RDS, DynamoDB",
+      "Networking — VPC, Subnets, Load Balancers, Route 53",
+      "Security — IAM, MFA, CloudWatch, CloudTrail",
+      "Serverless Computing — Lambda, API Gateway, Microservices",
+      "DevOps on AWS — CodePipeline, CodeBuild, CodeDeploy",
+      "AWS Certified Cloud Practitioner Exam Preparation"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Cloud Computing",
+        "topics": [
+          "Cloud Service Models (IaaS, PaaS, SaaS)",
+          "Public, Private & Hybrid Cloud",
+          "AWS Global Infrastructure, Regions & Availability Zones"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "AWS Fundamentals",
+        "topics": [
+          "AWS Account Creation & Management Console",
+          "AWS Free Tier, Billing & Pricing",
+          "AWS Shared Responsibility Model"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Compute Services",
+        "topics": [
+          "Amazon EC2, Instance Types & AMI",
+          "Security Groups & Elastic IP",
+          "Auto Scaling Basics"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Storage Services",
+        "topics": [
+          "Amazon S3 & Storage Classes",
+          "EBS (Elastic Block Store) & EFS (Elastic File System)",
+          "Backup & Snapshot Management"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "AWS Networking",
+        "topics": [
+          "Amazon VPC, Subnets & Route Tables",
+          "Internet Gateway & NAT Gateway",
+          "Network ACLs & Load Balancers"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Database Services",
+        "topics": [
+          "Amazon RDS & MySQL on AWS",
+          "Amazon DynamoDB",
+          "Database Backup & Recovery"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "AWS Security",
+        "topics": [
+          "IAM — Users, Groups & Roles",
+          "Multi-Factor Authentication (MFA)",
+          "Security Best Practices"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Monitoring & Logging",
+        "topics": [
+          "Amazon CloudWatch",
+          "AWS CloudTrail",
+          "Log Management & Resource Monitoring"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Serverless Computing",
+        "topics": [
+          "AWS Lambda & Event-Driven Architecture",
+          "API Gateway",
+          "Introduction to Microservices"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "DevOps on AWS",
+        "topics": ["CI/CD Concepts", "AWS CodePipeline, CodeBuild & CodeDeploy"]
+      },
+      {
+        "module": 11,
+        "title": "Application Deployment",
+        "topics": [
+          "Web Application Hosting & Route 53",
+          "SSL Certificate Setup",
+          "CloudFront CDN"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Certification Preparation",
+        "topics": [
+          "AWS Cloud Practitioner Exam Objectives",
+          "Practice Tests & Interview Questions",
+          "Real-World Case Studies"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "mini",
+        "title": "Static Website Hosting",
+        "description": "S3 Bucket Configuration & Website Deployment"
+      },
+      {
+        "type": "mini",
+        "title": "Cloud Storage Solution",
+        "description": "S3 & EBS Integration with Backup Management"
+      },
+      {
+        "type": "mini",
+        "title": "Secure AWS Infrastructure",
+        "description": "VPC Setup, IAM Configuration & Security Monitoring"
+      },
+      {
+        "type": "mini",
+        "title": "Serverless Web Application",
+        "description": "Lambda Functions & API Gateway Integration"
+      },
+      {
+        "type": "major",
+        "title": "Cloud-Based Web Application Deployment",
+        "description": "Full deployment using EC2, RDS, S3, VPC, Load Balancer, Auto Scaling, CloudWatch, Domain & SSL"
+      }
+    ],
+    "trainingHours": {
+      "theory": 30,
+      "practicalLabs": 40,
+      "projects": 15,
+      "certificationPrep": 10,
+      "total": "90–100 Hours"
+    },
+    "metaTitle": "AWS Cloud Computing Course | EC2, S3, VPC, Lambda & Cloud Practitioner Certification",
+    "metaDescription": "Master AWS Cloud Computing — EC2, S3, VPC, IAM, Lambda, RDS, DevOps & more. Hands-on labs, live projects, and AWS Certified Cloud Practitioner exam preparation."
+  },
+  {
+    "id": "azure-cloud",
+    "slug": "microsoft-azure-cloud-computing",
+    "title": "Microsoft Azure Cloud Certification Training",
+    "shortDescription": "Master Azure compute, storage, networking, security, serverless computing, and DevOps with hands-on labs and live projects.",
+    "fullDescription": "This Microsoft Azure Cloud Computing course covers everything from cloud fundamentals and Azure core services to advanced topics like serverless architecture, Azure DevOps, and infrastructure automation. Includes 40+ hours of practical labs, 4 mini projects, a major live project, and AZ-900 & AZ-104 certification preparation.",
+    "duration": "1.5 Months (90–100 Hours)",
+    "price": "Contact for Pricing",
+    "category": "master",
+    "image": "CCTMA.AVIF",
+    "features": [
+      "Azure Compute — Virtual Machines, App Services, AKS",
+      "Azure Storage — Blob, File, Queue & Disk Storage",
+      "Networking — VNet, NSG, Load Balancer, VPN Gateway",
+      "Identity & Security — Microsoft Entra ID, RBAC, MFA, Defender",
+      "Serverless — Azure Functions, Logic Apps, API Management",
+      "AZ-900 & AZ-104 Certification Exam Preparation"
+    ],
+    "syllabus": [
+      {
+        "module": 1,
+        "title": "Introduction to Cloud Computing",
+        "topics": [
+          "IaaS, PaaS, SaaS Models",
+          "Public, Private & Hybrid Cloud",
+          "Cloud Security Fundamentals & Cloud Adoption Framework"
+        ]
+      },
+      {
+        "module": 2,
+        "title": "Microsoft Azure Fundamentals",
+        "topics": [
+          "Azure Architecture, Regions & Availability Zones",
+          "Azure Portal & Resource Manager (ARM)",
+          "Azure Pricing & Cost Management"
+        ]
+      },
+      {
+        "module": 3,
+        "title": "Azure Compute Services",
+        "topics": [
+          "Azure Virtual Machines — Sizing & Configuration",
+          "Virtual Machine Scale Sets & App Services",
+          "Azure Container Instances & AKS Basics"
+        ]
+      },
+      {
+        "module": 4,
+        "title": "Azure Storage Services",
+        "topics": [
+          "Azure Storage Account — Blob, File & Queue Storage",
+          "Disk Storage",
+          "Data Backup & Recovery"
+        ]
+      },
+      {
+        "module": 5,
+        "title": "Azure Networking",
+        "topics": [
+          "Virtual Networks (VNet) & Subnets",
+          "Network Security Groups (NSG) & Load Balancer",
+          "VPN Gateway & Azure DNS"
+        ]
+      },
+      {
+        "module": 6,
+        "title": "Azure Database Services",
+        "topics": [
+          "Azure SQL Database & MySQL on Azure",
+          "Azure Cosmos DB",
+          "Database Backup, Restore & Migration"
+        ]
+      },
+      {
+        "module": 7,
+        "title": "Azure Identity Management",
+        "topics": [
+          "Microsoft Entra ID (Azure Active Directory)",
+          "Users, Groups & Role-Based Access Control (RBAC)",
+          "Multi-Factor Authentication (MFA)"
+        ]
+      },
+      {
+        "module": 8,
+        "title": "Azure Security & Monitoring",
+        "topics": [
+          "Azure Security Center & Microsoft Defender for Cloud",
+          "Azure Monitor & Log Analytics",
+          "Alerts & Notifications"
+        ]
+      },
+      {
+        "module": 9,
+        "title": "Serverless Computing",
+        "topics": [
+          "Azure Functions & Event Grid",
+          "Logic Apps",
+          "API Management"
+        ]
+      },
+      {
+        "module": 10,
+        "title": "DevOps & Automation",
+        "topics": [
+          "Azure DevOps & Azure Pipelines",
+          "ARM Templates & Infrastructure as Code (IaC)",
+          "Azure Automation"
+        ]
+      },
+      {
+        "module": 11,
+        "title": "Azure Deployment & Migration",
+        "topics": [
+          "Web App Deployment & Azure Migration Tools",
+          "Backup & Disaster Recovery",
+          "Business Continuity Planning"
+        ]
+      },
+      {
+        "module": 12,
+        "title": "Certification Preparation",
+        "topics": [
+          "Microsoft Azure Fundamentals (AZ-900)",
+          "Azure Administrator (AZ-104) Overview",
+          "Practice Tests, Mock Interviews & Industry Case Studies"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "type": "mini",
+        "title": "Azure Virtual Machine Deployment",
+        "description": "VM Creation, Security Configuration & Remote Access"
+      },
+      {
+        "type": "mini",
+        "title": "Cloud Storage Solution",
+        "description": "Blob Storage Setup, File Management & Backup Configuration"
+      },
+      {
+        "type": "mini",
+        "title": "Secure Azure Network",
+        "description": "VNet Design, NSG Configuration & Resource Protection"
+      },
+      {
+        "type": "mini",
+        "title": "Serverless Application",
+        "description": "Azure Functions & Event Trigger Integration"
+      },
+      {
+        "type": "major",
+        "title": "Enterprise Web Application Deployment on Azure",
+        "description": "Full deployment using Azure VMs, SQL Database, Blob Storage, VNet, Load Balancer, Monitoring, Backup & Security Implementation"
+      }
+    ],
+    "toolsCovered": [
+      "Microsoft Azure Portal",
+      "Azure CLI",
+      "Azure PowerShell",
+      "Azure DevOps",
+      "Visual Studio Code",
+      "Git & GitHub",
+      "Microsoft Entra ID",
+      "Azure Monitor",
+      "ARM Templates"
+    ],
+    "trainingHours": {
+      "theory": 30,
+      "practicalLabs": 40,
+      "projects": 15,
+      "certificationPrep": 10,
+      "total": "90–100 Hours"
+    },
+    "metaTitle": "Microsoft Azure Course | VM, Storage, VNet, Functions, DevOps & AZ-900 Certification",
+    "metaDescription": "Master Microsoft Azure — Virtual Machines, Storage, Networking, Entra ID, Azure Functions, DevOps & more. Hands-on labs, live projects, and AZ-900 certification preparation."
   }
 ]

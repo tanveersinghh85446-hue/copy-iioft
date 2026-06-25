@@ -58,7 +58,7 @@ const posts = [
     excerpt:
       "A trainer delivering a presentation during a professional training session, where participants learn through discussions, visual presentations, and practical work on laptops.",
     tag: "Professional Training",
-    img: "AB.WebP",
+    img: "AB.AVIF",
   },
   {
     id: 5,
