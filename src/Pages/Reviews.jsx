@@ -38,126 +38,132 @@ const TESTIMONIALS = [
       "Hyy I'm Bharti I completed my course from IIOFT / SAP FICO. The instructors are very experienced and they give personal attention to every student. I received a lot of help in preparing my portfolio.",
     Image: "/Bharti.AVIF",
   },
+
   {
     name: "Aditya",
-    course: "Advanced Finance & Accounting",
+    course: "Python with AI",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The trainers explained Python from basics to AI projects in a very practical way. I gained confidence to build real-world applications.",
     Image: "/Aadi.AVIF",
   },
   {
     name: "Khushi",
-    course: "Advanced Finance & Accounting",
+    course: "Data Analytics",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "I learned Excel, SQL and Power BI with hands-on projects. The practical sessions helped me understand data analysis much better.",
     Image: "/Khushi.AVIF",
   },
   {
     name: "Nidhi",
-    course: "Advanced Finance & Accounting",
+    course: "DCA",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "This course improved my computer skills completely. The faculty was supportive and every topic was explained with practical examples.",
     Image: "/Nidhi.AVIF",
   },
   {
     name: "Nisha",
-    course: "Advanced Finance & Accounting",
+    course: "MS Office",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "I became confident in Word, Excel and PowerPoint. The assignments were useful and easy to follow.",
     Image: "/Nisha.AVIF",
   },
   {
     name: "Piku",
-    course: "Advanced Finance & Accounting",
+    course: "Artificial Intelligence",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The AI concepts were taught in a simple way with live projects. It was a great learning experience.",
     Image: "/Piku.AVIF",
   },
   {
     name: "Prathibha",
-    course: "Advanced Finance & Accounting",
+    course: "SAP FICO",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The SAP FICO training was industry-focused and practical. It helped me understand financial processes in SAP.",
     Image: "/Prathibha.AVIF",
   },
-
   {
     name: "Aakash",
     course: "Advanced Finance & Accounting",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The accounting modules were detailed and practical. I can now manage GST, Tally and financial reports confidently.",
     Image: "/Aakash.AVIF",
   },
   {
     name: "Govind",
-    course: "Advanced Finance & Accounting",
+    course: "Digital Marketing",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "I learned SEO, Google Ads and social media marketing with live campaigns. The course exceeded my expectations.",
     Image: "/Govind.AVIF",
   },
   {
     name: "Lalit",
-    course: "Advanced Finance & Accounting",
+    course: "Full Stack Web Development",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The React and Node.js training was excellent. Building projects during the course improved my coding skills a lot.",
     Image: "/Lalit.AVIF",
   },
   {
     name: "Manish",
-    course: "Advanced Finance & Accounting",
+    course: "Graphic Designing",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The Photoshop and Illustrator sessions were very interactive. I created professional designs by the end of the course.",
     Image: "/Manish.AVIF",
   },
   {
     name: "Mohit",
-    course: "Advanced Finance & Accounting",
+    course: "Cyber Security",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The ethical hacking and security concepts were taught with practical demonstrations. It was a valuable experience.",
     Image: "/Mohit.AVIF",
   },
   {
     name: "Tarun",
-    course: "Advanced Finance & Accounting",
+    course: "Advanced Excel",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "Learning Pivot Tables, Dashboards and formulas made my office work much faster. Highly recommended.",
     Image: "/Tarun.AVIF",
   },
   {
     name: "Taruna",
-    course: "Advanced Finance & Accounting",
+    course: "Tally Prime with GST",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The trainer covered every accounting concept clearly. I now feel confident working with Tally in real businesses.",
     Image: "/Taruna.AVIF",
   },
-
   {
     name: "Kabir",
-    course: "Advanced Finance & Accounting",
+    course: "Machine Learning",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The projects and datasets used in the course made machine learning easy to understand. Great teaching methodology.",
     Image: "/Kabir.AVIF",
   },
   {
     name: "Ronak",
-    course: "Advanced Finance & Accounting",
+    course: "Java Programming",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The Java concepts were explained from basics to advanced level. Coding practice sessions were extremely helpful.",
     Image: "/Ronak.AVIF",
   },
   {
     name: "Shreya",
-    course: "Advanced Finance & Accounting",
+    course: "UI/UX Design",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "I learned Figma and modern UI principles through practical assignments. The course was well structured.",
     Image: "/Shreya.AVIF",
   },
   {
     name: "Yuvraj",
-    course: "Advanced Finance & Accounting",
+    course: "Business Analytics",
     review:
-      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+      "The curriculum covered Excel, Power BI and business reporting in depth. It prepared me for real-world analytics work.",
     Image: "/Yuvraj.AVIF",
+  },
+  {
+    name: "Riya",
+    course: "Cloud Computing",
+    review:
+      "The AWS and cloud fundamentals were explained with hands-on labs. I enjoyed every session and learned a lot.",
+    Image: "/Riya.AVIF",
   },
 ];
 
