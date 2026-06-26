@@ -29,7 +29,7 @@ const TESTIMONIALS = [
     course: "Web Development",
     review:
       "I took courses from many places, but I never got practical training like IIOFT. After learning from here, I started my own agency.",
-    Image: "/Student.AVIF",
+    Image: "/AbshishekA.AVIF",
   },
   {
     name: "Bharti",
@@ -39,12 +39,48 @@ const TESTIMONIALS = [
     Image: "/Bharti.AVIF",
   },
   {
-    name: "Student",
+    name: "Aditya",
     course: "Advanced Finance & Accounting",
     review:
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
-    Image: "/Student.AVIF",
+    Image: "/Aadi.AVIF",
   },
+    {
+    name: "Khushi",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Khushi.AVIF",
+  },
+   {
+    name: "Nidhi",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Nidhi.AVIF",
+  },
+   {
+    name: "Nisha",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Nisha.AVIF",
+  },
+   {
+    name: "Piku",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Piku.AVIF",
+  },
+   {
+    name: "Prathibha",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Prathibha.AVIF",
+  },
+  
 ];
 
 export default function Reviews() {

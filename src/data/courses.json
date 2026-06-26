@@ -491,7 +491,7 @@
     "fullDescription": "This comprehensive full-stack web development course takes you from complete beginner to building and deploying real-world web applications. You'll master frontend (HTML, CSS, JavaScript, React) and backend (Node.js, Express, MongoDB/MySQL) technologies, plus deployment, testing, and security best practices.",
     "duration": "8-12 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "master",
     "image": "FSWD.AVIF",
     "features": [
       "HTML5, CSS3, JavaScript & React.js",
@@ -1205,59 +1205,7 @@
     "metaDescription": "Master digital marketing — SEO, Google Ads, social media, email marketing & analytics. Run live campaigns and become job-ready in 4–6 months."
   },
 
-  {
-    "id": "id",
-    "slug": "interior-design-diploma",
-    "title": "Interior Design Diploma",
-    "shortDescription": "Diploma course in interior design covering space planning, color theory, 3D modeling, and CAD.",
-    "fullDescription": "This Interior Design Diploma teaches you the principles of design, space planning, material selection, furniture and lighting design, and 3D visualization using AutoCAD and SketchUp. You'll work on real residential and commercial design projects.",
-    "duration": "6-8 Months",
-    "price": "Contact for Pricing",
-    "category": "master",
-    "image": "IDD.AVIF",
-    "features": [
-      "Design Principles & Visual Communication",
-      "Space Planning for Residential & Commercial",
-      "Color Theory, Materials & Finishes",
-      "Furniture & Lighting Design",
-      "AutoCAD & SketchUp / 3ds Max",
-      "Portfolio Building & Presentations"
-    ],
-    "syllabus": [
-      {
-        "module": 1,
-        "title": "Introduction to Interior Design",
-        "topics": ["Design Principles", "History & Evolution"]
-      },
-      {
-        "module": 2,
-        "title": "Space Planning",
-        "topics": ["Residential & Commercial Layouts", "Circulation & Flow"]
-      },
-      {
-        "module": 3,
-        "title": "Color Theory & Materials",
-        "topics": ["Color Psychology", "Surface Textures & Patterns"]
-      },
-      {
-        "module": 4,
-        "title": "Furniture & Lighting",
-        "topics": ["Furniture Styles", "Ambient & Accent Lighting"]
-      },
-      {
-        "module": 5,
-        "title": "CAD & Design Software",
-        "topics": ["AutoCAD Basics", "SketchUp 3D Modeling"]
-      },
-      {
-        "module": 6,
-        "title": "Textiles & Styles",
-        "topics": ["Modern, Minimalist & Classical Styles", "Soft Furnishings"]
-      }
-    ],
-    "metaTitle": "Interior Design Diploma | AutoCAD, SketchUp, Space Planning",
-    "metaDescription": "Learn interior design with hands-on training in space planning, color theory, AutoCAD & SketchUp. Work on real residential and commercial design projects."
-  },
+ 
 
   {
     "id": "hr",
@@ -1549,7 +1497,7 @@
     "fullDescription": "This Mobile App Development course uses React Native to teach you cross-platform iOS and Android development. You'll cover core UI components, state management with Redux, Firebase backend integration, push notifications, and publishing your app to both stores.",
     "duration": "4 Months",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "MAD.AVIF",
     "features": [
       "React Native & Expo Framework",
@@ -1662,7 +1610,7 @@
     "fullDescription": "This Graphic Designing course covers the complete design workflow — from color theory and typography to Photoshop image editing, Illustrator logo design, CorelDRAW print media, and Canva social media creatives. Build a professional portfolio and learn to freelance.",
     "duration": "4 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "GD.AVIF",
     "features": [
       "Adobe Photoshop — Image Editing & Poster Design",
@@ -1918,7 +1866,7 @@
     "fullDescription": "This advanced UI/UX course with Figma takes you through the complete design process — UX research, wireframing, information architecture, UI design systems, interactive prototypes, and case study documentation. Perfect for building a job-ready portfolio.",
     "duration": "4-6 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "tranding course",
     "image": "UIUXDAF.AVIF",
     "features": [
       "Design Thinking & UX Research Methods",
@@ -6056,7 +6004,7 @@
     "fullDescription": "ADCA (Advanced Diploma in Computer Applications) is a comprehensive one-year professional diploma program designed to build strong computer application skills. Students learn computer fundamentals, Windows operating system, MS Office, internet technologies, graphic designing, C & C++ programming, database management, web designing, Tally Prime with GST, hardware & networking, and employability skills. The course includes practical sessions, live projects, and industry-oriented training to prepare students for professional careers in IT and office automation.",
     "duration": "12 Months",
     "price": "Contact for Pricing",
-    "category": "advance",
+    "category": "master",
     "image": "ADICAA.AVIF",
     "features": [
       "Computer Fundamentals & Operating Systems",
@@ -6257,7 +6205,7 @@
     "fullDescription": "Advanced Diploma in Accounting with SAP FICO is a comprehensive one-year professional diploma program designed for commerce students and accounting professionals. The course combines advanced accounting, taxation, GST, Tally Prime, MIS Reporting, Advanced Excel, and SAP FICO (Financial Accounting & Controlling). Students gain hands-on experience with General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Centers, Profit Centers, and financial reporting. The program includes theory, practicals, case studies, live projects, and industrial training to prepare students for accounting and ERP-based finance careers.",
     "duration": "12 Months",
     "price": "Contact for Pricing",
-    "category": "soft skill's",
+    "category": "master",
     "image": "ADICAA.AVIF",
     "eligibility": "10+2 / B.Com / M.Com / BBA / MBA / Commerce Students",
     "courseType": "Theory + Practical + Case Studies + Live Projects + Industrial Training",
@@ -6559,7 +6507,7 @@
     "fullDescription": "Advanced Master Diploma Program in Digital Marketing (AMD-DM) is a comprehensive one-year professional diploma designed for graduates, working professionals, and entrepreneurs. The course covers Digital Marketing Fundamentals, Website Designing, SEO, Social Media Marketing, Content Marketing, Graphic Designing, Google Ads, Meta Ads, Email Marketing, E-Commerce Marketing, Google Analytics, and AI Marketing Tools. Students gain hands-on experience through 7+ live projects, internship, and real client campaign management.",
     "duration": "12 Months",
     "price": "Contact for Pricing",
-    "category": "soft skill's",
+    "category": "master",
     "image": "MDDM.AVIF",
 
     "eligibility": "10+2 / Graduate / Working Professionals / Entrepreneurs",
@@ -6880,7 +6828,7 @@
     "fullDescription": "Advanced Diploma in Interior Design (ADID) is a comprehensive one-year professional diploma designed for students and working professionals aspiring to build a career in interior design. The course covers design fundamentals, technical drawing, AutoCAD, SketchUp, 3ds Max, V-Ray rendering, materials & construction, furniture design, lighting design, residential & commercial interiors, estimation & costing, and portfolio development. Students gain hands-on experience through 750+ hours of theory, practical studio work, live projects, and site visits.",
     "duration": "12 Months",
     "price": "Contact for Pricing",
-    "category": "soft skill's",
+    "category": "master",
     "image": "ADIID.AVIF",
 
     "eligibility": "10+2 / Graduate / Working Professionals",
@@ -7187,7 +7135,7 @@
     "fullDescription": "Advanced Diploma in Mobile App Development (ADMAD) is a comprehensive one-year professional diploma designed for 10+2 students, graduates, diploma holders, and working professionals. The course covers Computer Fundamentals, Java Programming, Database Management, Android Development, Flutter, Firebase, UI/UX Design, Backend Development, and App Deployment. Students gain hands-on experience through 800+ hours of theory, practical training, 7 major live projects, and internship with placement assistance.",
     "duration": "12 Months",
     "price": "Contact for Pricing",
-    "category": "soft skill's",
+    "category": "advance",
     "image": "ADMID.AVIF",
 
     "eligibility": "10+2 / Graduate / Diploma Holders / Working Professionals",
@@ -8099,7 +8047,7 @@
     "fullDescription": "React JS Course is a 1.5-month intensive program designed for learners with basic knowledge of HTML, CSS, and JavaScript. The course covers React Fundamentals, Components & State Management, React Hooks, Routing, API Integration, Advanced State Management with Redux Toolkit, Performance Optimization, and Deployment. Students gain hands-on experience through 90–100 hours of theory and practical training, 5 mini projects, and a final major E-Commerce Web Application project.",
     "duration": "1.5 Months (6 Weeks)",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "RJ.AVIF",
     "eligibility": "Basic Knowledge of HTML, CSS, JavaScript",
     "courseType": "Theory + Practical + Project",
@@ -8324,7 +8272,7 @@
     "fullDescription": "This Laravel PHP framework course covers MVC architecture, Routing, Controllers, Blade Templates, Database Management, Eloquent ORM, Authentication, Middleware, API Development, Storage, Email Notifications, Queues, and Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major Online Course Management System project.",
     "duration": "2 Months (8 Weeks)",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "LPFTC.AVIF",
     "features": [
       "Laravel MVC Architecture & Installation",
@@ -8461,7 +8409,7 @@
     "fullDescription": "This Magento CMS course covers Store Setup, Catalog Management, Theme Customization, Customer & Order Management, Extension Development, API Integration, SEO & Marketing, Security & Performance, and Live Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major Complete E-Commerce Store Development project.",
     "duration": "2 Months (8 Weeks)",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "MCTC.AVIF",
     "features": [
       "Magento Architecture & Admin Panel",
@@ -8601,7 +8549,7 @@
     "fullDescription": "This WordPress CMS course covers Website Creation, Theme Management, Plugin Development, WooCommerce E-Commerce, SEO & Digital Marketing, Website Security & Performance, and Live Deployment. 2-month intensive program with 120 hours of theory, practical training, 4 mini projects, and a major E-Commerce Website Development project.",
     "duration": "2 Months (8 Weeks)",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "advance",
     "image": "WPCMSTC.AVIF",
     "features": [
       "WordPress Installation & Dashboard",
@@ -8747,7 +8695,7 @@
     "fullDescription": "This AWS Cloud Computing course covers everything from cloud fundamentals and AWS core services to advanced topics like serverless architecture, DevOps pipelines, and security. Includes 40+ hours of practical labs, 4 mini projects, a major live project, and AWS Certified Cloud Practitioner exam preparation.",
     "duration": "1.5 Months (90–100 Hours)",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "AWSCC.AVIF",
     "features": [
       "AWS Core Services — EC2, S3, EBS, EFS, RDS, DynamoDB",
@@ -8908,7 +8856,7 @@
     "fullDescription": "This Microsoft Azure Cloud Computing course covers everything from cloud fundamentals and Azure core services to advanced topics like serverless architecture, Azure DevOps, and infrastructure automation. Includes 40+ hours of practical labs, 4 mini projects, a major live project, and AZ-900 & AZ-104 certification preparation.",
     "duration": "1.5 Months (90–100 Hours)",
     "price": "Contact for Pricing",
-    "category": "master",
+    "category": "tranding course",
     "image": "CCTMA.AVIF",
     "features": [
       "Azure Compute — Virtual Machines, App Services, AKS",
