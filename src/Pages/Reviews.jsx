@@ -45,42 +45,120 @@ const TESTIMONIALS = [
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
     Image: "/Aadi.AVIF",
   },
-    {
+  {
     name: "Khushi",
     course: "Advanced Finance & Accounting",
     review:
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
     Image: "/Khushi.AVIF",
   },
-   {
+  {
     name: "Nidhi",
     course: "Advanced Finance & Accounting",
     review:
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
     Image: "/Nidhi.AVIF",
   },
-   {
+  {
     name: "Nisha",
     course: "Advanced Finance & Accounting",
     review:
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
     Image: "/Nisha.AVIF",
   },
-   {
+  {
     name: "Piku",
     course: "Advanced Finance & Accounting",
     review:
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
     Image: "/Piku.AVIF",
   },
-   {
+  {
     name: "Prathibha",
     course: "Advanced Finance & Accounting",
     review:
       "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
     Image: "/Prathibha.AVIF",
   },
-  
+
+  {
+    name: "Aakash",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Aakash.AVIF",
+  },
+  {
+    name: "Govind",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Govind.AVIF",
+  },
+  {
+    name: "Lalit",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Lalit.AVIF",
+  },
+  {
+    name: "Manish",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Manish.AVIF",
+  },
+  {
+    name: "Mohit",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Mohit.AVIF",
+  },
+  {
+    name: "Tarun",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Tarun.AVIF",
+  },
+  {
+    name: "Taruna",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Taruna.AVIF",
+  },
+
+  {
+    name: "Kabir",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Kabir.AVIF",
+  },
+  {
+    name: "Ronak",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Ronak.AVIF",
+  },
+  {
+    name: "Shreya",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Shreya.AVIF",
+  },
+  {
+    name: "Yuvraj",
+    course: "Advanced Finance & Accounting",
+    review:
+      "The course content was very detailed. Now I can confidently handle accounts. I would recommend IIOFT to everyone!",
+    Image: "/Yuvraj.AVIF",
+  },
 ];
 
 export default function Reviews() {
